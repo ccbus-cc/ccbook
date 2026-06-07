@@ -1,0 +1,28 @@
+/* ============================================================
+   Math rendering (MathJax 3 output)
+   ============================================================ */
+
+.mjx-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
+}
+
+mjx-container[jax='CHTML'][display='true'] {
+  display: block;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+mjx-container[jax='CHTML'] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Override VitePress default code styling when inside math blocks */
+.mjx-container code,
+.mjx-container pre {
+  background: transparent;
+  padding: 0;
+  border: none;
+}
