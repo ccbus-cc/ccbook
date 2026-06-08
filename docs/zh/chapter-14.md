@@ -75,12 +75,12 @@ title: "第十四章：企业区块链"
 <svg class="svg-14-0" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-14-0 .svg-14-0 .eb-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-14-0 .svg-14-0 .eb-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.svg-14-0 .svg-14-0 .eb-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
-.svg-14-0 .svg-14-0 .eb-box-public { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
-.svg-14-0 .svg-14-0 .eb-box-enterprise { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.svg-14-0 .svg-14-0 .eb-header { fill: rgba(223, 105, 25, 0.12); }
+.svg-14-0 .eb-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-14-0 .eb-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-14-0 .eb-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+.svg-14-0 .eb-box-public { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.svg-14-0 .eb-box-enterprise { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-14-0 .eb-header { fill: rgba(223, 105, 25, 0.12); }
 </style>
 </defs>
 <text class="eb-text-title" x="400" y="25" text-anchor="middle">企业区块链 vs 公链对比</text>
@@ -165,13 +165,13 @@ title: "第十四章：企业区块链"
 <svg class="svg-14-1" viewBox="0 0 850 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-14-1 .svg-14-1 .fabric-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-14-1 .svg-14-1 .fabric-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.svg-14-1 .svg-14-1 .fabric-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-.svg-14-1 .svg-14-1 .fabric-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.5; }
-.svg-14-1 .svg-14-1 .fabric-box-component { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
-.svg-14-1 .svg-14-1 .fabric-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#arrowhead-fabric); }
-.svg-14-1 .svg-14-1 .fabric-flow-text { font-family: arial, sans-serif; font-size: 9px; fill: #df6919; font-weight: bold; }
+.svg-14-1 .fabric-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-14-1 .fabric-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-14-1 .fabric-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+.svg-14-1 .fabric-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.5; }
+.svg-14-1 .fabric-box-component { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
+.svg-14-1 .fabric-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#arrowhead-fabric); }
+.svg-14-1 .fabric-flow-text { font-family: arial, sans-serif; font-size: 9px; fill: #df6919; font-weight: bold; }
 </style>
 <marker id="arrowhead-fabric" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
 <polygon points="0 0, 10 3, 0 6" fill="#df6919" />

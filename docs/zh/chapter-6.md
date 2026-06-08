@@ -74,16 +74,16 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 <svg class="svg-6-0" viewBox="0 0 750 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-6-0 .svg-6-0 .arch-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-6-0 .svg-6-0 .arch-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .svg-6-0 .svg-6-0 .arch-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-6-0 .svg-6-0 .arch-layer-app { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
-      .svg-6-0 .svg-6-0 .arch-layer-contract { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
-      .svg-6-0 .svg-6-0 .arch-layer-consensus { fill: rgba(92, 184, 92, 0.25); stroke: #5cb85c; stroke-width: 1.5; }
-      .svg-6-0 .svg-6-0 .arch-layer-network { fill: rgba(156, 89, 182, 0.25); stroke: #9c59b6; stroke-width: 1.5; }
-      .svg-6-0 .svg-6-0 .arch-layer-data { fill: rgba(241, 196, 15, 0.25); stroke: rgba(245, 194, 66, 0.20); stroke-width: 1.5; }
-      .svg-6-0 .svg-6-0 .arch-layer-infra { fill: rgba(52, 73, 94, 0.35); stroke: #34495e; stroke-width: 1.5; }
-      .svg-6-0 .svg-6-0 .arch-arrow { stroke: #4c9be8; stroke-width: 1; stroke-dasharray: 3,2; }
+      .svg-6-0 .arch-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-6-0 .arch-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-6-0 .arch-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-6-0 .arch-layer-app { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
+      .svg-6-0 .arch-layer-contract { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
+      .svg-6-0 .arch-layer-consensus { fill: rgba(92, 184, 92, 0.25); stroke: #5cb85c; stroke-width: 1.5; }
+      .svg-6-0 .arch-layer-network { fill: rgba(156, 89, 182, 0.25); stroke: #9c59b6; stroke-width: 1.5; }
+      .svg-6-0 .arch-layer-data { fill: rgba(241, 196, 15, 0.25); stroke: rgba(245, 194, 66, 0.20); stroke-width: 1.5; }
+      .svg-6-0 .arch-layer-infra { fill: rgba(52, 73, 94, 0.35); stroke: #34495e; stroke-width: 1.5; }
+      .svg-6-0 .arch-arrow { stroke: #4c9be8; stroke-width: 1; stroke-dasharray: 3,2; }
     </style>
     <marker id="arch-arrow-down" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>

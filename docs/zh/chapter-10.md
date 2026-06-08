@@ -98,12 +98,12 @@ CCBus 的 DeFi 工具集几乎是本章内容的可视化目录:
 <svg class="svg-10-0" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-10-0 .svg-10-0 .defi-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-10-0 .svg-10-0 .defi-subtitle { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
-.svg-10-0 .svg-10-0 .defi-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.svg-10-0 .svg-10-0 .defi-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.svg-10-0 .svg-10-0 .defi-tradfi { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
-.svg-10-0 .svg-10-0 .defi-box { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-10-0 .defi-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-10-0 .defi-subtitle { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
+.svg-10-0 .defi-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-10-0 .defi-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-10-0 .defi-tradfi { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
+.svg-10-0 .defi-box { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
 </style>
 </defs>
 <text x="450" y="25" text-anchor="middle" class="defi-title">传统金融 (TradFi) vs DeFi 对比</text>
@@ -187,14 +187,14 @@ $$
 <svg class="svg-10-1" viewBox="0 0 850 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-10-1 .svg-10-1 .amm-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-10-1 .svg-10-1 .amm-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.svg-10-1 .svg-10-1 .amm-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.svg-10-1 .svg-10-1 .amm-pool { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
-.svg-10-1 .svg-10-1 .amm-swap { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
-.svg-10-1 .svg-10-1 .amm-curve { stroke: #5cb85c; stroke-width: 3; fill: none; }
-.svg-10-1 .svg-10-1 .amm-point { fill: #df6919; }
-.svg-10-1 .svg-10-1 .amm-arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrowAMM); }
+.svg-10-1 .amm-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-10-1 .amm-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-10-1 .amm-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-10-1 .amm-pool { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.svg-10-1 .amm-swap { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
+.svg-10-1 .amm-curve { stroke: #5cb85c; stroke-width: 3; fill: none; }
+.svg-10-1 .amm-point { fill: #df6919; }
+.svg-10-1 .amm-arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrowAMM); }
 </style>
 <marker id="arrowAMM" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
 <path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>

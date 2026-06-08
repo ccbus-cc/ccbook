@@ -92,11 +92,11 @@ CCBus ships a complete cryptography-tool visualization layer. Use it to experien
 <svg class="svg-2-0" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 700px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-0 .svg-2-0 .crypto-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-      .svg-2-0 .svg-2-0 .crypto-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
-      .svg-2-0 .svg-2-0 .crypto-box-main { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-0 .svg-2-0 .crypto-box-sub { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-2-0 .svg-2-0 .crypto-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .crypto-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+      .svg-2-0 .crypto-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
+      .svg-2-0 .crypto-box-main { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .crypto-box-sub { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .crypto-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="crypto-arrow-1" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>

@@ -79,12 +79,12 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 <svg class="svg-7-0" viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-7-0 .svg-7-0 .tri-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-7-0 .svg-7-0 .tri-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .svg-7-0 .svg-7-0 .tri-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-7-0 .svg-7-0 .tri-line { stroke: #4c9be8; stroke-width: 2; }
-      .svg-7-0 .svg-7-0 .tri-circle { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
-      .svg-7-0 .svg-7-0 .tri-center { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
+      .svg-7-0 .tri-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-7-0 .tri-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-7-0 .tri-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-7-0 .tri-line { stroke: #4c9be8; stroke-width: 2; }
+      .svg-7-0 .tri-circle { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
+      .svg-7-0 .tri-center { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
     </style>
 </defs>
   <text class="tri-text-title" x="350" y="25" text-anchor="middle">区块链不可能三角 (Blockchain Trilemma)</text>
@@ -153,12 +153,12 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 <svg class="svg-7-1" viewBox="0 0 750 380" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-7-1 .svg-7-1 .l2-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-7-1 .svg-7-1 .l2-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .svg-7-1 .svg-7-1 .l2-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-7-1 .svg-7-1 .l2-box-l1 { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
-      .svg-7-1 .svg-7-1 .l2-box-l2 { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
-      .svg-7-1 .svg-7-1 .l2-line { stroke: #5cb85c; stroke-width: 1.2; stroke-dasharray: 4,2; }
+      .svg-7-1 .l2-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-7-1 .l2-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-7-1 .l2-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-7-1 .l2-box-l1 { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
+      .svg-7-1 .l2-box-l2 { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
+      .svg-7-1 .l2-line { stroke: #5cb85c; stroke-width: 1.2; stroke-dasharray: 4,2; }
     </style>
     <marker id="l2-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#5cb85c"/>

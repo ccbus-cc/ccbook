@@ -52,12 +52,12 @@ CCBus 的"多功能代币"是当前 DeFi 领域合约复杂度的典型代表—
 <svg class="svg-5-0" viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-5-0 .svg-5-0 .sc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-5-0 .svg-5-0 .sc-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .svg-5-0 .svg-5-0 .sc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-5-0 .svg-5-0 .sc-circle-main { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 1.5; }
-      .svg-5-0 .svg-5-0 .sc-circle-feature { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1; }
-      .svg-5-0 .svg-5-0 .sc-line { stroke: #4c9be8; stroke-width: 1; }
+      .svg-5-0 .sc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-5-0 .sc-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-5-0 .sc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-5-0 .sc-circle-main { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 1.5; }
+      .svg-5-0 .sc-circle-feature { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1; }
+      .svg-5-0 .sc-line { stroke: #4c9be8; stroke-width: 1; }
     </style>
     <marker id="sc-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>

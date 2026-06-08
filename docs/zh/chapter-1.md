@@ -80,11 +80,11 @@ CCBus(ccbus.cc)是一个建立在 BNB Chain、Solana 等多链之上的一站式
 <svg class="svg-1-0" viewBox="0 0 520 45" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-0 .svg-1-0 .bc-text-dark-1 { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
-      .svg-1-0 .svg-1-0 .bc-text-1 { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .svg-1-0 .svg-1-0 .bc-box1-1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .svg-1-0 .svg-1-0 .bc-box2-1 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .svg-1-0 .svg-1-0 .bc-arrow-1 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-1-0 .bc-text-dark-1 { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
+      .svg-1-0 .bc-text-1 { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-1-0 .bc-box1-1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-1-0 .bc-box2-1 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .svg-1-0 .bc-arrow-1 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="bc-arrow-1" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>

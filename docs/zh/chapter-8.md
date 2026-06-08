@@ -118,14 +118,14 @@ CCBus 提供了三种跨链入口:
 <svg class="svg-8-0" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-8-0 .svg-8-0 .inter-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-8-0 .svg-8-0 .inter-chain { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-.svg-8-0 .svg-8-0 .inter-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.svg-8-0 .svg-8-0 .inter-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.svg-8-0 .svg-8-0 .inter-chain-circle { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
-.svg-8-0 .svg-8-0 .inter-bridge-line { stroke: #df6919; stroke-width: 2; stroke-dasharray: 5,5; fill: none; }
-.svg-8-0 .svg-8-0 .inter-arrow { fill: #df6919; }
-.svg-8-0 .svg-8-0 .inter-isolated { stroke: #dc3545; stroke-width: 2; stroke-dasharray: 3,3; fill: none; }
+.svg-8-0 .inter-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-8-0 .inter-chain { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+.svg-8-0 .inter-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-8-0 .inter-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-8-0 .inter-chain-circle { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
+.svg-8-0 .inter-bridge-line { stroke: #df6919; stroke-width: 2; stroke-dasharray: 5,5; fill: none; }
+.svg-8-0 .inter-arrow { fill: #df6919; }
+.svg-8-0 .inter-isolated { stroke: #dc3545; stroke-width: 2; stroke-dasharray: 3,3; fill: none; }
 </style>
 </defs>
 <text x="400" y="25" text-anchor="middle" class="inter-title">区块链孤岛问题示意图</text>
@@ -203,14 +203,14 @@ CCBus 提供了三种跨链入口:
 <svg class="svg-8-1" viewBox="0 0 850 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-8-1 .svg-8-1 .bridge-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-8-1 .svg-8-1 .bridge-type { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-.svg-8-1 .svg-8-1 .bridge-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.svg-8-1 .svg-8-1 .bridge-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.svg-8-1 .svg-8-1 .bridge-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
-.svg-8-1 .svg-8-1 .bridge-trusted { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
-.svg-8-1 .svg-8-1 .bridge-trustless { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.svg-8-1 .svg-8-1 .bridge-arrow { stroke: #1f2937; stroke-width: 1.5; fill: none; marker-end: url(#arrowBridge); }
+.svg-8-1 .bridge-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-8-1 .bridge-type { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+.svg-8-1 .bridge-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-8-1 .bridge-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-8-1 .bridge-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.svg-8-1 .bridge-trusted { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
+.svg-8-1 .bridge-trustless { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-8-1 .bridge-arrow { stroke: #1f2937; stroke-width: 1.5; fill: none; marker-end: url(#arrowBridge); }
 </style>
 <marker id="arrowBridge" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
 <path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>

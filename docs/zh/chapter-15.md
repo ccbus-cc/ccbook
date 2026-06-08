@@ -62,13 +62,13 @@ title: "第十五章：安全与最佳实践"
 <svg class="svg-15-0" viewBox="0 0 900 580" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-15-0 .svg-15-0 .sec-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-15-0 .svg-15-0 .sec-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.svg-15-0 .svg-15-0 .sec-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.svg-15-0 .svg-15-0 .sec-box-critical { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
-.svg-15-0 .svg-15-0 .sec-box-high { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
-.svg-15-0 .svg-15-0 .sec-box-medium { fill: rgba(255, 193, 7, 0.2); stroke: rgba(245, 194, 66, 0.20); stroke-width: 1.5; }
-.svg-15-0 .svg-15-0 .sec-box-low { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
+.svg-15-0 .sec-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-0 .sec-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-0 .sec-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-0 .sec-box-critical { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
+.svg-15-0 .sec-box-high { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
+.svg-15-0 .sec-box-medium { fill: rgba(255, 193, 7, 0.2); stroke: rgba(245, 194, 66, 0.20); stroke-width: 1.5; }
+.svg-15-0 .sec-box-low { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
 </style>
 </defs>
 <text class="sec-text-title" x="450" y="25" text-anchor="middle">区块链安全威胁全景图</text>
@@ -179,12 +179,12 @@ title: "第十五章：安全与最佳实践"
 <svg class="svg-15-1" viewBox="0 0 850 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-15-1 .svg-15-1 .reen-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-15-1 .svg-15-1 .reen-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.svg-15-1 .svg-15-1 .reen-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.svg-15-1 .svg-15-1 .reen-box-vuln { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
-.svg-15-1 .svg-15-1 .reen-box-safe { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.svg-15-1 .svg-15-1 .reen-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#arrowhead-reen); }
+.svg-15-1 .reen-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-1 .reen-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-1 .reen-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-1 .reen-box-vuln { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
+.svg-15-1 .reen-box-safe { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-15-1 .reen-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#arrowhead-reen); }
 </style>
 <marker id="arrowhead-reen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
 <polygon points="0 0, 10 3, 0 6" fill="#df6919" />
