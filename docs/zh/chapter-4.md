@@ -80,7 +80,7 @@ CCBus 同时支持 BNB Chain(PoSA)、Solana(PoH+PoS)、Base(Op-Stack/OP Stack)�
       .svg-4-0 .cons-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-4-0 .cons-circle-center { fill: #4c9be8; stroke: #1f2937; stroke-width: 0.5; }
       .svg-4-0 .cons-circle-goal { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
-      .svg-4-0 .cons-line { stroke: #df6919; stroke-width: 0.5; }
+      .svg-4-0 .cons-line { stroke: #df6919; stroke-width: 0.5; fill: none; }
     </style>
     <marker id="cons-arrow-1" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#df6919"/>
@@ -222,7 +222,7 @@ CCBus 同时支持 BNB Chain(PoSA)、Solana(PoH+PoS)、Base(Op-Stack/OP Stack)�
       .svg-4-2 .pow-rect-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-4-2 .pow-rect-success { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
       .svg-4-2 .pow-rect-fail { fill: rgba(217, 83, 79, 0.2); stroke: #d9534f; stroke-width: 0.5; }
-      .svg-4-2 .pow-line { stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-4-2 .pow-line { stroke: #4c9be8; stroke-width: 0.5; fill: none; }
     </style>
     <marker id="pow-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#4c9be8"/>
@@ -356,7 +356,7 @@ $$
       .svg-4-3 .pos-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .svg-4-3 .pos-rect-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-4-3 .pos-rect-validator { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
-      .svg-4-3 .pos-line { stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-4-3 .pos-line { stroke: #4c9be8; stroke-width: 0.5; fill: none; }
       .svg-4-3 .pos-circle { fill: none; stroke: #df6919; stroke-width: 0.5; }
     </style>
     <marker id="pos-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
@@ -473,7 +473,7 @@ $$
       .svg-4-4 .dpos-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .svg-4-4 .dpos-circle-holder { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-4-4 .dpos-rect-witness { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
-      .svg-4-4 .dpos-line { stroke: #df6919; stroke-width: 0.5; }
+      .svg-4-4 .dpos-line { stroke: #df6919; stroke-width: 0.5; fill: none; }
     </style>
     <marker id="dpos-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#df6919"/>
@@ -747,7 +747,7 @@ $$
       .svg-4-6 .comp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
       .svg-4-6 .comp-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-4-6 .comp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-4-6 .comp-axis { stroke: #1f2937; stroke-width: 0.5; }
+      .svg-4-6 .comp-axis { stroke: #1f2937; stroke-width: 0.5; fill: none; }
       .svg-4-6 .comp-circle-pow { fill: rgba(217, 83, 79, 0.4); stroke: #d9534f; stroke-width: 0.5; }
       .svg-4-6 .comp-circle-pos { fill: rgba(76, 156, 232, 0.4); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-4-6 .comp-circle-dpos { fill: rgba(223, 105, 25, 0.4); stroke: #df6919; stroke-width: 0.5; }

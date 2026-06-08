@@ -586,7 +586,7 @@ Subnet 18: 数据清洗
 .svg-16-3 .rwa-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 12px; }
 .svg-16-3 .rwa-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; }
 .svg-16-3 .rwa-label { fill: #df6919; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; }
-.svg-16-3 .rwa-axis { stroke: #666; stroke-width: 1; }
+.svg-16-3 .rwa-axis { stroke: #666; stroke-width: 1; fill: none; }
 </style>
 </defs>
 <text x="450" y="30" text-anchor="middle" class="rwa-title" font-size="18px">RWA 代币化市场规模预测 (2024-2030)</text>
@@ -1175,7 +1175,7 @@ Solver (求解器) 竞争执行:
 .svg-16-5 .adopt-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 11px; }
 .svg-16-5 .adopt-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
 .svg-16-5 .adopt-label { fill: #df6919; font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
-.svg-16-5 .adopt-axis { stroke: #666; stroke-width: 1; }
+.svg-16-5 .adopt-axis { stroke: #666; stroke-width: 1; fill: none; }
 </style>
 </defs>
 <text x="450" y="30" text-anchor="middle" class="adopt-title" font-size="18px">Web3 用户增长预测 (2020-2030)</text>

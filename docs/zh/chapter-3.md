@@ -85,9 +85,9 @@ CCBus 把"发币"这个原本需要 Solidity 工程师才能完成的工作,变�
       .svg-3-0 .cc-circle-orange { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
       .svg-3-0 .cc-circle-blue { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-3-0 .cc-circle-green { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
-      .svg-3-0 .cc-line-orange { stroke: #df6919; stroke-width: 0.5; }
-      .svg-3-0 .cc-line-blue { stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-3-0 .cc-line-green { stroke: #5cb85c; stroke-width: 0.5; }
+      .svg-3-0 .cc-line-orange { stroke: #df6919; stroke-width: 0.5; fill: none; }
+      .svg-3-0 .cc-line-blue { stroke: #4c9be8; stroke-width: 0.5; fill: none; }
+      .svg-3-0 .cc-line-green { stroke: #5cb85c; stroke-width: 0.5; fill: none; }
     </style>
     <marker id="arrow-cc-1" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#df6919"/>
@@ -205,8 +205,8 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
       .svg-3-1 .btc-rect-green { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 0.5; }
       .svg-3-1 .btc-rect-green-dark { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 0.5; }
       .svg-3-1 .btc-circle-orange { fill: #df6919; stroke: #1f2937; stroke-width: 0.5; }
-      .svg-3-1 .btc-line-orange { stroke: #df6919; stroke-width: 0.5; }
-      .svg-3-1 .btc-line-blue { stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-3-1 .btc-line-orange { stroke: #df6919; stroke-width: 0.5; fill: none; }
+      .svg-3-1 .btc-line-blue { stroke: #4c9be8; stroke-width: 0.5; fill: none; }
       .svg-3-1 .btc-bar-1 { fill: #df6919; opacity: 1.0; }
       .svg-3-1 .btc-bar-2 { fill: #df6919; opacity: 0.8; }
       .svg-3-1 .btc-bar-3 { fill: #df6919; opacity: 0.6; }
@@ -412,8 +412,8 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
       .svg-3-3 .sc-rect-blue { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-3-3 .sc-rect-green { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
       .svg-3-3 .sc-rect-green-dark { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 0.5; }
-      .svg-3-3 .sc-line-blue { stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-3-3 .sc-line-green { stroke: #5cb85c; stroke-width: 0.5; }
+      .svg-3-3 .sc-line-blue { stroke: #4c9be8; stroke-width: 0.5; fill: none; }
+      .svg-3-3 .sc-line-green { stroke: #5cb85c; stroke-width: 0.5; fill: none; }
       .svg-3-3 .sc-path-green { stroke: #5cb85c; stroke-width: 0.5; fill: none; }
     </style>
     <marker id="arrow-sc-1" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">

@@ -57,7 +57,7 @@ CCBus 的"多功能代币"是当前 DeFi 领域合约复杂度的典型代表—
       .svg-5-0 .sc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .svg-5-0 .sc-circle-main { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 1.5; }
       .svg-5-0 .sc-circle-feature { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1; }
-      .svg-5-0 .sc-line { stroke: #4c9be8; stroke-width: 1; }
+      .svg-5-0 .sc-line { stroke: #4c9be8; stroke-width: 1; fill: none; }
     </style>
     <marker id="sc-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>
@@ -204,7 +204,7 @@ CCBus 的"多功能代币"是当前 DeFi 领域合约复杂度的典型代表—
       .svg-5-2 .evm-box-main { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
       .svg-5-2 .evm-box-component { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
       .svg-5-2 .evm-box-storage { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
-      .svg-5-2 .evm-line { stroke: #4c9be8; stroke-width: 1; }
+      .svg-5-2 .evm-line { stroke: #4c9be8; stroke-width: 1; fill: none; }
     </style>
     <marker id="evm-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#4c9be8"/>

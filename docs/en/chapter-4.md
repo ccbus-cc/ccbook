@@ -80,7 +80,7 @@ A **Consensus Mechanism** is the process and algorithm by which multiple nodes i
       .svg-4-0 .cons-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-4-0 .cons-circle-center { fill: #4c9be8; stroke: #1f2937; stroke-width: 0.5; }
       .svg-4-0 .cons-circle-goal { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
-      .svg-4-0 .cons-line { stroke: #df6919; stroke-width: 0.5; }
+      .svg-4-0 .cons-line { stroke: #df6919; stroke-width: 0.5; fill: none; }
     </style>
     <marker id="cons-arrow-1" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#df6919"/>

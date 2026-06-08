@@ -335,7 +335,7 @@ Uses the **same key** for encryption and decryption.
       .svg-2-3 .seq-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
       .svg-2-3 .seq-label { font-size: 10px; fill: #ccc; }
       .svg-2-3 .seq-box { fill: rgba(52, 81, 178, 0.05); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-3 .seq-line { stroke: #999; stroke-width: 0.5; }
+      .svg-2-3 .seq-line { stroke: #999; stroke-width: 0.5; fill: none; }
       .svg-2-3 .seq-arrow { fill: #4c9be8; stroke: #4c9be8; stroke-width: 0.5; }
       .svg-2-3 .seq-note { fill: #4e5d6c; stroke: #666; stroke-width: 0.5; }
     </style>
@@ -435,7 +435,7 @@ Uses a **key pair**: Public Key and Private Key.
       .svg-2-5 .enc-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
       .svg-2-5 .enc-label { font-size: 10px; fill: #ccc; }
       .svg-2-5 .enc-box { fill: rgba(52, 81, 178, 0.05); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-5 .enc-line { stroke: #999; stroke-width: 0.5; }
+      .svg-2-5 .enc-line { stroke: #999; stroke-width: 0.5; fill: none; }
       .svg-2-5 .enc-arrow { fill: #4c9be8; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="enc-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -794,7 +794,7 @@ A **Merkle Tree**, also known as a hash tree, is a tree data structure used to e
       .svg-2-10 .merkle-box-mid { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-10 .merkle-box-leaf { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-10 .merkle-box-tx { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-2-10 .merkle-line { stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-10 .merkle-line { stroke: #4c9be8; stroke-width: 0.5; fill: none; }
     </style>
 </defs>
   <rect class="merkle-box-root" x="145" y="5" width="90" height="25" rx="2"/>

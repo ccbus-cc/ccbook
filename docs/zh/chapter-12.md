@@ -537,7 +537,7 @@ Snapshot 是一个链下投票平台，具有以下优势：
 .svg-12-3 .token-title { font: bold 24px sans-serif; fill: #4c9be8; }
 .svg-12-3 .token-cat { font: bold 16px sans-serif; fill: #1f2937; }
 .svg-12-3 .token-label { font: 13px sans-serif; fill: #1f2937; }
-.svg-12-3 .token-slice { stroke: #3451b2; stroke-width: 2; }
+.svg-12-3 .token-slice { stroke: #3451b2; stroke-width: 2; fill: none; }
 .svg-12-3 .token-legend { font: 14px sans-serif; fill: #1f2937; }
 </style>
 </defs>

@@ -527,7 +527,7 @@ transfer(
 .svg-8-4 .risk-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
 .svg-8-4 .risk-critical { fill: rgba(220, 53, 69, 0.3); stroke: #dc3545; stroke-width: 2; }
 .svg-8-4 .risk-high { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 2; }
-.svg-8-4 .risk-timeline { stroke: #4c9be8; stroke-width: 3; }
+.svg-8-4 .risk-timeline { stroke: #4c9be8; stroke-width: 3; fill: none; }
 </style>
 </defs>
 <text x="450" y="25" text-anchor="middle" class="risk-title">跨链桥重大安全事件时间线</text>

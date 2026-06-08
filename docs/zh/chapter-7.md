@@ -82,7 +82,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
       .svg-7-0 .tri-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
       .svg-7-0 .tri-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
       .svg-7-0 .tri-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-7-0 .tri-line { stroke: #4c9be8; stroke-width: 2; }
+      .svg-7-0 .tri-line { stroke: #4c9be8; stroke-width: 2; fill: none; }
       .svg-7-0 .tri-circle { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
       .svg-7-0 .tri-center { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
     </style>
@@ -595,7 +595,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
       .svg-7-5 .eco-text-small { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; }
       .svg-7-5 .eco-header { fill: rgba(52, 81, 178, 0.15); }
       .svg-7-5 .eco-cell { fill: rgba(52, 81, 178, 0.04); }
-      .svg-7-5 .eco-line { stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-7-5 .eco-line { stroke: #4c9be8; stroke-width: 0.5; fill: none; }
     </style>
 </defs>
   <text class="eco-text-title" x="375" y="25" text-anchor="middle">Layer 2 方案全面对比</text>
