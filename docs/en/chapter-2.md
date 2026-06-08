@@ -92,10 +92,10 @@ CCBus ships a complete cryptography-tool visualization layer. Use it to experien
 <svg class="svg-2-0" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 700px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-0 .svg-2-0 .crypto-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-0 .svg-2-0 .crypto-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
       .svg-2-0 .svg-2-0 .crypto-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
       .svg-2-0 .svg-2-0 .crypto-box-main { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-0 .svg-2-0 .crypto-box-sub { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .svg-2-0 .crypto-box-sub { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-2-0 .svg-2-0 .crypto-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="crypto-arrow-1" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -216,7 +216,7 @@ console.log(sha256('Hello, blockchain!'));  // Note lowercase b
 <svg class="svg-2-1" viewBox="0 0 350 45" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-1 .chain-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-1 .chain-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
       .svg-2-1 .chain-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
       .svg-2-1 .chain-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-1 .chain-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
@@ -269,8 +269,8 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
 <svg class="svg-2-2" viewBox="0 0 480 60" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-2 .addr-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
-      .svg-2-2 .addr-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-2 .addr-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+      .svg-2-2 .addr-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-2-2 .addr-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
       .svg-2-2 .addr-box-start { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-2 .addr-box-mid { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
@@ -332,9 +332,9 @@ Uses the **same key** for encryption and decryption.
 <svg class="svg-2-3" viewBox="0 0 320 195" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 400px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-3 .seq-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-3 .seq-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
       .svg-2-3 .seq-label { font-size: 10px; fill: #ccc; }
-      .svg-2-3 .seq-box { fill: #1f2020; stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-3 .seq-box { fill: rgba(52, 81, 178, 0.05); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-3 .seq-line { stroke: #999; stroke-width: 0.5; }
       .svg-2-3 .seq-arrow { fill: #4c9be8; stroke: #4c9be8; stroke-width: 0.5; }
       .svg-2-3 .seq-note { fill: #4e5d6c; stroke: #666; stroke-width: 0.5; }
@@ -396,8 +396,8 @@ Uses a **key pair**: Public Key and Private Key.
 <svg class="svg-2-4" viewBox="0 0 380 110" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-4 .key-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
-      .svg-2-4 .key-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-4 .key-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+      .svg-2-4 .key-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-2-4 .key-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
       .svg-2-4 .key-box-gen { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .svg-2-4 .key-box-pk { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
@@ -432,9 +432,9 @@ Uses a **key pair**: Public Key and Private Key.
 <svg class="svg-2-5" viewBox="0 0 280 160" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 350px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-5 .enc-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-5 .enc-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
       .svg-2-5 .enc-label { font-size: 10px; fill: #ccc; }
-      .svg-2-5 .enc-box { fill: #1f2020; stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-5 .enc-box { fill: rgba(52, 81, 178, 0.05); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-5 .enc-line { stroke: #999; stroke-width: 0.5; }
       .svg-2-5 .enc-arrow { fill: #4c9be8; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
@@ -498,7 +498,7 @@ const decrypted = rsaDecrypt(encrypted, privateKey);
 <svg class="svg-2-6" viewBox="0 0 520 60" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-6 .ecc-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-2-6 .ecc-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
       .svg-2-6 .ecc-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-2-6 .ecc-box1 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .svg-2-6 .ecc-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
@@ -587,13 +587,13 @@ console.log('Address: 0x' + address);
 <svg class="svg-2-7" viewBox="0 0 580 90" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 650px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-7 .digsig-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-7 .digsig-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
       .svg-2-7 .digsig-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
       .svg-2-7 .digsig-box-msg { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-7 .digsig-box-hash { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-2-7 .digsig-box-sign { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-7 .digsig-box-hash { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-7 .digsig-box-sign { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-2-7 .digsig-box-sig { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
-      .svg-2-7 .digsig-box-verify { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-7 .digsig-box-verify { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-2-7 .digsig-box-valid { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-7 .digsig-box-invalid { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
       .svg-2-7 .digsig-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
@@ -686,10 +686,10 @@ console.log('Signature valid:', isValid);  // true
 <svg class="svg-2-8" viewBox="0 0 480 45" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-8 .btc-sig-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-8 .btc-sig-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
       .svg-2-8 .btc-sig-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
       .svg-2-8 .btc-sig-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-8 .btc-sig-box2 { fill: #1f2020; stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-8 .btc-sig-box2 { fill: rgba(52, 81, 178, 0.05); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-8 .btc-sig-box3 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-8 .btc-sig-box4 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .svg-2-8 .btc-sig-box5 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
@@ -726,13 +726,13 @@ Requires multiple private keys to sign together to complete a transaction.
 <svg class="svg-2-9" viewBox="0 0 470 140" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-9 .multisig-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
-      .svg-2-9 .multisig-text-sm { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-2-9 .multisig-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+      .svg-2-9 .multisig-text-sm { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
       .svg-2-9 .multisig-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
       .svg-2-9 .multisig-text-sm-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-2-9 .multisig-box-main { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .svg-2-9 .multisig-box-user { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-9 .multisig-box-tx { fill: #1f2020; stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-9 .multisig-box-tx { fill: rgba(52, 81, 178, 0.05); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-9 .multisig-box-sign { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-9 .multisig-box-valid { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .svg-2-9 .multisig-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
@@ -786,14 +786,14 @@ A **Merkle Tree**, also known as a hash tree, is a tree data structure used to e
 <svg class="svg-2-10" viewBox="0 0 380 180" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-10 .merkle-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .svg-2-10 .merkle-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-10 .merkle-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-2-10 .merkle-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-2-10 .merkle-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-2-10 .merkle-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-2-10 .merkle-box-root { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .svg-2-10 .merkle-box-mid { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-10 .merkle-box-leaf { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-10 .merkle-box-tx { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-10 .merkle-box-tx { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-2-10 .merkle-line { stroke: #4c9be8; stroke-width: 0.5; }
     </style>
 </defs>
@@ -887,12 +887,12 @@ Lightweight verification without downloading all data.
 <svg class="svg-2-11" viewBox="0 0 550 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-11 .merkle-proof-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .svg-2-11 .merkle-proof-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-11 .merkle-proof-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-2-11 .merkle-proof-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-2-11 .merkle-proof-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-2-11 .merkle-proof-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-2-11 .merkle-proof-box-proof { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-11 .merkle-proof-box-proc { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-11 .merkle-proof-box-proc { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-2-11 .merkle-proof-box-cmp { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .svg-2-11 .merkle-proof-box-valid { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-11 .merkle-proof-box-invalid { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
@@ -999,8 +999,8 @@ console.log('Verification Result:', isValid);  // true
 <svg class="svg-2-12" viewBox="0 0 550 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-12 .btc-block-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .svg-2-12 .btc-block-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-12 .btc-block-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-2-12 .btc-block-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-2-12 .btc-block-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-2-12 .btc-block-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-2-12 .btc-block-box-std { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
@@ -1044,8 +1044,8 @@ console.log('Verification Result:', isValid);  // true
 <svg class="svg-2-13" viewBox="0 0 320 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 400px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-13 .spv-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .svg-2-13 .spv-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-13 .spv-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-2-13 .spv-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-2-13 .spv-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-2-13 .spv-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-2-13 .spv-box-full { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
@@ -1081,8 +1081,8 @@ Ethereum uses **Merkle Patricia Trie** to store account state.
 <svg class="svg-2-14" viewBox="0 0 360 70" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-14 .state-tree-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .svg-2-14 .state-tree-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-14 .state-tree-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-2-14 .state-tree-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-2-14 .state-tree-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-2-14 .state-tree-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-2-14 .state-tree-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
@@ -1163,13 +1163,13 @@ Quantum computers in the 2030s will have the capability to break existing public
 <svg class="svg-2-15" viewBox="0 0 480 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-15 .zkp-cave-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .svg-2-15 .zkp-cave-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-15 .zkp-cave-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-2-15 .zkp-cave-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-2-15 .zkp-cave-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-2-15 .zkp-cave-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-2-15 .zkp-cave-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-15 .zkp-cave-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-15 .zkp-cave-box3 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-15 .zkp-cave-box3 { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-2-15 .zkp-cave-box-know { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .svg-2-15 .zkp-cave-box-unkn { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
       .svg-2-15 .zkp-cave-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
@@ -1211,12 +1211,12 @@ Quantum computers in the 2030s will have the capability to break existing public
 <svg class="svg-2-16" viewBox="0 0 420 110" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-16 .zksnark-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .svg-2-16 .zksnark-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-16 .zksnark-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-2-16 .zksnark-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-2-16 .zksnark-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-2-16 .zksnark-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-2-16 .zksnark-box-feat { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-16 .zksnark-box-proc { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-16 .zksnark-box-proc { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-2-16 .zksnark-box-verify { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .svg-2-16 .zksnark-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
@@ -1250,8 +1250,8 @@ Quantum computers in the 2030s will have the capability to break existing public
 <svg class="svg-2-17" viewBox="0 0 420 80" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-17 .homo-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .svg-2-17 .homo-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-17 .homo-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-2-17 .homo-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-2-17 .homo-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-2-17 .homo-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-2-17 .homo-box-trad { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
@@ -1284,8 +1284,8 @@ Multiple parties jointly hold fragments of a private key, requiring t-of-n fragm
 <svg class="svg-2-18" viewBox="0 0 380 160" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-2-18 .thresh-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .svg-2-18 .thresh-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-18 .thresh-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-2-18 .thresh-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-2-18 .thresh-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-2-18 .thresh-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-2-18 .thresh-box-shard { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }

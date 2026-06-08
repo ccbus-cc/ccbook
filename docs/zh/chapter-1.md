@@ -81,7 +81,7 @@ CCBus(ccbus.cc)是一个建立在 BNB Chain、Solana 等多链之上的一站式
 <defs>
 <style>
       .svg-1-0 .svg-1-0 .bc-text-dark-1 { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
-      .svg-1-0 .svg-1-0 .bc-text-1 { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-1-0 .svg-1-0 .bc-text-1 { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
       .svg-1-0 .svg-1-0 .bc-box1-1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-1-0 .svg-1-0 .bc-box2-1 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .svg-1-0 .svg-1-0 .bc-arrow-1 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
@@ -119,7 +119,7 @@ CCBus(ccbus.cc)是一个建立在 BNB Chain、Solana 等多链之上的一站式
 <svg class="svg-1-1" viewBox="0 0 650 220" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 750px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-1 .tl-text-2 { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-1-1 .tl-text-2 { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
       .svg-1-1 .tl-year-2 { font-family: arial, sans-serif; font-size: 11px; fill: rgba(245, 194, 66, 0.30); font-weight: bold; }
       .svg-1-1 .tl-line-2 { fill: none; stroke: #4c9be8; stroke-width: 1; }
       .svg-1-1 .tl-dot-2 { fill: #4c9be8; }
@@ -196,11 +196,11 @@ DeFi、NFT、DAO等创新应用爆发，区块链从单一的支付系统演变�
 <svg class="svg-1-2" viewBox="0 0 500 280" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-2 .mm-text-3 { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-1-2 .mm-text-3 { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
       .svg-1-2 .mm-text-dark-3 { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-1-2 .mm-center-3 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .svg-1-2 .mm-main-3 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .svg-1-2 .mm-sub-3 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-1-2 .mm-sub-3 { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-1-2 .mm-line-3 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
 </defs>
@@ -256,7 +256,7 @@ DeFi、NFT、DAO等创新应用爆发，区块链从单一的支付系统演变�
 <svg class="svg-1-3" viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-3 .cd-text-4 { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-1-3 .cd-text-4 { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
       .svg-1-3 .cd-text-dark-4 { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-1-3 .cd-title-4 { font-family: arial, sans-serif; font-size: 11px; fill: rgba(245, 194, 66, 0.30); font-weight: bold; }
       .svg-1-3 .cd-center-4 { fill: rgba(220, 53, 69, 0.25); stroke: #ccc; stroke-width: 0.5; }
@@ -344,7 +344,7 @@ DeFi、NFT、DAO等创新应用爆发，区块链从单一的支付系统演变�
 <svg class="svg-1-4" viewBox="0 0 550 200" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 650px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-4 .bh-text-5 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-1-4 .bh-text-5 { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-1-4 .bh-text-dark-5 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-1-4 .bh-box-5 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .svg-1-4 .bh-box-warn-5 { fill: rgba(220, 53, 69, 0.10); stroke: #ccc; stroke-width: 0.5; }
@@ -406,7 +406,7 @@ DeFi、NFT、DAO等创新应用爆发，区块链从单一的支付系统演变�
 <svg class="svg-1-5" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 400px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-5 .sl-text-6 { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-1-5 .sl-text-6 { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
       .svg-1-5 .sl-text-dark-6 { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-1-5 .sl-title-6 { font-family: arial, sans-serif; font-size: 11px; fill: rgba(245, 194, 66, 0.30); font-weight: bold; }
       .svg-1-5 .sl-box1-6 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
@@ -454,11 +454,11 @@ DeFi、NFT、DAO等创新应用爆发，区块链从单一的支付系统演变�
 <svg class="svg-1-6" viewBox="0 0 450 300" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-6 .bs-text-7 { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-1-6 .bs-text-7 { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
       .svg-1-6 .bs-text-dark-7 { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-1-6 .bs-title-7 { font-family: arial, sans-serif; font-size: 11px; fill: rgba(245, 194, 66, 0.30); font-weight: bold; }
       .svg-1-6 .bs-main-7 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .svg-1-6 .bs-sub-7 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-1-6 .bs-sub-7 { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-1-6 .bs-data-7 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-1-6 .bs-line-7 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
@@ -520,7 +520,7 @@ Merkle树（又称哈希树）是区块链中用于高效验证交易的关键�
 <svg class="svg-1-7" viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-7 .mt-text-8 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-1-7 .mt-text-8 { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-1-7 .mt-text-dark-8 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-1-7 .mt-root-8 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .svg-1-7 .mt-hash-8 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
@@ -573,12 +573,12 @@ Merkle树（又称哈希树）是区块链中用于高效验证交易的关键�
 <svg class="svg-1-8" viewBox="0 0 600 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 650px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-8 .seq-text-9 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-1-8 .seq-text-9 { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-1-8 .seq-text-dark-9 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-1-8 .seq-actor-9 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .svg-1-8 .seq-line-9 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
       .svg-1-8 .seq-arrow-9 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-1-8 .seq-note-9 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-1-8 .seq-note-9 { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="seq-arrow-9" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -701,12 +701,12 @@ print(f"新的哈希: {hash_result2}")
 <svg class="svg-1-9" viewBox="0 0 550 200" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 650px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-9 .hf-text-10 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-1-9 .hf-text-10 { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-1-9 .hf-text-dark-10 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-1-9 .hf-box1-10 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-1-9 .hf-box2-10 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .svg-1-9 .hf-box3-10 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
-      .svg-1-9 .hf-box4-10 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-1-9 .hf-box4-10 { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-1-9 .hf-arrow-10 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="hf-arrow-10" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -761,14 +761,14 @@ print(f"新的哈希: {hash_result2}")
 <svg class="svg-1-10" viewBox="0 0 650 280" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 650px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-10 .bt-text-11 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-1-10 .bt-text-11 { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-1-10 .bt-text-dark-11 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-1-10 .bt-root-11 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .svg-1-10 .bt-pub-11 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-1-10 .bt-pri-11 { fill: rgba(220, 53, 69, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-1-10 .bt-con-11 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .svg-1-10 .bt-hyb-11 { fill: rgba(147, 112, 219, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .svg-1-10 .bt-sub-11 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-1-10 .bt-sub-11 { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-1-10 .bt-line-11 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
 </defs>
@@ -898,7 +898,7 @@ print(f"新的哈希: {hash_result2}")
 <svg class="svg-1-11" viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-11 .cg-text-12 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-1-11 .cg-text-12 { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-1-11 .cg-text-dark-12 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-1-11 .cg-title-12 { font-family: arial, sans-serif; font-size: 11px; fill: rgba(245, 194, 66, 0.30); font-weight: bold; }
       .svg-1-11 .cg-node-12 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
@@ -972,7 +972,7 @@ print(f"新的哈希: {hash_result2}")
 <svg class="svg-1-12" viewBox="0 0 450 200" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-12 .ha-text-13 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-1-12 .ha-text-13 { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-1-12 .ha-text-dark-13 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-1-12 .ha-title-13 { font-family: arial, sans-serif; font-size: 11px; fill: rgba(245, 194, 66, 0.30); font-weight: bold; }
       .svg-1-12 .ha-pri-13 { fill: rgba(220, 53, 69, 0.10); stroke: #ccc; stroke-width: 0.5; }
@@ -1044,7 +1044,7 @@ print(f"新的哈希: {hash_result2}")
 <svg class="svg-1-13" viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 620px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-13 .db-text-14 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-1-13 .db-text-14 { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-1-13 .db-text-dark-14 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-1-13 .db-title-14 { font-family: arial, sans-serif; font-size: 11px; fill: rgba(245, 194, 66, 0.30); font-weight: bold; }
       .svg-1-13 .db-center-14 { fill: rgba(220, 53, 69, 0.25); stroke: #ccc; stroke-width: 0.5; }
@@ -1273,10 +1273,10 @@ contract AIAgentAccount {
 <svg class="svg-1-14" viewBox="0 0 450 200" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-14 .tc-text-15 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-1-14 .tc-text-15 { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-1-14 .tc-actor-15 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .svg-1-14 .tc-line-15 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-1-14 .tc-note-15 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-1-14 .tc-note-15 { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="tc-arrow-15" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -1313,10 +1313,10 @@ contract AIAgentAccount {
 <svg class="svg-1-15" viewBox="0 0 450 200" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-15 .bc-text-16 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-1-15 .bc-text-16 { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-1-15 .bc-actor-16 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .svg-1-15 .bc-line-16 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-1-15 .bc-note-16 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-1-15 .bc-note-16 { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="bc-arrow-16" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -1386,7 +1386,7 @@ contract AIAgentAccount {
 <svg class="svg-1-16" viewBox="0 0 650 60" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 750px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-16 .sc-text-17 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-1-16 .sc-text-17 { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-1-16 .sc-text-dark-17 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-1-16 .sc-box1-17 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-1-16 .sc-box2-17 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
@@ -1464,10 +1464,10 @@ contract AIAgentAccount {
 <svg class="svg-1-17" viewBox="0 0 500 280" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-17 .df-text-18 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-1-17 .df-text-18 { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-1-17 .df-actor-18 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .svg-1-17 .df-line-18 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-1-17 .df-note-18 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-1-17 .df-note-18 { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="df-arrow-18" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -1514,11 +1514,11 @@ contract AIAgentAccount {
 <svg class="svg-1-18" viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 700px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-1-18 .mm-text-19 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-1-18 .mm-text-19 { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-1-18 .mm-text-dark-19 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-1-18 .mm-center-19 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .svg-1-18 .mm-main-19 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .svg-1-18 .mm-sub-19 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-1-18 .mm-sub-19 { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-1-18 .mm-line-19 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
 </defs>
