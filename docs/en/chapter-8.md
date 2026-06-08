@@ -102,6 +102,11 @@ Standardized messaging between blockchains.
 
 ### 8.7 Intent-based Cross-Chain: 2024-2026 Mainstreaming
 
+![CCBus cross-chain swap — UI template for intent-based cross-chain](../public/images/chapters/zh/cross-chain-swap.png)
+
+*图: CCBus cross-chain swap — UI template for intent-based cross-chain*
+
+
 **Problems with traditional cross-chain**:
 - User must choose bridge, source chain, target chain
 - User must accept "optimal path" determined by router, may not be optimal

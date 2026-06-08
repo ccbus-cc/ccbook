@@ -909,6 +909,11 @@ contract Escrow {
 
 ### 3.8 BTCFi 与比特币第二层生态(2024-2026 爆发)
 
+![CCBus 标准代币 — BRC-20/SPL/ERC-20 一键部署,适用于多种代币标准](../public/images/chapters/zh/standard-token-create.png)
+
+*图: CCBus 标准代币 — BRC-20/SPL/ERC-20 一键部署,适用于多种代币标准*
+
+
 比特币在 2024-2026 年发生了范式转变:从"静态的价值存储"演变为"可编程的金融原语"。**BTCFi**(Bitcoin Finance)指利用比特币或比特币链上资产做的所有 DeFi 活动。
 
 **1. Babylon(2024 主网):比特币质押**

@@ -732,6 +732,11 @@ def verify_account_balance(address, balance, proof, state_root):
 
 ### 6.7 模块化数据可用性(DA)层:从 EigenDA 到 PeerDAS
 
+![CCBus 多链市场概览 — 跨 DA 层的统一数据视图](../public/images/chapters/zh/market-overview.png)
+
+*图: CCBus 多链市场概览 — 跨 DA 层的统一数据视图*
+
+
 **什么是数据可用性(DA)?**
 
 数据可用性指"任何人能否下载并验证某个区块的所有交易数据"。如果数据不可用,链上虽然有"状态根",但无法重建完整状态。这就是**数据可用性问题**。

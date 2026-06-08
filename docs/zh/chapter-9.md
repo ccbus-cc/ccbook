@@ -682,6 +682,11 @@ contract DiceGame is VRFConsumerBase {
 
 ### 9.7 全同态加密(FHE):从理论到生产
 
+![CCBus 批量钱包 — 演示 MPC 多方安全计算的密钥派生](../public/images/chapters/zh/batch-generate-wallet.png)
+
+*图: CCBus 批量钱包 — 演示 MPC 多方安全计算的密钥派生*
+
+
 **什么是 FHE?**
 全同态加密(Fully Homomorphic Encryption)允许在密文上直接做计算,无需解密。
 

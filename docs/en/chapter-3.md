@@ -726,6 +726,11 @@ _(SVG diagram omitted for brevity - maintains same structure as Chinese version 
 
 ### 3.8 BTCFi and Bitcoin L2 Ecosystem (2024-2026 boom)
 
+![CCBus standard token — BRC-20/SPL/ERC-20 one-click deployment for various token standards](../public/images/chapters/zh/standard-token-create.png)
+
+*图: CCBus standard token — BRC-20/SPL/ERC-20 one-click deployment for various token standards*
+
+
 Bitcoin underwent a paradigm shift in 2024-2026: from "static store of value" to "programmable finance primitive". **BTCFi** (Bitcoin Finance) refers to all DeFi activity using Bitcoin or Bitcoin-chain assets.
 
 **1. Babylon (2024 mainnet): Bitcoin staking**

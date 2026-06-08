@@ -94,6 +94,11 @@ Generate provably random and verifiable outputs.
 
 ### 9.7 Fully Homomorphic Encryption (FHE): From Theory to Production
 
+![CCBus batch wallet — demonstrates MPC multi-party key derivation](../public/images/chapters/zh/batch-generate-wallet.png)
+
+*图: CCBus batch wallet — demonstrates MPC multi-party key derivation*
+
+
 **What is FHE?**
 Fully Homomorphic Encryption (FHE) allows computation directly on ciphertext without decryption.
 

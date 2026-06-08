@@ -1098,6 +1098,11 @@ console.log('验证结果:', isValid);  // true
 
 ### 2.7 后量子密码学(PQC):区块链必须在 2030 前迁移
 
+![CCBus 钱包管理 — 私钥加密存储(AES-256 + MPC 兼容)](../public/images/chapters/zh/wallet-manager.png)
+
+*图: CCBus 钱包管理 — 私钥加密存储(AES-256 + MPC 兼容)*
+
+
 量子计算机在 2030 年代将具备破解现有公钥密码学的能力。NIST 在 2024-08 正式发布了三个 PQC 标准:
 
 **NIST FIPS 203/204/205(2024-08 发布)**:

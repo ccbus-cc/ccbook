@@ -749,6 +749,11 @@ router.ccipSend{value: fees}(destinationChainSelector, message);
 
 ### 8.7 意图式跨链(Intent-based):2024-2026 主流化
 
+![CCBus 跨链兑换 — 意图式跨链的 UI 范本](../public/images/chapters/zh/cross-chain-swap.png)
+
+*图: CCBus 跨链兑换 — 意图式跨链的 UI 范本*
+
+
 **传统跨链的问题**:
 - 用户必须自己选桥、选源链、选目标链
 - 用户必须接受"最优路径"被路由器决定,可能不是最优

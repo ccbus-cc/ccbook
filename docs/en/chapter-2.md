@@ -1098,6 +1098,11 @@ Ethereum uses **Merkle Patricia Trie** to store account state.
 
 ### 2.7 Post-Quantum Cryptography (PQC): Blockchain Must Migrate by 2030
 
+![CCBus wallet manager — encrypted private key storage (AES-256 + MPC compatible)](../public/images/chapters/zh/wallet-manager.png)
+
+*图: CCBus wallet manager — encrypted private key storage (AES-256 + MPC compatible)*
+
+
 Quantum computers in the 2030s will have the capability to break existing public-key cryptography. NIST formally released three PQC standards in 2024-08:
 
 **NIST FIPS 203/204/205 (released 2024-08)**:

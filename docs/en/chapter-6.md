@@ -83,6 +83,11 @@ The memory pool holds pending transactions before they're included in blocks.
 
 ### 6.7 Modular Data Availability (DA) Layer: From EigenDA to PeerDAS
 
+![CCBus multi-chain market overview — unified data view across DA layers](../public/images/chapters/zh/market-overview.png)
+
+*图: CCBus multi-chain market overview — unified data view across DA layers*
+
+
 **What is data availability (DA)?**
 
 Data availability refers to "whether anyone can download and verify all the transaction data of a block". If data is unavailable, although there is a "state root" on-chain, the full state cannot be reconstructed. This is the **data availability problem**.

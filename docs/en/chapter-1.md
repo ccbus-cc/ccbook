@@ -254,6 +254,11 @@ Consortium blockchains are between public and private blockchains, managed by a 
 
 ### 1.10 AI Agent Accounts (2025-2026 New Paradigm)
 
+![CCBus wallet manager — prototype of smart accounts and AI agent wallets](../public/images/chapters/zh/my-wallets.png)
+
+*图: CCBus wallet manager — prototype of smart accounts and AI agent wallets*
+
+
 By 2026, the "user" of on-chain accounts is no longer just humans. An **AI agent account** is an on-chain account controlled by an AI model, holding its own private keys.
 
 **Characteristics of AI agent accounts**:

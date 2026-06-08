@@ -7,6 +7,9 @@ layout: doc
 
 # Blockchain: From Zero to Hero
 
+> **🔄 2025-2026 Major Refresh** — This book has been fully updated to 2026 technology state. Each chapter now includes a new "5.0 Perspective" and substantial new content:
+> **zkEVM industrial maturity**, **EigenLayer restaking**, **Uniswap v4 hooks**, **EIP-7702 phishing & defense**, **AI agent accounts**, **intent-based trading**, **RWA trillion-scale**, **FHE practical use**, **post-quantum cryptography (NIST FIPS 203/204/205)** and 11 new sections + 16 new live screenshots.
+
 <div class="book-intro">
 Welcome to **Blockchain: From Zero to Hero**! This is a comprehensive, in-depth blockchain technology learning handbook that provides a complete blockchain knowledge system from fundamental concepts to advanced applications, from theoretical knowledge to practical cases.
 
