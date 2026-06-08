@@ -522,12 +522,12 @@ $$
   <text class="dpos-text-small" x="520" y="215" text-anchor="middle">见证人 #21</text>
   <text class="dpos-text-small" x="520" y="228" text-anchor="middle">得票: 30万</text>
   <text class="dpos-text" x="350" y="260" text-anchor="middle" font-weight="bold">3. 轮流出块 (每0.5秒)</text>
-  <rect class="dpos-rect-witness" x="140" y="280" width="100" height="30" rx="3"/>
+  <rect class="dpos-rect-witness" x="130" y="280" width="120" height="30" rx="3"/>
   <text class="dpos-text-small" x="190" y="298" text-anchor="middle">区块 #1000: 见证人 #1</text>
-  <rect class="dpos-rect-witness" x="260" y="280" width="100" height="30" rx="3"/>
-  <text class="dpos-text-small" x="310" y="298" text-anchor="middle">区块 #1001: 见证人 #2</text>
-  <rect class="dpos-rect-witness" x="380" y="280" width="100" height="30" rx="3"/>
-  <text class="dpos-text-small" x="430" y="298" text-anchor="middle">区块 #1002: 见证人 #3</text>
+  <rect class="dpos-rect-witness" x="260" y="280" width="120" height="30" rx="3"/>
+  <text class="dpos-text-small" x="320" y="298" text-anchor="middle">区块 #1001: 见证人 #2</text>
+  <rect class="dpos-rect-witness" x="390" y="280" width="120" height="30" rx="3"/>
+  <text class="dpos-text-small" x="450" y="298" text-anchor="middle">区块 #1002: 见证人 #3</text>
   <text class="dpos-text-small" x="350" y="330" text-anchor="middle">每轮21个见证人各产生1个区块 → 循环往复</text>
   <text class="dpos-text" x="50" y="360" font-weight="bold">✅ 优势:</text>
   <text class="dpos-text-small" x="50" y="373">高性能 (EOS: 4000 TPS)</text>

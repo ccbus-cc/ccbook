@@ -858,7 +858,7 @@ contract RestrictedToken is ERC20, ERC1404 {
 <text x="70" y="285" class="reg-text">• 迪拜 VARA 虚拟资产监管局</text>
 <text x="70" y="300" class="reg-text">• 币安等交易所总部</text>
 <text x="70" y="315" class="reg-text">• 零所得税</text>
-<text x="370" y="85" text-anchor="middle" class="reg-label" fill="#5cb85c">✅ 友好监管</text>
+<text x="500" y="85" text-anchor="middle" class="reg-label" fill="#5cb85c">✅ 友好监管</text>
 <text x="370" y="110" class="reg-title">香港 🇭🇰</text>
 <text x="380" y="130" class="reg-text">• 2024 年开放散户交易</text>
 <text x="380" y="145" class="reg-text">• SFC 虚拟资产交易平台牌照</text>
