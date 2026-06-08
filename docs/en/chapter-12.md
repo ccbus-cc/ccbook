@@ -2,7 +2,16 @@
 title: "Chapter 12: Governance and DAO"
 ---
 
-# Chapter 12: Governance and DAO
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/community-conductor.png" alt="Community Conductor" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 12: Governance and DAO</h1>
+    <div class="ccbus-teacher-label">🎙️ Taught by: <strong>Community Conductor</strong> · The "community chair" of DAO governance — calls your vote</div>
+  </div>
+</div>
+
 
 <div class="chapter-intro">
 
@@ -181,6 +190,16 @@ DAOs navigate complex legal landscapes.
 - **MakerDAO** - Decentralized stablecoin governance
 - **Compound** - Lending protocol governance
 - **Gitcoin** - Public goods funding
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/community-conductor.png" alt="Community Conductor" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Community Conductor</strong> — The "community chair" of DAO governance — calls your vote<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 13: Blockchain Platform Comparison] will be taught by another CCBus guide.</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

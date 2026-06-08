@@ -2,7 +2,16 @@
 title: "Chapter 10: DeFi - Decentralized Finance"
 ---
 
-# Chapter 10: DeFi - Decentralized Finance
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/defi-navigator.png" alt="DeFi Navigator" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 10: DeFi - Decentralized Finance</h1>
+    <div class="ccbus-teacher-label">🎙️ Taught by: <strong>DeFi Navigator</strong> · The "navigator" of DeFi — primary domain, knows every route</div>
+  </div>
+</div>
+
 
 <div class="chapter-intro">
 
@@ -218,6 +227,16 @@ contract DynamicFeeHook is BaseHook {
 ```
 
 **Economic significance of Hooks**: v4 turns Uniswap from "generic AMM" to "liquidity grid", any team can build their own DEX on v4 without deploying new contracts. This is the 2025-2026 core pattern of DeFi protocol-layer innovation.
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/defi-navigator.png" alt="DeFi Navigator" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>DeFi Navigator</strong> — The "navigator" of DeFi — primary domain, knows every route<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 11: NFTs and Digital Assets] will be taught by another CCBus guide.</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

@@ -2,7 +2,16 @@
 title: "Chapter 7: Layer 2 Scaling"
 ---
 
-# Chapter 7: Layer 2 Scaling
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 7: Layer 2 Scaling</h1>
+    <div class="ccbus-teacher-label">🎙️ Taught by: <strong>Chain Hopper</strong> · The L2 "test driver" — tries every Rollup for you</div>
+  </div>
+</div>
+
 
 <div class="chapter-intro">
 
@@ -138,6 +147,16 @@ EIP-4844 introduced in Cancun (2024-03) is the turning point of L2 economics. Un
 - **EIP-7594 (PeerDAS)**: nodes only need to download partial blob data + verify other nodes' commitments, L2 blob capacity expands 4-8x more
 - **EIP-7883 (Modular exponentiation precompile)**: makes L2 on-chain ZKP verification cheaper
 - **2027 prediction**: L2 single-tx cost drops to <$0.0001, approaching Web2 server cost
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Chain Hopper</strong> — The L2 "test driver" — tries every Rollup for you<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 8: Interoperability and Cross-Chain] will be taught by another CCBus guide.</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

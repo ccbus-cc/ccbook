@@ -604,3 +604,13 @@ CCBus's **single-contract-multi-facet** pattern is the 2026 mainstream for token
 ### Next Steps
 
 Continue to [Chapter 6: Blockchain Architecture](/en/chapter-6) to learn about execution, settlement, consensus, and data-availability layers in the modular-blockchain era.
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/ether-engineer.png" alt="Ether Engineer" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Ether Engineer</strong> — The "foreman" of smart contracts — code is craft<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 6: Blockchain Architecture] will be taught by another CCBus guide.</span>
+  </div>
+</div>

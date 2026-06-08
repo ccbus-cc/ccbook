@@ -381,3 +381,13 @@ In the next chapter, we will explore the world of cryptocurrency, understanding 
 ---
 
 **Next Chapter:** [Chapter 2: Introduction to Cryptocurrency](/en/chapter-2)
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Captain CCBus</strong> — The "professor + tour guide + friendly bus" of blockchain<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 2: Cryptography Fundamentals] will be taught by another CCBus guide.</span>
+  </div>
+</div>
