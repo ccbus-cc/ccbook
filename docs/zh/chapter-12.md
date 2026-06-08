@@ -75,14 +75,14 @@ DAO (Decentralized Autonomous Organization，去中心化自治组织) 是一种
 <svg class="svg-12-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
 <defs>
 <style>
-.svg-12-0 .dao-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.svg-12-0 .dao-subtitle { font: bold 16px sans-serif; fill: #1f2937; }
-.svg-12-0 .dao-label { font: 13px sans-serif; fill: #1f2937; }
-.svg-12-0 .dao-box-trad { fill: rgba(217, 83, 79, 0.15); stroke: #d9534f; stroke-width: 2; }
-.svg-12-0 .dao-box-dao { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
-.svg-12-0 .dao-arrow { stroke: #4c9be8; stroke-width: 2; fill: none; }
-.svg-12-0 .dao-check { fill: #5cb85c; }
-.svg-12-0 .dao-cross { fill: #d9534f; }
+.svg-12-0 .svg-12-0 .dao-title { font: bold 24px sans-serif; fill: #4c9be8; }
+.svg-12-0 .svg-12-0 .dao-subtitle { font: bold 16px sans-serif; fill: #1f2937; }
+.svg-12-0 .svg-12-0 .dao-label { font: 13px sans-serif; fill: #1f2937; }
+.svg-12-0 .svg-12-0 .dao-box-trad { fill: rgba(217, 83, 79, 0.15); stroke: #d9534f; stroke-width: 2; }
+.svg-12-0 .svg-12-0 .dao-box-dao { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
+.svg-12-0 .svg-12-0 .dao-arrow { stroke: #4c9be8; stroke-width: 2; fill: none; }
+.svg-12-0 .svg-12-0 .dao-check { fill: #5cb85c; }
+.svg-12-0 .svg-12-0 .dao-cross { fill: #d9534f; }
 </style>
 </defs>
 <text x="450" y="35" class="dao-title" text-anchor="middle">传统组织 vs DAO</text>
@@ -158,13 +158,13 @@ DAO (Decentralized Autonomous Organization，去中心化自治组织) 是一种
 <svg class="svg-12-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
 <defs>
 <style>
-.svg-12-1 .gov-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.svg-12-1 .gov-step { font: bold 16px sans-serif; fill: #1f2937; }
-.svg-12-1 .gov-label { font: 13px sans-serif; fill: #1f2937; }
-.svg-12-1 .gov-box { fill: rgba(52, 81, 178, 0.05); stroke: #4c9be8; stroke-width: 2; }
-.svg-12-1 .gov-active { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 3; }
-.svg-12-1 .gov-arrow { stroke: #df6919; stroke-width: 3; fill: none; marker-end: url(#gov-arrow); }
-.svg-12-1 .gov-time { font: 11px sans-serif; fill: #f0ad4e; font-style: italic; }
+.svg-12-1 .svg-12-1 .gov-title { font: bold 24px sans-serif; fill: #4c9be8; }
+.svg-12-1 .svg-12-1 .gov-step { font: bold 16px sans-serif; fill: #1f2937; }
+.svg-12-1 .svg-12-1 .gov-label { font: 13px sans-serif; fill: #1f2937; }
+.svg-12-1 .svg-12-1 .gov-box { fill: rgba(52, 81, 178, 0.05); stroke: #4c9be8; stroke-width: 2; }
+.svg-12-1 .svg-12-1 .gov-active { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 3; }
+.svg-12-1 .svg-12-1 .gov-arrow { stroke: #df6919; stroke-width: 3; fill: none; marker-end: url(#gov-arrow); }
+.svg-12-1 .svg-12-1 .gov-time { font: 11px sans-serif; fill: #f0ad4e; font-style: italic; }
 </style>
 <marker id="gov-arrow" markerWidth="12" markerHeight="12" refX="10" refY="3" orient="auto" markerUnits="strokeWidth">
 <path d="M0,0 L0,6 L9,3 z" fill="#df6919"/>
@@ -428,16 +428,16 @@ Snapshot 是一个链下投票平台，具有以下优势：
 - **快速部署**：无需部署智能合约
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 450">
+<svg class="svg-12-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 450">
 <defs>
 <style>
-.svg-12-1 .snap-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.svg-12-1 .snap-subtitle { font: bold 16px sans-serif; fill: #1f2937; }
-.svg-12-1 .snap-label { font: 13px sans-serif; fill: #1f2937; }
-.svg-12-1 .snap-box-on { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
-.svg-12-1 .snap-box-off { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 2; }
-.svg-12-1 .snap-check { fill: #5cb85c; }
-.svg-12-1 .snap-cross { fill: #d9534f; }
+.svg-12-2 .snap-title { font: bold 24px sans-serif; fill: #4c9be8; }
+.svg-12-2 .snap-subtitle { font: bold 16px sans-serif; fill: #1f2937; }
+.svg-12-2 .snap-label { font: 13px sans-serif; fill: #1f2937; }
+.svg-12-2 .snap-box-on { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
+.svg-12-2 .snap-box-off { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 2; }
+.svg-12-2 .snap-check { fill: #5cb85c; }
+.svg-12-2 .snap-cross { fill: #d9534f; }
 </style>
 </defs>
 <text x="425" y="35" class="snap-title" text-anchor="middle">链上治理 vs 链下治理 (Snapshot)</text>
@@ -531,14 +531,14 @@ Snapshot 是一个链下投票平台，具有以下优势：
 ## 12.4 代币经济学与激励设计
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg class="svg-12-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550">
+<svg class="svg-12-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550">
 <defs>
 <style>
-.svg-12-2 .token-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.svg-12-2 .token-cat { font: bold 16px sans-serif; fill: #1f2937; }
-.svg-12-2 .token-label { font: 13px sans-serif; fill: #1f2937; }
-.svg-12-2 .token-slice { stroke: #3451b2; stroke-width: 2; }
-.svg-12-2 .token-legend { font: 14px sans-serif; fill: #1f2937; }
+.svg-12-3 .token-title { font: bold 24px sans-serif; fill: #4c9be8; }
+.svg-12-3 .token-cat { font: bold 16px sans-serif; fill: #1f2937; }
+.svg-12-3 .token-label { font: 13px sans-serif; fill: #1f2937; }
+.svg-12-3 .token-slice { stroke: #3451b2; stroke-width: 2; }
+.svg-12-3 .token-legend { font: 14px sans-serif; fill: #1f2937; }
 </style>
 </defs>
 <text x="450" y="35" class="token-title" text-anchor="middle">代币分配模型 (Tokenomics)</text>
@@ -665,15 +665,15 @@ contract VotingEscrow {
 ### Gnosis Safe：行业标准
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg class="svg-12-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+<svg class="svg-12-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
 <defs>
 <style>
-.svg-12-3 .safe-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.svg-12-3 .safe-step { font: bold 16px sans-serif; fill: #1f2937; }
-.svg-12-3 .safe-label { font: 13px sans-serif; fill: #1f2937; }
-.svg-12-3 .safe-box { fill: rgba(52, 81, 178, 0.05); stroke: #4c9be8; stroke-width: 2; }
-.svg-12-3 .safe-signer { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.svg-12-3 .safe-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#safe-arrow); }
+.svg-12-4 .safe-title { font: bold 24px sans-serif; fill: #4c9be8; }
+.svg-12-4 .safe-step { font: bold 16px sans-serif; fill: #1f2937; }
+.svg-12-4 .safe-label { font: 13px sans-serif; fill: #1f2937; }
+.svg-12-4 .safe-box { fill: rgba(52, 81, 178, 0.05); stroke: #4c9be8; stroke-width: 2; }
+.svg-12-4 .safe-signer { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-12-4 .safe-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#safe-arrow); }
 </style>
 <marker id="safe-arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
 <path d="M0,0 L0,6 L9,3 z" fill="#df6919"/>
@@ -905,16 +905,16 @@ CCBus 提供了几种**协议级治理代币**的实现,把治理参数和代币
 ## 12.6 DAO 工具栈
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+<svg class="svg-12-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
 <defs>
 <style>
-.svg-12-3 .tool-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.svg-12-3 .tool-cat { font: bold 16px sans-serif; fill: #1f2937; }
-.svg-12-3 .tool-label { font: 13px sans-serif; fill: #1f2937; }
-.svg-12-3 .tool-box-gov { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
-.svg-12-3 .tool-box-comm { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
-.svg-12-3 .tool-box-pay { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 2; }
-.svg-12-3 .tool-box-ops { fill: rgba(147, 112, 219, 0.15); stroke: #9370db; stroke-width: 2; }
+.svg-12-5 .tool-title { font: bold 24px sans-serif; fill: #4c9be8; }
+.svg-12-5 .tool-cat { font: bold 16px sans-serif; fill: #1f2937; }
+.svg-12-5 .tool-label { font: 13px sans-serif; fill: #1f2937; }
+.svg-12-5 .tool-box-gov { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
+.svg-12-5 .tool-box-comm { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
+.svg-12-5 .tool-box-pay { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 2; }
+.svg-12-5 .tool-box-ops { fill: rgba(147, 112, 219, 0.15); stroke: #9370db; stroke-width: 2; }
 </style>
 </defs>
 <text x="450" y="35" class="tool-title" text-anchor="middle">DAO 工具生态系统</text>

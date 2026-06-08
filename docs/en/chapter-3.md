@@ -74,20 +74,20 @@ CCBus turns "issuing a token" — a task that used to require a Solidity enginee
 <svg class="svg-3-0" viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-3-0 .cc-text { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-3-0 .cc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-3-0 .cc-text-medium { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; font-weight: bold; }
-      .svg-3-0 .cc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-3-0 .cc-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #3451b2; font-weight: bold; }
-      .svg-3-0 .cc-text-dark-small { font-family: arial, sans-serif; font-size: 9px; fill: #3451b2; }
-      .svg-3-0 .cc-text-italic { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; font-style: italic; }
-      .svg-3-0 .cc-circle-center { fill: #4c9be8; stroke: #1f2937; stroke-width: 0.5; }
-      .svg-3-0 .cc-circle-orange { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
-      .svg-3-0 .cc-circle-blue { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-3-0 .cc-circle-green { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
-      .svg-3-0 .cc-line-orange { stroke: #df6919; stroke-width: 0.5; }
-      .svg-3-0 .cc-line-blue { stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-3-0 .cc-line-green { stroke: #5cb85c; stroke-width: 0.5; }
+      .svg-3-0 .svg-3-0 .cc-text { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-3-0 .svg-3-0 .cc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-3-0 .svg-3-0 .cc-text-medium { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; font-weight: bold; }
+      .svg-3-0 .svg-3-0 .cc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-3-0 .svg-3-0 .cc-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #3451b2; font-weight: bold; }
+      .svg-3-0 .svg-3-0 .cc-text-dark-small { font-family: arial, sans-serif; font-size: 9px; fill: #3451b2; }
+      .svg-3-0 .svg-3-0 .cc-text-italic { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; font-style: italic; }
+      .svg-3-0 .svg-3-0 .cc-circle-center { fill: #4c9be8; stroke: #1f2937; stroke-width: 0.5; }
+      .svg-3-0 .svg-3-0 .cc-circle-orange { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
+      .svg-3-0 .svg-3-0 .cc-circle-blue { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-3-0 .svg-3-0 .cc-circle-green { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
+      .svg-3-0 .svg-3-0 .cc-line-orange { stroke: #df6919; stroke-width: 0.5; }
+      .svg-3-0 .svg-3-0 .cc-line-blue { stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-3-0 .svg-3-0 .cc-line-green { stroke: #5cb85c; stroke-width: 0.5; }
     </style>
     <marker id="arrow-cc-1" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#df6919"/>
@@ -184,34 +184,34 @@ This was the headline from The Times that day, recording government bank bailout
 ### Bitcoin's Core Mechanisms
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .svg-3-0 .btc-text { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-3-0 .btc-text-tiny { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; }
-      .svg-3-0 .btc-text-tiny-italic { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; font-style: italic; }
-      .svg-3-0 .btc-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
-      .svg-3-0 .btc-text-small-bold { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; font-weight: bold; }
-      .svg-3-0 .btc-text-medium { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; font-weight: bold; }
-      .svg-3-0 .btc-text-arrow { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .svg-3-0 .btc-text-large { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; font-weight: bold; }
-      .svg-3-0 .btc-text-huge { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-      .svg-3-0 .btc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-3-0 .btc-text-subtitle { font-family: arial, sans-serif; font-size: 12px; fill: #1f2937; font-weight: bold; }
-      .svg-3-0 .btc-rect-orange { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
-      .svg-3-0 .btc-rect-orange-dark { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 0.5; }
-      .svg-3-0 .btc-rect-blue { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-3-0 .btc-rect-blue-dark { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-3-0 .btc-rect-green { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 0.5; }
-      .svg-3-0 .btc-rect-green-dark { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 0.5; }
-      .svg-3-0 .btc-circle-orange { fill: #df6919; stroke: #1f2937; stroke-width: 0.5; }
-      .svg-3-0 .btc-line-orange { stroke: #df6919; stroke-width: 0.5; }
-      .svg-3-0 .btc-line-blue { stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-3-0 .btc-bar-1 { fill: #df6919; opacity: 1.0; }
-      .svg-3-0 .btc-bar-2 { fill: #df6919; opacity: 0.8; }
-      .svg-3-0 .btc-bar-3 { fill: #df6919; opacity: 0.6; }
-      .svg-3-0 .btc-bar-4 { fill: #df6919; opacity: 0.4; }
-      .svg-3-0 .btc-bar-5 { fill: #df6919; opacity: 0.2; }
+<svg class="svg-3-1" viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-3-1 .btc-text { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-3-1 .btc-text-tiny { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; }
+      .svg-3-1 .btc-text-tiny-italic { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; font-style: italic; }
+      .svg-3-1 .btc-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .svg-3-1 .btc-text-small-bold { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; font-weight: bold; }
+      .svg-3-1 .btc-text-medium { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; font-weight: bold; }
+      .svg-3-1 .btc-text-arrow { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-3-1 .btc-text-large { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; font-weight: bold; }
+      .svg-3-1 .btc-text-huge { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+      .svg-3-1 .btc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-3-1 .btc-text-subtitle { font-family: arial, sans-serif; font-size: 12px; fill: #1f2937; font-weight: bold; }
+      .svg-3-1 .btc-rect-orange { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
+      .svg-3-1 .btc-rect-orange-dark { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 0.5; }
+      .svg-3-1 .btc-rect-blue { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-3-1 .btc-rect-blue-dark { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-3-1 .btc-rect-green { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 0.5; }
+      .svg-3-1 .btc-rect-green-dark { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 0.5; }
+      .svg-3-1 .btc-circle-orange { fill: #df6919; stroke: #1f2937; stroke-width: 0.5; }
+      .svg-3-1 .btc-line-orange { stroke: #df6919; stroke-width: 0.5; }
+      .svg-3-1 .btc-line-blue { stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-3-1 .btc-bar-1 { fill: #df6919; opacity: 1.0; }
+      .svg-3-1 .btc-bar-2 { fill: #df6919; opacity: 0.8; }
+      .svg-3-1 .btc-bar-3 { fill: #df6919; opacity: 0.6; }
+      .svg-3-1 .btc-bar-4 { fill: #df6919; opacity: 0.4; }
+      .svg-3-1 .btc-bar-5 { fill: #df6919; opacity: 0.2; }
     </style>
     <marker id="arrow-btc-1" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#df6919"/>
@@ -327,20 +327,20 @@ This was the headline from The Times that day, recording government bank bailout
 **Ethereum** was proposed by Vitalik Buterin in 2013 and officially launched in 2015. It is not only a cryptocurrency (ETH) but also a **Turing-complete smart contract platform**.
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 650 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .svg-3-0 .vs-text { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-3-0 .vs-text-bold { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; font-weight: bold; }
-      .svg-3-0 .vs-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-3-0 .vs-text-subtitle { font-family: arial, sans-serif; font-size: 12px; fill: #1f2937; font-weight: bold; }
-      .svg-3-0 .vs-text-icon { font-family: arial, sans-serif; font-size: 20px; fill: #1f2937; font-weight: bold; }
-      .svg-3-0 .vs-text-italic { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; font-style: italic; }
-      .svg-3-0 .vs-rect-orange { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 0.5; }
-      .svg-3-0 .vs-rect-blue { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-3-0 .vs-circle-orange { fill: #df6919; stroke: #1f2937; stroke-width: 0.5; }
-      .svg-3-0 .vs-circle-blue { fill: #4c9be8; stroke: #1f2937; stroke-width: 0.5; }
-      .svg-3-0 .vs-line-divider { stroke: #1f2937; stroke-width: 0.5; stroke-dasharray: 5,5; }
+<svg class="svg-3-2" viewBox="0 0 650 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-3-2 .vs-text { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-3-2 .vs-text-bold { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; font-weight: bold; }
+      .svg-3-2 .vs-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-3-2 .vs-text-subtitle { font-family: arial, sans-serif; font-size: 12px; fill: #1f2937; font-weight: bold; }
+      .svg-3-2 .vs-text-icon { font-family: arial, sans-serif; font-size: 20px; fill: #1f2937; font-weight: bold; }
+      .svg-3-2 .vs-text-italic { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; font-style: italic; }
+      .svg-3-2 .vs-rect-orange { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 0.5; }
+      .svg-3-2 .vs-rect-blue { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-3-2 .vs-circle-orange { fill: #df6919; stroke: #1f2937; stroke-width: 0.5; }
+      .svg-3-2 .vs-circle-blue { fill: #4c9be8; stroke: #1f2937; stroke-width: 0.5; }
+      .svg-3-2 .vs-line-divider { stroke: #1f2937; stroke-width: 0.5; stroke-dasharray: 5,5; }
     </style>
 </defs>
   <!-- Title -->
@@ -395,26 +395,26 @@ This was the headline from The Times that day, recording government bank bailout
 #### Smart Contract Workflow
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .sc-text { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; }
-      .sc-text-tiny { font-family: arial, sans-serif; font-size: 6px; fill: #1f2937; }
-      .sc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .sc-text-small-bold { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; font-weight: bold; }
-      .sc-text-medium { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; font-weight: bold; }
-      .sc-text-large { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; font-weight: bold; }
-      .sc-text-arrow { font-family: arial, sans-serif; font-size: 12px; fill: #df6919; }
-      .sc-text-arrow-blue { font-family: arial, sans-serif; font-size: 12px; fill: #4c9be8; }
-      .sc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .sc-rect-orange { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
-      .sc-rect-orange-light { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 0.5; }
-      .sc-rect-blue { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .sc-rect-green { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
-      .sc-rect-green-dark { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 0.5; }
-      .sc-line-blue { stroke: #4c9be8; stroke-width: 0.5; }
-      .sc-line-green { stroke: #5cb85c; stroke-width: 0.5; }
-      .sc-path-green { stroke: #5cb85c; stroke-width: 0.5; fill: none; }
+<svg class="svg-3-3" viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-3-3 .sc-text { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; }
+      .svg-3-3 .sc-text-tiny { font-family: arial, sans-serif; font-size: 6px; fill: #1f2937; }
+      .svg-3-3 .sc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-3-3 .sc-text-small-bold { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; font-weight: bold; }
+      .svg-3-3 .sc-text-medium { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; font-weight: bold; }
+      .svg-3-3 .sc-text-large { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; font-weight: bold; }
+      .svg-3-3 .sc-text-arrow { font-family: arial, sans-serif; font-size: 12px; fill: #df6919; }
+      .svg-3-3 .sc-text-arrow-blue { font-family: arial, sans-serif; font-size: 12px; fill: #4c9be8; }
+      .svg-3-3 .sc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-3-3 .sc-rect-orange { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
+      .svg-3-3 .sc-rect-orange-light { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 0.5; }
+      .svg-3-3 .sc-rect-blue { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-3-3 .sc-rect-green { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
+      .svg-3-3 .sc-rect-green-dark { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 0.5; }
+      .svg-3-3 .sc-line-blue { stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-3-3 .sc-line-green { stroke: #5cb85c; stroke-width: 0.5; }
+      .svg-3-3 .sc-path-green { stroke: #5cb85c; stroke-width: 0.5; fill: none; }
     </style>
     <marker id="arrow-sc-1" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#4c9be8"/>

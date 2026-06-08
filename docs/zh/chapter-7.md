@@ -79,12 +79,12 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 <svg class="svg-7-0" viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-7-0 .tri-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-7-0 .tri-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .svg-7-0 .tri-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-7-0 .tri-line { stroke: #4c9be8; stroke-width: 2; }
-      .svg-7-0 .tri-circle { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
-      .svg-7-0 .tri-center { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
+      .svg-7-0 .svg-7-0 .tri-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-7-0 .svg-7-0 .tri-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-7-0 .svg-7-0 .tri-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-7-0 .svg-7-0 .tri-line { stroke: #4c9be8; stroke-width: 2; }
+      .svg-7-0 .svg-7-0 .tri-circle { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
+      .svg-7-0 .svg-7-0 .tri-center { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
     </style>
 </defs>
   <text class="tri-text-title" x="350" y="25" text-anchor="middle">区块链不可能三角 (Blockchain Trilemma)</text>
@@ -153,12 +153,12 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 <svg class="svg-7-1" viewBox="0 0 750 380" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-7-1 .l2-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-7-1 .l2-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .svg-7-1 .l2-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-7-1 .l2-box-l1 { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
-      .svg-7-1 .l2-box-l2 { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
-      .svg-7-1 .l2-line { stroke: #5cb85c; stroke-width: 1.2; stroke-dasharray: 4,2; }
+      .svg-7-1 .svg-7-1 .l2-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-7-1 .svg-7-1 .l2-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-7-1 .svg-7-1 .l2-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-7-1 .svg-7-1 .l2-box-l1 { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
+      .svg-7-1 .svg-7-1 .l2-box-l2 { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
+      .svg-7-1 .svg-7-1 .l2-line { stroke: #5cb85c; stroke-width: 1.2; stroke-dasharray: 4,2; }
     </style>
     <marker id="l2-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#5cb85c"/>
@@ -219,16 +219,16 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 **Optimistic Rollup** 采用"乐观"假设：默认所有交易都是有效的，只有在被质疑时才进行验证。
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 750 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .svg-7-1 .op-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-7-1 .op-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .svg-7-1 .op-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-7-1 .op-box-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
-      .svg-7-1 .op-box-challenge { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
-      .svg-7-1 .op-line-flow { stroke: #4c9be8; stroke-width: 1.5; stroke-dasharray: 3,2; }
-      .svg-7-1 .op-circle-num { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 1; }
+<svg class="svg-7-2" viewBox="0 0 750 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-7-2 .op-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-7-2 .op-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-7-2 .op-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-7-2 .op-box-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .svg-7-2 .op-box-challenge { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
+      .svg-7-2 .op-line-flow { stroke: #4c9be8; stroke-width: 1.5; stroke-dasharray: 3,2; }
+      .svg-7-2 .op-circle-num { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 1; }
     </style>
     <marker id="op-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>
@@ -339,16 +339,16 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 **零知识证明** (Zero-Knowledge Proof, ZKP) 允许证明者向验证者证明某个陈述是真的，而无需透露任何额外信息。
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 750 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .svg-7-1 .zk-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-7-1 .zk-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .svg-7-1 .zk-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-7-1 .zk-box-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
-      .svg-7-1 .zk-box-proof { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
-      .svg-7-1 .zk-line-flow { stroke: #4c9be8; stroke-width: 1.5; stroke-dasharray: 3,2; }
-      .svg-7-1 .zk-circle-num { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1; }
+<svg class="svg-7-3" viewBox="0 0 750 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-7-3 .zk-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-7-3 .zk-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-7-3 .zk-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-7-3 .zk-box-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .svg-7-3 .zk-box-proof { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
+      .svg-7-3 .zk-line-flow { stroke: #4c9be8; stroke-width: 1.5; stroke-dasharray: 3,2; }
+      .svg-7-3 .zk-circle-num { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1; }
     </style>
     <marker id="zk-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>
@@ -438,13 +438,13 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
    - 项目：zkSync Era, StarkNet
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .svg-7-1 .zkp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-7-1 .zkp-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .svg-7-1 .zkp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-7-1 .zkp-box-project { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+<svg class="svg-7-4" viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-7-4 .zkp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-7-4 .zkp-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-7-4 .zkp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-7-4 .zkp-box-project { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
     </style>
 </defs>
   <text class="zkp-text-title" x="350" y="25" text-anchor="middle">主流 ZK Rollup 项目对比</text>
@@ -587,15 +587,15 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 ### 综合对比
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg class="svg-7-2" viewBox="0 0 750 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<svg class="svg-7-5" viewBox="0 0 750 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-7-2 .eco-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-7-2 .eco-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
-      .svg-7-2 .eco-text-small { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; }
-      .svg-7-2 .eco-header { fill: rgba(52, 81, 178, 0.15); }
-      .svg-7-2 .eco-cell { fill: rgba(52, 81, 178, 0.04); }
-      .svg-7-2 .eco-line { stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-7-5 .eco-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-7-5 .eco-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .svg-7-5 .eco-text-small { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; }
+      .svg-7-5 .eco-header { fill: rgba(52, 81, 178, 0.15); }
+      .svg-7-5 .eco-cell { fill: rgba(52, 81, 178, 0.04); }
+      .svg-7-5 .eco-line { stroke: #4c9be8; stroke-width: 0.5; }
     </style>
 </defs>
   <text class="eco-text-title" x="375" y="25" text-anchor="middle">Layer 2 方案全面对比</text>

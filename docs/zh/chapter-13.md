@@ -83,12 +83,12 @@ title: "第十三章：区块链平台对比"
 <svg class="svg-13-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650">
 <defs>
 <style>
-.svg-13-0 .tri-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.svg-13-0 .tri-label { font: 16px sans-serif; fill: #1f2937; font-weight: bold; }
-.svg-13-0 .tri-desc { font: 13px sans-serif; fill: #1f2937; }
-.svg-13-0 .tri-triangle { fill: none; stroke: #4c9be8; stroke-width: 3; }
-.svg-13-0 .tri-circle { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
-.svg-13-0 .tri-line { stroke: #df6919; stroke-width: 2; stroke-dasharray: 5,5; }
+.svg-13-0 .svg-13-0 .tri-title { font: bold 24px sans-serif; fill: #4c9be8; }
+.svg-13-0 .svg-13-0 .tri-label { font: 16px sans-serif; fill: #1f2937; font-weight: bold; }
+.svg-13-0 .svg-13-0 .tri-desc { font: 13px sans-serif; fill: #1f2937; }
+.svg-13-0 .svg-13-0 .tri-triangle { fill: none; stroke: #4c9be8; stroke-width: 3; }
+.svg-13-0 .svg-13-0 .tri-circle { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.svg-13-0 .svg-13-0 .tri-line { stroke: #df6919; stroke-width: 2; stroke-dasharray: 5,5; }
 </style>
 </defs>
 <text x="400" y="35" class="tri-title" text-anchor="middle">区块链不可能三角 (Trilemma)</text>
@@ -152,15 +152,15 @@ title: "第十三章：区块链平台对比"
 <svg class="svg-13-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
 <defs>
 <style>
-.svg-13-1 .l1-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.svg-13-1 .l1-chain { font: bold 18px sans-serif; fill: #1f2937; }
-.svg-13-1 .l1-label { font: 12px sans-serif; fill: #1f2937; }
-.svg-13-1 .l1-box-eth { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
-.svg-13-1 .l1-box-bnb { fill: rgba(240, 173, 78, 0.15); stroke: #f0ad4e; stroke-width: 2; }
-.svg-13-1 .l1-box-sol { fill: rgba(147, 112, 219, 0.15); stroke: #9370db; stroke-width: 2; }
-.svg-13-1 .l1-box-avax { fill: rgba(217, 83, 79, 0.15); stroke: #d9534f; stroke-width: 2; }
-.svg-13-1 .l1-check { fill: #5cb85c; }
-.svg-13-1 .l1-cross { fill: #d9534f; }
+.svg-13-1 .svg-13-1 .l1-title { font: bold 24px sans-serif; fill: #4c9be8; }
+.svg-13-1 .svg-13-1 .l1-chain { font: bold 18px sans-serif; fill: #1f2937; }
+.svg-13-1 .svg-13-1 .l1-label { font: 12px sans-serif; fill: #1f2937; }
+.svg-13-1 .svg-13-1 .l1-box-eth { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
+.svg-13-1 .svg-13-1 .l1-box-bnb { fill: rgba(240, 173, 78, 0.15); stroke: #f0ad4e; stroke-width: 2; }
+.svg-13-1 .svg-13-1 .l1-box-sol { fill: rgba(147, 112, 219, 0.15); stroke: #9370db; stroke-width: 2; }
+.svg-13-1 .svg-13-1 .l1-box-avax { fill: rgba(217, 83, 79, 0.15); stroke: #d9534f; stroke-width: 2; }
+.svg-13-1 .svg-13-1 .l1-check { fill: #5cb85c; }
+.svg-13-1 .svg-13-1 .l1-cross { fill: #d9534f; }
 </style>
 </defs>
 <text x="500" y="35" class="l1-title" text-anchor="middle">Layer 1 平台对比 (2025)</text>
@@ -293,13 +293,13 @@ title: "第十三章：区块链平台对比"
 <svg class="svg-13-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550">
 <defs>
 <style>
-.svg-13-2 .evm-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.svg-13-2 .evm-subtitle { font: bold 16px sans-serif; fill: #1f2937; }
-.svg-13-2 .evm-label { font: 13px sans-serif; fill: #1f2937; }
-.svg-13-2 .evm-box-evm { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
-.svg-13-2 .evm-box-non { fill: rgba(147, 112, 219, 0.15); stroke: #9370db; stroke-width: 2; }
-.svg-13-2 .evm-check { fill: #5cb85c; }
-.svg-13-2 .evm-cross { fill: #d9534f; }
+.svg-13-2 .svg-13-2 .evm-title { font: bold 24px sans-serif; fill: #4c9be8; }
+.svg-13-2 .svg-13-2 .evm-subtitle { font: bold 16px sans-serif; fill: #1f2937; }
+.svg-13-2 .svg-13-2 .evm-label { font: 13px sans-serif; fill: #1f2937; }
+.svg-13-2 .svg-13-2 .evm-box-evm { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
+.svg-13-2 .svg-13-2 .evm-box-non { fill: rgba(147, 112, 219, 0.15); stroke: #9370db; stroke-width: 2; }
+.svg-13-2 .svg-13-2 .evm-check { fill: #5cb85c; }
+.svg-13-2 .svg-13-2 .evm-cross { fill: #d9534f; }
 </style>
 </defs>
 <text x="450" y="35" class="evm-title" text-anchor="middle">EVM 兼容链 vs 非 EVM 链</text>
@@ -397,12 +397,12 @@ Transaction {
 <svg class="svg-13-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 600">
 <defs>
 <style>
-.svg-13-3 .l2-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.svg-13-3 .l2-cat { font: bold 16px sans-serif; fill: #1f2937; }
-.svg-13-3 .l2-label { font: 12px sans-serif; fill: #1f2937; }
-.svg-13-3 .l2-box-op { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 2; }
-.svg-13-3 .l2-box-zk { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
-.svg-13-3 .l2-box-other { fill: rgba(147, 112, 219, 0.15); stroke: #9370db; stroke-width: 2; }
+.svg-13-3 .svg-13-3 .l2-title { font: bold 24px sans-serif; fill: #4c9be8; }
+.svg-13-3 .svg-13-3 .l2-cat { font: bold 16px sans-serif; fill: #1f2937; }
+.svg-13-3 .svg-13-3 .l2-label { font: 12px sans-serif; fill: #1f2937; }
+.svg-13-3 .svg-13-3 .l2-box-op { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 2; }
+.svg-13-3 .svg-13-3 .l2-box-zk { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
+.svg-13-3 .svg-13-3 .l2-box-other { fill: rgba(147, 112, 219, 0.15); stroke: #9370db; stroke-width: 2; }
 </style>
 </defs>
 <text x="475" y="35" class="l2-title" text-anchor="middle">Layer 2 生态全景 (2025)</text>
@@ -477,10 +477,10 @@ Transaction {
 <svg class="svg-13-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550">
 <defs>
 <style>
-.svg-13-4 .alt-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.svg-13-4 .alt-chain { font: bold 16px sans-serif; fill: #1f2937; }
-.svg-13-4 .alt-label { font: 12px sans-serif; fill: #1f2937; }
-.svg-13-4 .alt-box { fill: rgba(52, 81, 178, 0.05); stroke: #4c9be8; stroke-width: 2; }
+.svg-13-4 .svg-13-4 .alt-title { font: bold 24px sans-serif; fill: #4c9be8; }
+.svg-13-4 .svg-13-4 .alt-chain { font: bold 16px sans-serif; fill: #1f2937; }
+.svg-13-4 .svg-13-4 .alt-label { font: 12px sans-serif; fill: #1f2937; }
+.svg-13-4 .svg-13-4 .alt-box { fill: rgba(52, 81, 178, 0.05); stroke: #4c9be8; stroke-width: 2; }
 </style>
 </defs>
 <text x="450" y="35" class="alt-title" text-anchor="middle">新兴高性能公链 (2024-2025)</text>
@@ -632,13 +632,13 @@ Transaction {
 <svg class="svg-13-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
 <defs>
 <style>
-.svg-13-5 .dec-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.svg-13-5 .dec-question { font: bold 14px sans-serif; fill: #1f2937; }
-.svg-13-5 .dec-answer { font: 13px sans-serif; fill: #1f2937; }
-.svg-13-5 .dec-result { font: bold 15px sans-serif; fill: #5cb85c; }
-.svg-13-5 .dec-box-q { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
-.svg-13-5 .dec-box-a { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.svg-13-5 .dec-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#dec-arrow); }
+.svg-13-5 .svg-13-5 .dec-title { font: bold 24px sans-serif; fill: #4c9be8; }
+.svg-13-5 .svg-13-5 .dec-question { font: bold 14px sans-serif; fill: #1f2937; }
+.svg-13-5 .svg-13-5 .dec-answer { font: 13px sans-serif; fill: #1f2937; }
+.svg-13-5 .svg-13-5 .dec-result { font: bold 15px sans-serif; fill: #5cb85c; }
+.svg-13-5 .svg-13-5 .dec-box-q { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.svg-13-5 .svg-13-5 .dec-box-a { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-13-5 .svg-13-5 .dec-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#dec-arrow); }
 </style>
 <marker id="dec-arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
 <path d="M0,0 L0,6 L9,3 z" fill="#df6919"/>
@@ -740,14 +740,14 @@ Transaction {
 4. **意图中心架构**: Anoma, SUAVE 让用户表达意图，协议自动选择最优链执行
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+<svg class="svg-13-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
 <defs>
 <style>
-.svg-13-5 .multi-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.svg-13-5 .multi-label { font: 13px sans-serif; fill: #1f2937; }
-.svg-13-5 .multi-chain { font: bold 14px sans-serif; fill: #1f2937; }
-.svg-13-5 .multi-circle { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
-.svg-13-5 .multi-line { stroke: #5cb85c; stroke-width: 2; stroke-dasharray: 3,3; }
+.svg-13-6 .multi-title { font: bold 24px sans-serif; fill: #4c9be8; }
+.svg-13-6 .multi-label { font: 13px sans-serif; fill: #1f2937; }
+.svg-13-6 .multi-chain { font: bold 14px sans-serif; fill: #1f2937; }
+.svg-13-6 .multi-circle { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.svg-13-6 .multi-line { stroke: #5cb85c; stroke-width: 2; stroke-dasharray: 3,3; }
 </style>
 </defs>
 <text x="400" y="35" class="multi-title" text-anchor="middle">多链互联生态 (2025)</text>

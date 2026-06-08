@@ -75,12 +75,12 @@ CCBus 同时支持 BNB Chain(PoSA)、Solana(PoH+PoS)、Base(Op-Stack/OP Stack)�
 <svg class="svg-4-0" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-4-0 .cons-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-4-0 .cons-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .svg-4-0 .cons-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
-      .svg-4-0 .cons-circle-center { fill: #4c9be8; stroke: #1f2937; stroke-width: 0.5; }
-      .svg-4-0 .cons-circle-goal { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
-      .svg-4-0 .cons-line { stroke: #df6919; stroke-width: 0.5; }
+      .svg-4-0 .svg-4-0 .cons-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-4-0 .svg-4-0 .cons-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-4-0 .svg-4-0 .cons-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .svg-4-0 .svg-4-0 .cons-circle-center { fill: #4c9be8; stroke: #1f2937; stroke-width: 0.5; }
+      .svg-4-0 .svg-4-0 .cons-circle-goal { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
+      .svg-4-0 .svg-4-0 .cons-line { stroke: #df6919; stroke-width: 0.5; }
     </style>
     <marker id="cons-arrow-1" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#df6919"/>
@@ -132,17 +132,17 @@ CCBus 同时支持 BNB Chain(PoSA)、Solana(PoH+PoS)、Base(Op-Stack/OP Stack)�
 - 少数叛徒不能影响忠诚将军的一致性
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .svg-4-0 .byz-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-4-0 .byz-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
-      .svg-4-0 .byz-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-4-0 .byz-circle-loyal { fill: #5cb85c; stroke: #1f2937; stroke-width: 0.5; }
-      .svg-4-0 .byz-circle-traitor { fill: #d9534f; stroke: #1f2937; stroke-width: 0.5; }
-      .svg-4-0 .byz-line-true { stroke: #5cb85c; stroke-width: 1; stroke-dasharray: 2,2; }
-      .svg-4-0 .byz-line-false { stroke: #d9534f; stroke-width: 1; stroke-dasharray: 2,2; }
-      .svg-4-0 .byz-rect-city { fill: rgba(78, 93, 108, 0.3); stroke: #4e5d6c; stroke-width: 0.5; }
+<svg class="svg-4-1" viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-4-1 .byz-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-4-1 .byz-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .svg-4-1 .byz-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-4-1 .byz-circle-loyal { fill: #5cb85c; stroke: #1f2937; stroke-width: 0.5; }
+      .svg-4-1 .byz-circle-traitor { fill: #d9534f; stroke: #1f2937; stroke-width: 0.5; }
+      .svg-4-1 .byz-line-true { stroke: #5cb85c; stroke-width: 1; stroke-dasharray: 2,2; }
+      .svg-4-1 .byz-line-false { stroke: #d9534f; stroke-width: 1; stroke-dasharray: 2,2; }
+      .svg-4-1 .byz-rect-city { fill: rgba(78, 93, 108, 0.3); stroke: #4e5d6c; stroke-width: 0.5; }
     </style>
 </defs>
   <text class="byz-text-title" x="350" y="25" text-anchor="middle">拜占庭将军问题示意图</text>
@@ -213,16 +213,16 @@ CCBus 同时支持 BNB Chain(PoSA)、Solana(PoH+PoS)、Base(Op-Stack/OP Stack)�
 ### PoW 工作原理
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg class="svg-4-1" viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<svg class="svg-4-2" viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
-      .svg-4-1 .pow-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-4-1 .pow-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
-      .svg-4-1 .pow-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-4-1 .pow-rect-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-4-1 .pow-rect-success { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
-      .svg-4-1 .pow-rect-fail { fill: rgba(217, 83, 79, 0.2); stroke: #d9534f; stroke-width: 0.5; }
-      .svg-4-1 .pow-line { stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-4-2 .pow-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-4-2 .pow-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .svg-4-2 .pow-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-4-2 .pow-rect-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-4-2 .pow-rect-success { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
+      .svg-4-2 .pow-rect-fail { fill: rgba(217, 83, 79, 0.2); stroke: #d9534f; stroke-width: 0.5; }
+      .svg-4-2 .pow-line { stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="pow-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#4c9be8"/>
@@ -348,16 +348,16 @@ $$
 - **惩罚** (Slashing): 恶意行为会被没收质押金
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .svg-4-1 .pos-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-4-1 .pos-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
-      .svg-4-1 .pos-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-4-1 .pos-rect-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-4-1 .pos-rect-validator { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
-      .svg-4-1 .pos-line { stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-4-1 .pos-circle { fill: none; stroke: #df6919; stroke-width: 0.5; }
+<svg class="svg-4-3" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-4-3 .pos-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-4-3 .pos-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .svg-4-3 .pos-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-4-3 .pos-rect-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-4-3 .pos-rect-validator { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
+      .svg-4-3 .pos-line { stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-4-3 .pos-circle { fill: none; stroke: #df6919; stroke-width: 0.5; }
     </style>
     <marker id="pos-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#4c9be8"/>
@@ -465,15 +465,15 @@ $$
 ### DPoS 工作流程
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .svg-4-1 .dpos-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-4-1 .dpos-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
-      .svg-4-1 .dpos-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-4-1 .dpos-circle-holder { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-4-1 .dpos-rect-witness { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
-      .svg-4-1 .dpos-line { stroke: #df6919; stroke-width: 0.5; }
+<svg class="svg-4-4" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-4-4 .dpos-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-4-4 .dpos-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .svg-4-4 .dpos-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-4-4 .dpos-circle-holder { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-4-4 .dpos-rect-witness { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
+      .svg-4-4 .dpos-line { stroke: #df6919; stroke-width: 0.5; }
     </style>
     <marker id="dpos-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#df6919"/>
@@ -566,19 +566,19 @@ $$
 ### PBFT 三阶段协议
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 650 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .svg-4-1 .pbft-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-4-1 .pbft-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .svg-4-1 .pbft-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-4-1 .pbft-text-label { font-family: arial, sans-serif; font-size: 9px; fill: #4c9be8; font-weight: bold; }
-      .svg-4-1 .pbft-node-primary { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1; }
-      .svg-4-1 .pbft-node-backup { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-4-1 .pbft-box-phase { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 1; }
-      .svg-4-1 .pbft-line-flow { stroke: #4c9be8; stroke-width: 1.5; stroke-dasharray: 3,2; }
-      .svg-4-1 .pbft-line-broadcast { stroke: #df6919; stroke-width: 0.8; opacity: 0.6; }
-      .svg-4-1 .pbft-circle-step { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 1; }
+<svg class="svg-4-5" viewBox="0 0 650 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-4-5 .pbft-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-4-5 .pbft-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-4-5 .pbft-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-4-5 .pbft-text-label { font-family: arial, sans-serif; font-size: 9px; fill: #4c9be8; font-weight: bold; }
+      .svg-4-5 .pbft-node-primary { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1; }
+      .svg-4-5 .pbft-node-backup { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-4-5 .pbft-box-phase { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 1; }
+      .svg-4-5 .pbft-line-flow { stroke: #4c9be8; stroke-width: 1.5; stroke-dasharray: 3,2; }
+      .svg-4-5 .pbft-line-broadcast { stroke: #df6919; stroke-width: 0.8; opacity: 0.6; }
+      .svg-4-5 .pbft-circle-step { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 1; }
     </style>
     <marker id="pbft-arrow-blue" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>
@@ -741,17 +741,17 @@ $$
 | **适用场景** | 公链,高安全需求 | 公链,平衡性能与安全 | 公链,高性能需求 | 联盟链,企业应用 |
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .svg-4-1 .comp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .svg-4-1 .comp-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
-      .svg-4-1 .comp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-4-1 .comp-axis { stroke: #1f2937; stroke-width: 0.5; }
-      .svg-4-1 .comp-circle-pow { fill: rgba(217, 83, 79, 0.4); stroke: #d9534f; stroke-width: 0.5; }
-      .svg-4-1 .comp-circle-pos { fill: rgba(76, 156, 232, 0.4); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-4-1 .comp-circle-dpos { fill: rgba(223, 105, 25, 0.4); stroke: #df6919; stroke-width: 0.5; }
-      .svg-4-1 .comp-circle-pbft { fill: rgba(92, 184, 92, 0.4); stroke: #5cb85c; stroke-width: 0.5; }
+<svg class="svg-4-6" viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-4-6 .comp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-4-6 .comp-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .svg-4-6 .comp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-4-6 .comp-axis { stroke: #1f2937; stroke-width: 0.5; }
+      .svg-4-6 .comp-circle-pow { fill: rgba(217, 83, 79, 0.4); stroke: #d9534f; stroke-width: 0.5; }
+      .svg-4-6 .comp-circle-pos { fill: rgba(76, 156, 232, 0.4); stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-4-6 .comp-circle-dpos { fill: rgba(223, 105, 25, 0.4); stroke: #df6919; stroke-width: 0.5; }
+      .svg-4-6 .comp-circle-pbft { fill: rgba(92, 184, 92, 0.4); stroke: #5cb85c; stroke-width: 0.5; }
     </style>
 </defs>
   <text class="comp-text-title" x="350" y="25" text-anchor="middle">共识机制性能与去中心化权衡</text>

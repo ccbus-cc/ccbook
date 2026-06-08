@@ -80,14 +80,14 @@ CCBus 的批量钱包生成功能,本质上是客户端 MPC 友好的密钥派�
 <svg class="svg-9-0" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-9-0 .zkp-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-9-0 .zkp-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.svg-9-0 .zkp-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.svg-9-0 .zkp-cave { fill: rgba(78, 93, 108, 0.3); stroke: #4e5d6c; stroke-width: 2; }
-.svg-9-0 .zkp-path { fill: none; stroke: #4c9be8; stroke-width: 2; }
-.svg-9-0 .zkp-door { fill: rgba(220, 53, 69, 0.5); stroke: #dc3545; stroke-width: 2; }
-.svg-9-0 .zkp-person { fill: #df6919; }
-.svg-9-0 .zkp-arrow { stroke: #5cb85c; stroke-width: 2; fill: none; marker-end: url(#arrowZKP); }
+.svg-9-0 .svg-9-0 .zkp-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-9-0 .svg-9-0 .zkp-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-9-0 .svg-9-0 .zkp-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-9-0 .svg-9-0 .zkp-cave { fill: rgba(78, 93, 108, 0.3); stroke: #4e5d6c; stroke-width: 2; }
+.svg-9-0 .svg-9-0 .zkp-path { fill: none; stroke: #4c9be8; stroke-width: 2; }
+.svg-9-0 .svg-9-0 .zkp-door { fill: rgba(220, 53, 69, 0.5); stroke: #dc3545; stroke-width: 2; }
+.svg-9-0 .svg-9-0 .zkp-person { fill: #df6919; }
+.svg-9-0 .svg-9-0 .zkp-arrow { stroke: #5cb85c; stroke-width: 2; fill: none; marker-end: url(#arrowZKP); }
 </style>
 <marker id="arrowZKP" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
 <path d="M0,0 L0,6 L9,3 z" fill="#5cb85c"/>
@@ -157,17 +157,17 @@ CCBus 的批量钱包生成功能,本质上是客户端 MPC 友好的密钥派�
 **zk-SNARK**: Zero-Knowledge Succinct Non-Interactive Argument of Knowledge
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
+<svg class="svg-9-1" viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-9-0 .snark-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-9-0 .snark-subtitle { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
-.svg-9-0 .snark-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.svg-9-0 .snark-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.svg-9-0 .snark-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
-.svg-9-0 .snark-setup { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
-.svg-9-0 .snark-prove { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.svg-9-0 .snark-arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrowSnark); }
+.svg-9-1 .snark-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-9-1 .snark-subtitle { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
+.svg-9-1 .snark-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-9-1 .snark-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-9-1 .snark-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.svg-9-1 .snark-setup { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
+.svg-9-1 .snark-prove { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-9-1 .snark-arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrowSnark); }
 </style>
 <marker id="arrowSnark" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
 <path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>
@@ -303,16 +303,16 @@ VerifyProof(proof) → true/false
 **多方安全计算** (Secure Multi-Party Computation) 允许多方在不泄露各自私密输入的情况下，共同计算一个函数。
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 850 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
+<svg class="svg-9-2" viewBox="0 0 850 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-9-0 .mpc-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-9-0 .mpc-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.svg-9-0 .mpc-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.svg-9-0 .mpc-party { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
-.svg-9-0 .mpc-secret { fill: rgba(220, 53, 69, 0.3); stroke: #dc3545; stroke-width: 2; }
-.svg-9-0 .mpc-result { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 2; }
-.svg-9-0 .mpc-line { stroke: #1f2937; stroke-width: 1.5; stroke-dasharray: 5,5; fill: none; }
+.svg-9-2 .mpc-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-9-2 .mpc-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-9-2 .mpc-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-9-2 .mpc-party { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
+.svg-9-2 .mpc-secret { fill: rgba(220, 53, 69, 0.3); stroke: #dc3545; stroke-width: 2; }
+.svg-9-2 .mpc-result { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 2; }
+.svg-9-2 .mpc-line { stroke: #1f2937; stroke-width: 1.5; stroke-dasharray: 5,5; fill: none; }
 </style>
 </defs>
 <text x="425" y="25" text-anchor="middle" class="mpc-title">多方安全计算 (MPC) 示例：百万富翁问题</text>
@@ -446,16 +446,16 @@ contract PrivateAuction {
 **同态加密**允许在加密数据上直接进行计算，解密后得到正确结果。
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg class="svg-9-1" viewBox="0 0 850 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
+<svg class="svg-9-3" viewBox="0 0 850 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-9-1 .he-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-9-1 .he-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.svg-9-1 .he-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.svg-9-1 .he-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
-.svg-9-1 .he-encrypt { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
-.svg-9-1 .he-compute { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.svg-9-1 .he-arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrowHE); }
+.svg-9-3 .he-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-9-3 .he-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-9-3 .he-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-9-3 .he-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.svg-9-3 .he-encrypt { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
+.svg-9-3 .he-compute { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-9-3 .he-arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrowHE); }
 </style>
 <marker id="arrowHE" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
 <path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>
@@ -562,16 +562,16 @@ contract PrivateAuction {
 **t-of-n 门限签名**：n 个参与方共享私钥，任意 t 个参与方可生成有效签名。
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
+<svg class="svg-9-4" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-9-1 .tss-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-9-1 .tss-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.svg-9-1 .tss-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.svg-9-1 .tss-party { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
-.svg-9-1 .tss-active { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 3; }
-.svg-9-1 .tss-inactive { fill: rgba(78, 93, 108, 0.2); stroke: #4e5d6c; stroke-width: 2; stroke-dasharray: 5,5; }
-.svg-9-1 .tss-sig { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 2; }
+.svg-9-4 .tss-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-9-4 .tss-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-9-4 .tss-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-9-4 .tss-party { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
+.svg-9-4 .tss-active { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 3; }
+.svg-9-4 .tss-inactive { fill: rgba(78, 93, 108, 0.2); stroke: #4e5d6c; stroke-width: 2; stroke-dasharray: 5,5; }
+.svg-9-4 .tss-sig { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 2; }
 </style>
 </defs>
 <text x="400" y="25" text-anchor="middle" class="tss-title">门限签名 (Threshold Signature) - 3-of-5 示例</text>
@@ -756,15 +756,15 @@ contract DiceGame is VRFConsumerBase {
 ## 9.6 隐私保护技术对比
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg class="svg-9-2" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
+<svg class="svg-9-5" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-9-2 .priv-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-9-2 .priv-header { font-family: arial, sans-serif; font-size: 12px; fill: #1f2937; font-weight: bold; }
-.svg-9-2 .priv-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.svg-9-2 .priv-small { font-family: arial, sans-serif; font-size: 8px; fill: #b0a090; }
-.svg-9-2 .priv-cell { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 1; }
-.svg-9-2 .priv-header-cell { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 2; }
+.svg-9-5 .priv-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-9-5 .priv-header { font-family: arial, sans-serif; font-size: 12px; fill: #1f2937; font-weight: bold; }
+.svg-9-5 .priv-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-9-5 .priv-small { font-family: arial, sans-serif; font-size: 8px; fill: #b0a090; }
+.svg-9-5 .priv-cell { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 1; }
+.svg-9-5 .priv-header-cell { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 2; }
 </style>
 </defs>
 <text x="450" y="25" text-anchor="middle" class="priv-title">区块链隐私保护技术对比</text>

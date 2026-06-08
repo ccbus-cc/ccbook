@@ -62,13 +62,13 @@ title: "第十五章：安全与最佳实践"
 <svg class="svg-15-0" viewBox="0 0 900 580" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-15-0 .sec-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-15-0 .sec-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.svg-15-0 .sec-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.svg-15-0 .sec-box-critical { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
-.svg-15-0 .sec-box-high { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
-.svg-15-0 .sec-box-medium { fill: rgba(255, 193, 7, 0.2); stroke: rgba(245, 194, 66, 0.20); stroke-width: 1.5; }
-.svg-15-0 .sec-box-low { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
+.svg-15-0 .svg-15-0 .sec-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-0 .svg-15-0 .sec-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-0 .svg-15-0 .sec-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-0 .svg-15-0 .sec-box-critical { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
+.svg-15-0 .svg-15-0 .sec-box-high { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
+.svg-15-0 .svg-15-0 .sec-box-medium { fill: rgba(255, 193, 7, 0.2); stroke: rgba(245, 194, 66, 0.20); stroke-width: 1.5; }
+.svg-15-0 .svg-15-0 .sec-box-low { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
 </style>
 </defs>
 <text class="sec-text-title" x="450" y="25" text-anchor="middle">区块链安全威胁全景图</text>
@@ -179,12 +179,12 @@ title: "第十五章：安全与最佳实践"
 <svg class="svg-15-1" viewBox="0 0 850 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-15-1 .reen-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-15-1 .reen-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.svg-15-1 .reen-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.svg-15-1 .reen-box-vuln { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
-.svg-15-1 .reen-box-safe { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.svg-15-1 .reen-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#arrowhead-reen); }
+.svg-15-1 .svg-15-1 .reen-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-1 .svg-15-1 .reen-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-1 .svg-15-1 .reen-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-1 .svg-15-1 .reen-box-vuln { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
+.svg-15-1 .svg-15-1 .reen-box-safe { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-15-1 .svg-15-1 .reen-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#arrowhead-reen); }
 </style>
 <marker id="arrowhead-reen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
 <polygon points="0 0, 10 3, 0 6" fill="#df6919" />
@@ -296,14 +296,14 @@ contract SecureBank is ReentrancyGuard {
 ### 15.2.2 访问控制最佳实践
 
 <div style="text-align: center; margin: 2em 0;">
-<svg viewBox="0 0 850 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
+<svg class="svg-15-2" viewBox="0 0 850 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-15-1 .ac-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-15-1 .ac-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.svg-15-1 .ac-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.svg-15-1 .ac-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.5; }
-.svg-15-1 .ac-box-pattern { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
+.svg-15-2 .ac-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-2 .ac-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-2 .ac-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-2 .ac-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.5; }
+.svg-15-2 .ac-box-pattern { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
 </style>
 </defs>
 <text class="ac-text-title" x="425" y="25" text-anchor="middle">访问控制模式对比</text>
@@ -490,14 +490,14 @@ contract SafeMath {
 ### 15.3.1 审计流程
 
 <div style="text-align: center; margin: 2em 0;">
-<svg class="svg-15-2" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
+<svg class="svg-15-3" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-15-2 .audit-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-15-2 .audit-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.svg-15-2 .audit-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.svg-15-2 .audit-step { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
-.svg-15-2 .audit-arrow { stroke: #5cb85c; stroke-width: 2; fill: none; marker-end: url(#arrowhead-audit); }
+.svg-15-3 .audit-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-3 .audit-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-3 .audit-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-3 .audit-step { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
+.svg-15-3 .audit-arrow { stroke: #5cb85c; stroke-width: 2; fill: none; marker-end: url(#arrowhead-audit); }
 </style>
 <marker id="arrowhead-audit" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
 <polygon points="0 0, 10 3, 0 6" fill="#5cb85c" />
@@ -679,15 +679,15 @@ echidna-test contracts/BankTest.sol --contract BankTest --config echidna.yaml
 ### 15.4.1 私钥管理最佳实践
 
 <div style="text-align: center; margin: 2em 0;">
-<svg viewBox="0 0 850 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
+<svg class="svg-15-4" viewBox="0 0 850 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-15-2 .key-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-15-2 .key-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.svg-15-2 .key-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.svg-15-2 .key-box-bad { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
-.svg-15-2 .key-box-good { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.svg-15-2 .key-box-best { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.svg-15-4 .key-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-4 .key-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-4 .key-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-4 .key-box-bad { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
+.svg-15-4 .key-box-good { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-15-4 .key-box-best { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
 </style>
 </defs>
 <text class="key-text-title" x="425" y="25" text-anchor="middle">私钥管理方案对比</text>
@@ -897,14 +897,14 @@ contract SimpleMultiSig {
 ### 15.5.1 前端安全威胁模型
 
 <div style="text-align: center; margin: 2em 0;">
-<svg class="svg-15-3" viewBox="0 0 850 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
+<svg class="svg-15-5" viewBox="0 0 850 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.svg-15-3 .fe-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.svg-15-3 .fe-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.svg-15-3 .fe-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.svg-15-3 .fe-box-threat { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
-.svg-15-3 .fe-box-defense { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
+.svg-15-5 .fe-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-5 .fe-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-5 .fe-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-5 .fe-box-threat { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
+.svg-15-5 .fe-box-defense { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
 </style>
 </defs>
 <text class="fe-text-title" x="425" y="25" text-anchor="middle">DApp 前端安全威胁与防御</text>
@@ -1070,14 +1070,14 @@ async function checkAllowance(
 ### 15.6.1 应急响应流程
 
 <div style="text-align: center; margin: 2em 0;">
-<svg viewBox="0 0 850 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
+<svg class="svg-15-6" viewBox="0 0 850 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.ir-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.ir-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.ir-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.ir-phase { fill: rgba(220, 53, 69, 0.3); stroke: #dc3545; stroke-width: 2; }
-.ir-arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrowhead-ir); }
+.svg-15-6 .ir-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-6 .ir-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-6 .ir-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-6 .ir-phase { fill: rgba(220, 53, 69, 0.3); stroke: #dc3545; stroke-width: 2; }
+.svg-15-6 .ir-arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrowhead-ir); }
 </style>
 <marker id="arrowhead-ir" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
 <polygon points="0 0, 10 3, 0 6" fill="#1f2937" />
