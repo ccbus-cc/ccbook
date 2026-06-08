@@ -71,19 +71,19 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 区块链系统通常采用分层架构设计，每层负责特定功能，层与层之间通过定义良好的接口交互。
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 750 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .arch-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .arch-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .arch-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .arch-layer-app { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
-      .arch-layer-contract { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
-      .arch-layer-consensus { fill: rgba(92, 184, 92, 0.25); stroke: #5cb85c; stroke-width: 1.5; }
-      .arch-layer-network { fill: rgba(156, 89, 182, 0.25); stroke: #9c59b6; stroke-width: 1.5; }
-      .arch-layer-data { fill: rgba(241, 196, 15, 0.25); stroke: rgba(245, 194, 66, 0.20); stroke-width: 1.5; }
-      .arch-layer-infra { fill: rgba(52, 73, 94, 0.35); stroke: #34495e; stroke-width: 1.5; }
-      .arch-arrow { stroke: #4c9be8; stroke-width: 1; stroke-dasharray: 3,2; }
+<svg class="svg-6-0" viewBox="0 0 750 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-6-0 .arch-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-6-0 .arch-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-6-0 .arch-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-6-0 .arch-layer-app { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
+      .svg-6-0 .arch-layer-contract { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
+      .svg-6-0 .arch-layer-consensus { fill: rgba(92, 184, 92, 0.25); stroke: #5cb85c; stroke-width: 1.5; }
+      .svg-6-0 .arch-layer-network { fill: rgba(156, 89, 182, 0.25); stroke: #9c59b6; stroke-width: 1.5; }
+      .svg-6-0 .arch-layer-data { fill: rgba(241, 196, 15, 0.25); stroke: rgba(245, 194, 66, 0.20); stroke-width: 1.5; }
+      .svg-6-0 .arch-layer-infra { fill: rgba(52, 73, 94, 0.35); stroke: #34495e; stroke-width: 1.5; }
+      .svg-6-0 .arch-arrow { stroke: #4c9be8; stroke-width: 1; stroke-dasharray: 3,2; }
     </style>
     <marker id="arch-arrow-down" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>
@@ -154,14 +154,14 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 <svg viewBox="0 0 750 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .p2p-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .p2p-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .p2p-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .p2p-node-full { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 1.5; }
-      .p2p-node-light { fill: rgba(92, 184, 92, 0.25); stroke: #5cb85c; stroke-width: 1; }
-      .p2p-node-archive { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1.5; }
-      .p2p-line-conn { stroke: #4c9be8; stroke-width: 0.8; opacity: 0.5; }
-      .p2p-line-sync { stroke: #5cb85c; stroke-width: 1.2; stroke-dasharray: 4,2; }
+      .svg-6-0 .p2p-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-6-0 .p2p-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-6-0 .p2p-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-6-0 .p2p-node-full { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 1.5; }
+      .svg-6-0 .p2p-node-light { fill: rgba(92, 184, 92, 0.25); stroke: #5cb85c; stroke-width: 1; }
+      .svg-6-0 .p2p-node-archive { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1.5; }
+      .svg-6-0 .p2p-line-conn { stroke: #4c9be8; stroke-width: 0.8; opacity: 0.5; }
+      .svg-6-0 .p2p-line-sync { stroke: #5cb85c; stroke-width: 1.2; stroke-dasharray: 4,2; }
     </style>
     <marker id="p2p-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#5cb85c"/>
@@ -264,12 +264,12 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .prop-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .prop-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .prop-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .prop-box-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
-      .prop-circle-node { fill: rgba(92, 184, 92, 0.25); stroke: #5cb85c; stroke-width: 1; }
-      .prop-wave { stroke: #df6919; stroke-width: 2; fill: none; opacity: 0.6; }
+      .svg-6-0 .prop-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-6-0 .prop-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-6-0 .prop-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-6-0 .prop-box-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .svg-6-0 .prop-circle-node { fill: rgba(92, 184, 92, 0.25); stroke: #5cb85c; stroke-width: 1; }
+      .svg-6-0 .prop-wave { stroke: #df6919; stroke-width: 2; fill: none; opacity: 0.6; }
     </style>
     <marker id="prop-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#df6919"/>
@@ -347,13 +347,13 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 <svg viewBox="0 0 750 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .blk-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .blk-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .blk-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .blk-box-header { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
-      .blk-box-body { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
-      .blk-box-field { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 0.8; }
-      .blk-line-link { stroke: #4c9be8; stroke-width: 1.2; stroke-dasharray: 3,2; }
+      .svg-6-0 .blk-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-6-0 .blk-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-6-0 .blk-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-6-0 .blk-box-header { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
+      .svg-6-0 .blk-box-body { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
+      .svg-6-0 .blk-box-field { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 0.8; }
+      .svg-6-0 .blk-line-link { stroke: #4c9be8; stroke-width: 1.2; stroke-dasharray: 3,2; }
     </style>
     <marker id="blk-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>
@@ -459,13 +459,13 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 <svg viewBox="0 0 750 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .acc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .acc-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .acc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .acc-box-account { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.2; }
-      .acc-box-utxo { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.2; }
+      .svg-6-0 .acc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-6-0 .acc-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-6-0 .acc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-6-0 .acc-box-account { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.2; }
+      .svg-6-0 .acc-box-utxo { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.2; }
     </style>
-  </defs>
+</defs>
   <text class="acc-text-title" x="375" y="25" text-anchor="middle">账户模型 vs UTXO模型对比</text>
   <rect class="acc-box-account" x="30" y="50" width="330" height="370" rx="4"/>
   <text class="acc-text" x="195" y="72" text-anchor="middle" font-weight="bold">账户模型 (Account Model)</text>
@@ -598,18 +598,18 @@ def verify_account_balance(address, balance, proof, state_root):
 ### 单链 vs 多链 vs 分片
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 750 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .comp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .comp-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .comp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .comp-box-single { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
-      .comp-box-multi { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
-      .comp-box-shard { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
-      .comp-block { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 0.8; }
+<svg class="svg-6-1" viewBox="0 0 750 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-6-1 .comp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-6-1 .comp-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-6-1 .comp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-6-1 .comp-box-single { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .svg-6-1 .comp-box-multi { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
+      .svg-6-1 .comp-box-shard { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
+      .svg-6-1 .comp-block { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 0.8; }
     </style>
-  </defs>
+</defs>
   <text class="comp-text-title" x="375" y="25" text-anchor="middle">区块链架构模式对比</text>
   <rect class="comp-box-single" x="30" y="50" width="220" height="400" rx="4"/>
   <text class="comp-text" x="140" y="70" text-anchor="middle" font-weight="bold">单链架构</text>
@@ -806,15 +806,15 @@ def verify_account_balance(address, balance, proof, state_root):
 ### 性能优化策略
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .perf-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-      .perf-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-      .perf-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .perf-box-opt { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+<svg class="svg-6-2" viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-6-2 .perf-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-6-2 .perf-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-6-2 .perf-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-6-2 .perf-box-opt { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
     </style>
-  </defs>
+</defs>
   <text class="perf-text-title" x="350" y="25" text-anchor="middle">高性能区块链优化策略</text>
   <rect class="perf-box-opt" x="30" y="50" width="320" height="180" rx="4"/>
   <text class="perf-text" x="190" y="70" text-anchor="middle" font-weight="bold">1. 并行执行</text>

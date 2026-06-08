@@ -89,14 +89,14 @@ CCBus 提供了完整的密码学工具可视化界面,你可以用它来体验�
 ### 区块链中的密码学应用
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 700px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .crypto-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
-      .crypto-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
-      .crypto-box-main { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .crypto-box-sub { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
-      .crypto-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
+<svg class="svg-2-0" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 700px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-2-0 .crypto-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-0 .crypto-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
+      .svg-2-0 .crypto-box-main { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .crypto-box-sub { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .crypto-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="crypto-arrow-1" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -216,12 +216,12 @@ console.log(sha256('Hello, blockchain!'));  // 注意小写 b
 <svg viewBox="0 0 350 45" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .chain-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
-      .chain-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
-      .chain-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .chain-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .chain-box3 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
-      .chain-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .chain-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-0 .chain-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
+      .svg-2-0 .chain-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .chain-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .chain-box3 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-0 .chain-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="chain-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -269,13 +269,13 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
 <svg viewBox="0 0 480 60" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .addr-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
-      .addr-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
-      .addr-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
-      .addr-box-start { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .addr-box-mid { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .addr-box-end { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
-      .addr-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .addr-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-0 .addr-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-0 .addr-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
+      .svg-2-0 .addr-box-start { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .addr-box-mid { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .addr-box-end { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-0 .addr-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="addr-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -332,12 +332,12 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
 <svg viewBox="0 0 320 195" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 400px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .seq-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
-      .seq-label { font-size: 10px; fill: #ccc; }
-      .seq-box { fill: #1f2020; stroke: #ccc; stroke-width: 0.5; }
-      .seq-line { stroke: #999; stroke-width: 0.5; }
-      .seq-arrow { fill: #4c9be8; stroke: #4c9be8; stroke-width: 0.5; }
-      .seq-note { fill: #4e5d6c; stroke: #666; stroke-width: 0.5; }
+      .svg-2-0 .seq-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-0 .seq-label { font-size: 10px; fill: #ccc; }
+      .svg-2-0 .seq-box { fill: #1f2020; stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .seq-line { stroke: #999; stroke-width: 0.5; }
+      .svg-2-0 .seq-arrow { fill: #4c9be8; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .seq-note { fill: #4e5d6c; stroke: #666; stroke-width: 0.5; }
     </style>
     <marker id="arrowhead-compact" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" class="seq-arrow"/>
@@ -396,15 +396,15 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
 <svg viewBox="0 0 380 110" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .key-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
-      .key-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
-      .key-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
-      .key-box-gen { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .key-box-pk { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .key-box-sk { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
-      .key-box-rel { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .key-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
-      .key-dash { fill: none; stroke: #999; stroke-width: 0.5; stroke-dasharray: 3,2; }
+      .svg-2-0 .key-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-0 .key-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-0 .key-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
+      .svg-2-0 .key-box-gen { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .key-box-pk { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .key-box-sk { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-0 .key-box-rel { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .key-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .key-dash { fill: none; stroke: #999; stroke-width: 0.5; stroke-dasharray: 3,2; }
     </style>
     <marker id="key-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -432,11 +432,11 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
 <svg viewBox="0 0 280 160" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 350px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .enc-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
-      .enc-label { font-size: 10px; fill: #ccc; }
-      .enc-box { fill: #1f2020; stroke: #ccc; stroke-width: 0.5; }
-      .enc-line { stroke: #999; stroke-width: 0.5; }
-      .enc-arrow { fill: #4c9be8; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .enc-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-0 .enc-label { font-size: 10px; fill: #ccc; }
+      .svg-2-0 .enc-box { fill: #1f2020; stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .enc-line { stroke: #999; stroke-width: 0.5; }
+      .svg-2-0 .enc-arrow { fill: #4c9be8; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="enc-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" class="enc-arrow"/>
@@ -498,13 +498,13 @@ const decrypted = rsaDecrypt(encrypted, privateKey);
 <svg viewBox="0 0 520 60" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .ecc-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .ecc-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
-      .ecc-box1 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .ecc-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .ecc-box3 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .ecc-box4 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
-      .ecc-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .ecc-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-2-0 .ecc-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
+      .svg-2-0 .ecc-box1 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .ecc-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .ecc-box3 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .ecc-box4 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-0 .ecc-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="ecc-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -587,17 +587,17 @@ console.log('地址: 0x' + address);
 <svg viewBox="0 0 580 90" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 650px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .digsig-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
-      .digsig-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
-      .digsig-box-msg { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .digsig-box-hash { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
-      .digsig-box-sign { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
-      .digsig-box-sig { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
-      .digsig-box-verify { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
-      .digsig-box-valid { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .digsig-box-invalid { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
-      .digsig-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
-      .digsig-arrow-dash { fill: none; stroke: #4c9be8; stroke-width: 0.5; stroke-dasharray: 3,2; }
+      .svg-2-0 .digsig-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-0 .digsig-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
+      .svg-2-0 .digsig-box-msg { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .digsig-box-hash { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .digsig-box-sign { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .digsig-box-sig { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-0 .digsig-box-verify { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .digsig-box-valid { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .digsig-box-invalid { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
+      .svg-2-0 .digsig-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .digsig-arrow-dash { fill: none; stroke: #4c9be8; stroke-width: 0.5; stroke-dasharray: 3,2; }
     </style>
     <marker id="digsig-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -686,14 +686,14 @@ console.log('签名有效:', isValid);  // true
 <svg viewBox="0 0 480 45" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .btc-sig-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
-      .btc-sig-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
-      .btc-sig-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .btc-sig-box2 { fill: #1f2020; stroke: #ccc; stroke-width: 0.5; }
-      .btc-sig-box3 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .btc-sig-box4 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
-      .btc-sig-box5 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .btc-sig-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .btc-sig-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-0 .btc-sig-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
+      .svg-2-0 .btc-sig-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .btc-sig-box2 { fill: #1f2020; stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .btc-sig-box3 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .btc-sig-box4 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-0 .btc-sig-box5 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .btc-sig-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="btc-sig-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -726,16 +726,16 @@ console.log('签名有效:', isValid);  // true
 <svg viewBox="0 0 470 140" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .multisig-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
-      .multisig-text-sm { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .multisig-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
-      .multisig-text-sm-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
-      .multisig-box-main { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .multisig-box-user { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .multisig-box-tx { fill: #1f2020; stroke: #ccc; stroke-width: 0.5; }
-      .multisig-box-sign { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .multisig-box-valid { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
-      .multisig-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .multisig-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
+      .svg-2-0 .multisig-text-sm { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-2-0 .multisig-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
+      .svg-2-0 .multisig-text-sm-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
+      .svg-2-0 .multisig-box-main { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .multisig-box-user { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .multisig-box-tx { fill: #1f2020; stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .multisig-box-sign { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .multisig-box-valid { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-0 .multisig-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="multisig-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -786,17 +786,17 @@ OP_CHECKMULTISIG
 <svg viewBox="0 0 380 180" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .merkle-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .merkle-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
-      .merkle-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
-      .merkle-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .merkle-box-root { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
-      .merkle-box-mid { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .merkle-box-leaf { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .merkle-box-tx { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
-      .merkle-line { stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .merkle-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-2-0 .merkle-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-0 .merkle-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
+      .svg-2-0 .merkle-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
+      .svg-2-0 .merkle-box-root { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-0 .merkle-box-mid { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .merkle-box-leaf { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-0 .merkle-box-tx { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-0 .merkle-line { stroke: #4c9be8; stroke-width: 0.5; }
     </style>
-  </defs>
+</defs>
   <rect class="merkle-box-root" x="145" y="5" width="90" height="25" rx="2"/>
   <text class="merkle-text-dark" x="190" y="21" text-anchor="middle">Merkle Root</text>
   <line class="merkle-line" x1="190" y1="30" x2="100" y2="50"/>
@@ -884,19 +884,19 @@ console.log('Merkle Root:', tree.getRoot());
 轻量级验证，无需下载全部数据。
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 550 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
-  <defs>
-    <style>
-      .merkle-proof-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .merkle-proof-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
-      .merkle-proof-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
-      .merkle-proof-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .merkle-proof-box-proof { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .merkle-proof-box-proc { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
-      .merkle-proof-box-cmp { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .merkle-proof-box-valid { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .merkle-proof-box-invalid { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
-      .merkle-proof-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
+<svg class="svg-2-1" viewBox="0 0 550 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-2-1 .merkle-proof-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-2-1 .merkle-proof-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-1 .merkle-proof-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
+      .svg-2-1 .merkle-proof-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
+      .svg-2-1 .merkle-proof-box-proof { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-1 .merkle-proof-box-proc { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-1 .merkle-proof-box-cmp { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-1 .merkle-proof-box-valid { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-1 .merkle-proof-box-invalid { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
+      .svg-2-1 .merkle-proof-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="merkle-proof-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -999,15 +999,15 @@ console.log('验证结果:', isValid);  // true
 <svg viewBox="0 0 550 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .btc-block-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .btc-block-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
-      .btc-block-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
-      .btc-block-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .btc-block-box-std { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .btc-block-box-mr { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
-      .btc-block-box-tx { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .btc-block-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
-      .btc-block-dash { fill: none; stroke: #999; stroke-width: 0.5; stroke-dasharray: 3,2; }
+      .svg-2-1 .btc-block-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-2-1 .btc-block-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-1 .btc-block-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
+      .svg-2-1 .btc-block-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
+      .svg-2-1 .btc-block-box-std { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-1 .btc-block-box-mr { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-1 .btc-block-box-tx { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-1 .btc-block-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-1 .btc-block-dash { fill: none; stroke: #999; stroke-width: 0.5; stroke-dasharray: 3,2; }
     </style>
     <marker id="btc-block-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -1044,15 +1044,15 @@ console.log('验证结果:', isValid);  // true
 <svg viewBox="0 0 320 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 400px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .spv-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .spv-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
-      .spv-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
-      .spv-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .spv-box-full { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .spv-box-full-verify { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .spv-box-light { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .spv-box-light-verify { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
-      .spv-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-2-1 .spv-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-2-1 .spv-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-1 .spv-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
+      .svg-2-1 .spv-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
+      .svg-2-1 .spv-box-full { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-1 .spv-box-full-verify { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-1 .spv-box-light { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-1 .spv-box-light-verify { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-1 .spv-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="spv-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
@@ -1081,15 +1081,15 @@ console.log('验证结果:', isValid);  // true
 <svg viewBox="0 0 360 70" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .state-tree-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .state-tree-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
-      .state-tree-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
-      .state-tree-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .state-tree-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .state-tree-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .state-tree-box3 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-1 .state-tree-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
+      .svg-2-1 .state-tree-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
+      .svg-2-1 .state-tree-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
+      .svg-2-1 .state-tree-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
+      .svg-2-1 .state-tree-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-1 .state-tree-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .svg-2-1 .state-tree-box3 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
     </style>
-  </defs>
+</defs>
   <rect class="state-tree-box1" x="10" y="10" width="80" height="40" rx="2"/>
   <text class="state-tree-text-dark" x="50" y="26" text-anchor="middle">状态树</text>
   <text class="state-tree-text-sm-dark" x="50" y="40" text-anchor="middle">账户状态</text>

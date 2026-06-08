@@ -51,16 +51,16 @@ title: "第十六章：区块链的未来"
 区块链技术正处于快速演进阶段。从比特币的诞生（2009年）到以太坊的智能合约革命（2015年），再到当前的模块化区块链时代（2024-2025年），每个阶段都带来了质的飞跃。
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+<svg class="svg-16-0" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
-.timeline-arrow { fill: none; stroke: #4c9be8; stroke-width: 3; }
-.timeline-point { fill: #4c9be8; }
-.timeline-box { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
-.timeline-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 13px; }
-.timeline-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
-.timeline-year { fill: #df6919; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
-.timeline-future { stroke-dasharray: 5,5; }
+.svg-16-0 .timeline-arrow { fill: none; stroke: #4c9be8; stroke-width: 3; }
+.svg-16-0 .timeline-point { fill: #4c9be8; }
+.svg-16-0 .timeline-box { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
+.svg-16-0 .timeline-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 13px; }
+.svg-16-0 .timeline-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
+.svg-16-0 .timeline-year { fill: #df6919; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
+.svg-16-0 .timeline-future { stroke-dasharray: 5,5; }
 </style>
 </defs>
 <text x="500" y="30" text-anchor="middle" class="timeline-title" font-size="18px">区块链技术演进路线图 (2009-2030)</text>
@@ -339,15 +339,15 @@ $$
 ### 16.2.3 Danksharding 路线图
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg">
+<svg class="svg-16-1" viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
-.dank-box { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
-.dank-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 13px; }
-.dank-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; }
-.dank-arrow { fill: none; stroke: #4c9be8; stroke-width: 2; }
-.dank-label { fill: #df6919; font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
-.dank-metric { fill: #5cb85c; font-family: Arial, sans-serif; font-size: 11px; }
+.svg-16-1 .dank-box { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
+.svg-16-1 .dank-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 13px; }
+.svg-16-1 .dank-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; }
+.svg-16-1 .dank-arrow { fill: none; stroke: #4c9be8; stroke-width: 2; }
+.svg-16-1 .dank-label { fill: #df6919; font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
+.svg-16-1 .dank-metric { fill: #5cb85c; font-family: Arial, sans-serif; font-size: 11px; }
 </style>
 </defs>
 <text x="450" y="30" text-anchor="middle" class="dank-title" font-size="18px">以太坊 Danksharding 扩容路线图</text>
@@ -432,15 +432,15 @@ $$
 ### 16.3.1 当前融合案例
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
+<svg class="svg-16-2" viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
-.ai-box { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
-.ai-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 12px; }
-.ai-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
-.ai-arrow { fill: none; stroke: #4c9be8; stroke-width: 2; }
-.ai-center { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 3; }
-.ai-label { fill: #df6919; font-family: Arial, sans-serif; font-size: 11px; font-weight: bold; }
+.svg-16-2 .ai-box { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
+.svg-16-2 .ai-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 12px; }
+.svg-16-2 .ai-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
+.svg-16-2 .ai-arrow { fill: none; stroke: #4c9be8; stroke-width: 2; }
+.svg-16-2 .ai-center { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 3; }
+.svg-16-2 .ai-label { fill: #df6919; font-family: Arial, sans-serif; font-size: 11px; font-weight: bold; }
 </style>
 </defs>
 <text x="500" y="30" text-anchor="middle" class="ai-title" font-size="18px">AI + 区块链融合生态全景图</text>
@@ -578,15 +578,15 @@ Subnet 18: 数据清洗
 ### 16.4.1 市场规模
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
+<svg class="svg-16-3" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
-.rwa-bar { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
-.rwa-bar-future { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 2; }
-.rwa-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 12px; }
-.rwa-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; }
-.rwa-label { fill: #df6919; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; }
-.rwa-axis { stroke: #666; stroke-width: 1; }
+.svg-16-3 .rwa-bar { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
+.svg-16-3 .rwa-bar-future { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 2; }
+.svg-16-3 .rwa-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 12px; }
+.svg-16-3 .rwa-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; }
+.svg-16-3 .rwa-label { fill: #df6919; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; }
+.svg-16-3 .rwa-axis { stroke: #666; stroke-width: 1; }
 </style>
 </defs>
 <text x="450" y="30" text-anchor="middle" class="rwa-title" font-size="18px">RWA 代币化市场规模预测 (2024-2030)</text>
@@ -830,16 +830,16 @@ contract RestrictedToken is ERC20, ERC1404 {
 ### 16.5.1 全球监管格局（2025年）
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+<svg class="svg-16-4" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
-.reg-box { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
-.reg-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 11px; }
-.reg-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; }
-.reg-friendly { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
-.reg-neutral { fill: rgba(255, 193, 7, 0.15); stroke: rgba(245, 194, 66, 0.20); stroke-width: 2; }
-.reg-strict { fill: rgba(217, 83, 79, 0.15); stroke: #d9534f; stroke-width: 2; }
-.reg-label { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
+.svg-16-4 .reg-box { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
+.svg-16-4 .reg-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 11px; }
+.svg-16-4 .reg-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; }
+.svg-16-4 .reg-friendly { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
+.svg-16-4 .reg-neutral { fill: rgba(255, 193, 7, 0.15); stroke: rgba(245, 194, 66, 0.20); stroke-width: 2; }
+.svg-16-4 .reg-strict { fill: rgba(217, 83, 79, 0.15); stroke: #d9534f; stroke-width: 2; }
+.svg-16-4 .reg-label { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
 </style>
 </defs>
 <text x="500" y="30" text-anchor="middle" class="reg-title" font-size="18px">全球区块链监管格局对比 (2025)</text>
@@ -1167,15 +1167,15 @@ Solver (求解器) 竞争执行:
 ### 16.6.5 大规模采用时间线
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 900 450" xmlns="http://www.w3.org/2000/svg">
+<svg class="svg-16-5" viewBox="0 0 900 450" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
-.adopt-line { fill: none; stroke: #4c9be8; stroke-width: 3; }
-.adopt-point { fill: #4c9be8; }
-.adopt-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 11px; }
-.adopt-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
-.adopt-label { fill: #df6919; font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
-.adopt-axis { stroke: #666; stroke-width: 1; }
+.svg-16-5 .adopt-line { fill: none; stroke: #4c9be8; stroke-width: 3; }
+.svg-16-5 .adopt-point { fill: #4c9be8; }
+.svg-16-5 .adopt-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 11px; }
+.svg-16-5 .adopt-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
+.svg-16-5 .adopt-label { fill: #df6919; font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
+.svg-16-5 .adopt-axis { stroke: #666; stroke-width: 1; }
 </style>
 </defs>
 <text x="450" y="30" text-anchor="middle" class="adopt-title" font-size="18px">Web3 用户增长预测 (2020-2030)</text>

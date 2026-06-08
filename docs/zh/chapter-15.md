@@ -59,16 +59,16 @@ title: "第十五章：安全与最佳实践"
 ### 15.1.1 安全威胁全景图
 
 <div style="text-align: center; margin: 2em 0;">
-<svg viewBox="0 0 900 580" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
+<svg class="svg-15-0" viewBox="0 0 900 580" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.sec-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.sec-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.sec-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.sec-box-critical { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
-.sec-box-high { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
-.sec-box-medium { fill: rgba(255, 193, 7, 0.2); stroke: rgba(245, 194, 66, 0.20); stroke-width: 1.5; }
-.sec-box-low { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
+.svg-15-0 .sec-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-0 .sec-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-0 .sec-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-0 .sec-box-critical { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
+.svg-15-0 .sec-box-high { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
+.svg-15-0 .sec-box-medium { fill: rgba(255, 193, 7, 0.2); stroke: rgba(245, 194, 66, 0.20); stroke-width: 1.5; }
+.svg-15-0 .sec-box-low { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
 </style>
 </defs>
 <text class="sec-text-title" x="450" y="25" text-anchor="middle">区块链安全威胁全景图</text>
@@ -176,15 +176,15 @@ title: "第十五章：安全与最佳实践"
 **重入攻击**是智能合约中最常见也是最危险的漏洞之一。
 
 <div style="text-align: center; margin: 2em 0;">
-<svg viewBox="0 0 850 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
+<svg class="svg-15-1" viewBox="0 0 850 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.reen-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.reen-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.reen-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.reen-box-vuln { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
-.reen-box-safe { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.reen-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#arrowhead-reen); }
+.svg-15-1 .reen-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-1 .reen-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-1 .reen-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-1 .reen-box-vuln { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
+.svg-15-1 .reen-box-safe { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-15-1 .reen-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#arrowhead-reen); }
 </style>
 <marker id="arrowhead-reen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
 <polygon points="0 0, 10 3, 0 6" fill="#df6919" />
@@ -196,7 +196,7 @@ title: "第十五章：安全与最佳实践"
 <text class="reen-text-small" x="40" y="90" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">function withdraw(uint amount) public {</text>
 <text class="reen-text-small" x="50" y="105" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">require(balances[msg.sender] >= amount);</text>
 <text class="reen-text-small" x="50" y="120" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">// ❌ 先转账，后更新状态</text>
-<text class="reen-text-small" x="50" y="135" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">(bool success, ) = msg.sender.call{value: amount}("");</text>
+<text class="reen-text-small" x="50" y="135" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">(bool success, ) = msg.sender.svg-15-1 .call{value: amount}("");</text>
 <text class="reen-text-small" x="50" y="150" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">require(success);</text>
 <text class="reen-text-small" x="50" y="165" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">// ❌ 状态更新在外部调用之后</text>
 <text class="reen-text-small" x="50" y="180" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">balances[msg.sender] -= amount;</text>
@@ -212,7 +212,7 @@ title: "第十五章：安全与最佳实践"
 <text class="reen-text-small" x="460" y="120" font-family="monospace" fill="#51cf66">// ✅ 先更新状态 (Checks-Effects-Interactions)</text>
 <text class="reen-text-small" x="460" y="135" font-family="monospace" fill="#51cf66">balances[msg.sender] -= amount;</text>
 <text class="reen-text-small" x="460" y="150" font-family="monospace" fill="#51cf66">// ✅ 后执行外部调用</text>
-<text class="reen-text-small" x="460" y="165" font-family="monospace" fill="#51cf66">(bool success, ) = msg.sender.call{value: amount}("");</text>
+<text class="reen-text-small" x="460" y="165" font-family="monospace" fill="#51cf66">(bool success, ) = msg.sender.svg-15-1 .call{value: amount}("");</text>
 <text class="reen-text-small" x="460" y="180" font-family="monospace" fill="#51cf66">require(success);</text>
 <text class="reen-text-small" x="450" y="195" font-family="monospace" fill="#51cf66">}</text>
 <text class="reen-text-small" x="450" y="220" font-weight="bold">防御措施:</text>
@@ -264,7 +264,7 @@ contract SecureBank is ReentrancyGuard {
         balances[msg.sender] -= amount;
 
         // Interactions: 外部交互
-        (bool success, ) = msg.sender.call{value: amount}("");
+        (bool success, ) = msg.sender.svg-15-1 .call{value: amount}("");
         require(success, "Transfer failed");
 
         emit Withdraw(msg.sender, amount);
@@ -285,7 +285,7 @@ contract SecureBank is ReentrancyGuard {
 
         pendingWithdrawals[msg.sender] = 0;
 
-        (bool success, ) = msg.sender.call{value: amount}("");
+        (bool success, ) = msg.sender.svg-15-1 .call{value: amount}("");
         require(success, "Transfer failed");
 
         emit Withdraw(msg.sender, amount);
@@ -299,11 +299,11 @@ contract SecureBank is ReentrancyGuard {
 <svg viewBox="0 0 850 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.ac-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.ac-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.ac-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.ac-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.5; }
-.ac-box-pattern { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
+.svg-15-1 .ac-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-1 .ac-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-1 .ac-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-1 .ac-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.5; }
+.svg-15-1 .ac-box-pattern { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
 </style>
 </defs>
 <text class="ac-text-title" x="425" y="25" text-anchor="middle">访问控制模式对比</text>
@@ -490,14 +490,14 @@ contract SafeMath {
 ### 15.3.1 审计流程
 
 <div style="text-align: center; margin: 2em 0;">
-<svg viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
+<svg class="svg-15-2" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.audit-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.audit-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.audit-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.audit-step { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
-.audit-arrow { stroke: #5cb85c; stroke-width: 2; fill: none; marker-end: url(#arrowhead-audit); }
+.svg-15-2 .audit-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-2 .audit-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-2 .audit-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-2 .audit-step { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
+.svg-15-2 .audit-arrow { stroke: #5cb85c; stroke-width: 2; fill: none; marker-end: url(#arrowhead-audit); }
 </style>
 <marker id="arrowhead-audit" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
 <polygon points="0 0, 10 3, 0 6" fill="#5cb85c" />
@@ -651,7 +651,7 @@ contract BankTest {
         balances[msg.sender] -= amount;
         totalDeposits -= amount;
 
-        (bool success, ) = msg.sender.call{value: amount}("");
+        (bool success, ) = msg.sender.svg-15-2 .call{value: amount}("");
         require(success);
     }
 }
@@ -682,12 +682,12 @@ echidna-test contracts/BankTest.sol --contract BankTest --config echidna.yaml
 <svg viewBox="0 0 850 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.key-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.key-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.key-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.key-box-bad { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
-.key-box-good { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.key-box-best { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.svg-15-2 .key-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-2 .key-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-2 .key-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-2 .key-box-bad { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
+.svg-15-2 .key-box-good { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-15-2 .key-box-best { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
 </style>
 </defs>
 <text class="key-text-title" x="425" y="25" text-anchor="middle">私钥管理方案对比</text>
@@ -897,14 +897,14 @@ contract SimpleMultiSig {
 ### 15.5.1 前端安全威胁模型
 
 <div style="text-align: center; margin: 2em 0;">
-<svg viewBox="0 0 850 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
+<svg class="svg-15-3" viewBox="0 0 850 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.fe-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.fe-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.fe-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
-.fe-box-threat { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
-.fe-box-defense { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
+.svg-15-3 .fe-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-15-3 .fe-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-15-3 .fe-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.svg-15-3 .fe-box-threat { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
+.svg-15-3 .fe-box-defense { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
 </style>
 </defs>
 <text class="fe-text-title" x="425" y="25" text-anchor="middle">DApp 前端安全威胁与防御</text>

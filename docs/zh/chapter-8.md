@@ -115,17 +115,17 @@ CCBus 提供了三种跨链入口:
    - 生态系统封闭
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
+<svg class="svg-8-0" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.inter-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.inter-chain { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-.inter-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.inter-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.inter-chain-circle { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
-.inter-bridge-line { stroke: #df6919; stroke-width: 2; stroke-dasharray: 5,5; fill: none; }
-.inter-arrow { fill: #df6919; }
-.inter-isolated { stroke: #dc3545; stroke-width: 2; stroke-dasharray: 3,3; fill: none; }
+.svg-8-0 .inter-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-8-0 .inter-chain { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+.svg-8-0 .inter-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-8-0 .inter-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-8-0 .inter-chain-circle { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
+.svg-8-0 .inter-bridge-line { stroke: #df6919; stroke-width: 2; stroke-dasharray: 5,5; fill: none; }
+.svg-8-0 .inter-arrow { fill: #df6919; }
+.svg-8-0 .inter-isolated { stroke: #dc3545; stroke-width: 2; stroke-dasharray: 3,3; fill: none; }
 </style>
 </defs>
 <text x="400" y="25" text-anchor="middle" class="inter-title">区块链孤岛问题示意图</text>
@@ -200,17 +200,17 @@ CCBus 提供了三种跨链入口:
 **按信任模型分类**：
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 850 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
+<svg class="svg-8-1" viewBox="0 0 850 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.bridge-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.bridge-type { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
-.bridge-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.bridge-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.bridge-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
-.bridge-trusted { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
-.bridge-trustless { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.bridge-arrow { stroke: #1f2937; stroke-width: 1.5; fill: none; marker-end: url(#arrowBridge); }
+.svg-8-1 .bridge-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-8-1 .bridge-type { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+.svg-8-1 .bridge-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-8-1 .bridge-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-8-1 .bridge-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.svg-8-1 .bridge-trusted { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
+.svg-8-1 .bridge-trustless { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-8-1 .bridge-arrow { stroke: #1f2937; stroke-width: 1.5; fill: none; marker-end: url(#arrowBridge); }
 </style>
 <marker id="arrowBridge" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
 <path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>
@@ -268,15 +268,15 @@ CCBus 提供了三种跨链入口:
 <svg viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.flow-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.flow-step { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
-.flow-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.flow-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.flow-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
-.flow-chain { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
-.flow-bridge { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.flow-arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrowFlow); }
-.flow-arrow-bi { stroke: #5cb85c; stroke-width: 2; fill: none; }
+.svg-8-1 .flow-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-8-1 .flow-step { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
+.svg-8-1 .flow-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-8-1 .flow-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-8-1 .flow-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.svg-8-1 .flow-chain { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
+.svg-8-1 .flow-bridge { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-8-1 .flow-arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrowFlow); }
+.svg-8-1 .flow-arrow-bi { stroke: #5cb85c; stroke-width: 2; fill: none; }
 </style>
 <marker id="arrowFlow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
 <path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>
@@ -349,15 +349,15 @@ CCBus 提供了三种跨链入口:
 <svg viewBox="0 0 850 600" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.ibc-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.ibc-layer { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
-.ibc-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.ibc-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.ibc-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
-.ibc-app { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
-.ibc-transport { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.ibc-arrow { stroke: #1f2937; stroke-width: 1.5; fill: none; marker-end: url(#arrowIBC); }
-.ibc-data { stroke: #df6919; stroke-width: 2; fill: none; stroke-dasharray: 5,5; }
+.svg-8-1 .ibc-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-8-1 .ibc-layer { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
+.svg-8-1 .ibc-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-8-1 .ibc-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-8-1 .ibc-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.svg-8-1 .ibc-app { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
+.svg-8-1 .ibc-transport { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-8-1 .ibc-arrow { stroke: #1f2937; stroke-width: 1.5; fill: none; marker-end: url(#arrowIBC); }
+.svg-8-1 .ibc-data { stroke: #df6919; stroke-width: 2; fill: none; stroke-dasharray: 5,5; }
 </style>
 <marker id="arrowIBC" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
 <path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>
@@ -521,13 +521,13 @@ transfer(
 <svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.risk-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.risk-event { font-family: arial, sans-serif; font-size: 12px; fill: #1f2937; font-weight: bold; }
-.risk-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
-.risk-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.risk-critical { fill: rgba(220, 53, 69, 0.3); stroke: #dc3545; stroke-width: 2; }
-.risk-high { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 2; }
-.risk-timeline { stroke: #4c9be8; stroke-width: 3; }
+.svg-8-1 .risk-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-8-1 .risk-event { font-family: arial, sans-serif; font-size: 12px; fill: #1f2937; font-weight: bold; }
+.svg-8-1 .risk-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.svg-8-1 .risk-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-8-1 .risk-critical { fill: rgba(220, 53, 69, 0.3); stroke: #dc3545; stroke-width: 2; }
+.svg-8-1 .risk-high { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 2; }
+.svg-8-1 .risk-timeline { stroke: #4c9be8; stroke-width: 3; }
 </style>
 </defs>
 <text x="450" y="25" text-anchor="middle" class="risk-title">跨链桥重大安全事件时间线</text>
@@ -825,15 +825,15 @@ router.ccipSend{value: fees}(destinationChainSelector, message);
 ### 趋势与挑战
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
-<svg viewBox="0 0 850 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
+<svg class="svg-8-2" viewBox="0 0 850 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.future-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
-.future-cat { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
-.future-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
-.future-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.future-trend { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
-.future-challenge { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
+.svg-8-2 .future-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.svg-8-2 .future-cat { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
+.svg-8-2 .future-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.svg-8-2 .future-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
+.svg-8-2 .future-trend { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.svg-8-2 .future-challenge { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
 </style>
 </defs>
 <text x="425" y="25" text-anchor="middle" class="future-title">跨链技术发展趋势与挑战</text>
