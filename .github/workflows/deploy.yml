@@ -31,6 +31,13 @@ jobs:
 
       - run: npm run docs:build
 
+      # Remove the CNAME from the build artifact so GitHub Pages serves
+      # this as a project page at ccbus-cc.github.io/ccbook/ rather than
+      # trying to use the ccbook.ccbus.cc custom domain (which has no DNS).
+      # The source CNAME is preserved in docs/public/CNAME for when DNS is set up.
+      - name: Remove CNAME from build artifact
+        run: rm -f docs/.vitepress/dist/CNAME
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist

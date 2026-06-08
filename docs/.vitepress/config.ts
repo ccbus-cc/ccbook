@@ -7,14 +7,14 @@ export default defineConfig({
   description: 'Blockchain: From Beginner to Expert',
   cleanUrls: true,
 
-  // For GitHub Pages deployment at ccbook.ccbus.cc
-  base: '/',
+  // For GitHub Pages project-page deployment at ccbus-cc.github.io/ccbook/
+  base: '/ccbook/',
 
   head: [
     // Preconnect to Google Fonts for performance
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-    // Inter for body text, Noto Sans SC for CJK, Fira Code for code blocks
+    // Inter for body text + Fira Code for code blocks
     [
       'link',
       {
@@ -23,18 +23,15 @@ export default defineConfig({
       },
     ],
     // Favicon
-    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/ccbook/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/ccbook/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/ccbook/favicon-16x16.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/ccbook/apple-touch-icon.png' }],
     // Open Graph
-    ['meta', { property: 'og:image', content: '/og-image.png' }],
+    ['meta', { property: 'og:image', content: '/ccbook/og-image.png' }],
   ],
 
-  // Last updated timestamp
-  lastUpdated: true,
-
-  // Markdown configuration with MathJax 3 (KaTeX-compatible: $...$ inline, $$...$$ blocks)
+  // Markdown configuration (tutorial pattern + MathJax 3 for KaTeX-style math)
   markdown: {
     lineNumbers: true,
     image: {
@@ -43,23 +40,11 @@ export default defineConfig({
     math: true,
   },
 
-  // Vite config: don't fail on missing image assets
-  vite: {
-    build: {
-      rollupOptions: {
-        onwarn(warning: any, warn: (warning: any) => void) {
-          if (warning.code === 'UNRESOLVED_IMPORT') return
-          warn(warning)
-        },
-      },
-    },
-  },
-
   // Theme configuration shared across locales
   themeConfig: {
     logo: {
-      light: '/CCBus_B_T_64.png',
-      dark: '/CCBus_B_T_64.png',
+      light: '/ccbook/CCBus_B_T_64.png',
+      dark: '/ccbook/CCBus_B_T_64.png',
     },
 
     // Social links

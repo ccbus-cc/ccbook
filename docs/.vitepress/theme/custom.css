@@ -1,5 +1,5 @@
 /* ============================================================
-   CCBook VitePress Theme
+   CCBook GitBook-Style Theme
    Fonts: Inter (Latin body), Noto Sans SC (CJK body), Fira Code (code)
    ============================================================ */
 
@@ -12,70 +12,277 @@
     Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 
   /* ---- Brand Colors (Light) ---- */
-  --vp-c-brand-1: #3451b2;
-  --vp-c-brand-2: #2a428f;
-  --vp-c-brand-3: #1f326b;
-  --vp-c-brand-soft: rgba(52, 81, 178, 0.14);
+  --vp-c-brand-1: #3366ff;
+  --vp-c-brand-2: #2952cc;
+  --vp-c-brand-3: #1f3d99;
+  --vp-c-brand-soft: rgba(51, 102, 255, 0.12);
 
-  /* ---- Layout: Book-style wider content ---- */
-  --vp-layout-max-width: 1440px;
-  --vp-content-width: 880px;
+  /* ---- Layout: GitBook-style wider sidebar ---- */
   --vp-sidebar-width: 280px;
+
+  /* ---- Custom vars ---- */
+  --ccbus-sidebar-bg: #f8f9fb;
+  --ccbus-sidebar-active-bg: rgba(51, 102, 255, 0.08);
+  --ccbus-content-max-width: 880px;
 }
 
-/* Dark mode brand adjustment */
 .dark {
-  --vp-c-brand-1: #5b7dd6;
-  --vp-c-brand-2: #6991e8;
-  --vp-c-brand-3: #3451b2;
-  --vp-c-brand-soft: rgba(91, 125, 214, 0.16);
+  --vp-c-brand-1: #6b8aff;
+  --vp-c-brand-2: #8da4ff;
+  --vp-c-brand-3: #afc0ff;
+  --vp-c-brand-soft: rgba(107, 138, 255, 0.16);
+  --ccbus-sidebar-bg: #1a1d23;
+  --ccbus-sidebar-active-bg: rgba(107, 138, 255, 0.12);
 }
 
 /* ============================================================
-   CCBook-specific content styling
+   Sidebar – GitBook style
    ============================================================ */
 
-/* Chapter intro box (info card at top of each chapter) */
-.ccbook-page .chapter-intro,
-.VPContent .chapter-intro {
-  background: linear-gradient(135deg, rgba(52, 81, 178, 0.06), rgba(52, 81, 178, 0.02));
-  border-left: 4px solid var(--vp-c-brand-1);
+/* Sidebar background */
+.VPSidebar {
+  background-color: var(--ccbus-sidebar-bg) !important;
+}
+
+/* Active item highlight */
+.VPSidebarItem.is-active > .item .link {
+  background-color: var(--ccbus-sidebar-active-bg);
   border-radius: 6px;
-  padding: 1.25rem 1.5rem;
+}
+
+/* Sidebar items: slightly more compact */
+.VPSidebarItem .item {
+  padding: 2px 0;
+}
+
+/* Sidebar group headings – GitBook's uppercase section labels */
+.VPSidebarItem.level-0 > .item > .text {
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--vp-c-text-2);
+  padding: 8px 0 4px;
+}
+
+/* ============================================================
+   Content area – clean GitBook-like reading experience
+   ============================================================ */
+
+.VPDoc .container {
+  max-width: var(--ccbus-content-max-width) !important;
+}
+
+/* Headings */
+.vp-doc h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  border-bottom: none;
+}
+
+.vp-doc h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+/* Paragraphs & lists – comfortable reading */
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.8;
+  font-size: 0.95rem;
+}
+
+/* Inline code */
+.vp-doc :not(pre) > code {
+  background-color: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.88em;
+}
+
+/* Code blocks */
+.vp-doc div[class*='language-'] {
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+/* ============================================================
+   GitBook-style hint/callout boxes using VitePress custom containers
+   ============================================================ */
+
+.vp-doc .custom-block {
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 1rem 0;
+}
+
+.vp-doc .custom-block.tip {
+  border-left: 4px solid var(--vp-c-brand-1);
+  background-color: var(--vp-c-brand-soft);
+}
+
+.vp-doc .custom-block.warning {
+  border-left: 4px solid var(--vp-c-warning-1);
+}
+
+.vp-doc .custom-block.danger {
+  border-left: 4px solid var(--vp-c-danger-1);
+}
+
+/* ============================================================
+   Images – centered with optional shadow (GitBook style)
+   ============================================================ */
+
+.vp-doc img {
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  margin: 1rem auto;
+  display: block;
+  max-width: 100%;
+}
+
+.dark .vp-doc img {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Image captions (figcaption) */
+.vp-doc figcaption,
+.vp-doc .image-caption {
+  text-align: center;
+  color: var(--vp-c-text-3);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+/* ============================================================
+   Table styling – GitBook clean tables
+   ============================================================ */
+
+.vp-doc table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-soft);
+  font-weight: 600;
+  text-align: left;
+}
+
+.vp-doc th,
+.vp-doc td {
+  padding: 10px 14px;
+  border: 1px solid var(--vp-c-divider);
+}
+
+/* ============================================================
+   Navbar tweaks
+   ============================================================ */
+
+.VPNavBar {
+  border-bottom: 1px solid var(--vp-c-divider) !important;
+}
+
+/* ============================================================
+   Home page hero – GitBook style landing
+   ============================================================ */
+
+.VPHero .name {
+  font-size: 2.5rem !important;
+}
+
+.VPHero .tagline {
+  font-size: 1.2rem !important;
+  max-width: 600px;
+}
+
+/* ============================================================
+   Responsive: tighter spacing on mobile
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .vp-doc h1 {
+    font-size: 1.6rem;
+  }
+
+  .vp-doc h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* ============================================================
+   Video embeds – responsive container
+   ============================================================ */
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 8px;
+}
+
+/* ============================================================
+   CCBook-specific: chapter intro card (info box at top of chapters)
+   ============================================================ */
+
+.vp-doc .chapter-intro {
+  background-color: var(--vp-c-brand-soft);
+  border-left: 4px solid var(--vp-c-brand-1);
+  border-radius: 8px;
+  padding: 16px 20px;
   margin: 1.5rem 0 2rem;
   line-height: 1.7;
 }
 
-.dark .ccbook-page .chapter-intro,
-.dark .VPContent .chapter-intro {
-  background: linear-gradient(135deg, rgba(91, 125, 214, 0.10), rgba(91, 125, 214, 0.04));
-}
+/* ============================================================
+   CCBook-specific: inline SVG diagrams (self-contained, with inline styles)
+   ============================================================ */
 
-/* Chapter footer */
-.chapter-footer {
-  margin-top: 3rem;
-  padding: 1.5rem 0 0;
-  border-top: 1px solid var(--vp-c-divider);
-  color: var(--vp-c-text-3);
-  font-size: 0.9em;
-  line-height: 1.7;
+.vp-doc svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
 }
 
 /* ============================================================
-   Index page
+   CCBook-specific: index page book intro
    ============================================================ */
 
 .ccbook-index .book-intro {
-  background: var(--vp-c-bg-soft);
+  background-color: var(--vp-c-bg-soft);
   border-radius: 8px;
   padding: 1.5rem 1.75rem;
   margin: 1.5rem 0;
   line-height: 1.8;
-  font-size: 1.05em;
 }
 
 .ccbook-index .book-features {
-  background: var(--vp-c-bg-soft);
+  background-color: var(--vp-c-bg-soft);
   border-radius: 8px;
   padding: 1.25rem 1.75rem;
   margin: 1.5rem 0;
@@ -96,77 +303,14 @@
 }
 
 /* ============================================================
-   Inline SVG diagrams (self-contained, used in chapters)
+   CCBook-specific: chapter footer
    ============================================================ */
 
-.VPContent svg,
-.ccbook-page svg {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 1.5rem auto;
-}
-
-/* ============================================================
-   Code blocks
-   ============================================================ */
-
-.VPContent div[class*='language-'],
-.ccbook-page div[class*='language-'] {
-  border-radius: 6px;
-}
-
-/* ============================================================
-   Tables
-   ============================================================ */
-
-.VPContent table,
-.ccbook-page table {
-  border-collapse: collapse;
-  margin: 1.25rem 0;
-  display: block;
-  overflow-x: auto;
-}
-
-.VPContent th,
-.VPContent td,
-.ccbook-page th,
-.ccbook-page td {
-  border: 1px solid var(--vp-c-divider);
-  padding: 0.6rem 1rem;
-  text-align: left;
-}
-
-.VPContent th,
-.ccbook-page th {
-  background: var(--vp-c-bg-soft);
-  font-weight: 600;
-}
-
-/* ============================================================
-   Blockquotes (used heavily for tips and notes)
-   ============================================================ */
-
-.VPContent blockquote,
-.ccbook-page blockquote {
-  border-left: 4px solid var(--vp-c-brand-1);
-  background: var(--vp-c-bg-soft);
-  padding: 0.75rem 1.25rem;
-  margin: 1rem 0;
-  border-radius: 0 6px 6px 0;
-}
-
-.VPContent blockquote p,
-.ccbook-page blockquote p {
-  margin: 0.4rem 0;
-}
-
-/* ============================================================
-   Emoji support (book uses 🎓 💻 🏗️ 💼 🔬 etc. as section markers)
-   ============================================================ */
-
-.VPContent h2 .icon,
-.VPContent h3 .icon {
-  display: inline-block;
-  margin-right: 0.4em;
+.vp-doc .chapter-footer {
+  margin-top: 3rem;
+  padding: 1.5rem 0 0;
+  border-top: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-3);
+  font-size: 0.9em;
+  line-height: 1.7;
 }
