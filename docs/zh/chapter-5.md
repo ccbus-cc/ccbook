@@ -48,7 +48,7 @@ CCBus 的"多功能代币"是当前 DeFi 领域合约复杂度的典型代表—
 
 ### 智能合约的核心特性
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-5-0" viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -107,7 +107,7 @@ CCBus 的"多功能代币"是当前 DeFi 领域合约复杂度的典型代表—
 
 ### 智能合约的工作流程
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-5-1" viewBox="0 0 750 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -194,7 +194,7 @@ CCBus 的"多功能代币"是当前 DeFi 领域合约复杂度的典型代表—
 
 **以太坊虚拟机**（Ethereum Virtual Machine, EVM）是智能合约的运行环境，它是一个图灵完备的虚拟机，可以执行任意复杂的计算逻辑。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-5-2" viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -387,7 +387,7 @@ contract SimpleStorage {
 
 ### Solidity 数据类型
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-5-3" viewBox="0 0 750 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -619,7 +619,7 @@ Solidity 0.8.20+ 启用了 PUSH0,把 `0` 压入栈,gas 成本 2(旧版用 `PUSH1
 
 ### 常用设计模式
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-5-4" viewBox="0 0 750 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -889,7 +889,7 @@ function reveal(uint256 value, bytes32 salt) public {
 
 ### 安全最佳实践
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-5-5" viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>

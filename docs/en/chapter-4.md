@@ -71,7 +71,7 @@ A **Consensus Mechanism** is the process and algorithm by which multiple nodes i
 
 ### Core Goals of Consensus Mechanisms
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-4-0" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>

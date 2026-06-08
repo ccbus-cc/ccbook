@@ -50,7 +50,7 @@ title: "第十六章：区块链的未来"
 
 区块链技术正处于快速演进阶段。从比特币的诞生（2009年）到以太坊的智能合约革命（2015年），再到当前的模块化区块链时代（2024-2025年），每个阶段都带来了质的飞跃。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-16-0" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
@@ -338,7 +338,7 @@ $$
 
 ### 16.2.3 Danksharding 路线图
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-16-1" viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
@@ -431,7 +431,7 @@ $$
 
 ### 16.3.1 当前融合案例
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-16-2" viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
@@ -577,7 +577,7 @@ Subnet 18: 数据清洗
 
 ### 16.4.1 市场规模
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-16-3" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
@@ -829,7 +829,7 @@ contract RestrictedToken is ERC20, ERC1404 {
 
 ### 16.5.1 全球监管格局（2025年）
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-16-4" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
@@ -1166,7 +1166,7 @@ Solver (求解器) 竞争执行:
 
 ### 16.6.5 大规模采用时间线
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-16-5" viewBox="0 0 900 450" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>

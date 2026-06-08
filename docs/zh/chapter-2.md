@@ -88,7 +88,7 @@ CCBus 提供了完整的密码学工具可视化界面,你可以用它来体验�
 
 ### 区块链中的密码学应用
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-0" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 700px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -212,7 +212,7 @@ console.log(sha256('Hello, blockchain!'));  // 注意小写 b
 
 #### 1. 区块链接
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-1" viewBox="0 0 350 45" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -265,7 +265,7 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
 
 #### 3. 地址生成
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-2" viewBox="0 0 480 60" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -328,7 +328,7 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
 
 #### 工作原理
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-3" viewBox="0 0 320 195" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 400px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -392,7 +392,7 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
 
 #### 核心概念
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-4" viewBox="0 0 380 110" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -428,7 +428,7 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
 
 #### 加密通信流程
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-5" viewBox="0 0 280 160" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 350px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -494,7 +494,7 @@ const decrypted = rsaDecrypt(encrypted, privateKey);
 
 #### ECC 工作原理
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-6" viewBox="0 0 520 60" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -583,7 +583,7 @@ console.log('地址: 0x' + address);
 
 ### 数字签名工作流程
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-7" viewBox="0 0 580 90" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 650px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -682,7 +682,7 @@ console.log('签名有效:', isValid);  // true
 
 ### 比特币交易签名
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-8" viewBox="0 0 480 45" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -722,7 +722,7 @@ console.log('签名有效:', isValid);  // true
 
 #### M-of-N 多签
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-9" viewBox="0 0 470 140" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -782,7 +782,7 @@ OP_CHECKMULTISIG
 
 ### Merkle 树结构
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-10" viewBox="0 0 380 180" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -883,7 +883,7 @@ console.log('Merkle Root:', tree.getRoot());
 
 轻量级验证，无需下载全部数据。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-11" viewBox="0 0 550 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -995,7 +995,7 @@ console.log('验证结果:', isValid);  // true
 
 #### 1. 比特币区块结构
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-12" viewBox="0 0 550 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -1040,7 +1040,7 @@ console.log('验证结果:', isValid);  // true
 
 **SPV（Simplified Payment Verification）** 节点只需下载区块头，不需要下载全部交易。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-13" viewBox="0 0 320 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 400px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -1077,7 +1077,7 @@ console.log('验证结果:', isValid);  // true
 
 以太坊使用 **Merkle Patricia Trie** 存储账户状态。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-14" viewBox="0 0 360 70" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -1159,7 +1159,7 @@ console.log('验证结果:', isValid);  // true
 
 #### 经典例子：阿里巴巴洞穴
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-15" viewBox="0 0 480 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -1207,7 +1207,7 @@ console.log('验证结果:', isValid);  // true
 - **Tornado Cash**：以太坊混币
 - **zkSync**：Layer 2 扩容
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-16" viewBox="0 0 420 110" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -1246,7 +1246,7 @@ console.log('验证结果:', isValid);  // true
 
 **同态加密**允许对密文直接进行计算，解密后得到对明文计算的结果。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-17" viewBox="0 0 420 80" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -1280,7 +1280,7 @@ console.log('验证结果:', isValid);  // true
 
 多方共同持有私钥的分片，需要 t-of-n 个分片才能生成有效签名。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-18" viewBox="0 0 380 160" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
 <defs>
 <style>

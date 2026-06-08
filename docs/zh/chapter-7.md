@@ -75,7 +75,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 
 **区块链不可能三角**（Blockchain Trilemma）由以太坊创始人Vitalik Buterin提出，描述了区块链技术的根本限制。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-7-0" viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -149,7 +149,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 
 ### Layer 2解决方案概览
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-7-1" viewBox="0 0 750 380" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -218,7 +218,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 
 **Optimistic Rollup** 采用"乐观"假设：默认所有交易都是有效的，只有在被质疑时才进行验证。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-7-2" viewBox="0 0 750 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -338,7 +338,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 
 **零知识证明** (Zero-Knowledge Proof, ZKP) 允许证明者向验证者证明某个陈述是真的，而无需透露任何额外信息。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-7-3" viewBox="0 0 750 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -437,7 +437,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
    - 性能最优
    - 项目：zkSync Era, StarkNet
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-7-4" viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -586,7 +586,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 
 ### 综合对比
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-7-5" viewBox="0 0 750 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>

@@ -71,7 +71,7 @@ title: "第十二章：治理与 DAO"
 
 DAO (Decentralized Autonomous Organization，去中心化自治组织) 是一种基于智能合约的组织形式，通过代码和社区共识进行决策和运营。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-12-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
 <defs>
 <style>
@@ -154,7 +154,7 @@ DAO (Decentralized Autonomous Organization，去中心化自治组织) 是一种
 
 ### Governor 合约：OpenZeppelin 标准
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-12-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
 <defs>
 <style>
@@ -427,7 +427,7 @@ Snapshot 是一个链下投票平台，具有以下优势：
 - **灵活投票策略**：支持多种代币权重计算
 - **快速部署**：无需部署智能合约
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-12-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 450">
 <defs>
 <style>
@@ -530,7 +530,7 @@ Snapshot 是一个链下投票平台，具有以下优势：
 
 ## 12.4 代币经济学与激励设计
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-12-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550">
 <defs>
 <style>
@@ -664,7 +664,7 @@ contract VotingEscrow {
 
 ### Gnosis Safe：行业标准
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-12-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
 <defs>
 <style>
@@ -904,7 +904,7 @@ CCBus 提供了几种**协议级治理代币**的实现,把治理参数和代币
 
 ## 12.6 DAO 工具栈
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-12-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
 <defs>
 <style>

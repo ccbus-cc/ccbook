@@ -79,7 +79,7 @@ title: "第十三章：区块链平台对比"
 
 由 Ethereum 创始人 Vitalik Buterin 提出，指出区块链系统很难同时实现三个目标：
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-13-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650">
 <defs>
 <style>
@@ -148,7 +148,7 @@ title: "第十三章：区块链平台对比"
 
 ## 13.2 Layer 1 主流平台对比
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-13-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
 <defs>
 <style>
@@ -289,7 +289,7 @@ title: "第十三章：区块链平台对比"
 
 ### EVM 生态的优势
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-13-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550">
 <defs>
 <style>
@@ -393,7 +393,7 @@ Transaction {
 
 ### L2 生态全景
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-13-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 600">
 <defs>
 <style>
@@ -473,7 +473,7 @@ Transaction {
 
 ### 高性能 Alt-L1
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-13-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550">
 <defs>
 <style>
@@ -628,7 +628,7 @@ Transaction {
 
 ### 决策树
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-13-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
 <defs>
 <style>
@@ -739,7 +739,7 @@ Transaction {
 3. **链抽象**: Account Abstraction (ERC-4337) 让用户无感知切换链
 4. **意图中心架构**: Anoma, SUAVE 让用户表达意图，协议自动选择最优链执行
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-13-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
 <defs>
 <style>

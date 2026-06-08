@@ -94,7 +94,7 @@ CCBus 的 DeFi 工具集几乎是本章内容的可视化目录:
 
 **传统金融 vs DeFi**：
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-10-0" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -183,7 +183,7 @@ $$
 - $x$ 和 $y$ 是流动性池中两种代币的数量
 - $k$ 是常数（恒定乘积）
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-10-1" viewBox="0 0 850 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -295,7 +295,7 @@ $$
 
 **超额抵押借贷**：用户必须抵押价值高于借款的资产。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-10-2" viewBox="0 0 850 600" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -398,7 +398,7 @@ $$
 
 ### 三种主流稳定币模式
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-10-3" viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>

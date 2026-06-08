@@ -70,7 +70,7 @@ CCBus turns "issuing a token" — a task that used to require a Solidity enginee
 
 ### Core Characteristics of Cryptocurrency
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-3-0" viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -183,7 +183,7 @@ This was the headline from The Times that day, recording government bank bailout
 
 ### Bitcoin's Core Mechanisms
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-3-1" viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -326,7 +326,7 @@ This was the headline from The Times that day, recording government bank bailout
 
 **Ethereum** was proposed by Vitalik Buterin in 2013 and officially launched in 2015. It is not only a cryptocurrency (ETH) but also a **Turing-complete smart contract platform**.
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-3-2" viewBox="0 0 650 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -394,7 +394,7 @@ This was the headline from The Times that day, recording government bank bailout
 
 #### Smart Contract Workflow
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-3-3" viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>

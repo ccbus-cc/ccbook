@@ -114,7 +114,7 @@ CCBus 提供了三种跨链入口:
    - 难以构建跨链DApp
    - 生态系统封闭
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-8-0" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -199,7 +199,7 @@ CCBus 提供了三种跨链入口:
 
 **按信任模型分类**：
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-8-1" viewBox="0 0 850 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -264,7 +264,7 @@ CCBus 提供了三种跨链入口:
 
 以 **资产跨链转移** 为例（ETH → BSC）：
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-8-2" viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -345,7 +345,7 @@ CCBus 提供了三种跨链入口:
 
 **Cosmos 生态的跨链通信协议**，是目前最成熟的去信任跨链方案。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-8-3" viewBox="0 0 850 600" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -517,7 +517,7 @@ transfer(
 
 跨链桥是 **DeFi 最大的攻击目标**，历史上发生多起重大安全事故。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-8-4" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -824,7 +824,7 @@ router.ccipSend{value: fees}(destinationChainSelector, message);
 
 ### 趋势与挑战
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-8-5" viewBox="0 0 850 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>

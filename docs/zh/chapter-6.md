@@ -70,7 +70,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 
 区块链系统通常采用分层架构设计，每层负责特定功能，层与层之间通过定义良好的接口交互。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-6-0" viewBox="0 0 750 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -150,7 +150,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 
 区块链采用去中心化的P2P网络结构，每个节点既是客户端也是服务器。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-6-1" viewBox="0 0 750 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -260,7 +260,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 
 ### 数据传播机制
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-6-2" viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -343,7 +343,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 
 区块是区块链的基本数据单元，包含区块头和区块体两部分。
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-6-3" viewBox="0 0 750 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -455,7 +455,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 
 ### 账户模型 vs UTXO模型
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-6-4" viewBox="0 0 750 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -597,7 +597,7 @@ def verify_account_balance(address, balance, proof, state_root):
 
 ### 单链 vs 多链 vs 分片
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-6-5" viewBox="0 0 750 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
@@ -805,7 +805,7 @@ def verify_account_balance(address, balance, proof, state_root):
 
 ### 性能优化策略
 
-<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-6-6" viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
