@@ -18,6 +18,19 @@ title: "Chapter 4: Consensus Mechanisms"
   </ul>
 </div>
 
+
+## 4.0 2025-2026 视角:为什么这一章要重新读
+
+Consensus is one of the most active research areas in 2025-2026. We have moved past the PoW vs PoS binary debate into a multi-polar coexistence: **PoS dominating L1s, PoH high-throughput (Solana), PoH+PoS hybrid (Aptos/Sui's Joliac/Quorum), DAG-based parallel execution (Near's Doomslug), AVS subnet shared security (EigenLayer), and restaking restructuring capital efficiency**.
+
+### 🖥️ Real-world Example: CCBus's Multi-Chain Consensus Layer
+
+CCBus simultaneously supports BNB Chain (PoSA), Solana (PoH+PoS), Base (OP-Stack), Arbitrum (AnyTrust), and 10+ other chains. Every token issuance, liquidity addition, and cross-chain bridge operation touches a different consensus. The screenshot below shows CCBus's market overview aggregating real-time data across multiple chains.
+
+![CCBus market overview showing live multi-chain consensus data aggregation](../public/images/chapters/zh/market-overview.png)
+
+*Figure 4-1: CCBus market overview. This is a real-world view of PoS + OP Stack + zkEVM + Solana coexisting — a single frontend subscribing to finality and reorg events on a dozen chains.*
+
 ## 4.1 What is a Consensus Mechanism?
 
 A **Consensus Mechanism** is the process and algorithm by which multiple nodes in a distributed system reach agreement on a proposal or state. In blockchain networks, consensus mechanisms solve how to achieve consensus on transaction order and blockchain state without central authority.

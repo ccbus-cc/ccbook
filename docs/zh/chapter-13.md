@@ -16,6 +16,21 @@ title: chapter-13
 
 </div>
 
+
+## 13.0 2025-2026 视角:为什么这一章要重新读
+
+2026 年的公链格局已经定型:**Ethereum + L2s 占据 60%+ TVL,Solana 是高性能单链王者,BNB Chain 是 meme 币与零售用户的主战场,Ton 是 Telegram 生态入口,Sui/Aptos/Sei 是 Move 系新锐,Monad/Berachain/Story 是 2025-2026 即将上线的新公链**。本章用对比表 + 真实数据讲清每条链的定位、用户画像、TVL 分布。
+
+### 🖥️ 真实案例:CCBus 的链选择器
+
+CCBus 的链选择器(Chain Selector)是一个典型的"实时公链对比仪表盘"——它必须实时跟踪每条链的 gas 价格、最终性时间、合约创建成本、是否支持某一代币标准。
+
+下面的市场分析页展示了 CCBus 在多条链上聚合的数据:
+
+![CCBus 市场分析,展示多链数据聚合](../public/images/chapters/zh/market-dashboard.png)
+
+*图 13-1:CCBus 多链数据仪表盘。这正是 2026 年公链生态的**真实战场**——前端必须同时理解 OP Stack、zkEVM、Solana SVM、Move VM 的差异。*
+
 ## 13.1 区块链不可能三角
 
 ### 经典三难困境 (Blockchain Trilemma)

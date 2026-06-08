@@ -18,6 +18,24 @@ title: "Chapter 15: Security and Best Practices"
 
 </div>
 
+
+## 15.0 2025-2026 视角:为什么这一章要重新读
+
+Blockchain security in 2026 faces three new attack waves: **private-key phishing (Approval Phishing), upgrade-trap hijack (Upgradeable Proxy Hijack), AI-driven contract vulnerability mining**. This chapter covers classic attacks (reentrancy, integer overflow, front-running, flash loans) and new threats (EIP-7702 delegation phishing, **Permit2 signature abuse**), plus the full toolchain: **Slither, Mythril, Echidna, Certora, Tenderly, Forta, Chainalysis**.
+
+### 🖥️ Real-world Example: CCBus's Contract Audit and Verification Tools
+
+CCBus ships two complementary contract-security tools:
+
+- **Contract Verifier**: decompile + source-match deployed bytecode to ensure   the contract a user interacts with is the one the team published — the   first line of defense against phishing.
+- **Contract Inspector**: static analysis + vulnerability pattern matching   (Slither-like detectors: reentrancy-eth, uninitialized-state, tx-origin,   unchecked-lowlevel, timestamp, etc.).
+
+![CCBus contract verifier](../public/images/chapters/zh/contract-verifier.png)
+
+![CCBus contract inspector (full)](../public/images/chapters/zh/contract-inspector.png)
+
+*Figures 15-1/2: CCBus's contract security toolchain. **Verifier answers "am I interacting with the code you claim?"**; **Inspector answers "is this code itself vulnerable?"**. Together they are the 2026 DeFi security standard workflow.*
+
 ## 15.1 Wallet Security
 
 ### Hardware Wallets

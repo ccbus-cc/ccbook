@@ -18,6 +18,30 @@ title: "Chapter 10: Decentralized Finance (DeFi)"
 
 </div>
 
+
+## 10.0 2025-2026 视角:为什么这一章要重新读
+
+DeFi in 2026 is driven by 'institutionalization + real yield'. Uniswap v4 hooks reshaped AMMs; Curve's crvUSD and Angle's agEUR pushed stablecoin DEX specialization; Pendle's YT/PT split ushered in the interest-rate-derivatives era; EigenLayer's restaking spawned the AVS economy. This chapter reorganizes DeFi primitives and new trends.
+
+### 🖥️ Real-world Example: CCBus DeFi Tool Matrix
+
+CCBus's DeFi toolset is almost a visual catalog of this chapter:
+
+- **LP Reflection tokens**: holders automatically receive LP fee dividends.
+- **LP Burn**: send LP tokens to 0xdead for permanent liquidity lock.
+- **LP Mine**: hold LP to mine the project's own token.
+- **Liquidity Console**: manage LP positions across multiple DEXes.
+- **Liquidity Fix**: adjust price range after V2/V3 migration.
+- **Pool Analysor**: assess pool health with on-chain data.
+
+![CCBus LP Reflection token config](../public/images/chapters/zh/lp-reflection.png)
+
+![CCBus LP Burn config](../public/images/chapters/zh/lp-burn.png)
+
+![CCBus liquidity console](../public/images/chapters/zh/liquidity-control.png)
+
+*Figures 10-1/2/3: CCBus LP toolset — dividends, burns, liquidity console — perfectly illustrates **Uniswap V2/V3 LP economics**. These three tools cover 90% of real DeFi liquidity-management scenarios.*
+
 ## 10.1 DeFi Fundamental Principles
 
 **Decentralized Finance** recreates traditional financial services without intermediaries.

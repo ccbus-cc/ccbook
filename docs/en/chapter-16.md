@@ -18,6 +18,19 @@ title: "Chapter 16: The Future of Blockchain"
 
 </div>
 
+
+## 16.0 2025-2026 视角:为什么这一章要重新读
+
+The next decade of blockchain will be shaped by four forces: **AI agent economies (ai16z, Virtuals Protocol, Aethernet), intents and solver ecosystems (UniswapX, CoW Swap, 1inch Fusion, Across), RWA mainstreaming (projected $30T on-chain by 2030), and quantum resistance (post-quantum signatures NIST FIPS 204/205)**. This chapter uses real projects and live data to forecast 2026-2030 trends.
+
+### 🖥️ Real-world Example: CCBus's T800/T1000 Trading Bots
+
+CCBus's **T800 / T1000 trading bots** are exactly the AI agent economy in DeFi — not simple grid trading, but **AI agents powered by LLMs + on-chain data + real-time price oracles** that automatically perform market making, arbitrage, and liquidity management.
+
+![CCBus trading bot T800, showing AI-agent-driven market-making/arbitrage strategies](../public/images/chapters/zh/swap-bot-t800.png)
+
+*Figure 16-1: CCBus trading bot T800. This is the **real shape of AI agents on-chain** — it turns 'AI + blockchain' from PowerPoint concept into a SaaS service anyone can subscribe to.*
+
 ## 16.1 Current Limitations and Challenges
 
 ### Technical Challenges

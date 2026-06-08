@@ -20,6 +20,19 @@ title: "Chapter 5: Smart Contracts"
 
 </div>
 
+
+## 5.0 2025-2026 视角:为什么这一章要重新读
+
+Smart contracts in 2026 have entered their 'specialization' phase. Beyond the old ERC-20 / ERC-721 / ERC-1155 standards, **ERC-4337 (Account Abstraction), ERC-4626 (Tokenized Vaults), ERC-7683 (Cross-chain Intents), and ERC-7715 (Delegation Authorizations)** are reshaping how contracts are written. This chapter covers Solidity basics and the paradigm shifts introduced by these new standards.
+
+### 🖥️ Real-world Example: CCBus Multi-Function Token Contract
+
+CCBus's 'Multi-Function Token' is a representative case of current DeFi contract complexity — it implements 10+ features in a single ERC-20 contract: standard transfer, burn, mint, on-chain dividend, referral rewards, whitelisted trading, tax switching, hold-to-earn, auto-liquidity-add, and more.
+
+![CCBus Multi-Function Token contract configuration](../public/images/chapters/zh/multi-function.png)
+
+*Figure 5-1: CCBus Multi-Function Token contract configuration. Each toggle is an upgradable contract function. This **modular contract architecture** is the 2026 DeFi project default.*
+
 ## 5.1 What are Smart Contracts?
 
 **Smart Contracts** are self-executing computer programs whose terms and conditions are written in code on the blockchain. When predefined conditions are met, smart contracts automatically execute corresponding operations without third-party intervention.

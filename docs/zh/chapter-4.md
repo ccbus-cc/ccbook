@@ -18,6 +18,19 @@ title: 第四章：共识机制
   </ul>
 </div>
 
+
+## 4.0 2025-2026 视角:为什么这一章要重新读
+
+共识机制是 2025-2026 年最活跃的研究领域之一。我们已经走出了 PoW vs PoS 的二元辩论,进入多极共存:**PoS 主导(L1)、PoH 高性能(Solana)、PoH+PoS 混合(Aptos/Sui 的 Joliac/Quorum)、基于 DAG 的并行执行(Near 的 Doomslug)、AVS 子网共享安全(EigenLayer)、Restaking 重组资本效率**。
+
+### 🖥️ 真实案例:CCBus 多链支持背后的共识
+
+CCBus 同时支持 BNB Chain(PoSA)、Solana(PoH+PoS)、Base(Op-Stack/OP Stack)、Arbitrum(AnyTrust)等十余条链,这意味着用户每一次发币、添加流动性、跨链桥的操作,都涉及到不同共识机制的差异。下图是 CCBus 的市场概览,可以看到它聚合了多条链的实时数据。
+
+![CCBus 市场概览,展示多链共识下的实时数据聚合](../public/images/chapters/zh/market-overview.png)
+
+*图 4-1:CCBus 市场概览。这是 PoS 链 + OP Stack + zkEVM + Solana 多种共识共存的实际场景——一个前端同时订阅十几条链的最终性(finality)和重组(reorg)事件。*
+
 ## 4.1 什么是共识机制？
 
 **共识机制**（Consensus Mechanism）是分布式系统中多个节点就某个提案或状态达成一致意见的过程和算法。在区块链网络中,共识机制解决了如何在没有中央权威的情况下,让所有节点对交易顺序和区块链状态达成共识。

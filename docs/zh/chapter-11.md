@@ -15,6 +15,19 @@ title: chapter-11
 
 </div>
 
+
+## 11.0 2025-2026 视角:为什么这一章要重新读
+
+NFT 在 2025-2026 已经从 JPEG 收藏品演化到 **RWA(链上国债凭证、房地产份额)、SBT(灵魂绑定代币)、Tickets(链上票务)、Music NFT(Audius、Songs Republic)、GameFi 资产(Big Time、Illuvium)**。ERC-721 与 ERC-1155 仍然占主流,但ERC-4907(可租赁 NFT)与 ERC-7656(链下指纹)正在标准化。
+
+### 🖥️ 真实案例:CCBus 的代币标准与 NFT 兼容性
+
+CCBus 提供的多种代币模板(HOLD_REFLECTION、LQUIDITY_PROVIDER_REFLECTION、BLACKHOLE 等)实际上都遵循 ERC-20 标准,但它们的可组合性已经接近 ERC-1155——**一个代币里既包含转账功能,又包含 NFT 风格的持币证明**。下图是标准代币的创建界面。
+
+![CCBus 标准代币创建界面](../public/images/chapters/zh/standard-token-create.png)
+
+*图 11-1:CCBus 标准代币。展示 2026 年代币化资产的多样性——同一个 UI 可以配置从 普通 ERC-20 到 NFT-backed 持币证明的各种衍生形态。*
+
 ## 11.1 什么是 NFT？
 
 ### NFT 的定义

@@ -18,6 +18,19 @@ title: "Chapter 3: Cryptocurrency Fundamentals"
   </ul>
 </div>
 
+
+## 3.0 2025-2026 视角:为什么这一章要重新读
+
+By 2026, cryptocurrency has expanded well beyond 'coins' — stablecoins (USDe, PYUSD, FDUSD), LSTs/LRTs (Liquid Staking and Restaking Tokens), and RWAs (tokenized treasuries, real estate) make up a multi-trillion-dollar new asset class. This chapter re-examines cryptocurrency tokenomics and issuance mechanisms in that light.
+
+### 🖥️ Real-world Example: CCBus Token Square
+
+CCBus turns 'issuing a token' — a task that used to require a Solidity engineer — into a few clicks for any ordinary user. The screenshot below shows the **CCBus Standard Token creation form**. Fill in five fields (name, symbol, total supply, decimals, recipient address) and the platform auto-deploys an ERC-20 contract.
+
+![CCBus Standard Token creation form](../public/images/chapters/zh/standard-token-create.png)
+
+*Figure 3-1: CCBus standard token creation form. Under the hood, the platform calls OpenZeppelin's ERC-20 + ERC-20Capped + ERC-20Burnable template, compiles and deploys to BNB Chain / Solana / ETH. Cost: 0.03 BNB. This is the real 2026 cost structure of crypto issuance.*
+
 ## 3.1 What is Cryptocurrency?
 
 **Cryptocurrency** is a digital or virtual currency that uses cryptographic techniques to secure transactions, control the creation of new units, and verify asset transfers. Unlike traditional fiat currencies, cryptocurrencies are typically decentralized and not issued or managed by any government or central authority.

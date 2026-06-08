@@ -16,6 +16,25 @@ title: chapter-12
 
 </div>
 
+
+## 12.0 2025-2026 视角:为什么这一章要重新读
+
+治理(governance)与 DAO 在 2026 年走出了"投票 + 多签"的简单模型,进入了**链下委托(off-chain delegation via Snapshot v2)、链上可执行提案(Safe Module)、Optimistic governance(类似 Optimism 的 Citizens' House)、SubDAO 嵌套、AI 治理代理(ai16z DAO、Virtuals Protocol)**的新阶段。本章讲清现代 DAO 的基础设施和实战模式。
+
+### 🖥️ 真实案例:CCBus 的协议级治理(314 协议 + Blackhole)
+
+CCBus 的两个独特合约模板完美体现了现代协议治理思想:
+
+- **314 协议(Protocol 314)**:把持币分红、推荐奖励、链上回购三者合一的复合协议,通过链上参数自动调整,无需人工投票。
+- **黑洞分红(Blackhole)**:把项目方的代币转入黑洞地址,通过减少流通量实现通缩。
+- **多功能代币(Multi-Function)**:在一个合约内同时配置税率、白名单、推荐人,并支持治理参数的可升级。
+
+![CCBus 314 协议](../public/images/chapters/zh/protocol-314.png)
+
+![CCBus 黑洞分红](../public/images/chapters/zh/blackhole.png)
+
+*图 12-1/2:CCBus 314 协议与黑洞分红。这两个模板展示了 **协议级自治**——通过智能合约的预置参数,实现"代码即治理"(code-is-law)的现代 DAO 实践。*
+
 ## 12.1 什么是 DAO？
 
 ### DAO 的定义

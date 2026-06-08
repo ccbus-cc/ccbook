@@ -18,6 +18,21 @@ title: collections_config.json
 
 </div>
 
+
+## 14.0 2025-2026 视角:为什么这一章要重新读
+
+企业区块链(Enterprise Blockchain)在 2026 年进入了"许可链联盟化 + RWA 链上化"阶段。Hyperledger Fabric 3.x、Quorum、R3 Corda 仍然占据传统金融场景;但真正爆发的是**RWA(Real World Assets)**——BlackRock BUIDL、Ondo Finance、Maple Finance、Securitize 把数万亿美元的国债、信贷、房产代币化到公链。本章讲清 RWA 的法律框架、托管模型、链上合规。
+
+### 🖥️ 真实案例:CCBus 的合约合规工具
+
+CCBus 的合约模板(Multi-Function、HOLD_REFLECTION 等)内置了**白名单交易、链上 KYC 接口、监管黑名单同步**等合规能力,这正是 2026 年企业级代币化的关键需求。
+
+下图展示 CCBus 的合约审计工具——这是企业级合约上线前必须通过的检查。
+
+![CCBus 合约检查器](../public/images/chapters/zh/contract-inspector.png)
+
+*图 14-1:CCBus 合约检查器。展示企业级合约的合规检查流程——**合约源代码 → 编译 → 字节码验证 → 漏洞扫描 → 合规审计**五步流程,这是 RWA 上链的最小可行标准。*
+
 ---
 
 ## 14.1 企业区块链 vs 公链

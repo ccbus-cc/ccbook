@@ -18,6 +18,19 @@ title: "Chapter 7: Layer 2 Scaling Solutions"
 
 </div>
 
+
+## 7.0 2025-2026 视角:为什么这一章要重新读
+
+Layer 2 has moved from 'scaling experiment' to 'mainstream settlement layer'. Optimistic Rollup (Arbitrum, OP Mainnet, Base) and zkRollup (zkSync Era, Polygon zkEVM, Linea, Scroll, Starknet) have all surpassed many L1s in TVL, users, and transaction count. This chapter explains the fundamental difference between OP and ZK, the post-EIP-4844 blob cost structure, and 2026 trends: **Based Rollup, Native Rollup, Intents on L2**.
+
+### 🖥️ Real-world Example: CCBus Cross-Chain Swap (L2-Friendly Bridge)
+
+CCBus's cross-chain swap is built on LayerZero / Wormhole / Stargate — a classic L2-era asset-flow scenario. Users bridge from Arbitrum to Base without ever touching L1.
+
+![CCBus cross-chain swap, showing L2-to-L2 asset flow](../public/images/chapters/zh/cross-chain-swap.png)
+
+*Figure 7-1: CCBus cross-chain swap. The 2026 L2-to-L2 bridge UI: the user sees only 'from chain A to chain B' — L1 is invisible.*
+
 ## 7.1 Scaling Problem Analysis
 
 Blockchain faces scalability limitations due to the trilemma.

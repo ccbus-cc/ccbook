@@ -16,6 +16,25 @@ title: chapter-8
 
 </div>
 
+
+## 8.0 2025-2026 视角:为什么这一章要重新读
+
+跨链已经从"桥"走向"意图(intent)"。2026 年的主流方案:**LayerZero V2(WireLib 通用消息)、Wormhole NTT(Native Token Transfer)、Chainlink CCIP、Across(意图式桥)、Stargate(统一流动性)、deBridge DLN**(DeBridge Liquidity Network)、**Axelar GMP**。本章讲清这些方案的安全模型、最终性时延、对原生 vs 包装资产的处理差异。
+
+### 🖥️ 真实案例:CCBus 的三层跨链架构
+
+CCBus 提供了三种跨链入口:
+
+- **跨链兑换(Cross-chain Swap)**:基于意图(intent-based),用户表达"我想用 100 USDC 在 BSC 换 base 上的 ETH",由求解器(solver)竞标完成。
+- **跨链桥 C(LayerZero)**:通用消息桥,适合合约级跨链调用。
+- **跨链桥 Z(zkBridge)**:零知识证明验证,适合大额资产转移。
+
+![CCBus 跨链桥 C(LayerZero 通用消息)](../public/images/chapters/zh/bridge-c.png)
+
+![CCBus 跨链桥 Z(zkBridge)](../public/images/chapters/zh/bridge-z.png)
+
+*图 8-1 & 8-2:CCBus 跨链桥的两种实现路径。**LayerZero 的 optimistic 模型**与**zkBridge 的有效性证明模型**是当前跨链安全权衡的两条主线。*
+
 ---
 
 ## 8.1 为什么需要互操作性？

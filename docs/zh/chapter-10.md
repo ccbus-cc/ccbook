@@ -16,6 +16,30 @@ title: chapter-10
 
 </div>
 
+
+## 10.0 2025-2026 视角:为什么这一章要重新读
+
+DeFi 在 2026 年进入了"机构化 + 真实收益(real yield)"双轮驱动。Uniswap v4 的 hooks 体系重塑了 AMV,Curve 的 crvUSD 与 Angle agEUR 推动了稳定币 DEX 专业化,Pendle 把 YT/PT 拆解带进了利率衍生品时代,EigenLayer 的再质押催生了 AVS 经济。本章重新梳理 DeFi 的核心原语与新趋势。
+
+### 🖥️ 真实案例:CCBus 的 DeFi 工具矩阵
+
+CCBus 的 DeFi 工具集几乎是本章内容的可视化目录:
+
+- **流动性池代币(LP Reflection)**:持币者自动获得 LP 手续费分红。
+- **底池燃烧(LP Burn)**:把 LP 代币发给 0xdead,永久锁仓增加稀缺性。
+- **LP 挖矿(LP Mine)**:持 LP 代币挖项目自身代币。
+- **流动性控制台(liquidity console)**:管理多个 DEX 上的 LP 头寸。
+- **流动性修复(liquidity fix)**:在 V2/V3 迁移后调整价格区间。
+- **池子分析器(pool analysor)**:用真实链上数据评估池子健康度。
+
+![CCBus LP 分红代币配置](../public/images/chapters/zh/lp-reflection.png)
+
+![CCBus 底池燃烧配置](../public/images/chapters/zh/lp-burn.png)
+
+![CCBus 流动性控制台](../public/images/chapters/zh/liquidity-control.png)
+
+*图 10-1/2/3:CCBus 的 LP 工具集——分红、燃烧、加池控制——完整地体现了 **Uniswap V2/V3 的 LP 经济学**。这三种工具覆盖了 DeFi 流动性管理的 90% 真实场景。*
+
 ---
 
 ## 10.1 什么是 DeFi？

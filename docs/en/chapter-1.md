@@ -5,6 +5,19 @@ title: "Chapter 1: Blockchain Fundamentals"
 
 # Chapter 1: Blockchain Fundamentals
 
+## 1.0 2025-2026 视角:为什么这一章要重新读
+
+As of 2026, blockchain has evolved from cryptocurrency's underlying technology into the foundational infrastructure of the global digital economy. This chapter explores blockchain through a current lens: from Bitcoin's genesis to today's multi-chain universe, from pure value transfer to RWA tokenization, AI agent economies (intent-centric), and the full operationalization of modular blockchains.
+
+### 🖥️ Real-world Example: CCBus All-in-One DeFi Toolkit
+
+**CCBus** (ccbus.cc) is a multi-chain (BNB Chain, Solana, etc.) one-stop DeFi toolkit that packages nearly all the core blockchain capabilities covered in this chapter — **token standards, on-chain interaction, wallet management, contract verification, market analytics** — into a visual GUI. The screenshot below shows the platform's homepage feature matrix.
+
+![CCBus All-in-One DeFi Toolkit homepage](../public/images/chapters/en/home-overview-en.png)
+
+*Figure 1-1: CCBus homepage. Notice how mainstream public-chain features — **dividend tokens, liquidity-pool tokens, cross-chain bridges, DeFi tools, market analytics** — are surfaced to end users through visual tooling.*
+
+
 ## 1.1 What is Blockchain?
 
 **Blockchain** is a distributed ledger technology (DLT) that allows data to be stored in blocks and linked together through cryptography, forming a chain. Each block contains a batch of transaction records, and once added to the chain, it is nearly impossible to modify.

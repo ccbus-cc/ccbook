@@ -18,6 +18,25 @@ title: "Chapter 8: Interoperability and Cross-Chain"
 
 </div>
 
+
+## 8.0 2025-2026 视角:为什么这一章要重新读
+
+Cross-chain has moved from 'bridges' to 'intents'. The 2026 mainstream solutions: **LayerZero V2 (WireLib), Wormhole NTT (Native Token Transfer), Chainlink CCIP, Across (intent-based), Stargate (unified liquidity), deBridge DLN (DeBridge Liquidity Network), Axelar GMP**. This chapter covers the security models, finality latency, and native vs wrapped asset handling of each.
+
+### 🖥️ Real-world Example: CCBus's Three-Layer Cross-Chain Architecture
+
+CCBus offers three cross-chain entry points:
+
+- **Cross-chain Swap**: intent-based, user expresses 'swap 100 USDC on BSC for ETH on Base', solvers bid to fill.
+- **Bridge C (LayerZero)**: general-message bridge, for contract-level cross-chain calls.
+- **Bridge Z (zkBridge)**: zero-knowledge proof verification, for large-value transfers.
+
+![CCBus Bridge C (LayerZero general message)](../public/images/chapters/zh/bridge-c.png)
+
+![CCBus Bridge Z (zkBridge)](../public/images/chapters/zh/bridge-z.png)
+
+*Figures 8-1 & 8-2: CCBus's two cross-chain bridge implementations. **The optimistic model of LayerZero** and **the validity-proof model of zkBridge** are the two main lines of cross-chain security tradeoffs today.*
+
 ## 8.1 Interoperability Challenges
 
 Different blockchains use different protocols, making communication difficult.

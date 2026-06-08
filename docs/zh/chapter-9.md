@@ -16,6 +16,19 @@ title: chapter-9
 
 </div>
 
+
+## 9.0 2025-2026 视角:为什么这一章要重新读
+
+前沿密码学在 2025-2026 年实现了三件大事:**ZK 性能突破(证明时间从分钟级降到亚秒级)、FHE 全同态加密实用化(Zama fhEVM)、MPC 钱包大规模落地(fireblocks、Safe、Lit Protocol)**。本章既讲解这些技术的数学原理,也给出真实的产品形态。
+
+### 🖥️ 真实案例:CCBus 批量钱包背后的密码学
+
+CCBus 的批量钱包生成功能,本质上是客户端 MPC 友好的密钥派生——每个钱包的助记词通过BIP-32/BIP-39/BIP-44 标准从单个熵源派生,但派生过程的熵分离(separation of entropy)做到了密码学级别独立。下图展示了批量生成 100 个 EVM 钱包的界面。
+
+![CCBus 批量钱包生成](../public/images/chapters/zh/batch-generate-wallet.png)
+
+*图 9-1:CCBus 批量钱包生成。背后使用了 BIP-39 助记词标准(2048 词表)与 BIP-32 HD 钱包派生树,这种**分层确定性钱包**(Hierarchical Deterministic Wallet)是 2026 年加密钱包的事实标准。*
+
 ---
 
 ## 9.1 零知识证明 (Zero-Knowledge Proof)

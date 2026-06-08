@@ -19,6 +19,25 @@ title: 安装 Slither
 
 </div>
 
+
+## 15.0 2025-2026 视角:为什么这一章要重新读
+
+区块链安全在 2026 年面临三波新攻击:**私钥钓鱼(Approval Phishing)、合约升级陷阱(Upgradeable Proxy Hijack)、AI 驱动的合约漏洞挖掘**。本章既讲经典攻击(重入、整数溢出、抢跑、闪电贷),也讲新威胁(EIP-7702 委托钓鱼、**Permit2 签名滥用**),并提供完整的工具链:**Slither、Mythril、Echidna、Certora、Tenderly、Forta、Chainalysis**。
+
+### 🖥️ 真实案例:CCBus 的合约审计与验证工具
+
+CCBus 提供了两套互补的合约安全工具:
+
+- **合约验证(Contract Verifier)**:对已部署的合约字节码进行反编译 + 源码匹配,
+  确保用户交互的合约确实是团队公开的源码部署的——这是反钓鱼的第一道防线。
+- **合约检查器(Contract Inspector)**:静态分析 + 漏洞模式匹配(类似 Slither 的   reentrancy-eth、uninitialized-state、tx-origin、unchecked-lowlevel、timestamp 等检测器)。
+
+![CCBus 合约验证器](../public/images/chapters/zh/contract-verifier.png)
+
+![CCBus 合约检查器(完整版)](../public/images/chapters/zh/contract-inspector.png)
+
+*图 15-1/2:CCBus 的合约安全工具链。**合约验证解决"我交互的是不是你声称的代码"**问题,**合约检查器解决"这段代码本身有没有漏洞"**问题。两者结合是 2026 年 DeFi 安全的标准流程。*
+
 ---
 
 ## 15.1 区块链安全威胁模型

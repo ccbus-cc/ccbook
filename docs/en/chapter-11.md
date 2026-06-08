@@ -18,6 +18,19 @@ title: "Chapter 11: NFTs and Digital Assets"
 
 </div>
 
+
+## 11.0 2025-2026 视角:为什么这一章要重新读
+
+NFT in 2025-2026 has evolved from JPEG collectibles to **RWA (on-chain treasury certificates, real-estate shares), SBT (Soulbound Tokens), Tickets (on-chain ticketing), Music NFTs (Audius, Songs Republic), GameFi assets (Big Time, Illuvium)**. ERC-721 and ERC-1155 still dominate, but ERC-4907 (rentable NFTs) and ERC-7656 (off-chain fingerprints) are becoming standard.
+
+### 🖥️ Real-world Example: CCBus Token Standards & NFT Compatibility
+
+CCBus's token templates (HOLD_REFLECTION, LIQUIDITY_PROVIDER_REFLECTION, BLACKHOLE, etc.) all follow the ERC-20 standard, but their composability is already close to ERC-1155 — **a single token contains both transfer functionality and NFT-style holding proofs**.
+
+![CCBus standard token creation form](../public/images/chapters/zh/standard-token-create.png)
+
+*Figure 11-1: CCBus standard token. Demonstrates the diversity of 2026 tokenized assets — the same UI can configure everything from plain ERC-20 to NFT-backed holding certificates.*
+
 ## 11.1 Non-Fungible Tokens (NFTs)
 
 **NFTs** are unique digital assets with verifiable ownership and scarcity.

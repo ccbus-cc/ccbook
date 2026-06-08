@@ -16,6 +16,19 @@ title: 示例：验证账户余额
 - 探索高性能区块链设计方案
 </div>
 
+
+## 6.0 2025-2026 视角:为什么这一章要重新读
+
+区块链架构正经历从 monolithic(单体)到 modular(模块化)的范式转变。Celestia、EigenDA、Avail 把数据可用性(DA)从执行层剥离;Espresso、Astria 提供了共享排序器(shared sequencer);以太坊通过 EIP-4844(blob)与 danksharding 路线图拥抱 DA 层。本章将系统讲清三层架构:**执行层(Execution)、结算层(Settlement)、共识层(Consensus)、数据可用性层(DA)**。
+
+### 🖥️ 真实案例:CCBus 的多链架构适配
+
+CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系(Solana)、Bitcoin 系(Bitcoin via Inscription)、Tron 系(TRC-20)等多个异构架构上,这意味着它的合约逻辑必须抽象成"执行层无关"的代码。下面是 CCBus 的标准代币界面,在 BSC、ETH、Solana 上的合约结构是平台自动适配的。
+
+![CCBus 多链架构适配](../public/images/chapters/zh/standard-token-create.png)
+
+*图 6-1:CCBus 标准代币创建,展示多链架构适配。在 EVM 链上生成 ERC-20,在 Solana 上生成 SPL Token,两者的字节码完全不同。*
+
 ## 6.1 区块链分层架构
 
 ### 经典六层架构模型

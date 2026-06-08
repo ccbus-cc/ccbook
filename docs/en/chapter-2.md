@@ -18,6 +18,23 @@ Cryptography is the cornerstone of blockchain technology. This chapter delves de
 
 </div>
 
+
+## 2.0 2025-2026 视角:为什么这一章要重新读
+
+Cryptography is the bedrock of blockchain security. From ECDSA signatures to BLS aggregate signatures, from SHA-2 to PLONK-based zk-SNARKs, the blockchain crypto stack in 2026 is far more sophisticated than it was in the early 2020s. This chapter covers both classics (hashing, symmetric/asymmetric encryption) and the frontier (ZK, threshold signatures, AA signature aggregation).
+
+### 🖥️ Real-world Example: CCBus Toolset
+
+CCBus ships a complete cryptography-tool visualization layer. Use it to experience the core concepts from this chapter hands-on:
+
+- **Vanity Address Generator**: brute-force search for an Ethereum address matching a given prefix/suffix — essentially repeatedly keccak256-hashing private keys until one matches the criteria.
+- **Batch Wallet Generation**: generate 100 EVM wallets in one shot, demonstrating the ECDSA private-key → public-key → address derivation pipeline.
+- **Wallet Manager**: unified encrypted (AES-256) storage of multiple private keys.
+
+![CCBus Vanity Address Generator](../public/images/chapters/zh/vanity-address-empty.png)
+
+*Figure 2-1: CCBus's vanity address generator. The user enters a desired prefix/suffix, the system multithreads ECDSA + keccak256 to find a matching Ethereum address. This process perfectly illustrates the **irreversibility of asymmetric encryption** — you can never derive a private key from a target address, only brute-force forward.*
+
 ## 2.1 Introduction to Cryptography
 
 **Cryptography** is the science of secure communication in adversarial environments. In blockchain, cryptography provides the following key functions:

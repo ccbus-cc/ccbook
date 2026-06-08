@@ -16,6 +16,19 @@ title: chapter-7
 - 探索Layer 2的未来发展趋势
 </div>
 
+
+## 7.0 2025-2026 视角:为什么这一章要重新读
+
+Layer 2 已经从"扩容实验"走向"主流结算层"。Optimistic Rollup(Arbitrum、OP Mainnet、Base)和 zkRollup(zkSync Era、Polygon zkEVM、Linea、Scroll、Starknet)在 TVL、用户量、交易笔数上都已经超过很多 L1。本章讲清 OP vs ZK 的根本差异、EIP-4844 blob 后的成本结构、以及 2026 年的新趋势:**Based Rollup、Native Rollup、Intents on L2**。
+
+### 🖥️ 真实案例:CCBus 跨链兑换(L2 友好的桥)
+
+CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Wormhole / Stargate 的桥接方案,这恰恰是 L2 时代资产流动的典型场景——用户从 Arbitrum 跨到 Base,中间不再经过 L1。
+
+![CCBus 跨链兑换,展示 L2 之间的资产流动](../public/images/chapters/zh/cross-chain-swap.png)
+
+*图 7-1:CCBus 跨链兑换。这是 2026 年 L2 间桥接的典型 UI:用户不感知 L1,只看到"从链 A 到链 B"的资产转移。*
+
 ## 7.1 为什么需要Layer 2？
 
 ### 区块链三难困境

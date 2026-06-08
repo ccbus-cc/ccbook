@@ -529,6 +529,19 @@ Subnet 18: 数据清洗
 
 ```python
 # 1. 训练模型（传统方式）
+
+## 16.0 2025-2026 视角:为什么这一章要重新读
+
+区块链的下一个十年将由四个力量塑造:**AI 代理经济(ai16z、Virtuals Protocol、Aethernet)、意图与求解器生态(UniswapX、CoW Swap、1inch Fusion、Across)、RWA 主流化(预计 2030 年前 30 万亿美元链上化)、量子抗性(后量子签名 NIST FIPS 204/205)**。本章用具体项目 + 真实数据展望 2026-2030 的趋势。
+
+### 🖥️ 真实案例:CCBus 的 T800/T1000 交易机器人
+
+CCBus 的 **T800 / T1000 交易机器人**正是 AI 代理经济(AI agent economy)在 DeFi 的真实落地——它们不是简单的网格交易,而是**用 LLM + 链上数据 + 实时价格预言机的 AI 代理**,自动完成做市、套利、流动性管理等复杂操作。
+
+![CCBus 交易机器人 T800,展示 AI 代理驱动的做市/套利策略](../public/images/chapters/zh/swap-bot-t800.png)
+
+*图 16-1:CCBus 交易机器人 T800。这是 **AI 代理在链上的真实形态**——它把 "AI + 区块链" 从 PPT 上的概念,变成任何人都可以订阅的 SaaS 服务。*
+
 import torch
 import torch.nn as nn
 
