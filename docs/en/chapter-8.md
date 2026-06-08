@@ -2,7 +2,6 @@
 title: "Chapter 8: Interoperability and Cross-Chain"
 ---
 
-
 # Chapter 8: Interoperability and Cross-Chain
 
 <div class="chapter-intro">

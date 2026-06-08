@@ -2,7 +2,6 @@
 title: "Chapter 14: Enterprise Blockchain"
 ---
 
-
 # Chapter 14: Enterprise Blockchain
 
 <div class="chapter-intro">

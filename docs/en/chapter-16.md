@@ -2,7 +2,6 @@
 title: "Chapter 16: The Future of Blockchain"
 ---
 
-
 # Chapter 16: The Future of Blockchain
 
 <div class="chapter-intro">

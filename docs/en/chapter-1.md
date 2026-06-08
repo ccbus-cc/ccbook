@@ -2,7 +2,6 @@
 title: "Chapter 1: Blockchain Fundamentals"
 ---
 
-
 # Chapter 1: Blockchain Fundamentals
 
 ## 1.0 2025-2026 视角:为什么这一章要重新读

@@ -1,7 +1,8 @@
 ---
-title: chapter-10
+title: "第十章：DeFi - 去中心化金融"
 ---
 
+# 第十章：DeFi - 去中心化金融
 
 <div class="chapter-intro">
 

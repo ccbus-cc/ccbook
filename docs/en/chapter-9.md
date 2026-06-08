@@ -2,7 +2,6 @@
 title: "Chapter 9: Advanced Cryptography"
 ---
 
-
 # Chapter 9: Advanced Cryptography
 
 <div class="chapter-intro">

@@ -2,7 +2,6 @@
 title: "Chapter 4: Consensus Mechanisms"
 ---
 
-
 # Chapter 4: Consensus Mechanisms
 
 <div class="chapter-intro">

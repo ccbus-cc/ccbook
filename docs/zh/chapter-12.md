@@ -1,7 +1,8 @@
 ---
-title: chapter-12
+title: "第十二章：治理与 DAO"
 ---
 
+# 第十二章：治理与 DAO
 
 <div class="chapter-intro">
 

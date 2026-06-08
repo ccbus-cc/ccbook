@@ -1,9 +1,8 @@
 ---
-title: "Chapter 12: Governance and DAOs"
+title: "Chapter 12: Governance and DAO"
 ---
 
-
-# Chapter 12: Governance and DAOs
+# Chapter 12: Governance and DAO
 
 <div class="chapter-intro">
 

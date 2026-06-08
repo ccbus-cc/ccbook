@@ -2,7 +2,6 @@
 title: "Chapter 6: Blockchain Architecture"
 ---
 
-
 # Chapter 6: Blockchain Architecture
 
 <div class="chapter-intro">

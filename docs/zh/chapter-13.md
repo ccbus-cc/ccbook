@@ -1,7 +1,8 @@
 ---
-title: chapter-13
+title: "第十三章：区块链平台对比"
 ---
 
+# 第十三章：区块链平台对比
 
 <div class="chapter-intro">
 

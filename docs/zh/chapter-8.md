@@ -1,7 +1,8 @@
 ---
-title: chapter-8
+title: "第八章：互操作性与跨链"
 ---
 
+# 第八章：互操作性与跨链
 
 <div class="chapter-intro">
 

@@ -1,7 +1,8 @@
 ---
-title: 示例：验证账户余额
+title: "第六章：区块链架构"
 ---
 
+# 第六章：区块链架构
 
 <div class="chapter-intro">
 <strong>本章导读</strong>

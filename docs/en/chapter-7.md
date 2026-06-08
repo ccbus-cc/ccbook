@@ -1,9 +1,8 @@
 ---
-title: "Chapter 7: Layer 2 Scaling Solutions"
+title: "Chapter 7: Layer 2 Scaling"
 ---
 
-
-# Chapter 7: Layer 2 Scaling Solutions
+# Chapter 7: Layer 2 Scaling
 
 <div class="chapter-intro">
 

@@ -2,7 +2,6 @@
 title: "Chapter 2: Cryptography Fundamentals"
 ---
 
-
 # Chapter 2: Cryptography Fundamentals
 
 <div class="chapter-intro">

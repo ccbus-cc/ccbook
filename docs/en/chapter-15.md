@@ -2,7 +2,6 @@
 title: "Chapter 15: Security and Best Practices"
 ---
 
-
 # Chapter 15: Security and Best Practices
 
 <div class="chapter-intro">

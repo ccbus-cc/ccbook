@@ -1,7 +1,8 @@
 ---
-title: chapter-9
+title: "第九章：高级密码学"
 ---
 
+# 第九章：高级密码学
 
 <div class="chapter-intro">
 

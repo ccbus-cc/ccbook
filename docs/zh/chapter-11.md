@@ -1,7 +1,8 @@
 ---
-title: chapter-11
+title: "第十一章：NFT 与数字资产"
 ---
 
+# 第十一章：NFT 与数字资产
 
 <div class="chapter-intro">
 

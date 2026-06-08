@@ -1,7 +1,8 @@
 ---
-title: collections_config.json
+title: "第十四章：企业区块链"
 ---
 
+# 第十四章：企业区块链
 
 <div class="chapter-intro">
 

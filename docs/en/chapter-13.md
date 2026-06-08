@@ -2,7 +2,6 @@
 title: "Chapter 13: Blockchain Platform Comparison"
 ---
 
-
 # Chapter 13: Blockchain Platform Comparison
 
 <div class="chapter-intro">

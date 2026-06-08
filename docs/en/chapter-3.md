@@ -2,7 +2,6 @@
 title: "Chapter 3: Cryptocurrency Fundamentals"
 ---
 
-
 # Chapter 3: Cryptocurrency Fundamentals
 
 <div class="chapter-intro">

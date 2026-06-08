@@ -1,9 +1,8 @@
 ---
-title: "Chapter 10: Decentralized Finance (DeFi)"
+title: "Chapter 10: DeFi - Decentralized Finance"
 ---
 
-
-# Chapter 10: Decentralized Finance (DeFi)
+# Chapter 10: DeFi - Decentralized Finance
 
 <div class="chapter-intro">
 

@@ -1,7 +1,8 @@
 ---
-title: chapter-7
+title: "第七章：Layer 2 扩展方案"
 ---
 
+# 第七章：Layer 2 扩展方案
 
 <div class="chapter-intro">
 <strong>本章导读</strong>

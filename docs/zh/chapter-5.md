@@ -1,7 +1,8 @@
 ---
-title: chapter-5
+title: "第五章：智能合约"
 ---
 
+# 第五章：智能合约
 
 <div class="chapter-intro">
 <strong>本章导读</strong>
@@ -273,6 +274,58 @@ $$
 \text{Fee} = 21,000 \times 50 = 1,050,000 \text{ Gwei} = 0.00105 \text{ ETH}
 $$
 
+
+
+### EVM 2026 升级: Cancun → Pectra → Fusaka 三轮硬分叉的关键 EIP
+
+到 2026 年,EVM 已经历了 Cancun(2024-03)、Pectra(2025-05)、Fusaka(2026-Q2 计划)三轮硬分叉,每一轮都从底层重塑了合约开发者的能力:
+
+**Cancun 硬分叉(Dencun, 2024-03-13)** — 引入了 **EIP-4844 (Proto-Danksharding / Blob transactions)**:
+- L2 的 rollup 不再需要把 calldata 永久存在 L1,改用 128 KB 的临时 blob(约 18 天后过期)
+- L2 交易 gas 成本从约 $0.10 降到 $0.001,降幅 **100 倍**
+- 新的操作码 `BLOBHASH` / `BLOBBASEFEE` 让 L1 合约可以读取 blob 摘要
+- 对合约开发者的影响:任何依赖 calldata 存储大量数据的模式(如 NFT 链上元数据)都应该改用 blob,成本差距巨大
+
+**Pectra 硬分叉(2025-05-07)** — 包含 11 个 EIP,核心三个:
+
+| EIP | 名称 | 对合约开发者的影响 |
+|---|---|---|
+| **EIP-7702** | Set EOA account code | **革命性** — EOA 临时变成智能合约账户,可以批量调用、Gas 代付、密钥轮换 |
+| EIP-7251 | Increase max validator balance | 验证者 max effective balance 从 32 ETH 提到 2048 ETH,简化 restaking |
+| EIP-7691 | Blob throughput increase | Blob 目标从 3 提到 6,最大从 6 提到 9,L2 容量再翻倍 |
+| EIP-2935 | Serve historical block hashes from state | 历史区块哈希从 256 块扩到 8192 块,长期价格预言机更可靠 |
+| EIP-6110 | Supply validator deposits on chain | 验证者存款事件从 12 小时缩短到 ~13 分钟 |
+
+**EIP-7702 详细解读** — 这是 2026 年最值得每个合约开发者了解的新原语:
+- 用户签一条 `AUTH` 消息,把 EOA 临时绑定到一个已部署的合约实现上
+- 在该交易期间,EOA 表现得像一个智能合约账户:可以发起批量调用、Gas 代付、社交恢复
+- 用户不需要放弃 EOA,不需要部署新合约,不需要迁移资产
+- 实际用例:MetaMask 通过 7702 实现了**Gas 代付**;Safe 通过 7702 让 EOA 享有 Safe 多签能力;Uniswap 通过 7702 实现**免 approve 的 swap**
+
+**Fusaka 硬分叉(2026-Q2 计划)** — 路线图:
+- **EIP-7594 (PeerDAS)**:数据可用性采样,blob 容量再扩 4-8 倍
+- **EIP-7883 (Modular exponentiation precompile)**:支持 secp256r1 等椭圆曲线原生预编译,让账户抽象签名验证更便宜
+- **EIP-5920 (PAY opcode)**:原生支持 ETH 转账并携带数据,简化支付场景
+
+### 主流 EVM 实现的差异
+
+EVM 不只是以太坊的主网 —— 2026 年的多链宇宙里,**每条 EVM 链都是一个略微不同的 EVM 实现**:
+
+| 链 | 共识 | 区块时间 | Gas 代币 | 特殊 EVM 行为 |
+|---|---|---|---|---|
+| **Ethereum** | PoS + SSF | 12s | ETH | 完整 EVM + blob |
+| **BNB Chain** | PoSA | 3s | BNB | 完整 EVM,无 blob |
+| **Avalanche C-Chain** | Snowball | 1-2s | AVAX | 完整 EVM,Subnet 独立 |
+| **Polygon PoS** | PoS | 2s | POL | 完整 EVM + EIP-1559 |
+| **Arbitrum One** | AnyTrust | 0.25s | ETH | Stylus(WASM + Rust),ArbOS precompile |
+| **OP Mainnet** | Bedrock(OP Stack) | 2s | ETH | OP Stack 标准化 fault proof |
+| **zkSync Era** | zkRollup | ~1s | ETH | **非 EVM 等价**,有自己的 zkEVM 字节码 |
+| **Linea** | zkRollup | 2s | ETH | zkEVM,evm-equivalence |
+| **Scroll** | zkRollup | 3s | ETH | zkEVM,bytecode-level 兼容 |
+| **Base** | OP Stack | 2s | ETH | OP Stack,与 OP Mainnet 字节码相同 |
+
+**关键提示**: 写智能合约时,默认按"以太坊主网 EVM"测试,但**部署到 zkSync Era / Starknet / Solana 时合约不能直接搬**。zkSync Era 用 zkEVM 字节码,Solana 用 Rust + Anchor 写 BPF 程序。
+
 ## 5.3 Solidity 编程基础
 
 ### Solidity 简介
@@ -465,6 +518,94 @@ contract VisibilityExample {
     }
 }
 ```
+
+
+
+### Solidity 0.8.25+ 新特性:custom errors / transient storage / push0
+
+Solidity 0.8.4 引入了 `custom errors`,0.8.24 引入 `transient storage`(EIP-1153),0.8.20 引入 `PUSH0` 操作码。这是 2025-2026 年写现代 Solidity 的三大基线。
+
+**1. Custom errors(替代 require 字符串)**
+
+```solidity
+// ❌ 旧写法(浪费 gas,难以被前端 decode)
+require(balance >= amount, "Insufficient balance, please top up your wallet");
+
+// ✅ 新写法(custom error,gas 节省 ~50%,前端可类型化处理)
+error InsufficientBalance(uint256 available, uint256 required);
+
+function withdraw(uint256 amount) external {
+    if (balance < amount)
+        revert InsufficientBalance({ available: balance, required: amount });
+    balance -= amount;
+    payable(msg.sender).transfer(amount);
+}
+```
+
+**为什么更省 gas?** 旧 `require` 的字符串会作为 revert reason 上链,每个字符约 6 gas,长字符串可能 100+ gas。Custom error 用 4 byte selector + ABI 编码的参数,通常 30-50 gas。
+
+**前端配合**(TypeScript + viem):
+```typescript
+import { decodeErrorResult } from 'viem'
+
+try {
+  await contract.write.withdraw([amountn])
+} catch (err) {
+  const decoded = decodeErrorResult({ abi, data: err.data })
+  if (decoded.errorName === 'InsufficientBalance') {
+    const [available, required] = decoded.args
+    toast.error(`余额不足:你有 ${available},需要 ${required}`)
+  }
+}
+```
+
+**2. Transient storage(EIP-1153)—— ReentrancyGuard 的终极优化**
+
+Solidity 0.8.24(2025-Q1)正式启用了 transient storage,它**只在一次交易期间存在,跨交易自动清零**,gas 成本接近零(warm/cold 都是 100 gas,而 SSTORE 是 2900/100)。
+
+```solidity
+// ❌ 旧 ReentrancyGuard(用普通 storage,跨交易留下痕迹)
+abstract contract ReentrancyGuardLegacy {
+    uint256 private constant _NOT_ENTERED = 1;
+    uint256 private constant _ENTERED = 2;
+    uint256 private _status;
+    modifier nonReentrant() {
+        require(_status != _ENTERED, "reentrant");
+        _status = _ENTERED;
+        _;
+        _status = _NOT_ENTERED;
+    }
+}
+// Gas: ~5200 gas / call
+
+// ✅ 新 ReentrancyGuard(transient storage,跨交易自动清零)
+abstract contract ReentrancyGuard {
+    uint256 private constant _NOT_ENTERED = 1;
+    uint256 private constant _ENTERED = 2;
+    // slot 0xc0...ff 是 EIP-1153 规定的 transient storage 槽
+    uint256 private transient _status;
+    modifier nonReentrant() {
+        require(_status != _ENTERED, "reentrant");
+        _status = _ENTERED;
+        _;
+        _status = _NOT_ENTERED;
+    }
+}
+// Gas: ~100 gas / call —— 节省 50 倍
+```
+
+OpenZeppelin 5.1+(2025-04 发布)已经默认用 transient storage 的 `ReentrancyGuard`。升级到 OZ 5.1+ 是 2026 年最划算的 gas 优化。
+
+**3. PUSH0(EIP-3855)—— 零字节压栈**
+
+Solidity 0.8.20+ 启用了 PUSH0,把 `0` 压入栈,gas 成本 2(旧版用 `PUSH1 0x00` 要 3 gas,差额虽小,但合约里有大量 `0` 常量时能省数万 gas)。**现代编译器自动启用,无需改代码**。
+
+**4. Solidity 0.8.27+(2025-Q4)其他新特性**
+
+- **`mcopy` / `mload` / `mstore` 在 memory 上更高效** — 编译器自动应用
+- **verbatim bytecode 优化** — 允许在 assembly 里直接写需要的操作码,绕过 IR pipeline
+- **Yul optimizer 改进** — 循环展开和栈调度更智能
+- **Type checker 改进** — 继承图冲突检查更严格,减少运行时错误
 
 ## 5.4 智能合约设计模式
 
@@ -809,7 +950,123 @@ function reveal(uint256 value, bytes32 salt) public {
 </svg>
 </div>
 
-## 5.6 智能合约应用场景
+
+
+### 2025-2026 新攻击面:ERC-4337 / EIP-7702 / Permit2 钓鱼
+
+老一代攻击(reentrancy, integer overflow)在 OpenZeppelin 普及后已经少见。**2025-2026 年的合约失窃 70%+ 来自新攻击面**:
+
+**1. EIP-7702 钓鱼(Sepolia / Holesky 测试网先出现,2025-09 主网首发)**
+
+攻击者诱导用户签一条 7702 `AUTH` 消息,把 EOA 临时绑定到攻击者的合约实现上:
+```solidity
+// 攻击者合约(简化)
+contract WalletDrainer7702 {
+    function execute(address[] calldata targets, bytes[] calldata data) external {
+        for (uint i = 0; i < targets.length; i++) {
+            (bool ok,) = targets[i].call(data[i]);
+            require(ok);
+        }
+    }
+    // 攻击者把 approve(attacker, type(uint256).max) 之类的调用塞进 targets
+}
+```
+
+**防御**:
+- 钱包必须在签名 `AUTH` 消息时清楚显示"将临时把 EOA 升级为智能合约"
+- 任何要你"确认授权"的消息都要验证绑定到哪个合约地址(Etherscan 已集成 7702 授权检查)
+- 大额 EOA 建议改用 Safe(CBA 模式),不依赖 7702 临时升级
+
+**2. Permit2 签名滥用(2024-12 起,2025 持续)**
+
+Permit2 是 Uniswap 推出的通用 approve 协议(签名一次,可在所有 dApp 使用),但被钓鱼滥用:
+```solidity
+// 用户被骗签了 Permit2 消息,内容是 approve(attacker, type(uint256).max, deadline)
+```
+
+**2025 年统计**:仅 Permit2 + ERC-20 approve phishing 就造成了 4.2 亿美元的损失。
+
+**防御**:
+- Permit2 默认 expiry 是 0(永不过期),**建议钱包强制 7-30 天 expiry**
+- 大户建议用 Revoke.cash 定期清理
+- 合约可以拒绝不带 expiry 的 Permit2:`require(deadline <= block.timestamp + 30 days)`
+
+**3. ERC-4337 签名重放(2025-Q3 集中爆发)**
+
+UserOperation 里 `signature` 字段如果只包含 `owner` 签名,攻击者可以重放到另一个钱包(同 `owner` 的多签钱包):
+```solidity
+// 防御:UserOperation hash 必须包含 sender
+bytes32 hash = keccak256(abi.encode(
+    userOp.hash,                    // 包含 sender
+    address(this),                  // entryPoint
+    chainId                         // 防止跨链重放
+));
+```
+
+**4. 抢跑 & 套利的新形态 — MEV 自动化**
+
+2026 年的 MEV 攻击已工业化:
+- **Atomic Arbitrage**(原子套利):bot 监测 mempool,一笔交易内完成多 DEX 套利
+- **Sandwich Attack**(三明治):在用户大额 swap 前后各下一单,吃掉滑点
+- **Long-tail liquidation**:长尾借贷协议的清算被专门 bot 跟踪
+
+**最关键的新防御**:使用 **MEV-Blocker** 或 **Flashbots Protect** 这样的私密交易池,绕过公共 mempool。
+
+### 2025-2026 合约安全最佳实践(更新版)
+
+OpenZeppelin 5.1+, Solidity 0.8.25+, Foundry 测试,Certora 形式化验证,这套 2026 年的标准流程:
+
+**项目级安全清单**:
+
+```solidity
+// ✅ 必须用 OpenZeppelin 5.1+(transient storage ReentrancyGuard + custom errors)
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/utils/Address.sol";
+import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+
+contract Vault is ReentrancyGuard, Ownable {
+    using SafeERC20 for IERC20;
+
+    mapping(address => uint256) private balances;
+
+    error InsufficientBalance(uint256 available, uint256 required);
+    error ZeroAddress();
+    error ZeroAmount();
+
+    function deposit(IERC20 token, uint256 amount) external nonReentrant {
+        if (address(token) == address(0)) revert ZeroAddress();
+        if (amount == 0) revert ZeroAmount();
+        balances[msg.sender] += amount;
+        token.safeTransferFrom(msg.sender, address(this), amount);
+    }
+
+    function withdraw(IERC20 token, uint256 amount) external nonReentrant {
+        if (balances[msg.sender] < amount)
+            revert InsufficientBalance({
+                available: balances[msg.sender],
+                required: amount
+            });
+        balances[msg.sender] -= amount;
+        token.safeTransfer(msg.sender, amount);
+    }
+}
+```
+
+**必备工具链(2026 标准)**:
+
+| 工具 | 用途 | 2026 状态 |
+|---|---|---|
+| **Foundry** | 测试 + fuzz + invariant | 默认,取代 Hardhat |
+| **Slither** | 静态分析 | 集成进 CI 强制跑 |
+| **Echidna** | 基于属性的 fuzzing | 复杂合约必备 |
+| **Certora** | 形式化验证 | 大额 DeFi 标准 |
+| **Mythril** | 符号执行 | 已基本被 Slither 取代 |
+| **Tenderly** | 调试 + fork 模拟 | 交易追踪 |
+| **Forta** | 链上监控 | 上线后必备 |
+| **OpenZeppelin Defender** | 自动化运维 + 升级 | 多人多签项目必备 |
+| **Code Arena (Cantina)** | 众包审计 | 2025 新起,审计速度 3x |
+
+## 5.8 智能合约应用场景
 
 ### DeFi 应用
 
@@ -866,6 +1123,166 @@ contract MyNFT is ERC721, Ownable {
 - **版权保护**：NFT音乐、艺术品
 
 <div class="chapter-footer">
+
+
+
+## 5.7 新一代合约范式:Account Abstraction / Intents / Modular
+
+2026 年的合约开发已经超越了"写一个 ERC-20 部署到以太坊"的简单模型。下面是三个正在重塑行业的范式:
+
+### 5.7.1 账户抽象(Account Abstraction, AA)
+
+**传统 EOA 的限制**:
+- 一笔交易只能调用一个合约
+- 必须用 ETH 付 Gas
+- 私钥丢了资产就没了
+- 没有"批量操作"或"社交恢复"能力
+
+**ERC-4337 (2023-03 进入最终状态,2024-2025 大规模落地)** 解决了所有这些:
+
+**核心组件**:
+- **UserOperation** — 替代传统交易的对象,包含 `sender`、`callData`、`signatureGas` 等 13 个字段
+- **EntryPoint** — 全局单例合约(0x0000000071727De22E5E9d8BAf0edAc6f37da032),处理 UserOperation 流程
+- **Bundler** — 类似 mempool 节点,但处理 UserOperation;Flashbots、Alchemy、Biconomy、Stackup 都跑 bundler
+- **Paymaster** — 代付 Gas 的合约(项目方可以为用户付 Gas)
+- **Account Contract** — 用户的钱包合约(实现 `validateUserOp` 和 `execute`)
+
+**最小化 AA 钱包合约示例**:
+```solidity
+// 基于 ERC-4337 v0.7
+contract MinimalAccount is IAccount, Ownable {
+    IEntryPoint public immutable entryPoint;
+
+    constructor(IEntryPoint _entryPoint) Ownable(msg.sender) {
+        entryPoint = _entryPoint;
+    }
+
+    function validateUserOp(
+        PackedUserOperation calldata userOp,
+        bytes32 userOpHash,
+        uint256 missingAccountFunds
+    ) external onlyEntryPoint returns (uint256 validationData) {
+        return _validateSignature(userOp, userOpHash);
+    }
+
+    function _validateSignature(
+        PackedUserOperation calldata userOp,
+        bytes32 userOpHash
+    ) internal view returns (uint256 validationData) {
+        bytes32 hash = MessageHashUtils.toEthSignedMessageHash(userOpHash);
+        if (ECDSA.recover(hash, userOp.signature) != owner()) {
+            return SIG_VALIDATION_FAILED;
+        }
+        return 0; // success
+    }
+
+    function execute(address dest, uint256 value, bytes calldata func) external onlyEntryPoint {
+        (bool success, bytes memory result) = dest.call{value: value}(func);
+        if (!success) {
+            assembly {
+                revert(add(result, 32), mload(result))
+            }
+        }
+    }
+
+    modifier onlyEntryPoint() {
+        require(msg.sender == address(entryPoint), "only EntryPoint");
+        _;
+    }
+}
+```
+
+**真实落地**:
+- **Safe (前 Gnosis Safe)** — 90%+ 多签场景使用 ERC-4337
+- **Biconomy** — paymaster-as-a-service,新手免费 Gas
+- **ZeroDev** — kernel 模式 AA,模块化插件
+- **Alchemy Account Kit** — 全托管 AA SDK
+- **Stackup** — bundler-as-a-service
+- **EIP-7702 (2025-05)** — EOA 也可临时升级为 AA 钱包(无需部署新合约)
+
+### 5.7.2 意图(INTENTS)—— 用户表达"我要什么",求解器负责"怎么实现"
+
+**传统 swap 的问题**: 用户需要选 DEX、算路径、付 Gas、扛 MEV。
+
+**意图模式**: 用户签一条"我想用 100 USDC 换 ≥ 0.025 ETH"的消息,求解器(solver)竞标来填这笔单。
+
+**ERC-7683 (2024-11 进入最终状态,2025-2026 主流化)** — 跨链意图标准:
+```solidity
+// 用户签的订单(简化)
+struct CrossChainOrder {
+    address owner;
+    uint256 srcChainId;
+    uint256 dstChainId;
+    address srcToken;
+    address dstToken;
+    uint256 srcAmount;
+    uint256 minDstAmount;
+    uint256 deadline;
+    bytes32 salt;
+    // ... 还包含 AuctionParameters,例如最长竞标时间、解锁时间
+}
+```
+
+**主流意图协议**:
+
+| 协议 | 类型 | 2026 状态 |
+|---|---|---|
+| **UniswapX** | 链内意图,荷兰拍 | 月交易量 $5B+ |
+| **1inch Fusion** | 链内意图,荷兰拍 | 头部求解器 |
+| **CoW Swap** | 批量结算 + 巧合对冲 | DEX 类别前 5 |
+| **Across Protocol** | 跨链意图,优化器(不是荷兰拍) | 主流跨链桥 |
+| **deBridge DLN** | 跨链意图 | 高速增长 |
+| **Symbiosis** | 跨链意图 + DEX 聚合 | 亚洲市场份额大 |
+| **Squid Router** | Axelar 系的跨链意图 | 集成流量大 |
+| **KIP Protocol** | AI 驱动的意图 | 2025-Q4 新起 |
+
+**意图 + AA 的结合** —— 这是 2026 年最热门的范式。Safe + Across 的集成让用户**一笔交易**(UserOperation)就可以"用 Safe 钱包在 Base 上 swap,求解器是 CoW,跨链到 Arbitrum",完全无需手动操作。
+
+### 5.7.3 模块化合约(Modular Contracts)—— Diamond Standard (EIP-2535)
+
+传统单文件合约膨胀到 24KB 上限后,只能分叉或迁移。**Diamond Standard** 用"主合约 + 多个 facet"的方式实现无限扩展:
+
+```solidity
+// Diamond 主合约(简化)
+contract Diamond {
+    mapping(bytes4 => address) public facetAddress;
+    mapping(bytes4 => bytes4) public selectors;
+    mapping(address => mapping(bytes4 => bool)) public supportedInterfaces;
+
+    fallback() external payable {
+        address facet = facetAddress[msg.sig];
+        require(facet != address(0), "Diamond: Function does not exist");
+        assembly {
+            calldatacopy(0, 0, calldatasize())
+            let result := delegatecall(gas(), facet, 0, calldatasize(), 0, 0)
+            returndatacopy(0, 0, returndatasize())
+            switch result
+                case 0 { revert(0, returndatasize()) }
+                default { return(0, returndatasize()) }
+        }
+    }
+}
+
+// ERC-2535 facets
+contract LiquidityFacet { /* ... */ }
+contract GovernanceFacet { /* ... */ }
+contract SecurityFacet { /* ... */ }
+contract L2BridgeFacet { /* ... */ }
+```
+
+**2026 年真实案例**:
+- **Aavegotchi** — 用 Diamond 升级游戏合约
+- **ApeCoin DAO** — 用 Diamond 实现空投 + 质押 + 治理
+- **ERC-6551 (Token Bound Accounts)** — 每个 NFT 有一个智能合约账户,Diamond 模式实现
+
+### 5.7.4 真实案例:CCBus 多功能代币合约 = 模块化合约的范本
+
+回到本章开头的 CCBus 多功能代币实例 —— 它本质上是一个**小型模块化合约**:
+- 主合约是 `MultiFunctionToken`(类似 Diamond)
+- 内部按功能切分:**TransferFacet**、**DividendFacet**、**BurnFacet**、**ReferralFacet**、**WhitelistFacet**、**AntiBotFacet**
+- 每个 facet 独立可升级、独立可关闭
+
+CCBus 这种**单合约多 facet** 的模式正是 2026 年代币合约的主流写法,而不是把所有逻辑堆在一个 `.sol` 文件里。
 
 ## 本章总结
 

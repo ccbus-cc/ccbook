@@ -2,7 +2,6 @@
 title: "Chapter 11: NFTs and Digital Assets"
 ---
 
-
 # Chapter 11: NFTs and Digital Assets
 
 <div class="chapter-intro">
