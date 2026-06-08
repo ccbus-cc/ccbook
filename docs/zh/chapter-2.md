@@ -220,7 +220,7 @@ console.log(sha256('Hello, blockchain!'));  // 注意小写 b
       .svg-2-1 .chain-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
       .svg-2-1 .chain-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-1 .chain-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-1 .chain-box3 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-1 .chain-box3 { fill: rgba(245, 194, 66, 0.50); stroke: #333; stroke-width: 0.5; }
       .svg-2-1 .chain-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="chain-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -274,7 +274,7 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
       .svg-2-2 .addr-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
       .svg-2-2 .addr-box-start { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-2 .addr-box-mid { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-2 .addr-box-end { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-2 .addr-box-end { fill: rgba(245, 194, 66, 0.50); stroke: #333; stroke-width: 0.5; }
       .svg-2-2 .addr-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="addr-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -401,7 +401,7 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
       .svg-2-4 .key-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
       .svg-2-4 .key-box-gen { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .svg-2-4 .key-box-pk { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-4 .key-box-sk { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-4 .key-box-sk { fill: rgba(245, 194, 66, 0.50); stroke: #333; stroke-width: 0.5; }
       .svg-2-4 .key-box-rel { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-4 .key-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
       .svg-2-4 .key-dash { fill: none; stroke: #999; stroke-width: 0.5; stroke-dasharray: 3,2; }
@@ -503,7 +503,7 @@ const decrypted = rsaDecrypt(encrypted, privateKey);
       .svg-2-6 .ecc-box1 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .svg-2-6 .ecc-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-6 .ecc-box3 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-6 .ecc-box4 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-6 .ecc-box4 { fill: rgba(245, 194, 66, 0.50); stroke: #333; stroke-width: 0.5; }
       .svg-2-6 .ecc-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="ecc-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -592,7 +592,7 @@ console.log('地址: 0x' + address);
       .svg-2-7 .digsig-box-msg { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-7 .digsig-box-hash { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-2-7 .digsig-box-sign { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-2-7 .digsig-box-sig { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-7 .digsig-box-sig { fill: rgba(245, 194, 66, 0.50); stroke: #333; stroke-width: 0.5; }
       .svg-2-7 .digsig-box-verify { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-2-7 .digsig-box-valid { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-7 .digsig-box-invalid { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
@@ -691,7 +691,7 @@ console.log('签名有效:', isValid);  // true
       .svg-2-8 .btc-sig-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-8 .btc-sig-box2 { fill: rgba(52, 81, 178, 0.05); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-8 .btc-sig-box3 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-8 .btc-sig-box4 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-8 .btc-sig-box4 { fill: rgba(245, 194, 66, 0.50); stroke: #333; stroke-width: 0.5; }
       .svg-2-8 .btc-sig-box5 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .svg-2-8 .btc-sig-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
@@ -734,7 +734,7 @@ console.log('签名有效:', isValid);  // true
       .svg-2-9 .multisig-box-user { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-9 .multisig-box-tx { fill: rgba(52, 81, 178, 0.05); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-9 .multisig-box-sign { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-9 .multisig-box-valid { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-9 .multisig-box-valid { fill: rgba(245, 194, 66, 0.50); stroke: #333; stroke-width: 0.5; }
       .svg-2-9 .multisig-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="multisig-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -790,7 +790,7 @@ OP_CHECKMULTISIG
       .svg-2-10 .merkle-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-2-10 .merkle-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-2-10 .merkle-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .svg-2-10 .merkle-box-root { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-10 .merkle-box-root { fill: rgba(245, 194, 66, 0.50); stroke: #333; stroke-width: 0.5; }
       .svg-2-10 .merkle-box-mid { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-10 .merkle-box-leaf { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-10 .merkle-box-tx { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
@@ -1004,7 +1004,7 @@ console.log('验证结果:', isValid);  // true
       .svg-2-12 .btc-block-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-2-12 .btc-block-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-2-12 .btc-block-box-std { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-12 .btc-block-box-mr { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-12 .btc-block-box-mr { fill: rgba(245, 194, 66, 0.50); stroke: #333; stroke-width: 0.5; }
       .svg-2-12 .btc-block-box-tx { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-12 .btc-block-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
       .svg-2-12 .btc-block-dash { fill: none; stroke: #999; stroke-width: 0.5; stroke-dasharray: 3,2; }
@@ -1051,7 +1051,7 @@ console.log('验证结果:', isValid);  // true
       .svg-2-13 .spv-box-full { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-13 .spv-box-full-verify { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .svg-2-13 .spv-box-light { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-13 .spv-box-light-verify { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-13 .spv-box-light-verify { fill: rgba(245, 194, 66, 0.50); stroke: #333; stroke-width: 0.5; }
       .svg-2-13 .spv-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="spv-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -1087,7 +1087,7 @@ console.log('验证结果:', isValid);  // true
       .svg-2-14 .state-tree-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-2-14 .state-tree-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-14 .state-tree-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-14 .state-tree-box3 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-14 .state-tree-box3 { fill: rgba(245, 194, 66, 0.50); stroke: #333; stroke-width: 0.5; }
     </style>
 </defs>
   <rect class="state-tree-box1" x="10" y="10" width="80" height="40" rx="2"/>
@@ -1170,7 +1170,7 @@ console.log('验证结果:', isValid);  // true
       .svg-2-15 .zkp-cave-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-15 .zkp-cave-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-15 .zkp-cave-box3 { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-2-15 .zkp-cave-box-know { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-15 .zkp-cave-box-know { fill: rgba(245, 194, 66, 0.50); stroke: #333; stroke-width: 0.5; }
       .svg-2-15 .zkp-cave-box-unkn { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
       .svg-2-15 .zkp-cave-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
@@ -1217,7 +1217,7 @@ console.log('验证结果:', isValid);  // true
       .svg-2-16 .zksnark-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-2-16 .zksnark-box-feat { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .svg-2-16 .zksnark-box-proc { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-2-16 .zksnark-box-verify { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-16 .zksnark-box-verify { fill: rgba(245, 194, 66, 0.50); stroke: #333; stroke-width: 0.5; }
       .svg-2-16 .zksnark-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="zksnark-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -1289,7 +1289,7 @@ console.log('验证结果:', isValid);  // true
       .svg-2-18 .thresh-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .svg-2-18 .thresh-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
       .svg-2-18 .thresh-box-shard { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
-      .svg-2-18 .thresh-box-success { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .svg-2-18 .thresh-box-success { fill: rgba(245, 194, 66, 0.50); stroke: #333; stroke-width: 0.5; }
       .svg-2-18 .thresh-box-fail { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
       .svg-2-18 .thresh-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
