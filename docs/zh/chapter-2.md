@@ -94,7 +94,7 @@ CCBus 提供了完整的密码学工具可视化界面,你可以用它来体验�
     <style>
       .crypto-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
       .crypto-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
-      .crypto-box-main { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
+      .crypto-box-main { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .crypto-box-sub { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
       .crypto-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
@@ -218,9 +218,9 @@ console.log(sha256('Hello, blockchain!'));  // 注意小写 b
     <style>
       .chain-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
       .chain-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
-      .chain-box1 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .chain-box2 { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .chain-box3 { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
+      .chain-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .chain-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .chain-box3 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .chain-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="chain-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -272,9 +272,9 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
       .addr-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
       .addr-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .addr-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
-      .addr-box-start { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .addr-box-mid { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .addr-box-end { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
+      .addr-box-start { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .addr-box-mid { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .addr-box-end { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .addr-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="addr-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -400,9 +400,9 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
       .key-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .key-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
       .key-box-gen { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .key-box-pk { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .key-box-sk { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
-      .key-box-rel { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
+      .key-box-pk { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .key-box-sk { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .key-box-rel { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .key-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
       .key-dash { fill: none; stroke: #999; stroke-width: 0.5; stroke-dasharray: 3,2; }
     </style>
@@ -501,9 +501,9 @@ const decrypted = rsaDecrypt(encrypted, privateKey);
       .ecc-text { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
       .ecc-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .ecc-box1 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .ecc-box2 { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .ecc-box3 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .ecc-box4 { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
+      .ecc-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .ecc-box3 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .ecc-box4 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .ecc-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="ecc-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -589,13 +589,13 @@ console.log('地址: 0x' + address);
     <style>
       .digsig-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
       .digsig-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
-      .digsig-box-msg { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
+      .digsig-box-msg { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .digsig-box-hash { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
       .digsig-box-sign { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
-      .digsig-box-sig { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
+      .digsig-box-sig { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .digsig-box-verify { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
-      .digsig-box-valid { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .digsig-box-invalid { fill: #FF6B6B; stroke: #333; stroke-width: 0.5; }
+      .digsig-box-valid { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .digsig-box-invalid { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
       .digsig-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
       .digsig-arrow-dash { fill: none; stroke: #4c9be8; stroke-width: 0.5; stroke-dasharray: 3,2; }
     </style>
@@ -688,10 +688,10 @@ console.log('签名有效:', isValid);  // true
     <style>
       .btc-sig-text { font-family: arial, sans-serif; font-size: 11px; fill: #fff; }
       .btc-sig-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
-      .btc-sig-box1 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
+      .btc-sig-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .btc-sig-box2 { fill: #1f2020; stroke: #ccc; stroke-width: 0.5; }
-      .btc-sig-box3 { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .btc-sig-box4 { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
+      .btc-sig-box3 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .btc-sig-box4 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .btc-sig-box5 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .btc-sig-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
@@ -731,10 +731,10 @@ console.log('签名有效:', isValid);  // true
       .multisig-text-dark { font-family: arial, sans-serif; font-size: 11px; fill: #222; }
       .multisig-text-sm-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .multisig-box-main { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .multisig-box-user { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
+      .multisig-box-user { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .multisig-box-tx { fill: #1f2020; stroke: #ccc; stroke-width: 0.5; }
-      .multisig-box-sign { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .multisig-box-valid { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
+      .multisig-box-sign { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .multisig-box-valid { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .multisig-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="multisig-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -790,9 +790,9 @@ OP_CHECKMULTISIG
       .merkle-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .merkle-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .merkle-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .merkle-box-root { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
-      .merkle-box-mid { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .merkle-box-leaf { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
+      .merkle-box-root { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .merkle-box-mid { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .merkle-box-leaf { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .merkle-box-tx { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
       .merkle-line { stroke: #4c9be8; stroke-width: 0.5; }
     </style>
@@ -891,11 +891,11 @@ console.log('Merkle Root:', tree.getRoot());
       .merkle-proof-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .merkle-proof-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .merkle-proof-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .merkle-proof-box-proof { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
+      .merkle-proof-box-proof { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .merkle-proof-box-proc { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
       .merkle-proof-box-cmp { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .merkle-proof-box-valid { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .merkle-proof-box-invalid { fill: #FF6B6B; stroke: #333; stroke-width: 0.5; }
+      .merkle-proof-box-valid { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .merkle-proof-box-invalid { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
       .merkle-proof-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="merkle-proof-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -1003,9 +1003,9 @@ console.log('验证结果:', isValid);  // true
       .btc-block-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .btc-block-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .btc-block-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .btc-block-box-std { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .btc-block-box-mr { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
-      .btc-block-box-tx { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
+      .btc-block-box-std { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .btc-block-box-mr { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .btc-block-box-tx { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .btc-block-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
       .btc-block-dash { fill: none; stroke: #999; stroke-width: 0.5; stroke-dasharray: 3,2; }
     </style>
@@ -1048,10 +1048,10 @@ console.log('验证结果:', isValid);  // true
       .spv-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .spv-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .spv-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .spv-box-full { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
+      .spv-box-full { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .spv-box-full-verify { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .spv-box-light { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .spv-box-light-verify { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
+      .spv-box-light { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .spv-box-light-verify { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .spv-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="spv-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -1085,9 +1085,9 @@ console.log('验证结果:', isValid);  // true
       .state-tree-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .state-tree-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .state-tree-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .state-tree-box1 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .state-tree-box2 { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .state-tree-box3 { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
+      .state-tree-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .state-tree-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .state-tree-box3 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
     </style>
   </defs>
   <rect class="state-tree-box1" x="10" y="10" width="80" height="40" rx="2"/>
@@ -1167,11 +1167,11 @@ console.log('验证结果:', isValid);  // true
       .zkp-cave-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .zkp-cave-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .zkp-cave-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .zkp-cave-box1 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .zkp-cave-box2 { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
+      .zkp-cave-box1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .zkp-cave-box2 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .zkp-cave-box3 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
-      .zkp-cave-box-know { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
-      .zkp-cave-box-unkn { fill: #FF6B6B; stroke: #333; stroke-width: 0.5; }
+      .zkp-cave-box-know { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .zkp-cave-box-unkn { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
       .zkp-cave-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="zkp-cave-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -1215,9 +1215,9 @@ console.log('验证结果:', isValid);  // true
       .zksnark-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .zksnark-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .zksnark-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .zksnark-box-feat { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
+      .zksnark-box-feat { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .zksnark-box-proc { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
-      .zksnark-box-verify { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
+      .zksnark-box-verify { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .zksnark-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="zksnark-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -1254,9 +1254,9 @@ console.log('验证结果:', isValid);  // true
       .homo-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .homo-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .homo-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .homo-box-trad { fill: #FF6B6B; stroke: #333; stroke-width: 0.5; }
-      .homo-box-homo { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .homo-box-app { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
+      .homo-box-trad { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
+      .homo-box-homo { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .homo-box-app { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .homo-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="homo-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -1288,9 +1288,9 @@ console.log('验证结果:', isValid);  // true
       .thresh-text-sm { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .thresh-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .thresh-text-sm-dark { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .thresh-box-shard { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .thresh-box-success { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
-      .thresh-box-fail { fill: #FF6B6B; stroke: #333; stroke-width: 0.5; }
+      .thresh-box-shard { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .thresh-box-success { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .thresh-box-fail { fill: rgba(220, 53, 69, 0.25); stroke: #333; stroke-width: 0.5; }
       .thresh-arrow { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="thresh-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">

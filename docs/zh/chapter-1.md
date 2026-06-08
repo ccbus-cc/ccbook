@@ -82,8 +82,8 @@ CCBus(ccbus.cc)是一个建立在 BNB Chain、Solana 等多链之上的一站式
     <style>
       .bc-text-dark-1 { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
       .bc-text-1 { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .bc-box1-1 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .bc-box2-1 { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
+      .bc-box1-1 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .bc-box2-1 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .bc-arrow-1 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="bc-arrow-1" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -120,7 +120,7 @@ CCBus(ccbus.cc)是一个建立在 BNB Chain、Solana 等多链之上的一站式
   <defs>
     <style>
       .tl-text-2 { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
-      .tl-year-2 { font-family: arial, sans-serif; font-size: 11px; fill: #FFD700; font-weight: bold; }
+      .tl-year-2 { font-family: arial, sans-serif; font-size: 11px; fill: rgba(245, 194, 66, 0.30); font-weight: bold; }
       .tl-line-2 { fill: none; stroke: #4c9be8; stroke-width: 1; }
       .tl-dot-2 { fill: #4c9be8; }
     </style>
@@ -198,7 +198,7 @@ DeFi、NFT、DAO等创新应用爆发，区块链从单一的支付系统演变�
     <style>
       .mm-text-3 { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
       .mm-text-dark-3 { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
-      .mm-center-3 { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
+      .mm-center-3 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .mm-main-3 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .mm-sub-3 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
       .mm-line-3 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
@@ -258,10 +258,10 @@ DeFi、NFT、DAO等创新应用爆发，区块链从单一的支付系统演变�
     <style>
       .cd-text-4 { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
       .cd-text-dark-4 { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
-      .cd-title-4 { font-family: arial, sans-serif; font-size: 11px; fill: #FFD700; font-weight: bold; }
-      .cd-center-4 { fill: #FF6B6B; stroke: #ccc; stroke-width: 0.5; }
-      .cd-user-4 { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .cd-node-4 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
+      .cd-title-4 { font-family: arial, sans-serif; font-size: 11px; fill: rgba(245, 194, 66, 0.30); font-weight: bold; }
+      .cd-center-4 { fill: rgba(220, 53, 69, 0.25); stroke: #ccc; stroke-width: 0.5; }
+      .cd-user-4 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .cd-node-4 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .cd-line-4 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
   </defs>
@@ -346,16 +346,16 @@ DeFi、NFT、DAO等创新应用爆发，区块链从单一的支付系统演变�
     <style>
       .bh-text-5 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .bh-text-dark-5 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .bh-box-5 { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .bh-box-warn-5 { fill: #FFB6C1; stroke: #ccc; stroke-width: 0.5; }
+      .bh-box-5 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .bh-box-warn-5 { fill: rgba(220, 53, 69, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .bh-arrow-5 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
-      .bh-arrow-warn-5 { fill: none; stroke: #FF6B6B; stroke-width: 0.5; }
+      .bh-arrow-warn-5 { fill: none; stroke: rgba(220, 53, 69, 0.25); stroke-width: 0.5; }
     </style>
     <marker id="bh-arrow-5" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M 0 0 L 6 3 L 0 6 z" fill="#4c9be8"/>
     </marker>
     <marker id="bh-arrow-warn-5" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
-      <path d="M 0 0 L 6 3 L 0 6 z" fill="#FF6B6B"/>
+      <path d="M 0 0 L 6 3 L 0 6 z" fill="rgba(220, 53, 69, 0.25)"/>
     </marker>
   </defs>
   <rect class="bh-box-5" x="10" y="10" width="100" height="30" rx="2"/>
@@ -408,11 +408,11 @@ DeFi、NFT、DAO等创新应用爆发，区块链从单一的支付系统演变�
     <style>
       .sl-text-6 { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
       .sl-text-dark-6 { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
-      .sl-title-6 { font-family: arial, sans-serif; font-size: 11px; fill: #FFD700; font-weight: bold; }
-      .sl-box1-6 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .sl-box2-6 { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .sl-box3-6 { fill: #FFB6C1; stroke: #ccc; stroke-width: 0.5; }
-      .sl-box4-6 { fill: #DDA0DD; stroke: #ccc; stroke-width: 0.5; }
+      .sl-title-6 { font-family: arial, sans-serif; font-size: 11px; fill: rgba(245, 194, 66, 0.30); font-weight: bold; }
+      .sl-box1-6 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .sl-box2-6 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .sl-box3-6 { fill: rgba(220, 53, 69, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .sl-box4-6 { fill: rgba(147, 112, 219, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .sl-arrow-6 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="sl-arrow-6" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -456,10 +456,10 @@ DeFi、NFT、DAO等创新应用爆发，区块链从单一的支付系统演变�
     <style>
       .bs-text-7 { font-family: arial, sans-serif; font-size: 10px; fill: #fff; }
       .bs-text-dark-7 { font-family: arial, sans-serif; font-size: 10px; fill: #222; }
-      .bs-title-7 { font-family: arial, sans-serif; font-size: 11px; fill: #FFD700; font-weight: bold; }
+      .bs-title-7 { font-family: arial, sans-serif; font-size: 11px; fill: rgba(245, 194, 66, 0.30); font-weight: bold; }
       .bs-main-7 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .bs-sub-7 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
-      .bs-data-7 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
+      .bs-data-7 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .bs-line-7 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
   </defs>
@@ -522,9 +522,9 @@ Merkle树（又称哈希树）是区块链中用于高效验证交易的关键�
     <style>
       .mt-text-8 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .mt-text-dark-8 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .mt-root-8 { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
-      .mt-hash-8 { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .mt-tx-8 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
+      .mt-root-8 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .mt-hash-8 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .mt-tx-8 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .mt-line-8 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
   </defs>
@@ -703,9 +703,9 @@ print(f"新的哈希: {hash_result2}")
     <style>
       .hf-text-10 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .hf-text-dark-10 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .hf-box1-10 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
+      .hf-box1-10 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .hf-box2-10 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .hf-box3-10 { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
+      .hf-box3-10 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .hf-box4-10 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
       .hf-arrow-10 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
@@ -763,11 +763,11 @@ print(f"新的哈希: {hash_result2}")
     <style>
       .bt-text-11 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .bt-text-dark-11 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .bt-root-11 { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
-      .bt-pub-11 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .bt-pri-11 { fill: #FFB6C1; stroke: #ccc; stroke-width: 0.5; }
-      .bt-con-11 { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .bt-hyb-11 { fill: #DDA0DD; stroke: #ccc; stroke-width: 0.5; }
+      .bt-root-11 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
+      .bt-pub-11 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .bt-pri-11 { fill: rgba(220, 53, 69, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .bt-con-11 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .bt-hyb-11 { fill: rgba(147, 112, 219, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .bt-sub-11 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
       .bt-line-11 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
@@ -900,9 +900,9 @@ print(f"新的哈希: {hash_result2}")
     <style>
       .cg-text-12 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .cg-text-dark-12 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .cg-title-12 { font-family: arial, sans-serif; font-size: 11px; fill: #FFD700; font-weight: bold; }
+      .cg-title-12 { font-family: arial, sans-serif; font-size: 11px; fill: rgba(245, 194, 66, 0.30); font-weight: bold; }
       .cg-node-12 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
-      .cg-user-12 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
+      .cg-user-12 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .cg-line-12 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="cg-arrow-12" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -974,10 +974,10 @@ print(f"新的哈希: {hash_result2}")
     <style>
       .ha-text-13 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .ha-text-dark-13 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .ha-title-13 { font-family: arial, sans-serif; font-size: 11px; fill: #FFD700; font-weight: bold; }
-      .ha-pri-13 { fill: #FFB6C1; stroke: #ccc; stroke-width: 0.5; }
-      .ha-pub-13 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .ha-data-13 { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
+      .ha-title-13 { font-family: arial, sans-serif; font-size: 11px; fill: rgba(245, 194, 66, 0.30); font-weight: bold; }
+      .ha-pri-13 { fill: rgba(220, 53, 69, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .ha-pub-13 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .ha-data-13 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
       .ha-line-13 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="ha-arrow-13" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -1046,13 +1046,13 @@ print(f"新的哈希: {hash_result2}")
     <style>
       .db-text-14 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .db-text-dark-14 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .db-title-14 { font-family: arial, sans-serif; font-size: 11px; fill: #FFD700; font-weight: bold; }
-      .db-center-14 { fill: #FF6B6B; stroke: #ccc; stroke-width: 0.5; }
-      .db-user-14 { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .db-admin-14 { fill: #FFB6C1; stroke: #ccc; stroke-width: 0.5; }
-      .db-node-14 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
+      .db-title-14 { font-family: arial, sans-serif; font-size: 11px; fill: rgba(245, 194, 66, 0.30); font-weight: bold; }
+      .db-center-14 { fill: rgba(220, 53, 69, 0.25); stroke: #ccc; stroke-width: 0.5; }
+      .db-user-14 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .db-admin-14 { fill: rgba(220, 53, 69, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .db-node-14 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
       .db-line-14 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
-      .db-dash-14 { fill: none; stroke: #FF6B6B; stroke-width: 0.5; stroke-dasharray: 3,2; }
+      .db-dash-14 { fill: none; stroke: rgba(220, 53, 69, 0.25); stroke-width: 0.5; stroke-dasharray: 3,2; }
     </style>
   </defs>
   <text class="db-title-14" x="100" y="15" text-anchor="middle">传统数据库</text>
@@ -1388,9 +1388,9 @@ contract AIAgentAccount {
     <style>
       .sc-text-17 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .sc-text-dark-17 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .sc-box1-17 { fill: #90EE90; stroke: #ccc; stroke-width: 0.5; }
-      .sc-box2-17 { fill: #87CEEB; stroke: #ccc; stroke-width: 0.5; }
-      .sc-box3-17 { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
+      .sc-box1-17 { fill: rgba(52, 81, 178, 0.10); stroke: #ccc; stroke-width: 0.5; }
+      .sc-box2-17 { fill: rgba(223, 105, 25, 0.08); stroke: #ccc; stroke-width: 0.5; }
+      .sc-box3-17 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .sc-arrow-17 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }
     </style>
     <marker id="sc-arrow-17" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -1516,7 +1516,7 @@ contract AIAgentAccount {
     <style>
       .mm-text-19 { font-family: arial, sans-serif; font-size: 9px; fill: #fff; }
       .mm-text-dark-19 { font-family: arial, sans-serif; font-size: 9px; fill: #222; }
-      .mm-center-19 { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
+      .mm-center-19 { fill: rgba(245, 194, 66, 0.30); stroke: #333; stroke-width: 0.5; }
       .mm-main-19 { fill: #4c9be8; stroke: #ccc; stroke-width: 0.5; }
       .mm-sub-19 { fill: #1f2020; stroke: #4c9be8; stroke-width: 0.5; }
       .mm-line-19 { fill: none; stroke: #4c9be8; stroke-width: 0.5; }

@@ -81,7 +81,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
       .arch-layer-contract { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
       .arch-layer-consensus { fill: rgba(92, 184, 92, 0.25); stroke: #5cb85c; stroke-width: 1.5; }
       .arch-layer-network { fill: rgba(156, 89, 182, 0.25); stroke: #9c59b6; stroke-width: 1.5; }
-      .arch-layer-data { fill: rgba(241, 196, 15, 0.25); stroke: #f1c40f; stroke-width: 1.5; }
+      .arch-layer-data { fill: rgba(241, 196, 15, 0.25); stroke: rgba(245, 194, 66, 0.20); stroke-width: 1.5; }
       .arch-layer-infra { fill: rgba(52, 73, 94, 0.35); stroke: #34495e; stroke-width: 1.5; }
       .arch-arrow { stroke: #4c9be8; stroke-width: 1; stroke-dasharray: 3,2; }
     </style>
@@ -123,7 +123,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <text class="arch-text-small" x="70" y="428">• 区块结构: 区块头、区块体、交易列表</text>
   <text class="arch-text-small" x="70" y="441">• 数据结构: Merkle树、Patricia树、账户模型/UTXO</text>
   <text class="arch-text-small" x="70" y="454">• 密码学: 哈希函数、数字签名、零知识证明</text>
-  <text class="arch-text-small" x="550" y="428" fill="#f1c40f" font-weight="bold">数据组织层</text>
+  <text class="arch-text-small" x="550" y="428" fill="rgba(245, 194, 66, 0.20)" font-weight="bold">数据组织层</text>
   <line class="arch-arrow" x1="375" y1="460" x2="375" y2="475" marker-end="url(#arch-arrow-down)"/>
   <rect class="arch-layer-infra" x="50" y="475" width="650" height="60" rx="4"/>
   <text class="arch-text" x="70" y="495" font-weight="bold">基础设施层 (Infrastructure Layer)</text>

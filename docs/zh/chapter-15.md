@@ -67,7 +67,7 @@ title: "第十五章：安全与最佳实践"
 .sec-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
 .sec-box-critical { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
 .sec-box-high { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
-.sec-box-medium { fill: rgba(255, 193, 7, 0.2); stroke: #ffc107; stroke-width: 1.5; }
+.sec-box-medium { fill: rgba(255, 193, 7, 0.2); stroke: rgba(245, 194, 66, 0.20); stroke-width: 1.5; }
 .sec-box-low { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
 </style>
 </defs>
@@ -116,7 +116,7 @@ title: "第十五章：安全与最佳实践"
 <text class="sec-text-small" x="480" y="280">5/9 验证器被攻破</text>
 <text class="sec-text-small" x="480" y="295">史上最大盗窃案之一</text>
 <rect class="sec-box-medium" x="690" y="70" width="180" height="240" rx="4"/>
-<text class="sec-text" x="780" y="90" text-anchor="middle" font-weight="bold" fill="#ffc107">🟡 中危威胁</text>
+<text class="sec-text" x="780" y="90" text-anchor="middle" font-weight="bold" fill="rgba(245, 194, 66, 0.20)">🟡 中危威胁</text>
 <text class="sec-text-small" x="700" y="110" font-weight="bold">前端安全:</text>
 <text class="sec-text-small" x="705" y="125">• XSS 攻击</text>
 <text class="sec-text-small" x="705" y="140">• DNS 劫持</text>
@@ -193,14 +193,14 @@ title: "第十五章：安全与最佳实践"
 <text class="reen-text-title" x="425" y="25" text-anchor="middle">重入攻击原理与防御</text>
 <rect class="reen-box-vuln" x="30" y="50" width="380" height="220" rx="4"/>
 <text class="reen-text" x="220" y="70" text-anchor="middle" font-weight="bold" fill="#dc3545">❌ 有漏洞的代码</text>
-<text class="reen-text-small" x="40" y="90" font-family="monospace" fill="#ff6b6b">function withdraw(uint amount) public {</text>
-<text class="reen-text-small" x="50" y="105" font-family="monospace" fill="#ff6b6b">require(balances[msg.sender] >= amount);</text>
-<text class="reen-text-small" x="50" y="120" font-family="monospace" fill="#ff6b6b">// ❌ 先转账，后更新状态</text>
-<text class="reen-text-small" x="50" y="135" font-family="monospace" fill="#ff6b6b">(bool success, ) = msg.sender.call{value: amount}("");</text>
-<text class="reen-text-small" x="50" y="150" font-family="monospace" fill="#ff6b6b">require(success);</text>
-<text class="reen-text-small" x="50" y="165" font-family="monospace" fill="#ff6b6b">// ❌ 状态更新在外部调用之后</text>
-<text class="reen-text-small" x="50" y="180" font-family="monospace" fill="#ff6b6b">balances[msg.sender] -= amount;</text>
-<text class="reen-text-small" x="40" y="195" font-family="monospace" fill="#ff6b6b">}</text>
+<text class="reen-text-small" x="40" y="90" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">function withdraw(uint amount) public {</text>
+<text class="reen-text-small" x="50" y="105" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">require(balances[msg.sender] >= amount);</text>
+<text class="reen-text-small" x="50" y="120" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">// ❌ 先转账，后更新状态</text>
+<text class="reen-text-small" x="50" y="135" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">(bool success, ) = msg.sender.call{value: amount}("");</text>
+<text class="reen-text-small" x="50" y="150" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">require(success);</text>
+<text class="reen-text-small" x="50" y="165" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">// ❌ 状态更新在外部调用之后</text>
+<text class="reen-text-small" x="50" y="180" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">balances[msg.sender] -= amount;</text>
+<text class="reen-text-small" x="40" y="195" font-family="monospace" fill="rgba(220, 53, 69, 0.25)">}</text>
 <text class="reen-text-small" x="40" y="220" font-weight="bold">攻击流程:</text>
 <text class="reen-text-small" x="45" y="235">1. 攻击者调用 withdraw()</text>
 <text class="reen-text-small" x="45" y="250">2. 合约发送 ETH 到攻击者合约</text>

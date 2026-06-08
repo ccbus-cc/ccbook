@@ -837,7 +837,7 @@ contract RestrictedToken is ERC20, ERC1404 {
 .reg-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 11px; }
 .reg-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; }
 .reg-friendly { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
-.reg-neutral { fill: rgba(255, 193, 7, 0.15); stroke: #ffc107; stroke-width: 2; }
+.reg-neutral { fill: rgba(255, 193, 7, 0.15); stroke: rgba(245, 194, 66, 0.20); stroke-width: 2; }
 .reg-strict { fill: rgba(217, 83, 79, 0.15); stroke: #d9534f; stroke-width: 2; }
 .reg-label { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
 </style>
@@ -877,7 +877,7 @@ contract RestrictedToken is ERC20, ERC1404 {
 <text x="690" y="220" class="reg-text">• FCA 监管，2024 年新法案</text>
 <text x="690" y="235" class="reg-text">• 支持稳定币作为支付工具</text>
 <rect x="50" y="270" width="280" height="180" rx="5" class="reg-neutral"/>
-<text x="190" y="295" text-anchor="middle" class="reg-label" fill="#ffc107">⚠️ 中性 / 观望</text>
+<text x="190" y="295" text-anchor="middle" class="reg-label" fill="rgba(245, 194, 66, 0.20)">⚠️ 中性 / 观望</text>
 <text x="60" y="320" class="reg-title">美国 🇺🇸</text>
 <text x="70" y="340" class="reg-text">• SEC vs CFTC 监管权之争</text>
 <text x="70" y="355" class="reg-text">• SEC: 大部分代币是证券</text>
@@ -887,7 +887,7 @@ contract RestrictedToken is ERC20, ERC1404 {
 <text x="60" y="425" class="reg-title">印度 🇮🇳</text>
 <text x="70" y="445" class="reg-text">• 30% 加密收益税 + 1% TDS</text>
 <rect x="360" y="270" width="280" height="180" rx="5" class="reg-neutral"/>
-<text x="500" y="295" text-anchor="middle" class="reg-label" fill="#ffc107">⚠️ 中性 / 观望</text>
+<text x="500" y="295" text-anchor="middle" class="reg-label" fill="rgba(245, 194, 66, 0.20)">⚠️ 中性 / 观望</text>
 <text x="370" y="320" class="reg-title">韩国 🇰🇷</text>
 <text x="380" y="340" class="reg-text">• 实名制交易</text>
 <text x="380" y="355" class="reg-text">• FSC 监管</text>

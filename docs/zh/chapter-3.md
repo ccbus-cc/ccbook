@@ -605,7 +605,7 @@ contract Escrow {
       .eco-rect-green { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 0.5; }
       .eco-rect-gray { fill: rgba(78, 93, 108, 0.15); stroke: #4e5d6c; stroke-width: 0.5; }
       .eco-rect-purple { fill: rgba(156, 39, 176, 0.15); stroke: #9c27b0; stroke-width: 0.5; }
-      .eco-rect-yellow { fill: rgba(255, 193, 7, 0.15); stroke: #ffc107; stroke-width: 0.5; }
+      .eco-rect-yellow { fill: rgba(255, 193, 7, 0.15); stroke: rgba(245, 194, 66, 0.20); stroke-width: 0.5; }
     </style>
   </defs>
   <!-- Title -->
