@@ -79,7 +79,7 @@
 /* Active item highlight */
 .VPSidebarItem.is-active > .item .link {
   background-color: var(--ccbus-sidebar-active-bg);
-  border-radius: 6px;
+  border-radius: 4px;  /* xs */
 }
 
 /* Sidebar items: slightly more compact */
@@ -145,7 +145,7 @@
 
 /* Code blocks */
 .vp-doc div[class*='language-'] {
-  border-radius: 8px;
+  border-radius: 4px;  /* xs */
   margin: 1rem 0;
 }
 
@@ -154,7 +154,7 @@
    ============================================================ */
 
 .vp-doc .custom-block {
-  border-radius: 8px;
+  border-radius: 4px;  /* xs */
   padding: 16px 20px;
   margin: 1rem 0;
 }
@@ -177,7 +177,7 @@
    ============================================================ */
 
 .vp-doc img {
-  border-radius: 8px;
+  border-radius: 4px;  /* xs */
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
   margin: 1rem auto;
   display: block;
@@ -264,7 +264,7 @@
   height: 0;
   overflow: hidden;
   margin: 1rem 0;
-  border-radius: 8px;
+  border-radius: 4px;  /* xs */
 }
 
 .video-container iframe {
@@ -274,7 +274,7 @@
   width: 100%;
   height: 100%;
   border: 0;
-  border-radius: 8px;
+  border-radius: 4px;  /* xs */
 }
 
 /* ============================================================
@@ -284,7 +284,7 @@
 .vp-doc .chapter-intro {
   background-color: var(--vp-c-brand-soft);
   border-left: 4px solid var(--vp-c-brand-1);
-  border-radius: 8px;
+  border-radius: 4px;  /* xs */
   padding: 16px 20px;
   margin: 1.5rem 0 2rem;
   line-height: 1.7;
@@ -307,7 +307,7 @@
 
 .ccbook-index .book-intro {
   background-color: var(--vp-c-bg-soft);
-  border-radius: 8px;
+  border-radius: 4px;  /* xs */
   padding: 1.5rem 1.75rem;
   margin: 1.5rem 0;
   line-height: 1.8;
@@ -315,7 +315,7 @@
 
 .ccbook-index .book-features {
   background-color: var(--vp-c-bg-soft);
-  border-radius: 8px;
+  border-radius: 4px;  /* xs */
   padding: 1.25rem 1.75rem;
   margin: 1.5rem 0;
 }
@@ -351,6 +351,13 @@
    CCBus Avatar Components — Course-style chapter presentations
    The 10 CCBus characters are integrated as teachers/guides
    for each chapter, transforming the book into a course.
+
+   Design tokens:
+   - Radius scale: xs (4px) for compact, modern feel
+   - Avatar wrapper: box-sizing border-box so 100% children
+     fill the wrapper exactly (no 2px gap from default border)
+   - Avatar children: margin 0, flex-centered to prevent the
+     vertical-align default that left an 18px gap above the img
    ============================================================ */
 
 /* Character palette tokens (from CHARACTER_UNIVERSE_BIBLE.md) */
@@ -376,22 +383,28 @@
   padding: 1.25rem 1.5rem;
   background: linear-gradient(135deg, rgba(52, 81, 178, 0.04) 0%, rgba(52, 81, 178, 0.08) 100%);
   border: 1px solid rgba(52, 81, 178, 0.15);
-  border-radius: 12px;
+  border-radius: 4px;  /* xs */
 }
 .ccbus-hero-avatar {
   width: 96px;
   height: 96px;
   flex-shrink: 0;
-  border-radius: 12px;
+  border-radius: 4px;  /* xs */
   overflow: hidden;
   border: 2px solid rgba(52, 81, 178, 0.2);
   background: #F4F5F8;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .ccbus-hero-avatar img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  margin: 0;
+  vertical-align: middle;
 }
 .ccbus-hero-content {
   flex: 1;
@@ -432,7 +445,7 @@
   padding: 0.9rem 1.1rem;
   background: rgba(52, 81, 178, 0.04);
   border-left: 3px solid var(--vp-c-brand-1);
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 4px 4px 0; /* xs */
 }
 .ccbus-teacher-note-avatar {
   width: 40px;
@@ -442,12 +455,18 @@
   overflow: hidden;
   background: #F4F5F8;
   border: 1.5px solid rgba(52, 81, 178, 0.2);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .ccbus-teacher-note-avatar img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  margin: 0;
+  vertical-align: middle;
 }
 .ccbus-teacher-note-body {
   flex: 1;
@@ -498,7 +517,7 @@
   padding: 1rem 1.25rem;
   background: rgba(52, 81, 178, 0.03);
   border: 1px solid rgba(52, 81, 178, 0.12);
-  border-radius: 8px;
+  border-radius: 4px;  /* xs */
   font-size: 0.9rem;
   color: var(--vp-c-text-2);
 }
@@ -506,16 +525,22 @@
   width: 56px;
   height: 56px;
   flex-shrink: 0;
-  border-radius: 8px;
+  border-radius: 4px;  /* xs */
   overflow: hidden;
   background: #F4F5F8;
   border: 2px solid rgba(52, 81, 178, 0.18);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .ccbus-teacher-credits-avatar img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  margin: 0;
+  vertical-align: middle;
 }
 .ccbus-teacher-credits-body {
   flex: 1;
@@ -547,6 +572,9 @@
   vertical-align: middle;
   border: 1px solid rgba(52, 81, 178, 0.15);
   background: #F4F5F8;
+  box-sizing: border-box;
+  display: block;
+  margin: 0;
 }
 .dark .ccbus-char-ref img {
   border-color: rgba(107, 138, 255, 0.30);
@@ -567,7 +595,7 @@
   padding: 1rem 0.5rem;
   background: rgba(52, 81, 178, 0.03);
   border: 1px solid rgba(52, 81, 178, 0.10);
-  border-radius: 10px;
+  border-radius: 4px;  /* xs */
   transition: all 0.2s;
 }
 .ccbus-cast-card:hover {
@@ -583,12 +611,18 @@
   overflow: hidden;
   background: #F4F5F8;
   border: 2px solid rgba(52, 81, 178, 0.18);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .ccbus-cast-card-avatar img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  margin: 0;
+  vertical-align: middle;
 }
 .ccbus-cast-card-name {
   font-weight: 600;
