@@ -137,9 +137,9 @@ CCBus ships a complete cryptography-tool visualization layer. Use it to experien
   <text class="crypto-text" x="400" y="161" text-anchor="middle">Message Auth</text>
   <rect class="crypto-box-main" x="460" y="145" width="80" height="25" rx="2"/>
   <text class="crypto-text-dark" x="500" y="161" text-anchor="middle">Merkle Tree</text>
-  <path class="crypto-arrow" d="M 460 157 Q 450 157 450 165 L 450 55 L 440 55" marker-end="url(#crypto-arrow-1)"/>
-  <rect class="crypto-box-sub" x="370" y="42" width="70" height="25" rx="2"/>
-  <text class="crypto-text" x="405" y="58" text-anchor="middle">Data Verify</text>
+  <path class="crypto-arrow" d="M 460 157 Q 450 157 450 165 L 450 55 L 487 55" marker-end="url(#crypto-arrow-1)"/>
+  <rect class="crypto-box-sub" x="490" y="42" width="75" height="25" rx="2"/>
+  <text class="crypto-text" x="527" y="58" text-anchor="middle">Data Verify</text>
   <path class="crypto-arrow" d="M 540 157 Q 560 157 560 135 L 560 90" marker-end="url(#crypto-arrow-1)"/>
   <rect class="crypto-box-sub" x="490" y="77" width="70" height="25" rx="2"/>
   <text class="crypto-text" x="525" y="93" text-anchor="middle">Light Node</text>

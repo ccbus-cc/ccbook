@@ -1557,8 +1557,8 @@ contract AIAgentAccount {
   <rect class="mm-sub-19" x="390" y="305" width="65" height="18" rx="2"/>
   <text class="mm-text-19" x="422" y="317" text-anchor="middle">Merkle树</text>
   <line class="mm-line-19" x1="260" y1="175" x2="190" y2="115"/>
-  <rect class="mm-main-19" x="120" y="100" width="80" height="25" rx="2"/>
-  <text class="mm-text-19" x="160" y="116" text-anchor="middle">区块链类型</text>
+  <rect class="mm-main-19" x="140" y="100" width="80" height="25" rx="2"/>
+  <text class="mm-text-19" x="180" y="116" text-anchor="middle">区块链类型</text>
   <rect class="mm-sub-19" x="15" y="85" width="55" height="18" rx="2"/>
   <text class="mm-text-19" x="42" y="97" text-anchor="middle">公有链</text>
   <rect class="mm-sub-19" x="15" y="107" width="55" height="18" rx="2"/>

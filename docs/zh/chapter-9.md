@@ -595,7 +595,7 @@ contract PrivateAuction {
 <text x="670" y="195" text-anchor="middle" class="tss-small">sk_share₅</text>
 <rect x="250" y="115" width="300" height="20" fill="rgba(223, 105, 25, 0.12)" stroke="#df6919" stroke-width="1" rx="4"/>
 <text x="400" y="128" text-anchor="middle" class="tss-small" fill="#df6919">公钥 pk（所有人共享同一个公钥）</text>
-<rect x="50" y="220" width="700" height="200" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+<rect x="50" y="220" width="700" height="220" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
 <text x="400" y="245" text-anchor="middle" class="tss-text" font-weight="bold">阶段 2️⃣：门限签名生成（3 方参与：P₁, P₃, P₅）</text>
 <circle cx="200" cy="310" r="30" class="tss-active"/>
 <text x="200" y="315" text-anchor="middle" class="tss-text">P₁</text>
