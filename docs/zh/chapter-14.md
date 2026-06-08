@@ -67,12 +67,12 @@ title: "第十四章：企业区块链"
 <svg viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.eb-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.eb-text { font-family: arial, sans-serif; font-size: 11px; fill: #f0e6d2; }
-.eb-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #f0e6d2; }
-.eb-box-public { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 2; }
-.eb-box-enterprise { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 2; }
-.eb-header { fill: rgba(223, 105, 25, 0.3); }
+.eb-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.eb-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
+.eb-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+.eb-box-public { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.eb-box-enterprise { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.eb-header { fill: rgba(223, 105, 25, 0.12); }
 </style>
 </defs>
 <text class="eb-text-title" x="400" y="25" text-anchor="middle">企业区块链 vs 公链对比</text>
@@ -157,11 +157,11 @@ title: "第十四章：企业区块链"
 <svg viewBox="0 0 850 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.fabric-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.fabric-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-.fabric-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-.fabric-box { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1.5; }
-.fabric-box-component { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 1; }
+.fabric-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.fabric-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.fabric-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+.fabric-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.5; }
+.fabric-box-component { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
 .fabric-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#arrowhead-fabric); }
 .fabric-flow-text { font-family: arial, sans-serif; font-size: 9px; fill: #df6919; font-weight: bold; }
 </style>
@@ -203,23 +203,23 @@ title: "第十四章：企业区块链"
 <text class="fabric-text-small" x="630" y="185" font-weight="bold">支持：LDAP, HSM 集成</text>
 <line x1="50" y1="230" x2="800" y2="230" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5"/>
 <text class="fabric-text" x="425" y="250" text-anchor="middle" font-weight="bold">Fabric 交易流程 (Execute-Order-Validate)</text>
-<ellipse cx="100" cy="290" rx="50" ry="30" fill="rgba(76, 156, 232, 0.3)" stroke="#4c9be8" stroke-width="1.5"/>
+<ellipse cx="100" cy="290" rx="50" ry="30" fill="rgba(52, 81, 178, 0.15)" stroke="#4c9be8" stroke-width="1.5"/>
 <text class="fabric-flow-text" x="100" y="293" text-anchor="middle">1. 提案</text>
 <text class="fabric-text-small" x="100" y="305" text-anchor="middle">(Proposal)</text>
 <path class="fabric-arrow" d="M 150 290 L 210 290"/>
-<ellipse cx="270" cy="290" rx="50" ry="30" fill="rgba(92, 184, 92, 0.3)" stroke="#5cb85c" stroke-width="1.5"/>
+<ellipse cx="270" cy="290" rx="50" ry="30" fill="rgba(92, 184, 92, 0.15)" stroke="#5cb85c" stroke-width="1.5"/>
 <text class="fabric-flow-text" x="270" y="293" text-anchor="middle">2. 模拟执行</text>
 <text class="fabric-text-small" x="270" y="305" text-anchor="middle">(Simulate)</text>
 <path class="fabric-arrow" d="M 320 290 L 380 290"/>
-<ellipse cx="440" cy="290" rx="50" ry="30" fill="rgba(223, 105, 25, 0.3)" stroke="#df6919" stroke-width="1.5"/>
+<ellipse cx="440" cy="290" rx="50" ry="30" fill="rgba(223, 105, 25, 0.12)" stroke="#df6919" stroke-width="1.5"/>
 <text class="fabric-flow-text" x="440" y="293" text-anchor="middle">3. 背书</text>
 <text class="fabric-text-small" x="440" y="305" text-anchor="middle">(Endorse)</text>
 <path class="fabric-arrow" d="M 490 290 L 550 290"/>
-<ellipse cx="610" cy="290" rx="50" ry="30" fill="rgba(76, 156, 232, 0.3)" stroke="#4c9be8" stroke-width="1.5"/>
+<ellipse cx="610" cy="290" rx="50" ry="30" fill="rgba(52, 81, 178, 0.15)" stroke="#4c9be8" stroke-width="1.5"/>
 <text class="fabric-flow-text" x="610" y="293" text-anchor="middle">4. 排序</text>
 <text class="fabric-text-small" x="610" y="305" text-anchor="middle">(Order)</text>
 <path class="fabric-arrow" d="M 660 290 L 720 290"/>
-<ellipse cx="760" cy="290" rx="35" ry="30" fill="rgba(92, 184, 92, 0.3)" stroke="#5cb85c" stroke-width="1.5"/>
+<ellipse cx="760" cy="290" rx="35" ry="30" fill="rgba(92, 184, 92, 0.15)" stroke="#5cb85c" stroke-width="1.5"/>
 <text class="fabric-flow-text" x="760" y="290" text-anchor="middle">5. 验证</text>
 <text class="fabric-text-small" x="760" y="302" text-anchor="middle">(Validate)</text>
 <text class="fabric-text-small" x="100" y="340" text-anchor="middle">客户端发起</text>
@@ -419,11 +419,11 @@ func main() {
 <svg viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.corda-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.corda-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-.corda-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #f0e6d2; }
-.corda-box { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 2; }
-.corda-box-feature { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 1.5; }
+.corda-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.corda-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.corda-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.corda-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.corda-box-feature { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
 .corda-vs-line { stroke: #df6919; stroke-width: 2; stroke-dasharray: 5,5; }
 </style>
 </defs>
@@ -600,11 +600,11 @@ class TransferAssetFlowResponder(private val otherPartySession: FlowSession) : F
 <svg viewBox="0 0 750 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 850px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.fisco-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.fisco-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-.fisco-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #f0e6d2; }
-.fisco-box { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 2; }
-.fisco-box-feature { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 1.5; }
+.fisco-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.fisco-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.fisco-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.fisco-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.fisco-box-feature { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
 </style>
 </defs>
 <text class="fisco-text-title" x="375" y="25" text-anchor="middle">FISCO BCOS 架构与特性</text>
@@ -680,10 +680,10 @@ class TransferAssetFlowResponder(private val otherPartySession: FlowSession) : F
 <svg viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.privacy-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.privacy-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-.privacy-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #f0e6d2; }
-.privacy-box { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1.5; }
+.privacy-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.privacy-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.privacy-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.privacy-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.5; }
 .privacy-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#arrowhead-privacy); }
 </style>
 <marker id="arrowhead-privacy" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
@@ -820,16 +820,16 @@ func (c *AssetContract) ReadPrivatePrice(ctx contractapi.TransactionContextInter
 <svg viewBox="0 0 850 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.scf-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.scf-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-.scf-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #f0e6d2; }
-.scf-box-core { fill: rgba(223, 105, 25, 0.3); stroke: #df6919; stroke-width: 2; }
-.scf-box-tier1 { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1.5; }
-.scf-box-tier2 { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 1.5; }
-.scf-arrow { stroke: #f0e6d2; stroke-width: 1.5; fill: none; marker-end: url(#arrowhead-scf); }
+.scf-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.scf-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.scf-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.scf-box-core { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 2; }
+.scf-box-tier1 { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.5; }
+.scf-box-tier2 { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
+.scf-arrow { stroke: #1f2937; stroke-width: 1.5; fill: none; marker-end: url(#arrowhead-scf); }
 </style>
 <marker id="arrowhead-scf" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
-<polygon points="0 0, 8 3, 0 6" fill="#f0e6d2" />
+<polygon points="0 0, 8 3, 0 6" fill="#1f2937" />
 </marker>
 </defs>
 <text class="scf-text-title" x="425" y="25" text-anchor="middle">蚂蚁链双链通 - 供应链金融解决方案</text>
@@ -892,7 +892,7 @@ func (c *AssetContract) ReadPrivatePrice(ctx contractapi.TransactionContextInter
 <text class="scf-text-small" x="320" y="278" text-anchor="middle" fill="#5cb85c" font-weight="bold">凭证</text>
 <path class="scf-arrow" d="M 120 285 L 560 285" stroke-dasharray="3,3"/>
 <text class="scf-text-small" x="340" y="278" text-anchor="middle" fill="#df6919" font-weight="bold">可直接融资</text>
-<rect x="30" y="350" width="790" height="80" fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="1" rx="4"/>
+<rect x="30" y="350" width="790" height="80" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1" rx="4"/>
 <text class="scf-text" x="425" y="370" text-anchor="middle" font-weight="bold">方案效果 (2024 年数据)</text>
 <text class="scf-text-small" x="50" y="390">✓ 覆盖: 50+ 核心企业，20000+ 供应链上下游企业</text>
 <text class="scf-text-small" x="50" y="405">✓ 融资规模: 累计 2000 亿+</text>
@@ -947,11 +947,11 @@ func (c *AssetContract) ReadPrivatePrice(ctx contractapi.TransactionContextInter
 <svg viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.deploy-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.deploy-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-.deploy-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #f0e6d2; }
-.deploy-box { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1.5; }
-.deploy-step { fill: rgba(223, 105, 25, 0.3); stroke: #df6919; stroke-width: 2; }
+.deploy-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.deploy-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.deploy-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.deploy-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.5; }
+.deploy-step { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 2; }
 </style>
 </defs>
 <text class="deploy-text-title" x="400" y="25" text-anchor="middle">Hyperledger Fabric 生产部署流程</text>
@@ -1184,10 +1184,10 @@ spec:
 <svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.future-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.future-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-.future-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #f0e6d2; }
-.future-box { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1.5; }
+.future-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.future-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.future-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.future-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.5; }
 </style>
 </defs>
 <text class="future-text-title" x="400" y="25" text-anchor="middle">企业区块链未来趋势</text>

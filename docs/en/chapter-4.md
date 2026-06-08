@@ -63,15 +63,15 @@ A **Consensus Mechanism** is the process and algorithm by which multiple nodes i
 
 ### Core Goals of Consensus Mechanisms
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .cons-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .cons-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .cons-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #f0e6d2; }
-      .cons-circle-center { fill: #4c9be8; stroke: #f0e6d2; stroke-width: 0.5; }
-      .cons-circle-goal { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 0.5; }
+      .cons-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .cons-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .cons-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .cons-circle-center { fill: #4c9be8; stroke: #1f2937; stroke-width: 0.5; }
+      .cons-circle-goal { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
       .cons-line { stroke: #df6919; stroke-width: 0.5; }
     </style>
     <marker id="cons-arrow-1" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">

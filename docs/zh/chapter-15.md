@@ -54,13 +54,13 @@ title: "第十五章：安全与最佳实践"
 <svg viewBox="0 0 900 580" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.sec-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.sec-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-.sec-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #f0e6d2; }
+.sec-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.sec-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.sec-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
 .sec-box-critical { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
-.sec-box-high { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 1.5; }
+.sec-box-high { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
 .sec-box-medium { fill: rgba(255, 193, 7, 0.2); stroke: #ffc107; stroke-width: 1.5; }
-.sec-box-low { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 1.5; }
+.sec-box-low { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
 </style>
 </defs>
 <text class="sec-text-title" x="450" y="25" text-anchor="middle">区块链安全威胁全景图</text>
@@ -171,11 +171,11 @@ title: "第十五章：安全与最佳实践"
 <svg viewBox="0 0 850 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.reen-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.reen-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-.reen-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #f0e6d2; }
+.reen-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.reen-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.reen-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
 .reen-box-vuln { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
-.reen-box-safe { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 2; }
+.reen-box-safe { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
 .reen-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#arrowhead-reen); }
 </style>
 <marker id="arrowhead-reen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
@@ -291,11 +291,11 @@ contract SecureBank is ReentrancyGuard {
 <svg viewBox="0 0 850 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.ac-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.ac-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-.ac-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #f0e6d2; }
-.ac-box { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1.5; }
-.ac-box-pattern { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 1.5; }
+.ac-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.ac-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.ac-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.ac-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.5; }
+.ac-box-pattern { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
 </style>
 </defs>
 <text class="ac-text-title" x="425" y="25" text-anchor="middle">访问控制模式对比</text>
@@ -485,10 +485,10 @@ contract SafeMath {
 <svg viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.audit-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.audit-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-.audit-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #f0e6d2; }
-.audit-step { fill: rgba(76, 156, 232, 0.3); stroke: #4c9be8; stroke-width: 2; }
+.audit-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.audit-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.audit-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.audit-step { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
 .audit-arrow { stroke: #5cb85c; stroke-width: 2; fill: none; marker-end: url(#arrowhead-audit); }
 </style>
 <marker id="arrowhead-audit" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
@@ -511,7 +511,7 @@ contract SafeMath {
 <ellipse cx="820" cy="80" rx="70" ry="35" class="audit-step"/>
 <text class="audit-text" x="820" y="78" text-anchor="middle" font-weight="bold">4. 报告</text>
 <text class="audit-text-small" x="820" y="92" text-anchor="middle">修复验证</text>
-<rect fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="1" x="30" y="140" width="200" height="160" rx="4"/>
+<rect fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1" x="30" y="140" width="200" height="160" rx="4"/>
 <text class="audit-text" x="130" y="160" text-anchor="middle" font-weight="bold">准备阶段</text>
 <text class="audit-text-small" x="40" y="180">文档收集:</text>
 <text class="audit-text-small" x="45" y="195">• 白皮书</text>
@@ -520,7 +520,7 @@ contract SafeMath {
 <text class="audit-text-small" x="45" y="240">• 测试用例</text>
 <text class="audit-text-small" x="40" y="265">时长: 1-2 天</text>
 <text class="audit-text-small" x="40" y="280">成本: $2K-5K</text>
-<rect fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="1" x="250" y="140" width="200" height="160" rx="4"/>
+<rect fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1" x="250" y="140" width="200" height="160" rx="4"/>
 <text class="audit-text" x="350" y="160" text-anchor="middle" font-weight="bold">自动化扫描</text>
 <text class="audit-text-small" x="260" y="180">工具:</text>
 <text class="audit-text-small" x="265" y="195">• Slither (静态分析)</text>
@@ -529,7 +529,7 @@ contract SafeMath {
 <text class="audit-text-small" x="265" y="240">• Certora (形式化)</text>
 <text class="audit-text-small" x="260" y="265">时长: 2-3 天</text>
 <text class="audit-text-small" x="260" y="280">覆盖率: 40-60%</text>
-<rect fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="1" x="470" y="140" width="200" height="160" rx="4"/>
+<rect fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1" x="470" y="140" width="200" height="160" rx="4"/>
 <text class="audit-text" x="570" y="160" text-anchor="middle" font-weight="bold">手动审查</text>
 <text class="audit-text-small" x="480" y="180">重点检查:</text>
 <text class="audit-text-small" x="485" y="195">• 业务逻辑漏洞</text>
@@ -538,7 +538,7 @@ contract SafeMath {
 <text class="audit-text-small" x="485" y="240">• Gas 优化</text>
 <text class="audit-text-small" x="480" y="265">时长: 5-10 天</text>
 <text class="audit-text-small" x="480" y="280">核心价值所在</text>
-<rect fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="1" x="690" y="140" width="180" height="160" rx="4"/>
+<rect fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1" x="690" y="140" width="180" height="160" rx="4"/>
 <text class="audit-text" x="780" y="160" text-anchor="middle" font-weight="bold">报告与修复</text>
 <text class="audit-text-small" x="700" y="180">漏洞分级:</text>
 <text class="audit-text-small" x="705" y="195">🔴 Critical (严重)</text>
@@ -674,12 +674,12 @@ echidna-test contracts/BankTest.sol --contract BankTest --config echidna.yaml
 <svg viewBox="0 0 850 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.key-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.key-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-.key-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #f0e6d2; }
+.key-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.key-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.key-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
 .key-box-bad { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
-.key-box-good { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 2; }
-.key-box-best { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 2; }
+.key-box-good { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.key-box-best { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
 </style>
 </defs>
 <text class="key-text-title" x="425" y="25" text-anchor="middle">私钥管理方案对比</text>
@@ -892,11 +892,11 @@ contract SimpleMultiSig {
 <svg viewBox="0 0 850 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.fe-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.fe-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-.fe-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #f0e6d2; }
-.fe-box-threat { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 1.5; }
-.fe-box-defense { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 1.5; }
+.fe-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.fe-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.fe-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
+.fe-box-threat { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
+.fe-box-defense { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
 </style>
 </defs>
 <text class="fe-text-title" x="425" y="25" text-anchor="middle">DApp 前端安全威胁与防御</text>
@@ -1065,14 +1065,14 @@ async function checkAllowance(
 <svg viewBox="0 0 850 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.ir-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.ir-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-.ir-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #f0e6d2; }
+.ir-text-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.ir-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+.ir-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
 .ir-phase { fill: rgba(220, 53, 69, 0.3); stroke: #dc3545; stroke-width: 2; }
-.ir-arrow { stroke: #f0e6d2; stroke-width: 2; fill: none; marker-end: url(#arrowhead-ir); }
+.ir-arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrowhead-ir); }
 </style>
 <marker id="arrowhead-ir" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-<polygon points="0 0, 10 3, 0 6" fill="#f0e6d2" />
+<polygon points="0 0, 10 3, 0 6" fill="#1f2937" />
 </marker>
 </defs>
 <text class="ir-text-title" x="425" y="25" text-anchor="middle">安全事件应急响应流程</text>
@@ -1130,7 +1130,7 @@ async function checkAllowance(
 <text class="ir-text-small" x="520" y="345">事后复盘</text>
 <line x1="30" y1="360" x2="820" y2="360" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5"/>
 <text class="ir-text" x="425" y="380" text-anchor="middle" font-weight="bold">紧急暂停机制代码示例</text>
-<rect fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="1" x="50" y="395" width="750" height="80" rx="4"/>
+<rect fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1" x="50" y="395" width="750" height="80" rx="4"/>
 <text class="ir-text-small" x="60" y="415" font-family="monospace">contract EmergencyPausable is Pausable, AccessControl {</text>
 <text class="ir-text-small" x="70" y="430" font-family="monospace">bytes32 public constant PAUSER_ROLE = keccak256("PAUSER_ROLE");</text>
 <text class="ir-text-small" x="70" y="450" font-family="monospace">function emergencyPause() external onlyRole(PAUSER_ROLE) {</text>

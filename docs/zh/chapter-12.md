@@ -63,15 +63,15 @@ title: "第十二章：治理与 DAO"
 
 DAO (Decentralized Autonomous Organization，去中心化自治组织) 是一种基于智能合约的组织形式，通过代码和社区共识进行决策和运营。
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
 <defs>
 <style>
 .dao-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.dao-subtitle { font: bold 16px sans-serif; fill: #f0e6d2; }
-.dao-label { font: 13px sans-serif; fill: #f0e6d2; }
+.dao-subtitle { font: bold 16px sans-serif; fill: #1f2937; }
+.dao-label { font: 13px sans-serif; fill: #1f2937; }
 .dao-box-trad { fill: rgba(217, 83, 79, 0.15); stroke: #d9534f; stroke-width: 2; }
-.dao-box-dao { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 2; }
+.dao-box-dao { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
 .dao-arrow { stroke: #4c9be8; stroke-width: 2; fill: none; }
 .dao-check { fill: #5cb85c; }
 .dao-cross { fill: #d9534f; }
@@ -146,15 +146,15 @@ DAO (Decentralized Autonomous Organization，去中心化自治组织) 是一种
 
 ### Governor 合约：OpenZeppelin 标准
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
 <defs>
 <style>
 .gov-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.gov-step { font: bold 16px sans-serif; fill: #f0e6d2; }
-.gov-label { font: 13px sans-serif; fill: #f0e6d2; }
-.gov-box { fill: rgba(76, 156, 232, 0.1); stroke: #4c9be8; stroke-width: 2; }
-.gov-active { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 3; }
+.gov-step { font: bold 16px sans-serif; fill: #1f2937; }
+.gov-label { font: 13px sans-serif; fill: #1f2937; }
+.gov-box { fill: rgba(52, 81, 178, 0.05); stroke: #4c9be8; stroke-width: 2; }
+.gov-active { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 3; }
 .gov-arrow { stroke: #df6919; stroke-width: 3; fill: none; marker-end: url(#gov-arrow); }
 .gov-time { font: 11px sans-serif; fill: #f0ad4e; font-style: italic; }
 </style>
@@ -419,15 +419,15 @@ Snapshot 是一个链下投票平台，具有以下优势：
 - **灵活投票策略**：支持多种代币权重计算
 - **快速部署**：无需部署智能合约
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 450">
 <defs>
 <style>
 .snap-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.snap-subtitle { font: bold 16px sans-serif; fill: #f0e6d2; }
-.snap-label { font: 13px sans-serif; fill: #f0e6d2; }
-.snap-box-on { fill: rgba(76, 156, 232, 0.15); stroke: #4c9be8; stroke-width: 2; }
-.snap-box-off { fill: rgba(223, 105, 25, 0.15); stroke: #df6919; stroke-width: 2; }
+.snap-subtitle { font: bold 16px sans-serif; fill: #1f2937; }
+.snap-label { font: 13px sans-serif; fill: #1f2937; }
+.snap-box-on { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
+.snap-box-off { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 2; }
 .snap-check { fill: #5cb85c; }
 .snap-cross { fill: #d9534f; }
 </style>
@@ -522,27 +522,27 @@ Snapshot 是一个链下投票平台，具有以下优势：
 
 ## 12.4 代币经济学与激励设计
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550">
 <defs>
 <style>
 .token-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.token-cat { font: bold 16px sans-serif; fill: #f0e6d2; }
-.token-label { font: 13px sans-serif; fill: #f0e6d2; }
-.token-slice { stroke: #20374c; stroke-width: 2; }
-.token-legend { font: 14px sans-serif; fill: #f0e6d2; }
+.token-cat { font: bold 16px sans-serif; fill: #1f2937; }
+.token-label { font: 13px sans-serif; fill: #1f2937; }
+.token-slice { stroke: #3451b2; stroke-width: 2; }
+.token-legend { font: 14px sans-serif; fill: #1f2937; }
 </style>
 </defs>
 <text x="450" y="35" class="token-title" text-anchor="middle">代币分配模型 (Tokenomics)</text>
 <g id="pie-chart">
 <circle cx="250" cy="280" r="150" fill="none" stroke="#4c9be8" stroke-width="2"/>
-<path d="M 250 130 A 150 150 0 0 1 358.3 208.3 L 250 280 Z" class="token-slice" fill="rgba(76, 156, 232, 0.3)"/>
+<path d="M 250 130 A 150 150 0 0 1 358.3 208.3 L 250 280 Z" class="token-slice" fill="rgba(52, 81, 178, 0.15)"/>
 <text x="290" y="200" class="token-cat">25%</text>
 <text x="280" y="220" class="token-label">社区</text>
-<path d="M 358.3 208.3 A 150 150 0 0 1 358.3 351.7 L 250 280 Z" class="token-slice" fill="rgba(92, 184, 92, 0.3)"/>
+<path d="M 358.3 208.3 A 150 150 0 0 1 358.3 351.7 L 250 280 Z" class="token-slice" fill="rgba(92, 184, 92, 0.15)"/>
 <text x="340" y="290" class="token-cat">20%</text>
 <text x="330" y="310" class="token-label">团队</text>
-<path d="M 358.3 351.7 A 150 150 0 0 1 250 430 L 250 280 Z" class="token-slice" fill="rgba(223, 105, 25, 0.3)"/>
+<path d="M 358.3 351.7 A 150 150 0 0 1 250 430 L 250 280 Z" class="token-slice" fill="rgba(223, 105, 25, 0.12)"/>
 <text x="290" y="380" class="token-cat">15%</text>
 <text x="280" y="400" class="token-label">投资人</text>
 <path d="M 250 430 A 150 150 0 0 1 141.7 351.7 L 250 280 Z" class="token-slice" fill="rgba(147, 112, 219, 0.3)"/>
@@ -556,17 +556,17 @@ Snapshot 是一个链下投票平台，具有以下优势：
 <text x="160" y="220" class="token-label">财库</text>
 </g>
 <g id="vesting-schedule">
-<rect x="480" y="70" width="380" height="460" fill="rgba(32, 55, 76, 0.5)" stroke="#4c9be8" stroke-width="2" rx="8"/>
+<rect x="480" y="70" width="380" height="460" fill="rgba(52, 81, 178, 0.06)" stroke="#4c9be8" stroke-width="2" rx="8"/>
 <text x="670" y="105" class="token-cat" text-anchor="middle">释放时间表 (Vesting Schedule)</text>
-<rect x="500" y="130" width="340" height="60" fill="rgba(76, 156, 232, 0.15)" stroke="#4c9be8" stroke-width="2" rx="4"/>
+<rect x="500" y="130" width="340" height="60" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="2" rx="4"/>
 <text x="510" y="155" class="token-label" font-weight="bold">社区 (25%):</text>
 <text x="510" y="175" class="token-label">• 立即释放 50% (空投/流动性挖矿)</text>
 <text x="510" y="190" class="token-label">• 剩余 50% 线性释放 (4 年)</text>
-<rect x="500" y="210" width="340" height="60" fill="rgba(92, 184, 92, 0.15)" stroke="#5cb85c" stroke-width="2" rx="4"/>
+<rect x="500" y="210" width="340" height="60" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="2" rx="4"/>
 <text x="510" y="235" class="token-label" font-weight="bold">团队 (20%):</text>
 <text x="510" y="255" class="token-label">• 1 年锁定 (Cliff)</text>
 <text x="510" y="270" class="token-label">• 然后 3 年线性释放</text>
-<rect x="500" y="290" width="340" height="60" fill="rgba(223, 105, 25, 0.15)" stroke="#df6919" stroke-width="2" rx="4"/>
+<rect x="500" y="290" width="340" height="60" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="2" rx="4"/>
 <text x="510" y="315" class="token-label" font-weight="bold">投资人 (15%):</text>
 <text x="510" y="335" class="token-label">• 6 个月锁定</text>
 <text x="510" y="350" class="token-label">• 然后 2 年线性释放</text>
@@ -656,15 +656,15 @@ contract VotingEscrow {
 
 ### Gnosis Safe：行业标准
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
 <defs>
 <style>
 .safe-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.safe-step { font: bold 16px sans-serif; fill: #f0e6d2; }
-.safe-label { font: 13px sans-serif; fill: #f0e6d2; }
-.safe-box { fill: rgba(76, 156, 232, 0.1); stroke: #4c9be8; stroke-width: 2; }
-.safe-signer { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 2; }
+.safe-step { font: bold 16px sans-serif; fill: #1f2937; }
+.safe-label { font: 13px sans-serif; fill: #1f2937; }
+.safe-box { fill: rgba(52, 81, 178, 0.05); stroke: #4c9be8; stroke-width: 2; }
+.safe-signer { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
 .safe-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#safe-arrow); }
 </style>
 <marker id="safe-arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
@@ -696,7 +696,7 @@ contract VotingEscrow {
 </g>
 <path d="M 450 430 L 450 460" class="safe-arrow"/>
 <g id="step3">
-<rect x="250" y="470" width="400" height="20" class="safe-box" rx="8" fill="rgba(92, 184, 92, 0.3)"/>
+<rect x="250" y="470" width="400" height="20" class="safe-box" rx="8" fill="rgba(92, 184, 92, 0.15)"/>
 <text x="450" y="487" class="safe-step" text-anchor="middle" font-size="14">✅ 交易执行</text>
 </g>
 <g id="info">
@@ -896,16 +896,16 @@ CCBus 提供了几种**协议级治理代币**的实现,把治理参数和代币
 
 ## 12.6 DAO 工具栈
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
 <defs>
 <style>
 .tool-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.tool-cat { font: bold 16px sans-serif; fill: #f0e6d2; }
-.tool-label { font: 13px sans-serif; fill: #f0e6d2; }
-.tool-box-gov { fill: rgba(76, 156, 232, 0.15); stroke: #4c9be8; stroke-width: 2; }
-.tool-box-comm { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 2; }
-.tool-box-pay { fill: rgba(223, 105, 25, 0.15); stroke: #df6919; stroke-width: 2; }
+.tool-cat { font: bold 16px sans-serif; fill: #1f2937; }
+.tool-label { font: 13px sans-serif; fill: #1f2937; }
+.tool-box-gov { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
+.tool-box-comm { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
+.tool-box-pay { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 2; }
 .tool-box-ops { fill: rgba(147, 112, 219, 0.15); stroke: #9370db; stroke-width: 2; }
 </style>
 </defs>

@@ -40,14 +40,14 @@ CCBus 的"多功能代币"是当前 DeFi 领域合约复杂度的典型代表—
 
 ### 智能合约的核心特性
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .sc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .sc-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .sc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .sc-circle-main { fill: rgba(76, 156, 232, 0.3); stroke: #4c9be8; stroke-width: 1.5; }
+      .sc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .sc-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .sc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .sc-circle-main { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 1.5; }
       .sc-circle-feature { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1; }
       .sc-line { stroke: #4c9be8; stroke-width: 1; }
     </style>
@@ -99,17 +99,17 @@ CCBus 的"多功能代币"是当前 DeFi 领域合约复杂度的典型代表—
 
 ### 智能合约的工作流程
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 750 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .scw-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .scw-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .scw-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .scw-box-step { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 1; }
-      .scw-box-contract { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1; }
+      .scw-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .scw-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .scw-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .scw-box-step { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
+      .scw-box-contract { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
       .scw-line-flow { stroke: #4c9be8; stroke-width: 1.5; stroke-dasharray: 3,2; }
-      .scw-circle-num { fill: rgba(223, 105, 25, 0.3); stroke: #df6919; stroke-width: 1; }
+      .scw-circle-num { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1; }
     </style>
     <marker id="scw-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>
@@ -186,16 +186,16 @@ CCBus 的"多功能代币"是当前 DeFi 领域合约复杂度的典型代表—
 
 **以太坊虚拟机**（Ethereum Virtual Machine, EVM）是智能合约的运行环境，它是一个图灵完备的虚拟机，可以执行任意复杂的计算逻辑。
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .evm-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .evm-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .evm-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
+      .evm-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .evm-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .evm-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .evm-box-main { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
-      .evm-box-component { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 1; }
-      .evm-box-storage { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 1; }
+      .evm-box-component { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
+      .evm-box-storage { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
       .evm-line { stroke: #4c9be8; stroke-width: 1; }
     </style>
     <marker id="evm-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
@@ -242,7 +242,7 @@ CCBus 的"多功能代币"是当前 DeFi 领域合约复杂度的典型代表—
   <text class="evm-text" x="505" y="358" text-anchor="middle" font-weight="bold">Gas 机制</text>
   <text class="evm-text-small" x="390" y="375">• 每个操作消耗固定Gas</text>
   <text class="evm-text-small" x="390" y="388">• 防止无限循环和DoS攻击</text>
-  <rect x="60" y="420" width="580" height="20" rx="3" fill="rgba(223, 105, 25, 0.15)" stroke="#df6919" stroke-width="0.5"/>
+  <rect x="60" y="420" width="580" height="20" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="0.5"/>
   <text class="evm-text-small" x="350" y="434" text-anchor="middle" font-style="italic">EVM是图灵完备的确定性状态机 - 相同输入总是产生相同输出</text>
 </svg>
 </div>
@@ -379,16 +379,16 @@ contract SimpleStorage {
 
 ### Solidity 数据类型
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 750 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .sol-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .sol-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .sol-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .sol-box-category { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1; }
-      .sol-box-type { fill: rgba(223, 105, 25, 0.15); stroke: #df6919; stroke-width: 0.8; }
-      .sol-box-ref { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 0.8; }
+      .sol-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .sol-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .sol-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .sol-box-category { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .sol-box-type { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 0.8; }
+      .sol-box-ref { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 0.8; }
     </style>
   </defs>
   <text class="sol-text-title" x="375" y="25" text-anchor="middle">Solidity 数据类型体系</text>
@@ -445,12 +445,12 @@ contract SimpleStorage {
   <text class="sol-text-small" x="410" y="242">• 可包含任意数据类型（除自身）</text>
   <rect class="sol-box-category" x="30" y="280" width="690" height="110" rx="4"/>
   <text class="sol-text" x="375" y="298" text-anchor="middle" font-weight="bold">数据位置 (Data Location)</text>
-  <rect x="40" y="310" width="210" height="70" rx="3" fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="40" y="310" width="210" height="70" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="sol-text" x="145" y="325" text-anchor="middle" font-weight="bold">storage</text>
   <text class="sol-text-small" x="50" y="340">• 永久存储在区块链上</text>
   <text class="sol-text-small" x="50" y="352">• 状态变量默认位置</text>
   <text class="sol-text-small" x="50" y="364">• Gas成本高</text>
-  <rect x="260" y="310" width="210" height="70" rx="3" fill="rgba(223, 105, 25, 0.1)" stroke="#df6919" stroke-width="0.5"/>
+  <rect x="260" y="310" width="210" height="70" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.5"/>
   <text class="sol-text" x="365" y="325" text-anchor="middle" font-weight="bold">memory</text>
   <text class="sol-text-small" x="270" y="340">• 临时存储</text>
   <text class="sol-text-small" x="270" y="352">• 函数参数/局部变量</text>
@@ -460,7 +460,7 @@ contract SimpleStorage {
   <text class="sol-text-small" x="490" y="340">• 不可修改的临时存储</text>
   <text class="sol-text-small" x="490" y="352">• 外部函数参数专用</text>
   <text class="sol-text-small" x="490" y="364">• Gas成本最低</text>
-  <rect x="30" y="400" width="690" height="80" rx="4" fill="rgba(223, 105, 25, 0.1)" stroke="#df6919" stroke-width="1"/>
+  <rect x="30" y="400" width="690" height="80" rx="4" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="1"/>
   <text class="sol-text" x="375" y="418" text-anchor="middle" font-weight="bold">特殊类型与全局变量</text>
   <text class="sol-text-small" x="40" y="435">• msg.sender: 当前调用者地址</text>
   <text class="sol-text-small" x="240" y="435">• msg.value: 发送的ETH数量(wei)</text>
@@ -611,16 +611,16 @@ Solidity 0.8.20+ 启用了 PUSH0,把 `0` 压入栈,gas 成本 2(旧版用 `PUSH1
 
 ### 常用设计模式
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 750 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .pat-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .pat-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .pat-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .pat-box-pattern { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1; }
-      .pat-box-security { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 1; }
-      .pat-box-gas { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 1; }
+      .pat-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .pat-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .pat-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .pat-box-pattern { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .pat-box-security { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
+      .pat-box-gas { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
     </style>
   </defs>
   <text class="pat-text-title" x="375" y="25" text-anchor="middle">智能合约常用设计模式</text>
@@ -881,16 +881,16 @@ function reveal(uint256 value, bytes32 salt) public {
 
 ### 安全最佳实践
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .sec-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .sec-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .sec-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .sec-box-practice { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 1; }
-      .sec-box-tool { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1; }
-      .sec-circle-check { fill: rgba(92, 184, 92, 0.3); stroke: #5cb85c; stroke-width: 1; }
+      .sec-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .sec-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .sec-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .sec-box-practice { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
+      .sec-box-tool { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .sec-circle-check { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 1; }
     </style>
   </defs>
   <text class="sec-text-title" x="350" y="25" text-anchor="middle">智能合约安全最佳实践</text>

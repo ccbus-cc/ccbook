@@ -71,15 +71,15 @@ title: "第十三章：区块链平台对比"
 
 由 Ethereum 创始人 Vitalik Buterin 提出，指出区块链系统很难同时实现三个目标：
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650">
 <defs>
 <style>
 .tri-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.tri-label { font: 16px sans-serif; fill: #f0e6d2; font-weight: bold; }
-.tri-desc { font: 13px sans-serif; fill: #f0e6d2; }
+.tri-label { font: 16px sans-serif; fill: #1f2937; font-weight: bold; }
+.tri-desc { font: 13px sans-serif; fill: #1f2937; }
 .tri-triangle { fill: none; stroke: #4c9be8; stroke-width: 3; }
-.tri-circle { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 2; }
+.tri-circle { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
 .tri-line { stroke: #df6919; stroke-width: 2; stroke-dasharray: 5,5; }
 </style>
 </defs>
@@ -140,14 +140,14 @@ title: "第十三章：区块链平台对比"
 
 ## 13.2 Layer 1 主流平台对比
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
 <defs>
 <style>
 .l1-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.l1-chain { font: bold 18px sans-serif; fill: #f0e6d2; }
-.l1-label { font: 12px sans-serif; fill: #f0e6d2; }
-.l1-box-eth { fill: rgba(76, 156, 232, 0.15); stroke: #4c9be8; stroke-width: 2; }
+.l1-chain { font: bold 18px sans-serif; fill: #1f2937; }
+.l1-label { font: 12px sans-serif; fill: #1f2937; }
+.l1-box-eth { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
 .l1-box-bnb { fill: rgba(240, 173, 78, 0.15); stroke: #f0ad4e; stroke-width: 2; }
 .l1-box-sol { fill: rgba(147, 112, 219, 0.15); stroke: #9370db; stroke-width: 2; }
 .l1-box-avax { fill: rgba(217, 83, 79, 0.15); stroke: #d9534f; stroke-width: 2; }
@@ -281,14 +281,14 @@ title: "第十三章：区块链平台对比"
 
 ### EVM 生态的优势
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550">
 <defs>
 <style>
 .evm-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.evm-subtitle { font: bold 16px sans-serif; fill: #f0e6d2; }
-.evm-label { font: 13px sans-serif; fill: #f0e6d2; }
-.evm-box-evm { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 2; }
+.evm-subtitle { font: bold 16px sans-serif; fill: #1f2937; }
+.evm-label { font: 13px sans-serif; fill: #1f2937; }
+.evm-box-evm { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
 .evm-box-non { fill: rgba(147, 112, 219, 0.15); stroke: #9370db; stroke-width: 2; }
 .evm-check { fill: #5cb85c; }
 .evm-cross { fill: #d9534f; }
@@ -385,15 +385,15 @@ Transaction {
 
 ### L2 生态全景
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 600">
 <defs>
 <style>
 .l2-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.l2-cat { font: bold 16px sans-serif; fill: #f0e6d2; }
-.l2-label { font: 12px sans-serif; fill: #f0e6d2; }
-.l2-box-op { fill: rgba(223, 105, 25, 0.15); stroke: #df6919; stroke-width: 2; }
-.l2-box-zk { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 2; }
+.l2-cat { font: bold 16px sans-serif; fill: #1f2937; }
+.l2-label { font: 12px sans-serif; fill: #1f2937; }
+.l2-box-op { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 2; }
+.l2-box-zk { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
 .l2-box-other { fill: rgba(147, 112, 219, 0.15); stroke: #9370db; stroke-width: 2; }
 </style>
 </defs>
@@ -402,11 +402,11 @@ Transaction {
 <rect x="50" y="70" width="280" height="240" class="l2-box-op" rx="8"/>
 <text x="190" y="105" class="l2-cat" text-anchor="middle">🟧 Optimistic Rollup</text>
 <text x="70" y="135" class="l2-label" font-weight="bold">代表项目:</text>
-<rect x="70" y="145" width="240" height="60" fill="rgba(76, 156, 232, 0.1)" rx="4"/>
+<rect x="70" y="145" width="240" height="60" fill="rgba(52, 81, 178, 0.05)" rx="4"/>
 <text x="80" y="165" class="l2-label" font-weight="bold">Arbitrum One</text>
 <text x="80" y="180" class="l2-label">TVL: $15B | TPS: ~40,000</text>
 <text x="80" y="195" class="l2-label">技术: Optimistic + AnyTrust</text>
-<rect x="70" y="215" width="240" height="60" fill="rgba(76, 156, 232, 0.1)" rx="4"/>
+<rect x="70" y="215" width="240" height="60" fill="rgba(52, 81, 178, 0.05)" rx="4"/>
 <text x="80" y="235" class="l2-label" font-weight="bold">Optimism (OP Stack)</text>
 <text x="80" y="250" class="l2-label">TVL: $8B | TPS: ~2,000</text>
 <text x="80" y="265" class="l2-label">超链: Base, opBNB, Zora</text>
@@ -417,13 +417,13 @@ Transaction {
 <rect x="360" y="70" width="280" height="240" class="l2-box-zk" rx="8"/>
 <text x="500" y="105" class="l2-cat" text-anchor="middle">🟩 ZK Rollup</text>
 <text x="380" y="135" class="l2-label" font-weight="bold">代表项目:</text>
-<rect x="380" y="145" width="240" height="40" fill="rgba(76, 156, 232, 0.1)" rx="4"/>
+<rect x="380" y="145" width="240" height="40" fill="rgba(52, 81, 178, 0.05)" rx="4"/>
 <text x="390" y="165" class="l2-label" font-weight="bold">zkSync Era</text>
 <text x="390" y="180" class="l2-label">TVL: $500M | Type 4 zkEVM</text>
-<rect x="380" y="195" width="240" height="40" fill="rgba(76, 156, 232, 0.1)" rx="4"/>
+<rect x="380" y="195" width="240" height="40" fill="rgba(52, 81, 178, 0.05)" rx="4"/>
 <text x="390" y="215" class="l2-label" font-weight="bold">StarkNet</text>
 <text x="390" y="230" class="l2-label">TVL: $1.2B | Cairo VM</text>
-<rect x="380" y="245" width="240" height="40" fill="rgba(76, 156, 232, 0.1)" rx="4"/>
+<rect x="380" y="245" width="240" height="40" fill="rgba(52, 81, 178, 0.05)" rx="4"/>
 <text x="390" y="265" class="l2-label" font-weight="bold">Polygon zkEVM</text>
 <text x="390" y="280" class="l2-label">TVL: $100M | Type 3 zkEVM</text>
 <text x="380" y="300" class="l2-label" font-weight="bold">特点: 即时确认</text>
@@ -465,14 +465,14 @@ Transaction {
 
 ### 高性能 Alt-L1
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550">
 <defs>
 <style>
 .alt-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.alt-chain { font: bold 16px sans-serif; fill: #f0e6d2; }
-.alt-label { font: 12px sans-serif; fill: #f0e6d2; }
-.alt-box { fill: rgba(76, 156, 232, 0.1); stroke: #4c9be8; stroke-width: 2; }
+.alt-chain { font: bold 16px sans-serif; fill: #1f2937; }
+.alt-label { font: 12px sans-serif; fill: #1f2937; }
+.alt-box { fill: rgba(52, 81, 178, 0.05); stroke: #4c9be8; stroke-width: 2; }
 </style>
 </defs>
 <text x="450" y="35" class="alt-title" text-anchor="middle">新兴高性能公链 (2024-2025)</text>
@@ -620,16 +620,16 @@ Transaction {
 
 ### 决策树
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
 <defs>
 <style>
 .dec-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.dec-question { font: bold 14px sans-serif; fill: #f0e6d2; }
-.dec-answer { font: 13px sans-serif; fill: #f0e6d2; }
+.dec-question { font: bold 14px sans-serif; fill: #1f2937; }
+.dec-answer { font: 13px sans-serif; fill: #1f2937; }
 .dec-result { font: bold 15px sans-serif; fill: #5cb85c; }
-.dec-box-q { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 2; }
-.dec-box-a { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 2; }
+.dec-box-q { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.dec-box-a { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
 .dec-arrow { stroke: #df6919; stroke-width: 2; fill: none; marker-end: url(#dec-arrow); }
 </style>
 <marker id="dec-arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
@@ -731,14 +731,14 @@ Transaction {
 3. **链抽象**: Account Abstraction (ERC-4337) 让用户无感知切换链
 4. **意图中心架构**: Anoma, SUAVE 让用户表达意图，协议自动选择最优链执行
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
 <defs>
 <style>
 .multi-title { font: bold 24px sans-serif; fill: #4c9be8; }
-.multi-label { font: 13px sans-serif; fill: #f0e6d2; }
-.multi-chain { font: bold 14px sans-serif; fill: #f0e6d2; }
-.multi-circle { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 2; }
+.multi-label { font: 13px sans-serif; fill: #1f2937; }
+.multi-chain { font: bold 14px sans-serif; fill: #1f2937; }
+.multi-circle { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
 .multi-line { stroke: #5cb85c; stroke-width: 2; stroke-dasharray: 3,3; }
 </style>
 </defs>

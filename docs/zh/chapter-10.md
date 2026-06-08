@@ -86,16 +86,16 @@ CCBus 的 DeFi 工具集几乎是本章内容的可视化目录:
 
 **传统金融 vs DeFi**：
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.defi-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.defi-subtitle { font-family: arial, sans-serif; font-size: 13px; fill: #f0e6d2; font-weight: bold; }
-.defi-text { font-family: arial, sans-serif; font-size: 11px; fill: #f0e6d2; }
+.defi-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.defi-subtitle { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
+.defi-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
 .defi-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
 .defi-tradfi { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
-.defi-box { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 2; }
+.defi-box { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
 </style>
 </defs>
 <text x="450" y="25" text-anchor="middle" class="defi-title">传统金融 (TradFi) vs DeFi 对比</text>
@@ -175,21 +175,21 @@ $$
 - $x$ 和 $y$ 是流动性池中两种代币的数量
 - $k$ 是常数（恒定乘积）
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 850 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.amm-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.amm-text { font-family: arial, sans-serif; font-size: 11px; fill: #f0e6d2; }
+.amm-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.amm-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
 .amm-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.amm-pool { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 2; }
-.amm-swap { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 2; }
+.amm-pool { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.amm-swap { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
 .amm-curve { stroke: #5cb85c; stroke-width: 3; fill: none; }
 .amm-point { fill: #df6919; }
-.amm-arrow { stroke: #f0e6d2; stroke-width: 2; fill: none; marker-end: url(#arrowAMM); }
+.amm-arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrowAMM); }
 </style>
 <marker id="arrowAMM" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
-<path d="M0,0 L0,6 L9,3 z" fill="#f0e6d2"/>
+<path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>
 </marker>
 </defs>
 <text x="425" y="25" text-anchor="middle" class="amm-title">AMM 恒定乘积做市商工作原理</text>
@@ -216,7 +216,7 @@ $$
 <text x="470" y="244" class="amm-text">3️⃣ 用户获得 ETH：</text>
 <text x="485" y="259" class="amm-text">Δx = 100 - 90.91 = 9.09 ETH</text>
 <line x1="225" y1="270" x2="625" y2="85" class="amm-arrow"/>
-<rect x="50" y="290" width="750" height="240" fill="rgba(92, 184, 92, 0.15)" stroke="#5cb85c" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+<rect x="50" y="290" width="750" height="240" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
 <text x="425" y="315" text-anchor="middle" class="amm-text" font-weight="bold">恒定乘积曲线可视化</text>
 <line x1="70" y1="500" x2="770" y2="500" stroke="#4c9be8" stroke-width="2"/>
 <text x="770" y="520" text-anchor="end" class="amm-small">ETH (x)</text>
@@ -231,7 +231,7 @@ $$
 <text x="345" y="515" class="amm-small">100</text>
 <text x="50" y="405" class="amm-small">200k</text>
 <text x="50" y="430" class="amm-small">220k</text>
-<rect x="460" y="330" width="330" height="90" fill="rgba(223, 105, 25, 0.2)" stroke="#df6919" stroke-width="1" rx="4"/>
+<rect x="460" y="330" width="330" height="90" fill="rgba(223, 105, 25, 0.08)" stroke="#df6919" stroke-width="1" rx="4"/>
 <text x="625" y="350" text-anchor="middle" class="amm-text" font-weight="bold">价格滑点</text>
 <text x="470" y="370" class="amm-text">• 预期价格：2,000 USDC/ETH</text>
 <text x="470" y="386" class="amm-text">• 实际价格：20,000 / 9.09 = 2,200 USDC/ETH</text>
@@ -287,20 +287,20 @@ $$
 
 **超额抵押借贷**：用户必须抵押价值高于借款的资产。
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 850 600" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.lend-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.lend-subtitle { font-family: arial, sans-serif; font-size: 13px; fill: #f0e6d2; font-weight: bold; }
-.lend-text { font-family: arial, sans-serif; font-size: 11px; fill: #f0e6d2; }
+.lend-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.lend-subtitle { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
+.lend-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
 .lend-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.lend-step { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 2; }
+.lend-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
 .lend-risk { fill: rgba(220, 53, 69, 0.2); stroke: #dc3545; stroke-width: 2; }
-.lend-arrow { stroke: #f0e6d2; stroke-width: 2; fill: none; marker-end: url(#arrowLend); }
+.lend-arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrowLend); }
 </style>
 <marker id="arrowLend" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
-<path d="M0,0 L0,6 L9,3 z" fill="#f0e6d2"/>
+<path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>
 </marker>
 </defs>
 <text x="425" y="25" text-anchor="middle" class="lend-title">DeFi 借贷协议工作流程 (Aave / Compound)</text>
@@ -328,7 +328,7 @@ $$
 <text x="630" y="154" class="lend-text">• 再投资</text>
 <text x="630" y="170" class="lend-text">• 杠杆操作</text>
 <text x="630" y="185" class="lend-small">支付借款利息</text>
-<rect x="50" y="210" width="750" height="140" fill="rgba(223, 105, 25, 0.15)" stroke="#df6919" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+<rect x="50" y="210" width="750" height="140" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
 <text x="425" y="235" text-anchor="middle" class="lend-subtitle">健康因子 (Health Factor) 监控</text>
 <text x="60" y="260" class="lend-text">健康因子 = (抵押品价值 × 清算阈值) / 借款价值</text>
 <text x="60" y="285" class="lend-text">初始状态：</text>
@@ -390,17 +390,17 @@ $$
 
 ### 三种主流稳定币模式
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.stable-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.stable-subtitle { font-family: arial, sans-serif; font-size: 13px; fill: #f0e6d2; font-weight: bold; }
-.stable-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
+.stable-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.stable-subtitle { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
+.stable-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
 .stable-small { font-family: arial, sans-serif; font-size: 8px; fill: #b0a090; }
-.stable-fiat { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 2; }
-.stable-crypto { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 2; }
-.stable-algo { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 2; }
+.stable-fiat { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.stable-crypto { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
+.stable-algo { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
 </style>
 </defs>
 <text x="450" y="25" text-anchor="middle" class="stable-title">稳定币设计模式对比</text>
@@ -474,7 +474,7 @@ $$
 <text x="620" y="450" class="stable-text" fill="#dc3545">❌ 复杂性高</text>
 <text x="620" y="465" class="stable-text" fill="#dc3545">❌ 信任不足</text>
 <text x="620" y="495" class="stable-small">UST 崩盘教训：需要强大的锚定机制</text>
-<rect x="50" y="530" width="800" height="15" fill="rgba(76, 156, 232, 0.3)" stroke="#4c9be8" stroke-width="1" rx="4"/>
+<rect x="50" y="530" width="800" height="15" fill="rgba(52, 81, 178, 0.15)" stroke="#4c9be8" stroke-width="1" rx="4"/>
 <text x="60" y="542" class="stable-text">💡 趋势：混合模式（如 FRAX）结合法币储备 + 算法调控，平衡稳定性与资本效率</text>
 </svg>
 </div>

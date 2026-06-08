@@ -67,16 +67,16 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 
 **区块链不可能三角**（Blockchain Trilemma）由以太坊创始人Vitalik Buterin提出，描述了区块链技术的根本限制。
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .tri-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .tri-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .tri-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
+      .tri-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .tri-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .tri-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .tri-line { stroke: #4c9be8; stroke-width: 2; }
-      .tri-circle { fill: rgba(76, 156, 232, 0.3); stroke: #4c9be8; stroke-width: 2; }
-      .tri-center { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 1.5; }
+      .tri-circle { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
+      .tri-center { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
     </style>
   </defs>
   <text class="tri-text-title" x="350" y="25" text-anchor="middle">区块链不可能三角 (Blockchain Trilemma)</text>
@@ -105,19 +105,19 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
   <text class="tri-text-small" x="350" y="250" text-anchor="middle" font-weight="bold">理想状态</text>
   <text class="tri-text-small" x="350" y="263" text-anchor="middle">三者兼顾</text>
   <text class="tri-text-small" x="350" y="276" text-anchor="middle">❌ 难以实现</text>
-  <rect x="30" y="50" width="200" height="80" rx="4" fill="rgba(76, 156, 232, 0.15)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="30" y="50" width="200" height="80" rx="4" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="0.8"/>
   <text class="tri-text" x="130" y="68" text-anchor="middle" font-weight="bold">比特币</text>
   <text class="tri-text-small" x="40" y="83">✓ 去中心化: 15,000+节点</text>
   <text class="tri-text-small" x="40" y="96">✓ 安全性: PoW高算力</text>
   <text class="tri-text-small" x="40" y="109">✗ 可扩展性: ~7 TPS</text>
   <text class="tri-text-small" x="40" y="122">  10分钟出块</text>
-  <rect x="470" y="50" width="200" height="80" rx="4" fill="rgba(92, 184, 92, 0.15)" stroke="#5cb85c" stroke-width="0.8"/>
+  <rect x="470" y="50" width="200" height="80" rx="4" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="0.8"/>
   <text class="tri-text" x="570" y="68" text-anchor="middle" font-weight="bold">Solana</text>
   <text class="tri-text-small" x="480" y="83">✗ 去中心化: ~1900节点</text>
   <text class="tri-text-small" x="480" y="96">? 安全性: 多次宕机</text>
   <text class="tri-text-small" x="480" y="109">✓ 可扩展性: ~3000 TPS</text>
   <text class="tri-text-small" x="480" y="122">  0.4秒出块</text>
-  <rect x="30" y="420" width="640" height="20" rx="3" fill="rgba(223, 105, 25, 0.15)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="30" y="420" width="640" height="20" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="0.8"/>
   <text class="tri-text-small" x="350" y="434" text-anchor="middle" font-style="italic">Layer 2方案: 在保持Layer 1安全性和去中心化的同时，将可扩展性提升到Layer 2</text>
 </svg>
 </div>
@@ -141,13 +141,13 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 
 ### Layer 2解决方案概览
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 750 380" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .l2-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .l2-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .l2-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
+      .l2-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .l2-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .l2-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .l2-box-l1 { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
       .l2-box-l2 { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
       .l2-line { stroke: #5cb85c; stroke-width: 1.2; stroke-dasharray: 4,2; }
@@ -167,21 +167,21 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
   <line class="l2-line" x1="375" y1="130" x2="375" y2="155" marker-end="url(#l2-arrow)"/>
   <rect class="l2-box-l2" x="50" y="155" width="650" height="205" rx="4"/>
   <text class="l2-text" x="375" y="175" text-anchor="middle" font-weight="bold">Layer 2 扩展方案</text>
-  <rect x="60" y="190" width="150" height="80" rx="3" fill="rgba(76, 156, 232, 0.15)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="60" y="190" width="150" height="80" rx="3" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="0.8"/>
   <text class="l2-text" x="135" y="205" text-anchor="middle" font-weight="bold">Rollups</text>
   <text class="l2-text-small" x="70" y="220">✓ 继承L1安全性</text>
   <text class="l2-text-small" x="70" y="233">• Optimistic Rollup</text>
   <text class="l2-text-small" x="75" y="245">  Arbitrum, Optimism</text>
   <text class="l2-text-small" x="70" y="257">• ZK Rollup</text>
   <text class="l2-text-small" x="75" y="268">  zkSync, StarkNet</text>
-  <rect x="220" y="190" width="150" height="80" rx="3" fill="rgba(92, 184, 92, 0.15)" stroke="#5cb85c" stroke-width="0.8"/>
+  <rect x="220" y="190" width="150" height="80" rx="3" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="0.8"/>
   <text class="l2-text" x="295" y="205" text-anchor="middle" font-weight="bold">状态通道</text>
   <text class="l2-text-small" x="230" y="220">✓ 即时最终性</text>
   <text class="l2-text-small" x="230" y="233">✓ 低成本</text>
   <text class="l2-text-small" x="230" y="245">• Lightning Network</text>
   <text class="l2-text-small" x="230" y="257">• Raiden Network</text>
   <text class="l2-text-small" x="230" y="268">✗ 需锁定资金</text>
-  <rect x="380" y="190" width="150" height="80" rx="3" fill="rgba(223, 105, 25, 0.15)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="380" y="190" width="150" height="80" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="0.8"/>
   <text class="l2-text" x="455" y="205" text-anchor="middle" font-weight="bold">侧链</text>
   <text class="l2-text-small" x="390" y="220">✗ 独立安全性</text>
   <text class="l2-text-small" x="390" y="233">✓ 高性能</text>
@@ -210,17 +210,17 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 
 **Optimistic Rollup** 采用"乐观"假设：默认所有交易都是有效的，只有在被质疑时才进行验证。
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 750 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .op-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .op-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .op-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .op-box-step { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1; }
-      .op-box-challenge { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 1; }
+      .op-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .op-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .op-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .op-box-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .op-box-challenge { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
       .op-line-flow { stroke: #4c9be8; stroke-width: 1.5; stroke-dasharray: 3,2; }
-      .op-circle-num { fill: rgba(92, 184, 92, 0.3); stroke: #5cb85c; stroke-width: 1; }
+      .op-circle-num { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 1; }
     </style>
     <marker id="op-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>
@@ -252,9 +252,9 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
   <text class="op-text-small" x="70" y="203">• 持续时间: 7天 (Arbitrum/Optimism)</text>
   <text class="op-text-small" x="70" y="216">• 任何人可以挑战无效状态根</text>
   <text class="op-text-small" x="70" y="229">• 挑战者需质押保证金</text>
-  <rect x="80" y="240" width="300" height="25" rx="3" fill="rgba(76, 156, 232, 0.15)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="80" y="240" width="300" height="25" rx="3" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="op-text-small" x="90" y="257" font-weight="bold">情况A: 无挑战 → 状态被接受 ✓</text>
-  <rect x="400" y="240" width="300" height="25" rx="3" fill="rgba(223, 105, 25, 0.15)" stroke="#df6919" stroke-width="0.5"/>
+  <rect x="400" y="240" width="300" height="25" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="0.5"/>
   <text class="op-text-small" x="410" y="257" font-weight="bold">情况B: 有挑战 → 进入欺诈证明 ↓</text>
   <line class="op-line-flow" x1="195" y1="275" x2="195" y2="300" marker-end="url(#op-arrow)"/>
   <line class="op-line-flow" x1="555" y1="275" x2="555" y2="300" marker-end="url(#op-arrow)"/>
@@ -330,17 +330,17 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 
 **零知识证明** (Zero-Knowledge Proof, ZKP) 允许证明者向验证者证明某个陈述是真的，而无需透露任何额外信息。
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 750 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .zk-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .zk-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .zk-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .zk-box-step { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1; }
-      .zk-box-proof { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 1; }
+      .zk-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .zk-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .zk-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .zk-box-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .zk-box-proof { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
       .zk-line-flow { stroke: #4c9be8; stroke-width: 1.5; stroke-dasharray: 3,2; }
-      .zk-circle-num { fill: rgba(223, 105, 25, 0.3); stroke: #df6919; stroke-width: 1; }
+      .zk-circle-num { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1; }
     </style>
     <marker id="zk-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>
@@ -387,7 +387,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
   <text class="zk-text-small" x="70" y="354">• 提款到L1: ~20分钟 (等待L1区块确认)</text>
   <text class="zk-text-small" x="400" y="328">• 数据可用性: 交易数据发布到L1</text>
   <text class="zk-text-small" x="400" y="341">• 完全透明: 任何人可重建状态</text>
-  <rect x="30" y="390" width="690" height="70" rx="4" fill="rgba(223, 105, 25, 0.1)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="30" y="390" width="690" height="70" rx="4" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.8"/>
   <text class="zk-text" x="375" y="408" text-anchor="middle" font-weight="bold">ZK Rollup vs Optimistic Rollup</text>
   <text class="zk-text-small" x="40" y="426">ZK: ✓ 即时提款 ✓ 更高安全性 ✗ 生成证明成本高 ✗ EVM兼容难</text>
   <text class="zk-text-small" x="40" y="439">OP: ✓ EVM兼容好 ✓ 开发简单 ✗ 7天提款期 ✗ 需活跃验证者</text>
@@ -429,14 +429,14 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
    - 性能最优
    - 项目：zkSync Era, StarkNet
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .zkp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .zkp-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .zkp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .zkp-box-project { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1; }
+      .zkp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .zkp-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .zkp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .zkp-box-project { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
     </style>
   </defs>
   <text class="zkp-text-title" x="350" y="25" text-anchor="middle">主流 ZK Rollup 项目对比</text>
@@ -578,15 +578,15 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 
 ### 综合对比
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 750 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .eco-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .eco-text { font-family: arial, sans-serif; font-size: 9px; fill: #f0e6d2; }
-      .eco-text-small { font-family: arial, sans-serif; font-size: 7px; fill: #f0e6d2; }
-      .eco-header { fill: rgba(76, 156, 232, 0.3); }
-      .eco-cell { fill: rgba(32, 55, 76, 0.3); }
+      .eco-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .eco-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .eco-text-small { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; }
+      .eco-header { fill: rgba(52, 81, 178, 0.15); }
+      .eco-cell { fill: rgba(52, 81, 178, 0.04); }
       .eco-line { stroke: #4c9be8; stroke-width: 0.5; }
     </style>
   </defs>
@@ -724,12 +724,12 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
   <rect class="eco-cell" x="610" y="275" width="120" height="30"/>
   <text class="eco-text-small" x="670" y="285" text-anchor="middle">Polygon PoS</text>
   <text class="eco-text-small" x="670" y="297" text-anchor="middle">Gnosis, Ronin</text>
-  <rect x="30" y="320" width="700" height="70" rx="4" fill="rgba(223, 105, 25, 0.1)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="30" y="320" width="700" height="70" rx="4" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.8"/>
   <text class="eco-text" x="380" y="338" text-anchor="middle" font-weight="bold">选择建议</text>
   <text class="eco-text-small" x="40" y="353">• 通用DApp: Optimistic Rollup (成熟生态) 或 zkEVM (长期)</text>
   <text class="eco-text-small" x="40" y="366">• NFT/游戏: Validium (Immutable X) 或 侧链 (Polygon)</text>
   <text class="eco-text-small" x="40" y="379">• DeFi: ZK Rollup (安全性) 或 Optimistic (流动性)</text>
-  <rect x="30" y="405" width="700" height="75" rx="4" fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="30" y="405" width="700" height="75" rx="4" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.8"/>
   <text class="eco-text" x="380" y="423" text-anchor="middle" font-weight="bold">TVL 排名 (2025年初)</text>
   <text class="eco-text-small" x="40" y="440">1. Arbitrum One: ~$10B  |  2. Optimism: ~$7B  |  3. Polygon PoS: ~$5B</text>
   <text class="eco-text-small" x="40" y="453">4. Base: ~$3B  |  5. Blast: ~$2B  |  6. StarkNet: ~$1B  |  7. Linea: ~$800M</text>

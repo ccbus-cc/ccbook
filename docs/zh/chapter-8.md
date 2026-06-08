@@ -106,15 +106,15 @@ CCBus 提供了三种跨链入口:
    - 难以构建跨链DApp
    - 生态系统封闭
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.inter-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.inter-chain { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-.inter-text { font-family: arial, sans-serif; font-size: 11px; fill: #f0e6d2; }
+.inter-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.inter-chain { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+.inter-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
 .inter-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.inter-chain-circle { fill: rgba(76, 156, 232, 0.3); stroke: #4c9be8; stroke-width: 2; }
+.inter-chain-circle { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
 .inter-bridge-line { stroke: #df6919; stroke-width: 2; stroke-dasharray: 5,5; fill: none; }
 .inter-arrow { fill: #df6919; }
 .inter-isolated { stroke: #dc3545; stroke-width: 2; stroke-dasharray: 3,3; fill: none; }
@@ -150,10 +150,10 @@ CCBus 提供了三种跨链入口:
 <rect x="50" y="405" width="160" height="35" fill="rgba(220, 53, 69, 0.2)" stroke="#dc3545" stroke-width="1" rx="4"/>
 <text x="60" y="420" class="inter-text" fill="#dc3545">❌ 无法直接转移资产</text>
 <text x="60" y="435" class="inter-text" fill="#dc3545">❌ 无法调用其他链合约</text>
-<rect x="320" y="405" width="160" height="35" fill="rgba(223, 105, 25, 0.2)" stroke="#df6919" stroke-width="1" rx="4"/>
+<rect x="320" y="405" width="160" height="35" fill="rgba(223, 105, 25, 0.08)" stroke="#df6919" stroke-width="1" rx="4"/>
 <text x="330" y="420" class="inter-text" fill="#df6919">⚠️  流动性分散</text>
 <text x="330" y="435" class="inter-text" fill="#df6919">⚠️  用户体验差</text>
-<rect x="590" y="405" width="160" height="35" fill="rgba(76, 156, 232, 0.2)" stroke="#4c9be8" stroke-width="1" rx="4"/>
+<rect x="590" y="405" width="160" height="35" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="1" rx="4"/>
 <text x="600" y="420" class="inter-text" fill="#4c9be8">💡 需要跨链解决方案</text>
 <text x="600" y="435" class="inter-text" fill="#4c9be8">💡 实现互操作性</text>
 </svg>
@@ -191,21 +191,21 @@ CCBus 提供了三种跨链入口:
 
 **按信任模型分类**：
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 850 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.bridge-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.bridge-type { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-.bridge-text { font-family: arial, sans-serif; font-size: 11px; fill: #f0e6d2; }
+.bridge-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.bridge-type { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+.bridge-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
 .bridge-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.bridge-box { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 2; }
-.bridge-trusted { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 2; }
-.bridge-trustless { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 2; }
-.bridge-arrow { stroke: #f0e6d2; stroke-width: 1.5; fill: none; marker-end: url(#arrowBridge); }
+.bridge-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.bridge-trusted { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
+.bridge-trustless { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.bridge-arrow { stroke: #1f2937; stroke-width: 1.5; fill: none; marker-end: url(#arrowBridge); }
 </style>
 <marker id="arrowBridge" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
-<path d="M0,0 L0,6 L9,3 z" fill="#f0e6d2"/>
+<path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>
 </marker>
 </defs>
 <text x="425" y="25" text-anchor="middle" class="bridge-title">跨链桥分类与对比</text>
@@ -245,9 +245,9 @@ CCBus 提供了三种跨链入口:
 <text x="520" y="404" class="bridge-text" fill="#5cb85c">✅ 密码学安全保证</text>
 <text x="520" y="420" class="bridge-text" fill="#5cb85c">✅ 继承源链安全性</text>
 <text x="520" y="440" class="bridge-small">挑战：实现复杂、成本较高</text>
-<rect x="50" y="465" width="180" height="25" fill="rgba(223, 105, 25, 0.3)" stroke="#df6919" stroke-width="1" rx="4"/>
+<rect x="50" y="465" width="180" height="25" fill="rgba(223, 105, 25, 0.12)" stroke="#df6919" stroke-width="1" rx="4"/>
 <text x="140" y="482" text-anchor="middle" class="bridge-text">信任型：速度 ⚡⚡⚡ 安全 🔒</text>
-<rect x="620" y="465" width="180" height="25" fill="rgba(92, 184, 92, 0.3)" stroke="#5cb85c" stroke-width="1" rx="4"/>
+<rect x="620" y="465" width="180" height="25" fill="rgba(92, 184, 92, 0.15)" stroke="#5cb85c" stroke-width="1" rx="4"/>
 <text x="710" y="482" text-anchor="middle" class="bridge-text">去信任型：速度 ⚡ 安全 🔒🔒🔒</text>
 </svg>
 </div>
@@ -256,22 +256,22 @@ CCBus 提供了三种跨链入口:
 
 以 **资产跨链转移** 为例（ETH → BSC）：
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.flow-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.flow-step { font-family: arial, sans-serif; font-size: 13px; fill: #f0e6d2; font-weight: bold; }
-.flow-text { font-family: arial, sans-serif; font-size: 11px; fill: #f0e6d2; }
+.flow-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.flow-step { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
+.flow-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
 .flow-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.flow-box { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 2; }
-.flow-chain { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 2; }
-.flow-bridge { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 2; }
-.flow-arrow { stroke: #f0e6d2; stroke-width: 2; fill: none; marker-end: url(#arrowFlow); }
+.flow-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.flow-chain { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
+.flow-bridge { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.flow-arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrowFlow); }
 .flow-arrow-bi { stroke: #5cb85c; stroke-width: 2; fill: none; }
 </style>
 <marker id="arrowFlow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
-<path d="M0,0 L0,6 L9,3 z" fill="#f0e6d2"/>
+<path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>
 </marker>
 </defs>
 <text x="450" y="25" text-anchor="middle" class="flow-title">跨链桥资产转移流程 (Lock & Mint 模式)</text>
@@ -305,9 +305,9 @@ CCBus 提供了三种跨链入口:
 <rect x="50" y="440" width="800" height="60" class="flow-box" rx="8"/>
 <text x="450" y="465" text-anchor="middle" class="flow-step">步骤 4️⃣：目标链铸造等值包装资产</text>
 <text x="60" y="487" class="flow-text">BSC 桥合约验证证明后，为用户铸造 100 WETH（Wrapped ETH），用户可在 BSC 上使用</text>
-<rect x="50" y="515" width="400" height="25" fill="rgba(92, 184, 92, 0.2)" stroke="#5cb85c" stroke-width="1" rx="4"/>
+<rect x="50" y="515" width="400" height="25" fill="rgba(92, 184, 92, 0.10)" stroke="#5cb85c" stroke-width="1" rx="4"/>
 <text x="60" y="532" class="flow-text">✅ 完成：源链锁定 100 ETH，目标链获得 100 WETH</text>
-<rect x="500" y="515" width="350" height="25" fill="rgba(223, 105, 25, 0.2)" stroke="#df6919" stroke-width="1" rx="4"/>
+<rect x="500" y="515" width="350" height="25" fill="rgba(223, 105, 25, 0.08)" stroke="#df6919" stroke-width="1" rx="4"/>
 <text x="510" y="532" class="flow-text">⚠️  反向操作：销毁 WETH → 解锁 ETH（Burn & Unlock）</text>
 </svg>
 </div>
@@ -337,27 +337,27 @@ CCBus 提供了三种跨链入口:
 
 **Cosmos 生态的跨链通信协议**，是目前最成熟的去信任跨链方案。
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 850 600" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.ibc-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.ibc-layer { font-family: arial, sans-serif; font-size: 13px; fill: #f0e6d2; font-weight: bold; }
-.ibc-text { font-family: arial, sans-serif; font-size: 11px; fill: #f0e6d2; }
+.ibc-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.ibc-layer { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
+.ibc-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
 .ibc-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.ibc-box { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 2; }
-.ibc-app { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 2; }
-.ibc-transport { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 2; }
-.ibc-arrow { stroke: #f0e6d2; stroke-width: 1.5; fill: none; marker-end: url(#arrowIBC); }
+.ibc-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
+.ibc-app { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
+.ibc-transport { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.ibc-arrow { stroke: #1f2937; stroke-width: 1.5; fill: none; marker-end: url(#arrowIBC); }
 .ibc-data { stroke: #df6919; stroke-width: 2; fill: none; stroke-dasharray: 5,5; }
 </style>
 <marker id="arrowIBC" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
-<path d="M0,0 L0,6 L9,3 z" fill="#f0e6d2"/>
+<path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>
 </marker>
 </defs>
 <text x="425" y="25" text-anchor="middle" class="ibc-title">IBC 协议架构 (Inter-Blockchain Communication)</text>
 <text x="425" y="45" text-anchor="middle" class="ibc-small">Cosmos 生态的标准化跨链通信协议 - 基于轻客户端验证</text>
-<rect x="50" y="70" width="350" height="480" fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+<rect x="50" y="70" width="350" height="480" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
 <text x="225" y="95" text-anchor="middle" class="ibc-layer">区块链 A (Cosmos Hub)</text>
 <rect x="450" y="70" width="350" height="480" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
 <text x="625" y="95" text-anchor="middle" class="ibc-layer">区块链 B (Osmosis)</text>
@@ -413,9 +413,9 @@ CCBus 提供了三种跨链入口:
 <text x="480" y="503" class="ibc-text">• 区块生成和验证</text>
 <text x="480" y="519" class="ibc-text">• 状态根哈希：0xDEF...</text>
 <text x="480" y="535" class="ibc-text">• 高度：#2,345,678</text>
-<rect x="50" y="565" width="380" height="25" fill="rgba(92, 184, 92, 0.3)" stroke="#5cb85c" stroke-width="1" rx="4"/>
+<rect x="50" y="565" width="380" height="25" fill="rgba(92, 184, 92, 0.15)" stroke="#5cb85c" stroke-width="1" rx="4"/>
 <text x="60" y="582" class="ibc-text">✅ 优势：无需信任第三方，继承源链安全性</text>
-<rect x="470" y="565" width="330" height="25" fill="rgba(223, 105, 25, 0.3)" stroke="#df6919" stroke-width="1" rx="4"/>
+<rect x="470" y="565" width="330" height="25" fill="rgba(223, 105, 25, 0.12)" stroke="#df6919" stroke-width="1" rx="4"/>
 <text x="480" y="582" class="ibc-text">⚠️  要求：双方链必须支持轻客户端验证</text>
 </svg>
 </div>
@@ -509,16 +509,16 @@ transfer(
 
 跨链桥是 **DeFi 最大的攻击目标**，历史上发生多起重大安全事故。
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.risk-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.risk-event { font-family: arial, sans-serif; font-size: 12px; fill: #f0e6d2; font-weight: bold; }
-.risk-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
+.risk-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.risk-event { font-family: arial, sans-serif; font-size: 12px; fill: #1f2937; font-weight: bold; }
+.risk-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
 .risk-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
 .risk-critical { fill: rgba(220, 53, 69, 0.3); stroke: #dc3545; stroke-width: 2; }
-.risk-high { fill: rgba(223, 105, 25, 0.3); stroke: #df6919; stroke-width: 2; }
+.risk-high { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 2; }
 .risk-timeline { stroke: #4c9be8; stroke-width: 3; }
 </style>
 </defs>
@@ -816,16 +816,16 @@ router.ccipSend{value: fees}(destinationChainSelector, message);
 
 ### 趋势与挑战
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 850 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
-.future-title { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-.future-cat { font-family: arial, sans-serif; font-size: 13px; fill: #f0e6d2; font-weight: bold; }
-.future-text { font-family: arial, sans-serif; font-size: 11px; fill: #f0e6d2; }
+.future-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+.future-cat { font-family: arial, sans-serif; font-size: 13px; fill: #1f2937; font-weight: bold; }
+.future-text { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; }
 .future-small { font-family: arial, sans-serif; font-size: 9px; fill: #b0a090; }
-.future-trend { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 2; }
-.future-challenge { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 2; }
+.future-trend { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 2; }
+.future-challenge { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 2; }
 </style>
 </defs>
 <text x="425" y="25" text-anchor="middle" class="future-title">跨链技术发展趋势与挑战</text>
@@ -854,7 +854,7 @@ router.ccipSend{value: fees}(destinationChainSelector, message);
 <text x="450" y="241" class="future-text">• 需要创新的信任模型</text>
 <text x="440" y="266" class="future-text" font-weight="bold">3️⃣ 流动性碎片化</text>
 <text x="450" y="284" class="future-text">• 包装资产泛滥（WETH、WBTC...）</text>
-<rect x="50" y="310" width="750" height="220" fill="rgba(76, 156, 232, 0.2)" stroke="#4c9be8" stroke-width="2" rx="8"/>
+<rect x="50" y="310" width="750" height="220" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="2" rx="8"/>
 <text x="425" y="335" text-anchor="middle" class="future-cat">🌐 未来愿景：全链生态系统 (Omnichain Ecosystem)</text>
 <text x="60" y="360" class="future-text" font-weight="bold">用户视角：</text>
 <text x="70" y="378" class="future-text">• 不需要关心资产在哪条链上</text>
@@ -866,7 +866,7 @@ router.ccipSend{value: fees}(destinationChainSelector, message);
 <text x="70" y="481" class="future-text">• 可调用任意链的智能合约</text>
 <text x="70" y="496" class="future-text">• 统一的开发工具和标准</text>
 <text x="70" y="511" class="future-text">• 流动性在全链间自由流动</text>
-<rect x="50" y="540" width="750" height="20" fill="rgba(92, 184, 92, 0.3)" stroke="#5cb85c" stroke-width="1" rx="4"/>
+<rect x="50" y="540" width="750" height="20" fill="rgba(92, 184, 92, 0.15)" stroke="#5cb85c" stroke-width="1" rx="4"/>
 <text x="60" y="554" class="future-text">💡 核心理念：区块链不应该是孤岛，而应该是互联互通的全球网络</text>
 </svg>
 </div>

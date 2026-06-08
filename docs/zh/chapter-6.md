@@ -62,13 +62,13 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 
 区块链系统通常采用分层架构设计，每层负责特定功能，层与层之间通过定义良好的接口交互。
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 750 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .arch-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .arch-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .arch-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
+      .arch-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .arch-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .arch-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .arch-layer-app { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
       .arch-layer-contract { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
       .arch-layer-consensus { fill: rgba(92, 184, 92, 0.25); stroke: #5cb85c; stroke-width: 1.5; }
@@ -142,16 +142,16 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 
 区块链采用去中心化的P2P网络结构，每个节点既是客户端也是服务器。
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 750 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .p2p-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .p2p-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .p2p-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .p2p-node-full { fill: rgba(76, 156, 232, 0.3); stroke: #4c9be8; stroke-width: 1.5; }
+      .p2p-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .p2p-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .p2p-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .p2p-node-full { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 1.5; }
       .p2p-node-light { fill: rgba(92, 184, 92, 0.25); stroke: #5cb85c; stroke-width: 1; }
-      .p2p-node-archive { fill: rgba(223, 105, 25, 0.3); stroke: #df6919; stroke-width: 1.5; }
+      .p2p-node-archive { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1.5; }
       .p2p-line-conn { stroke: #4c9be8; stroke-width: 0.8; opacity: 0.5; }
       .p2p-line-sync { stroke: #5cb85c; stroke-width: 1.2; stroke-dasharray: 4,2; }
     </style>
@@ -198,7 +198,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <line class="p2p-line-conn" x1="650" y1="280" x2="550" y2="190"/>
   <line class="p2p-line-sync" x1="220" y1="160" x2="355" y2="190" marker-end="url(#p2p-arrow)"/>
   <text class="p2p-text-small" x="270" y="165" fill="#5cb85c">区块同步</text>
-  <rect x="30" y="370" width="210" height="110" rx="4" fill="rgba(76, 156, 232, 0.15)" stroke="#4c9be8" stroke-width="1"/>
+  <rect x="30" y="370" width="210" height="110" rx="4" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="1"/>
   <text class="p2p-text" x="135" y="388" text-anchor="middle" font-weight="bold">全节点 (Full Node)</text>
   <text class="p2p-text-small" x="40" y="405">• 存储完整区块链数据</text>
   <text class="p2p-text-small" x="40" y="418">• 独立验证所有交易和区块</text>
@@ -206,7 +206,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <text class="p2p-text-small" x="40" y="444">• 转发区块和交易</text>
   <text class="p2p-text-small" x="40" y="457">• 典型存储: 数百GB</text>
   <text class="p2p-text-small" x="40" y="470">  (以太坊全节点 ~800GB)</text>
-  <rect x="260" y="370" width="210" height="110" rx="4" fill="rgba(92, 184, 92, 0.15)" stroke="#5cb85c" stroke-width="1"/>
+  <rect x="260" y="370" width="210" height="110" rx="4" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="1"/>
   <text class="p2p-text" x="365" y="388" text-anchor="middle" font-weight="bold">轻节点 (Light Node)</text>
   <text class="p2p-text-small" x="270" y="405">• 仅存储区块头</text>
   <text class="p2p-text-small" x="270" y="418">• 使用SPV验证</text>
@@ -214,7 +214,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <text class="p2p-text-small" x="270" y="444">• 资源消耗低</text>
   <text class="p2p-text-small" x="270" y="457">• 典型存储: 数MB到数GB</text>
   <text class="p2p-text-small" x="270" y="470">• 适用于移动设备、钱包</text>
-  <rect x="490" y="370" width="230" height="110" rx="4" fill="rgba(223, 105, 25, 0.15)" stroke="#df6919" stroke-width="1"/>
+  <rect x="490" y="370" width="230" height="110" rx="4" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="1"/>
   <text class="p2p-text" x="605" y="388" text-anchor="middle" font-weight="bold">归档节点 (Archive Node)</text>
   <text class="p2p-text-small" x="500" y="405">• 存储所有历史状态</text>
   <text class="p2p-text-small" x="500" y="418">• 支持历史查询</text>
@@ -252,14 +252,14 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 
 ### 数据传播机制
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .prop-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .prop-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .prop-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .prop-box-step { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1; }
+      .prop-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .prop-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .prop-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .prop-box-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
       .prop-circle-node { fill: rgba(92, 184, 92, 0.25); stroke: #5cb85c; stroke-width: 1; }
       .prop-wave { stroke: #df6919; stroke-width: 2; fill: none; opacity: 0.6; }
     </style>
@@ -273,7 +273,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <circle class="prop-circle-node" cx="100" cy="120" r="22"/>
   <text class="prop-text-small" x="100" y="118" text-anchor="middle" font-weight="bold">节点A</text>
   <text class="prop-text-small" x="100" y="130" text-anchor="middle">源节点</text>
-  <rect x="140" y="105" width="100" height="30" rx="3" fill="rgba(223, 105, 25, 0.2)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="140" y="105" width="100" height="30" rx="3" fill="rgba(223, 105, 25, 0.08)" stroke="#df6919" stroke-width="0.8"/>
   <text class="prop-text-small" x="190" y="124" text-anchor="middle">新交易/区块</text>
   <circle class="prop-circle-node" cx="280" cy="90" r="18"/>
   <text class="prop-text-small" x="280" y="93" text-anchor="middle">节点B</text>
@@ -304,7 +304,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <line class="prop-wave" x1="518" y1="90" x2="582" y2="120" marker-end="url(#prop-arrow)"/>
   <line class="prop-wave" x1="518" y1="150" x2="582" y2="120" marker-end="url(#prop-arrow)"/>
   <text class="prop-text-small" x="440" y="110" fill="#df6919">扩散</text>
-  <rect x="40" y="210" width="300" height="110" rx="3" fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="40" y="210" width="300" height="110" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.8"/>
   <text class="prop-text" x="190" y="228" text-anchor="middle" font-weight="bold">Gossip协议特点</text>
   <text class="prop-text-small" x="50" y="245">✓ 去中心化: 无需中央协调节点</text>
   <text class="prop-text-small" x="50" y="258">✓ 容错性强: 节点失效不影响整体传播</text>
@@ -320,7 +320,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <text class="prop-text-small" x="370" y="284">  - Bitcoin: inv → getdata → block</text>
   <text class="prop-text-small" x="370" y="297">• 压缩编码: 减少数据传输量</text>
   <text class="prop-text-small" x="370" y="310">• 优先级队列: 重要消息优先传播</text>
-  <rect x="30" y="340" width="640" height="60" rx="3" fill="rgba(223, 105, 25, 0.1)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="30" y="340" width="640" height="60" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.8"/>
   <text class="prop-text" x="350" y="358" text-anchor="middle" font-weight="bold">传播性能指标</text>
   <text class="prop-text-small" x="40" y="375">• 传播时间: 从源节点到50%/90%节点的时间</text>
   <text class="prop-text-small" x="40" y="388">  - 以太坊: 平均2-5秒到达50%节点, 10-20秒到达90%节点</text>
@@ -335,16 +335,16 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 
 区块是区块链的基本数据单元，包含区块头和区块体两部分。
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 750 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .blk-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .blk-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .blk-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
+      .blk-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .blk-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .blk-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .blk-box-header { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
       .blk-box-body { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
-      .blk-box-field { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 0.8; }
+      .blk-box-field { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 0.8; }
       .blk-line-link { stroke: #4c9be8; stroke-width: 1.2; stroke-dasharray: 3,2; }
     </style>
     <marker id="blk-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
@@ -394,7 +394,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <line class="blk-line-link" x1="375" y1="270" x2="375" y2="285" marker-end="url(#blk-arrow)"/>
   <rect class="blk-box-body" x="50" y="285" width="650" height="215" rx="4"/>
   <text class="blk-text" x="70" y="305" font-weight="bold">区块体 (Block Body) - 可变大小</text>
-  <rect x="70" y="315" width="610" height="80" rx="3" fill="rgba(76, 156, 232, 0.15)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="70" y="315" width="610" height="80" rx="3" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="0.8"/>
   <text class="blk-text" x="375" y="333" text-anchor="middle" font-weight="bold">交易列表 (Transactions)</text>
   <rect x="80" y="345" width="180" height="40" rx="2" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.5"/>
   <text class="blk-text-small" x="90" y="360">交易1: from → to</text>
@@ -405,13 +405,13 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <rect x="460" y="345" width="210" height="40" rx="2" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.5"/>
   <text class="blk-text-small" x="470" y="360">交易 N: ...</text>
   <text class="blk-text-small" x="470" y="373">平均每区块 150-200 笔交易</text>
-  <rect x="70" y="405" width="295" height="80" rx="3" fill="rgba(223, 105, 25, 0.1)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="70" y="405" width="295" height="80" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.8"/>
   <text class="blk-text" x="217" y="423" text-anchor="middle" font-weight="bold">叔块 (Uncles/Ommers)</text>
   <text class="blk-text-small" x="80" y="440">• 近期被分叉的有效区块</text>
   <text class="blk-text-small" x="80" y="453">• 最多包含2个叔块</text>
   <text class="blk-text-small" x="80" y="466">• 叔块奖励: 降低孤块率</text>
   <text class="blk-text-small" x="80" y="479">• PoS后已移除</text>
-  <rect x="385" y="405" width="295" height="80" rx="3" fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="385" y="405" width="295" height="80" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.8"/>
   <text class="blk-text" x="532" y="423" text-anchor="middle" font-weight="bold">区块大小限制</text>
   <text class="blk-text-small" x="395" y="440">• 比特币: 1-4 MB (SegWit)</text>
   <text class="blk-text-small" x="395" y="453">• 以太坊: 30M Gas (~2-5 MB)</text>
@@ -447,22 +447,22 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
 
 ### 账户模型 vs UTXO模型
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 750 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .acc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .acc-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .acc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .acc-box-account { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1.2; }
-      .acc-box-utxo { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 1.2; }
+      .acc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .acc-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .acc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .acc-box-account { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1.2; }
+      .acc-box-utxo { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.2; }
     </style>
   </defs>
   <text class="acc-text-title" x="375" y="25" text-anchor="middle">账户模型 vs UTXO模型对比</text>
   <rect class="acc-box-account" x="30" y="50" width="330" height="370" rx="4"/>
   <text class="acc-text" x="195" y="72" text-anchor="middle" font-weight="bold">账户模型 (Account Model)</text>
   <text class="acc-text-small" x="40" y="90" font-style="italic">代表: 以太坊、Polkadot、Solana</text>
-  <rect x="40" y="105" width="310" height="135" rx="3" fill="rgba(76, 156, 232, 0.15)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="40" y="105" width="310" height="135" rx="3" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="0.8"/>
   <text class="acc-text" x="195" y="123" text-anchor="middle" font-weight="bold">全局状态树</text>
   <rect x="50" y="135" width="130" height="95" rx="2" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.5"/>
   <text class="acc-text-small" x="60" y="150" font-weight="bold">账户A</text>
@@ -471,7 +471,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <text class="acc-text-small" x="60" y="189">nonce: 25</text>
   <text class="acc-text-small" x="60" y="202">codeHash: 0x0</text>
   <text class="acc-text-small" x="60" y="215">storageRoot: 0x...</text>
-  <rect x="190" y="135" width="150" height="95" rx="2" fill="rgba(223, 105, 25, 0.1)" stroke="#df6919" stroke-width="0.5"/>
+  <rect x="190" y="135" width="150" height="95" rx="2" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.5"/>
   <text class="acc-text-small" x="200" y="150" font-weight="bold">智能合约B</text>
   <text class="acc-text-small" x="200" y="163">地址: 0xDef...</text>
   <text class="acc-text-small" x="200" y="176">余额: 0 ETH</text>
@@ -492,9 +492,9 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <rect class="acc-box-utxo" x="390" y="50" width="330" height="370" rx="4"/>
   <text class="acc-text" x="555" y="72" text-anchor="middle" font-weight="bold">UTXO模型 (Unspent TX Output)</text>
   <text class="acc-text-small" x="400" y="90" font-style="italic">代表: 比特币、Cardano、Nervos</text>
-  <rect x="400" y="105" width="310" height="135" rx="3" fill="rgba(223, 105, 25, 0.15)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="400" y="105" width="310" height="135" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="0.8"/>
   <text class="acc-text" x="555" y="123" text-anchor="middle" font-weight="bold">未花费输出集合</text>
-  <rect x="410" y="135" width="140" height="85" rx="2" fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="410" y="135" width="140" height="85" rx="2" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="acc-text-small" x="420" y="150" font-weight="bold">UTXO 1</text>
   <text class="acc-text-small" x="420" y="163">TxID: 7a8b...</text>
   <text class="acc-text-small" x="420" y="176">Index: 0</text>
@@ -508,7 +508,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <text class="acc-text-small" x="570" y="189">Amount: 0.8 BTC</text>
   <text class="acc-text-small" x="570" y="202">ScriptPubKey:</text>
   <text class="acc-text-small" x="575" y="212">OP_CHECKSIG</text>
-  <rect x="400" y="250" width="310" height="160" rx="3" fill="rgba(223, 105, 25, 0.1)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="400" y="250" width="310" height="160" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.8"/>
   <text class="acc-text" x="555" y="268" text-anchor="middle" font-weight="bold">优点</text>
   <text class="acc-text-small" x="410" y="283">✓ 并发友好: UTXO独立，易并行</text>
   <text class="acc-text-small" x="410" y="296">✓ 隐私性强: 每次用新地址</text>
@@ -589,17 +589,17 @@ def verify_account_balance(address, balance, proof, state_root):
 
 ### 单链 vs 多链 vs 分片
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 750 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .comp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .comp-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .comp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .comp-box-single { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1; }
-      .comp-box-multi { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 1; }
-      .comp-box-shard { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 1; }
-      .comp-block { fill: rgba(76, 156, 232, 0.3); stroke: #4c9be8; stroke-width: 0.8; }
+      .comp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .comp-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .comp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .comp-box-single { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .comp-box-multi { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
+      .comp-box-shard { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
+      .comp-block { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 0.8; }
     </style>
   </defs>
   <text class="comp-text-title" x="375" y="25" text-anchor="middle">区块链架构模式对比</text>
@@ -616,7 +616,7 @@ def verify_account_balance(address, balance, proof, state_root):
   <text class="comp-text-small" x="140" y="214" text-anchor="middle">Block N+2</text>
   <line x1="140" y1="225" x2="140" y2="240" stroke="#4c9be8" stroke-width="1.5"/>
   <text class="comp-text-small" x="140" y="255" text-anchor="middle">...</text>
-  <rect x="40" y="270" width="200" height="170" rx="3" fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="40" y="270" width="200" height="170" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="comp-text" x="140" y="288" text-anchor="middle" font-weight="bold">特点</text>
   <text class="comp-text-small" x="50" y="305">✓ 简单可靠</text>
   <text class="comp-text-small" x="50" y="318">✓ 安全性高</text>
@@ -645,20 +645,20 @@ def verify_account_balance(address, balance, proof, state_root):
   <line x1="297" y1="175" x2="297" y2="190" stroke="#5cb85c" stroke-width="0.8"/>
   <line x1="350" y1="175" x2="350" y2="190" stroke="#5cb85c" stroke-width="0.8"/>
   <line x1="403" y1="175" x2="403" y2="190" stroke="#5cb85c" stroke-width="0.8"/>
-  <rect x="275" y="190" width="45" height="15" rx="2" fill="rgba(76, 156, 232, 0.2)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="275" y="190" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="comp-text-small" x="297" y="201" text-anchor="middle" font-size="7">DeFi</text>
-  <rect x="328" y="190" width="45" height="15" rx="2" fill="rgba(76, 156, 232, 0.2)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="328" y="190" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="comp-text-small" x="350" y="201" text-anchor="middle" font-size="7">NFT</text>
-  <rect x="381" y="190" width="45" height="15" rx="2" fill="rgba(76, 156, 232, 0.2)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="381" y="190" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="comp-text-small" x="403" y="201" text-anchor="middle" font-size="7">Game</text>
   <line x1="297" y1="205" x2="297" y2="220" stroke="#5cb85c" stroke-width="0.8"/>
   <line x1="350" y1="205" x2="350" y2="220" stroke="#5cb85c" stroke-width="0.8"/>
   <line x1="403" y1="205" x2="403" y2="220" stroke="#5cb85c" stroke-width="0.8"/>
-  <rect x="275" y="220" width="45" height="15" rx="2" fill="rgba(76, 156, 232, 0.2)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="275" y="220" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="comp-text-small" x="297" y="231" text-anchor="middle" font-size="7">Block</text>
-  <rect x="328" y="220" width="45" height="15" rx="2" fill="rgba(76, 156, 232, 0.2)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="328" y="220" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="comp-text-small" x="350" y="231" text-anchor="middle" font-size="7">Block</text>
-  <rect x="381" y="220" width="45" height="15" rx="2" fill="rgba(76, 156, 232, 0.2)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="381" y="220" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="comp-text-small" x="403" y="231" text-anchor="middle" font-size="7">Block</text>
   <rect x="280" y="270" width="200" height="170" rx="3" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.5"/>
   <text class="comp-text" x="380" y="288" text-anchor="middle" font-weight="bold">特点</text>
@@ -689,19 +689,19 @@ def verify_account_balance(address, balance, proof, state_root):
   <line x1="545" y1="175" x2="545" y2="190" stroke="#4c9be8" stroke-width="0.8"/>
   <line x1="620" y1="175" x2="620" y2="190" stroke="#4c9be8" stroke-width="0.8"/>
   <line x1="695" y1="175" x2="695" y2="190" stroke="#4c9be8" stroke-width="0.8"/>
-  <rect x="530" y="190" width="30" height="40" rx="2" fill="rgba(92, 184, 92, 0.15)" stroke="#5cb85c" stroke-width="0.5"/>
+  <rect x="530" y="190" width="30" height="40" rx="2" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="0.5"/>
   <text class="comp-text-small" x="545" y="203" text-anchor="middle" font-size="6">Blk 1</text>
   <text class="comp-text-small" x="545" y="213" text-anchor="middle" font-size="6">Blk 2</text>
   <text class="comp-text-small" x="545" y="223" text-anchor="middle" font-size="6">Blk 3</text>
-  <rect x="605" y="190" width="30" height="40" rx="2" fill="rgba(92, 184, 92, 0.15)" stroke="#5cb85c" stroke-width="0.5"/>
+  <rect x="605" y="190" width="30" height="40" rx="2" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="0.5"/>
   <text class="comp-text-small" x="620" y="203" text-anchor="middle" font-size="6">Blk 1</text>
   <text class="comp-text-small" x="620" y="213" text-anchor="middle" font-size="6">Blk 2</text>
   <text class="comp-text-small" x="620" y="223" text-anchor="middle" font-size="6">Blk 3</text>
-  <rect x="680" y="190" width="30" height="40" rx="2" fill="rgba(92, 184, 92, 0.15)" stroke="#5cb85c" stroke-width="0.5"/>
+  <rect x="680" y="190" width="30" height="40" rx="2" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="0.5"/>
   <text class="comp-text-small" x="695" y="203" text-anchor="middle" font-size="6">Blk 1</text>
   <text class="comp-text-small" x="695" y="213" text-anchor="middle" font-size="6">Blk 2</text>
   <text class="comp-text-small" x="695" y="223" text-anchor="middle" font-size="6">Blk 3</text>
-  <rect x="520" y="270" width="200" height="170" rx="3" fill="rgba(223, 105, 25, 0.1)" stroke="#df6919" stroke-width="0.5"/>
+  <rect x="520" y="270" width="200" height="170" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.5"/>
   <text class="comp-text" x="620" y="288" text-anchor="middle" font-weight="bold">特点</text>
   <text class="comp-text-small" x="530" y="305">✓ 高吞吐量</text>
   <text class="comp-text-small" x="530" y="318">✓ 并行处理</text>
@@ -797,14 +797,14 @@ def verify_account_balance(address, balance, proof, state_root):
 
 ### 性能优化策略
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .perf-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .perf-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .perf-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .perf-box-opt { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 1; }
+      .perf-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .perf-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .perf-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .perf-box-opt { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
     </style>
   </defs>
   <text class="perf-text-title" x="350" y="25" text-anchor="middle">高性能区块链优化策略</text>

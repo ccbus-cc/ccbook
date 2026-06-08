@@ -80,7 +80,7 @@ CCBus ships a complete cryptography-tool visualization layer. Use it to experien
 
 ### Cryptographic Applications in Blockchain
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 700px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -204,7 +204,7 @@ console.log(sha256('Hello, blockchain!'));  // Note lowercase b
 
 #### 1. Block Linking
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 350 45" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -257,7 +257,7 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
 
 #### 3. Address Generation
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 480 60" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -320,7 +320,7 @@ Uses the **same key** for encryption and decryption.
 
 #### How It Works
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 320 195" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 400px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -342,7 +342,7 @@ Uses the **same key** for encryption and decryption.
   <line class="seq-line" x1="35" y1="25" x2="35" y2="175"/>
   <line class="seq-line" x1="285" y1="25" x2="285" y2="175"/>
   <rect class="seq-note" x="80" y="35" width="160" height="18" rx="2"/>
-  <text class="seq-label" x="160" y="47" text-anchor="middle" fill="#f0e6d2">Shared Key K</text>
+  <text class="seq-label" x="160" y="47" text-anchor="middle" fill="#1f2937">Shared Key K</text>
   <text class="seq-label" x="35" y="73" text-anchor="middle">Encrypt(M, K)</text>
   <path class="seq-line" d="M 35 78 Q 60 78 60 88 Q 60 98 35 98" fill="none" marker-end="url(#arrowhead-compact)"/>
   <text class="seq-label" x="160" y="118" text-anchor="middle">Ciphertext C</text>
@@ -384,7 +384,7 @@ Uses a **key pair**: Public Key and Private Key.
 
 #### Core Concept
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 380 110" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -420,7 +420,7 @@ Uses a **key pair**: Public Key and Private Key.
 
 #### Encrypted Communication Flow
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 280 160" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 350px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -486,7 +486,7 @@ const decrypted = rsaDecrypt(encrypted, privateKey);
 
 #### How ECC Works
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 520 60" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -575,7 +575,7 @@ console.log('Address: 0x' + address);
 
 ### Digital Signature Workflow
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 580 90" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 650px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -674,7 +674,7 @@ console.log('Signature valid:', isValid);  // true
 
 ### Bitcoin Transaction Signing
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 480 45" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -714,7 +714,7 @@ Requires multiple private keys to sign together to complete a transaction.
 
 #### M-of-N MultiSig
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 470 140" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -774,7 +774,7 @@ A **Merkle Tree**, also known as a hash tree, is a tree data structure used to e
 
 ### Merkle Tree Structure
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 380 180" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -875,7 +875,7 @@ console.log('Merkle Root:', tree.getRoot());
 
 Lightweight verification without downloading all data.
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 550 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -987,7 +987,7 @@ console.log('Verification Result:', isValid);  // true
 
 #### 1. Bitcoin Block Structure
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 550 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -1032,7 +1032,7 @@ console.log('Verification Result:', isValid);  // true
 
 **SPV (Simplified Payment Verification)** nodes only download block headers, not all transactions.
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 320 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 400px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -1069,7 +1069,7 @@ console.log('Verification Result:', isValid);  // true
 
 Ethereum uses **Merkle Patricia Trie** to store account state.
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 360 70" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -1151,7 +1151,7 @@ Quantum computers in the 2030s will have the capability to break existing public
 
 #### Classic Example: Ali Baba's Cave
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 480 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 550px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -1199,7 +1199,7 @@ Quantum computers in the 2030s will have the capability to break existing public
 - **Tornado Cash**: Ethereum mixer
 - **zkSync**: Layer 2 scaling
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 420 110" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -1238,7 +1238,7 @@ Quantum computers in the 2030s will have the capability to break existing public
 
 **Homomorphic Encryption** allows computation directly on ciphertext, with decryption yielding the result of operations on plaintext.
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 420 80" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
   <defs>
     <style>
@@ -1272,7 +1272,7 @@ Quantum computers in the 2030s will have the capability to break existing public
 
 Multiple parties jointly hold fragments of a private key, requiring t-of-n fragments to generate a valid signature.
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 380 160" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
   <defs>
     <style>

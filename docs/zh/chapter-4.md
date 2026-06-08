@@ -63,15 +63,15 @@ CCBus 同时支持 BNB Chain(PoSA)、Solana(PoH+PoS)、Base(Op-Stack/OP Stack)�
 
 ### 共识机制的核心目标
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .cons-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .cons-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .cons-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #f0e6d2; }
-      .cons-circle-center { fill: #4c9be8; stroke: #f0e6d2; stroke-width: 0.5; }
-      .cons-circle-goal { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 0.5; }
+      .cons-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .cons-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .cons-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .cons-circle-center { fill: #4c9be8; stroke: #1f2937; stroke-width: 0.5; }
+      .cons-circle-goal { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
       .cons-line { stroke: #df6919; stroke-width: 0.5; }
     </style>
     <marker id="cons-arrow-1" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
@@ -123,15 +123,15 @@ CCBus 同时支持 BNB Chain(PoSA)、Solana(PoH+PoS)、Base(Op-Stack/OP Stack)�
 - 所有忠诚的将军必须达成一致决策
 - 少数叛徒不能影响忠诚将军的一致性
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .byz-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .byz-text { font-family: arial, sans-serif; font-size: 9px; fill: #f0e6d2; }
-      .byz-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .byz-circle-loyal { fill: #5cb85c; stroke: #f0e6d2; stroke-width: 0.5; }
-      .byz-circle-traitor { fill: #d9534f; stroke: #f0e6d2; stroke-width: 0.5; }
+      .byz-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .byz-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .byz-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .byz-circle-loyal { fill: #5cb85c; stroke: #1f2937; stroke-width: 0.5; }
+      .byz-circle-traitor { fill: #d9534f; stroke: #1f2937; stroke-width: 0.5; }
       .byz-line-true { stroke: #5cb85c; stroke-width: 1; stroke-dasharray: 2,2; }
       .byz-line-false { stroke: #d9534f; stroke-width: 1; stroke-dasharray: 2,2; }
       .byz-rect-city { fill: rgba(78, 93, 108, 0.3); stroke: #4e5d6c; stroke-width: 0.5; }
@@ -204,15 +204,15 @@ CCBus 同时支持 BNB Chain(PoSA)、Solana(PoH+PoS)、Base(Op-Stack/OP Stack)�
 
 ### PoW 工作原理
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .pow-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .pow-text { font-family: arial, sans-serif; font-size: 9px; fill: #f0e6d2; }
-      .pow-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .pow-rect-step { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 0.5; }
-      .pow-rect-success { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 0.5; }
+      .pow-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .pow-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .pow-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .pow-rect-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .pow-rect-success { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
       .pow-rect-fail { fill: rgba(217, 83, 79, 0.2); stroke: #d9534f; stroke-width: 0.5; }
       .pow-line { stroke: #4c9be8; stroke-width: 0.5; }
     </style>
@@ -339,15 +339,15 @@ $$
 - **质押** (Staking): 锁定一定数量代币作为保证金
 - **惩罚** (Slashing): 恶意行为会被没收质押金
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .pos-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .pos-text { font-family: arial, sans-serif; font-size: 9px; fill: #f0e6d2; }
-      .pos-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .pos-rect-step { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 0.5; }
-      .pos-rect-validator { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 0.5; }
+      .pos-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .pos-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .pos-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .pos-rect-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .pos-rect-validator { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
       .pos-line { stroke: #4c9be8; stroke-width: 0.5; }
       .pos-circle { fill: none; stroke: #df6919; stroke-width: 0.5; }
     </style>
@@ -456,15 +456,15 @@ $$
 
 ### DPoS 工作流程
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .dpos-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .dpos-text { font-family: arial, sans-serif; font-size: 9px; fill: #f0e6d2; }
-      .dpos-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .dpos-circle-holder { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 0.5; }
-      .dpos-rect-witness { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 0.5; }
+      .dpos-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .dpos-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .dpos-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .dpos-circle-holder { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .dpos-rect-witness { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
       .dpos-line { stroke: #df6919; stroke-width: 0.5; }
     </style>
     <marker id="dpos-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
@@ -557,20 +557,20 @@ $$
 
 ### PBFT 三阶段协议
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 650 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .pbft-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .pbft-text { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .pbft-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
+      .pbft-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .pbft-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .pbft-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .pbft-text-label { font-family: arial, sans-serif; font-size: 9px; fill: #4c9be8; font-weight: bold; }
-      .pbft-node-primary { fill: rgba(223, 105, 25, 0.3); stroke: #df6919; stroke-width: 1; }
-      .pbft-node-backup { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 0.5; }
-      .pbft-box-phase { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 1; }
+      .pbft-node-primary { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1; }
+      .pbft-node-backup { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .pbft-box-phase { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 1; }
       .pbft-line-flow { stroke: #4c9be8; stroke-width: 1.5; stroke-dasharray: 3,2; }
       .pbft-line-broadcast { stroke: #df6919; stroke-width: 0.8; opacity: 0.6; }
-      .pbft-circle-step { fill: rgba(92, 184, 92, 0.3); stroke: #5cb85c; stroke-width: 1; }
+      .pbft-circle-step { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 1; }
     </style>
     <marker id="pbft-arrow-blue" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>
@@ -580,7 +580,7 @@ $$
     </marker>
   </defs>
   <text class="pbft-text-title" x="325" y="25" text-anchor="middle">PBFT 三阶段共识流程 (4节点示例)</text>
-  <rect x="20" y="45" width="110" height="60" rx="4" fill="rgba(32, 55, 76, 0.3)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="20" y="45" width="110" height="60" rx="4" fill="rgba(52, 81, 178, 0.04)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="pbft-text" x="75" y="62" text-anchor="middle" font-weight="bold">节点配置</text>
   <text class="pbft-text-small" x="30" y="78">• 总节点: n = 4</text>
   <text class="pbft-text-small" x="30" y="90">• 容错数: f = 1</text>
@@ -613,7 +613,7 @@ $$
   <text class="pbft-text-small" x="70" y="261">• 备份节点验证PRE-PREPARE消息 (检查序号、摘要、签名)</text>
   <text class="pbft-text-small" x="70" y="274">• 验证通过后,各节点广播: &lt;PREPARE, v, n, d, i&gt;</text>
   <text class="pbft-text-small" x="70" y="287">• i=节点标识</text>
-  <rect x="70" y="295" width="535" height="18" rx="2" fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="70" y="295" width="535" height="18" rx="2" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="pbft-text-small" x="75" y="307" font-weight="bold">🔄 全网广播 → 每个节点收集PREPARE消息 → 达到2f+1=3个 → 进入prepared状态</text>
   <line class="pbft-line-flow" x1="280" y1="205" x2="280" y2="225" marker-end="url(#pbft-arrow-blue)"/>
   <line class="pbft-line-flow" x1="340" y1="205" x2="340" y2="225" marker-end="url(#pbft-arrow-blue)"/>
@@ -625,13 +625,13 @@ $$
   <text class="pbft-text-small" x="70" y="376">• 进入prepared状态的节点广播: &lt;COMMIT, v, n, d, i&gt;</text>
   <text class="pbft-text-small" x="70" y="389">• 收到2f+1=3个COMMIT消息后 → 执行请求</text>
   <text class="pbft-text-small" x="70" y="402">• 将回复发送给客户端</text>
-  <rect x="70" y="410" width="535" height="18" rx="2" fill="rgba(92, 184, 92, 0.15)" stroke="#5cb85c" stroke-width="0.5"/>
+  <rect x="70" y="410" width="535" height="18" rx="2" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="0.5"/>
   <text class="pbft-text-small" x="75" y="422" font-weight="bold">✓ 客户端收到f+1=2个相同回复 → 确认操作已被正确执行</text>
   <line class="pbft-line-flow" x1="200" y1="320" x2="200" y2="340" marker-end="url(#pbft-arrow-blue)"/>
   <line class="pbft-line-flow" x1="280" y1="320" x2="280" y2="340" marker-end="url(#pbft-arrow-blue)"/>
   <line class="pbft-line-flow" x1="340" y1="320" x2="340" y2="340" marker-end="url(#pbft-arrow-blue)"/>
   <line class="pbft-line-flow" x1="400" y1="320" x2="400" y2="340" marker-end="url(#pbft-arrow-blue)"/>
-  <rect x="30" y="455" width="590" height="35" rx="4" fill="rgba(223, 105, 25, 0.1)" stroke="#df6919" stroke-width="1"/>
+  <rect x="30" y="455" width="590" height="35" rx="4" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="1"/>
   <text class="pbft-text" x="325" y="470" text-anchor="middle" font-weight="bold">共识完成 - 系统状态一致</text>
   <text class="pbft-text-small" x="325" y="484" text-anchor="middle" font-style="italic">容错能力: 最多容忍 f = ⌊(n-1)/3⌋ = 1 个恶意或故障节点</text>
 </svg>
@@ -732,14 +732,14 @@ $$
 | **代表项目** | BTC, ETH 1.0 | ETH 2.0, Cardano | EOS, TRON | Fabric, NEO |
 | **适用场景** | 公链,高安全需求 | 公链,平衡性能与安全 | 公链,高性能需求 | 联盟链,企业应用 |
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .comp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .comp-text { font-family: arial, sans-serif; font-size: 9px; fill: #f0e6d2; }
-      .comp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .comp-axis { stroke: #f0e6d2; stroke-width: 0.5; }
+      .comp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .comp-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .comp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .comp-axis { stroke: #1f2937; stroke-width: 0.5; }
       .comp-circle-pow { fill: rgba(217, 83, 79, 0.4); stroke: #d9534f; stroke-width: 0.5; }
       .comp-circle-pos { fill: rgba(76, 156, 232, 0.4); stroke: #4c9be8; stroke-width: 0.5; }
       .comp-circle-dpos { fill: rgba(223, 105, 25, 0.4); stroke: #df6919; stroke-width: 0.5; }

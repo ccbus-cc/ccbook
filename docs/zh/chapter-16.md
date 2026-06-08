@@ -42,14 +42,14 @@ title: "第十六章：区块链的未来"
 
 区块链技术正处于快速演进阶段。从比特币的诞生（2009年）到以太坊的智能合约革命（2015年），再到当前的模块化区块链时代（2024-2025年），每个阶段都带来了质的飞跃。
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
 .timeline-arrow { fill: none; stroke: #4c9be8; stroke-width: 3; }
 .timeline-point { fill: #4c9be8; }
-.timeline-box { fill: rgba(76, 156, 232, 0.15); stroke: #4c9be8; stroke-width: 2; }
-.timeline-text { fill: #f0e6d2; font-family: Arial, sans-serif; font-size: 13px; }
+.timeline-box { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
+.timeline-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 13px; }
 .timeline-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
 .timeline-year { fill: #df6919; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
 .timeline-future { stroke-dasharray: 5,5; }
@@ -119,12 +119,12 @@ title: "第十六章：区块链的未来"
 <text x="800" y="430" text-anchor="middle" class="timeline-text" font-size="11px">Web3 主流</text>
 <line x1="800" y1="306" x2="800" y2="330" class="timeline-arrow timeline-future" stroke-width="1" stroke="#df6919"/>
 <text x="900" y="320" text-anchor="end" class="timeline-text" font-size="12px" fill="#888">2030 →</text>
-<rect x="50" y="480" width="200" height="80" rx="5" fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="1"/>
+<rect x="50" y="480" width="200" height="80" rx="5" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1"/>
 <text x="150" y="505" text-anchor="middle" class="timeline-text" font-weight="bold">关键指标趋势</text>
 <text x="60" y="525" class="timeline-text" font-size="11px">• TPS: 7 → 50,000+</text>
 <text x="60" y="540" class="timeline-text" font-size="11px">• 能耗: 高 → 降低 99.9%</text>
 <text x="60" y="555" class="timeline-text" font-size="11px">• 费用: $50 → $0.001</text>
-<rect x="270" y="480" width="200" height="80" rx="5" fill="rgba(223, 105, 25, 0.1)" stroke="#df6919" stroke-width="1"/>
+<rect x="270" y="480" width="200" height="80" rx="5" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="1"/>
 <text x="370" y="505" text-anchor="middle" class="timeline-text" font-weight="bold">技术突破</text>
 <text x="280" y="525" class="timeline-text" font-size="11px">• 共识: PoW → PoS → PoL</text>
 <text x="280" y="540" class="timeline-text" font-size="11px">• 扩展: 单链 → L2 → 模块化</text>
@@ -330,12 +330,12 @@ $$
 
 ### 16.2.3 Danksharding 路线图
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
-.dank-box { fill: rgba(76, 156, 232, 0.15); stroke: #4c9be8; stroke-width: 2; }
-.dank-text { fill: #f0e6d2; font-family: Arial, sans-serif; font-size: 13px; }
+.dank-box { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
+.dank-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 13px; }
 .dank-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; }
 .dank-arrow { fill: none; stroke: #4c9be8; stroke-width: 2; }
 .dank-label { fill: #df6919; font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
@@ -379,13 +379,13 @@ $$
 <text x="60" y="340" class="dank-text" font-size="11px">• 验证方式: KZG 多项式承诺</text>
 <text x="60" y="355" class="dank-text" font-size="11px">• 目标 Gas: 393,216 (3 blob)</text>
 <text x="60" y="370" class="dank-text" font-size="11px">• 最大 Gas: 786,432 (6 blob 突发)</text>
-<rect x="320" y="280" width="250" height="100" rx="5" fill="rgba(223, 105, 25, 0.1)" stroke="#df6919" stroke-width="2"/>
+<rect x="320" y="280" width="250" height="100" rx="5" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="2"/>
 <text x="445" y="305" text-anchor="middle" class="dank-title">成本对比 (L2 转账)</text>
 <text x="330" y="325" class="dank-text" font-size="11px">• Calldata 时代: $0.50-2</text>
 <text x="330" y="340" class="dank-text" font-size="11px">• EIP-4844 后: $0.05-0.20</text>
 <text x="330" y="355" class="dank-text" font-size="11px">• Full Danksharding: $0.001-0.01</text>
 <text x="330" y="370" class="dank-text" font-weight="bold">降低 100-1000 倍 🎯</text>
-<rect x="590" y="280" width="250" height="100" rx="5" fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="2"/>
+<rect x="590" y="280" width="250" height="100" rx="5" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="2"/>
 <text x="715" y="305" text-anchor="middle" class="dank-title">数据可用性采样 (DAS)</text>
 <text x="600" y="325" class="dank-text" font-size="11px">• 轻节点随机采样数据块</text>
 <text x="600" y="340" class="dank-text" font-size="11px">• 2D 纠删码扩展</text>
@@ -423,15 +423,15 @@ $$
 
 ### 16.3.1 当前融合案例
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
-.ai-box { fill: rgba(76, 156, 232, 0.15); stroke: #4c9be8; stroke-width: 2; }
-.ai-text { fill: #f0e6d2; font-family: Arial, sans-serif; font-size: 12px; }
+.ai-box { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
+.ai-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 12px; }
 .ai-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
 .ai-arrow { fill: none; stroke: #4c9be8; stroke-width: 2; }
-.ai-center { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 3; }
+.ai-center { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 3; }
 .ai-label { fill: #df6919; font-family: Arial, sans-serif; font-size: 11px; font-weight: bold; }
 </style>
 </defs>
@@ -569,13 +569,13 @@ Subnet 18: 数据清洗
 
 ### 16.4.1 市场规模
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
-.rwa-bar { fill: rgba(76, 156, 232, 0.3); stroke: #4c9be8; stroke-width: 2; }
-.rwa-bar-future { fill: rgba(223, 105, 25, 0.3); stroke: #df6919; stroke-width: 2; }
-.rwa-text { fill: #f0e6d2; font-family: Arial, sans-serif; font-size: 12px; }
+.rwa-bar { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
+.rwa-bar-future { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 2; }
+.rwa-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 12px; }
 .rwa-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; }
 .rwa-label { fill: #df6919; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; }
 .rwa-axis { stroke: #666; stroke-width: 1; }
@@ -618,7 +618,7 @@ Subnet 18: 数据清洗
 <text x="825" y="80" text-anchor="middle" class="rwa-label">$16T</text>
 <rect x="120" y="70" width="730" height="1" fill="none" stroke="#df6919" stroke-width="2" stroke-dasharray="5,5"/>
 <text x="860" y="75" class="rwa-label" font-size="11px">目标</text>
-<rect x="100" y="480" width="750" height="10" rx="2" fill="rgba(92, 184, 92, 0.2)" stroke="#5cb85c" stroke-width="1"/>
+<rect x="100" y="480" width="750" height="10" rx="2" fill="rgba(92, 184, 92, 0.10)" stroke="#5cb85c" stroke-width="1"/>
 <text x="475" y="505" text-anchor="middle" class="rwa-text" font-size="11px">年复合增长率 (CAGR): <tspan font-weight="bold" fill="#5cb85c">125%</tspan></text>
 </svg>
 </div>
@@ -821,14 +821,14 @@ contract RestrictedToken is ERC20, ERC1404 {
 
 ### 16.5.1 全球监管格局（2025年）
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
-.reg-box { fill: rgba(76, 156, 232, 0.15); stroke: #4c9be8; stroke-width: 2; }
-.reg-text { fill: #f0e6d2; font-family: Arial, sans-serif; font-size: 11px; }
+.reg-box { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 2; }
+.reg-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 11px; }
 .reg-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; }
-.reg-friendly { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 2; }
+.reg-friendly { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 2; }
 .reg-neutral { fill: rgba(255, 193, 7, 0.15); stroke: #ffc107; stroke-width: 2; }
 .reg-strict { fill: rgba(217, 83, 79, 0.15); stroke: #d9534f; stroke-width: 2; }
 .reg-label { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
@@ -897,7 +897,7 @@ contract RestrictedToken is ERC20, ERC1404 {
 <text x="680" y="395" class="reg-title">俄罗斯 🇷🇺</text>
 <text x="690" y="415" class="reg-text">• 禁止加密支付</text>
 <text x="690" y="430" class="reg-text">• 允许挖矿（能源丰富）</text>
-<rect x="50" y="480" width="900" height="190" rx="5" fill="rgba(223, 105, 25, 0.1)" stroke="#df6919" stroke-width="2"/>
+<rect x="50" y="480" width="900" height="190" rx="5" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="2"/>
 <text x="500" y="510" text-anchor="middle" class="reg-title" font-size="15px">关键监管议题 (2025-2030)</text>
 <text x="70" y="540" class="reg-text" font-size="12px"><tspan font-weight="bold">1. 稳定币监管</tspan></text>
 <text x="80" y="557" class="reg-text">• 欧盟 MiCA: 要求 1:1 储备金，每日赎回权</text>
@@ -1158,13 +1158,13 @@ Solver (求解器) 竞争执行:
 
 ### 16.6.5 大规模采用时间线
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 900 450" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
 .adopt-line { fill: none; stroke: #4c9be8; stroke-width: 3; }
 .adopt-point { fill: #4c9be8; }
-.adopt-text { fill: #f0e6d2; font-family: Arial, sans-serif; font-size: 11px; }
+.adopt-text { fill: #1f2937; font-family: Arial, sans-serif; font-size: 11px; }
 .adopt-title { fill: #4c9be8; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
 .adopt-label { fill: #df6919; font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
 .adopt-axis { stroke: #666; stroke-width: 1; }
@@ -1202,13 +1202,13 @@ Solver (求解器) 竞争执行:
 <circle cx="550" cy="240" r="5" class="adopt-point"/>
 <text x="550" y="405" text-anchor="middle" class="adopt-text">2026</text>
 <text x="550" y="230" text-anchor="middle" class="adopt-label">~700M</text>
-<rect x="490" y="190" width="120" height="35" rx="3" fill="rgba(76, 156, 232, 0.1)" stroke="#4c9be8" stroke-width="1"/>
+<rect x="490" y="190" width="120" height="35" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1"/>
 <text x="550" y="208" text-anchor="middle" class="adopt-text" font-size="10px">链抽象成熟 →</text>
 <text x="550" y="220" text-anchor="middle" class="adopt-text" font-size="10px">跨链无感</text>
 <circle cx="650" cy="160" r="5" class="adopt-point"/>
 <text x="650" y="405" text-anchor="middle" class="adopt-text">2028</text>
 <text x="650" y="150" text-anchor="middle" class="adopt-label">~2B</text>
-<rect x="590" y="110" width="120" height="35" rx="3" fill="rgba(223, 105, 25, 0.1)" stroke="#df6919" stroke-width="1"/>
+<rect x="590" y="110" width="120" height="35" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="1"/>
 <text x="650" y="128" text-anchor="middle" class="adopt-text" font-size="10px">← 杀手级应用</text>
 <text x="650" y="140" text-anchor="middle" class="adopt-text" font-size="10px">Web3 游戏爆发</text>
 <circle cx="750" cy="100" r="5" class="adopt-point"/>

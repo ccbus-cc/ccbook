@@ -62,21 +62,21 @@ CCBus turns "issuing a token" — a task that used to require a Solidity enginee
 
 ### Core Characteristics of Cryptocurrency
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .cc-text { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .cc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .cc-text-medium { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; font-weight: bold; }
-      .cc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .cc-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #20374c; font-weight: bold; }
-      .cc-text-dark-small { font-family: arial, sans-serif; font-size: 9px; fill: #20374c; }
-      .cc-text-italic { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; font-style: italic; }
-      .cc-circle-center { fill: #4c9be8; stroke: #f0e6d2; stroke-width: 0.5; }
-      .cc-circle-orange { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 0.5; }
-      .cc-circle-blue { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 0.5; }
-      .cc-circle-green { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 0.5; }
+      .cc-text { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .cc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .cc-text-medium { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; font-weight: bold; }
+      .cc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .cc-text-dark { font-family: arial, sans-serif; font-size: 10px; fill: #3451b2; font-weight: bold; }
+      .cc-text-dark-small { font-family: arial, sans-serif; font-size: 9px; fill: #3451b2; }
+      .cc-text-italic { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; font-style: italic; }
+      .cc-circle-center { fill: #4c9be8; stroke: #1f2937; stroke-width: 0.5; }
+      .cc-circle-orange { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
+      .cc-circle-blue { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .cc-circle-green { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
       .cc-line-orange { stroke: #df6919; stroke-width: 0.5; }
       .cc-line-blue { stroke: #4c9be8; stroke-width: 0.5; }
       .cc-line-green { stroke: #5cb85c; stroke-width: 0.5; }
@@ -175,28 +175,28 @@ This was the headline from The Times that day, recording government bank bailout
 
 ### Bitcoin's Core Mechanisms
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .btc-text { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .btc-text-tiny { font-family: arial, sans-serif; font-size: 7px; fill: #f0e6d2; }
-      .btc-text-tiny-italic { font-family: arial, sans-serif; font-size: 7px; fill: #f0e6d2; font-style: italic; }
-      .btc-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #f0e6d2; }
-      .btc-text-small-bold { font-family: arial, sans-serif; font-size: 9px; fill: #f0e6d2; font-weight: bold; }
-      .btc-text-medium { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; font-weight: bold; }
-      .btc-text-arrow { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; }
-      .btc-text-large { font-family: arial, sans-serif; font-size: 11px; fill: #f0e6d2; font-weight: bold; }
-      .btc-text-huge { font-family: arial, sans-serif; font-size: 16px; fill: #f0e6d2; font-weight: bold; }
-      .btc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .btc-text-subtitle { font-family: arial, sans-serif; font-size: 12px; fill: #f0e6d2; font-weight: bold; }
-      .btc-rect-orange { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 0.5; }
-      .btc-rect-orange-dark { fill: rgba(223, 105, 25, 0.3); stroke: #df6919; stroke-width: 0.5; }
-      .btc-rect-blue { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 0.5; }
-      .btc-rect-blue-dark { fill: rgba(76, 156, 232, 0.3); stroke: #4c9be8; stroke-width: 0.5; }
-      .btc-rect-green { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 0.5; }
-      .btc-rect-green-dark { fill: rgba(92, 184, 92, 0.3); stroke: #5cb85c; stroke-width: 0.5; }
-      .btc-circle-orange { fill: #df6919; stroke: #f0e6d2; stroke-width: 0.5; }
+      .btc-text { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .btc-text-tiny { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; }
+      .btc-text-tiny-italic { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; font-style: italic; }
+      .btc-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .btc-text-small-bold { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; font-weight: bold; }
+      .btc-text-medium { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; font-weight: bold; }
+      .btc-text-arrow { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .btc-text-large { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; font-weight: bold; }
+      .btc-text-huge { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
+      .btc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .btc-text-subtitle { font-family: arial, sans-serif; font-size: 12px; fill: #1f2937; font-weight: bold; }
+      .btc-rect-orange { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
+      .btc-rect-orange-dark { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 0.5; }
+      .btc-rect-blue { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .btc-rect-blue-dark { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 0.5; }
+      .btc-rect-green { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 0.5; }
+      .btc-rect-green-dark { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 0.5; }
+      .btc-circle-orange { fill: #df6919; stroke: #1f2937; stroke-width: 0.5; }
       .btc-line-orange { stroke: #df6919; stroke-width: 0.5; }
       .btc-line-blue { stroke: #4c9be8; stroke-width: 0.5; }
       .btc-bar-1 { fill: #df6919; opacity: 1.0; }
@@ -318,21 +318,21 @@ This was the headline from The Times that day, recording government bank bailout
 
 **Ethereum** was proposed by Vitalik Buterin in 2013 and officially launched in 2015. It is not only a cryptocurrency (ETH) but also a **Turing-complete smart contract platform**.
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 650 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .vs-text { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .vs-text-bold { font-family: arial, sans-serif; font-size: 9px; fill: #f0e6d2; font-weight: bold; }
-      .vs-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .vs-text-subtitle { font-family: arial, sans-serif; font-size: 12px; fill: #f0e6d2; font-weight: bold; }
-      .vs-text-icon { font-family: arial, sans-serif; font-size: 20px; fill: #f0e6d2; font-weight: bold; }
-      .vs-text-italic { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; font-style: italic; }
-      .vs-rect-orange { fill: rgba(223, 105, 25, 0.15); stroke: #df6919; stroke-width: 0.5; }
-      .vs-rect-blue { fill: rgba(76, 156, 232, 0.15); stroke: #4c9be8; stroke-width: 0.5; }
-      .vs-circle-orange { fill: #df6919; stroke: #f0e6d2; stroke-width: 0.5; }
-      .vs-circle-blue { fill: #4c9be8; stroke: #f0e6d2; stroke-width: 0.5; }
-      .vs-line-divider { stroke: #f0e6d2; stroke-width: 0.5; stroke-dasharray: 5,5; }
+      .vs-text { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .vs-text-bold { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; font-weight: bold; }
+      .vs-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .vs-text-subtitle { font-family: arial, sans-serif; font-size: 12px; fill: #1f2937; font-weight: bold; }
+      .vs-text-icon { font-family: arial, sans-serif; font-size: 20px; fill: #1f2937; font-weight: bold; }
+      .vs-text-italic { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; font-style: italic; }
+      .vs-rect-orange { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 0.5; }
+      .vs-rect-blue { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 0.5; }
+      .vs-circle-orange { fill: #df6919; stroke: #1f2937; stroke-width: 0.5; }
+      .vs-circle-blue { fill: #4c9be8; stroke: #1f2937; stroke-width: 0.5; }
+      .vs-line-divider { stroke: #1f2937; stroke-width: 0.5; stroke-dasharray: 5,5; }
     </style>
   </defs>
   <!-- Title -->
@@ -386,24 +386,24 @@ This was the headline from The Times that day, recording government bank bailout
 
 #### Smart Contract Workflow
 
-<div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 8px; margin: 2em 0;">
 <svg viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <defs>
     <style>
-      .sc-text { font-family: arial, sans-serif; font-size: 7px; fill: #f0e6d2; }
-      .sc-text-tiny { font-family: arial, sans-serif; font-size: 6px; fill: #f0e6d2; }
-      .sc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #f0e6d2; }
-      .sc-text-small-bold { font-family: arial, sans-serif; font-size: 7px; fill: #f0e6d2; font-weight: bold; }
-      .sc-text-medium { font-family: arial, sans-serif; font-size: 9px; fill: #f0e6d2; font-weight: bold; }
-      .sc-text-large { font-family: arial, sans-serif; font-size: 10px; fill: #f0e6d2; font-weight: bold; }
+      .sc-text { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; }
+      .sc-text-tiny { font-family: arial, sans-serif; font-size: 6px; fill: #1f2937; }
+      .sc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .sc-text-small-bold { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; font-weight: bold; }
+      .sc-text-medium { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; font-weight: bold; }
+      .sc-text-large { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; font-weight: bold; }
       .sc-text-arrow { font-family: arial, sans-serif; font-size: 12px; fill: #df6919; }
       .sc-text-arrow-blue { font-family: arial, sans-serif; font-size: 12px; fill: #4c9be8; }
-      .sc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #f0e6d2; font-weight: bold; }
-      .sc-rect-orange { fill: rgba(223, 105, 25, 0.2); stroke: #df6919; stroke-width: 0.5; }
-      .sc-rect-orange-light { fill: rgba(223, 105, 25, 0.15); stroke: #df6919; stroke-width: 0.5; }
-      .sc-rect-blue { fill: rgba(76, 156, 232, 0.2); stroke: #4c9be8; stroke-width: 0.5; }
-      .sc-rect-green { fill: rgba(92, 184, 92, 0.2); stroke: #5cb85c; stroke-width: 0.5; }
-      .sc-rect-green-dark { fill: rgba(92, 184, 92, 0.3); stroke: #5cb85c; stroke-width: 0.5; }
+      .sc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .sc-rect-orange { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
+      .sc-rect-orange-light { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 0.5; }
+      .sc-rect-blue { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .sc-rect-green { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
+      .sc-rect-green-dark { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 0.5; }
       .sc-line-blue { stroke: #4c9be8; stroke-width: 0.5; }
       .sc-line-green { stroke: #5cb85c; stroke-width: 0.5; }
       .sc-path-green { stroke: #5cb85c; stroke-width: 0.5; fill: none; }
