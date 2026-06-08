@@ -20,7 +20,38 @@ title: "第七章：Layer 2 扩展方案"
 
 ## 7.0 2025-2026 视角:为什么这一章要重新读
 
-Layer 2 已经从"扩容实验"走向"主流结算层"。Optimistic Rollup(Arbitrum、OP Mainnet、Base)和 zkRollup(zkSync Era、Polygon zkEVM、Linea、Scroll、Starknet)在 TVL、用户量、交易笔数上都已经超过很多 L1。本章讲清 OP vs ZK 的根本差异、EIP-4844 blob 后的成本结构、以及 2026 年的新趋势:**Based Rollup、Native Rollup、Intents on L2**。
+Layer 2 已经从"扩容实验"演变为"主流结算层"。2025-2026 年的关键变化:
+
+1. **OP Rollup vs ZK Rollup 的成本经济学**:
+   - **OP Rollup** 主导:Arbitrum(($15B TVL)、OP Mainnet($3B TVL)、Base($5B TVL)、Blast、Manta
+   - **ZK Rollup** 迎头赶上:Linea($1.5B)、zkSync Era($1.2B)、Polygon zkEVM($0.4B)、Scroll($0.3B)、Starknet($0.7B)
+   - **EIP-4844 Blob(2024-03)后**:L2 交易 gas 成本从 $0.10 降到 $0.001,降幅 100 倍
+   - **EIP-7691 (Pectra 2025-05)**:Blob 目标 3→6,最大 6→9,L2 容量再翻倍
+   - **PeerDAS (Fusaka 2026-Q2)**:Blob 容量再扩 4-8 倍
+
+2. **OP Stack Superchain**:
+   - 概念:共享排序、共享桥、共享治理
+   - 代表成员:Base(由 Coinbase 运营,月活 5000 万+)、OP Mainnet、Zora、Mode、Worldcoin、Kinto
+   - **OP Succinct(2025-Q1)**:把 OP Stack 升级为 ZK 欺诈证明,缩短最终性从 7 天到 1 小时
+
+3. **ZK Rollup 的最终性突破**:
+   - **Polygon zkEVEM**:用 Plonky3 生成证明,验证时间 < 2 秒
+   - **zkSync Era**:用 Boojum 证明系统,验证时间 < 1 秒
+   - **Linea**:用 Vortex 证明,验证时间 < 1 秒
+   - **Starknet**:用 STARK Cairo,验证时间 < 5 秒
+   - **2026 趋势**:ZKP 证明时间已逼近 L1 区块时间,用户感知不到"二层"
+
+4. **应用链(Appchain)的崛起**:
+   - **dYdX v4**(2023-08):从 zk-rollup StarkEx 迁移到 Cosmos 应用链
+   - **Berachain**(2025-Q1):PoL(Proof of Liquidity)共识的 L1,TVL 突破 50 亿美元
+   - **Hyperliquid**(2024-Q4):自建 L1 + HyperBFT 共识,日交易量 5 亿+
+   - **Apex Protocol**(2025-Q1):基于 Monad 的去中心化永续合约
+
+5. **L2 间桥的新范式**:
+   - **Across Protocol**:意图式桥,2 秒到达
+   - **deBridge DLN**:跨链意图,3 秒到达
+   - **Stargate**:基于 LayerZero 的统一流动性桥
+   - **2026 预测**:L2 内部转账速度将接近 L1 内部转账
 
 ### 🖥️ 真实案例:CCBus 跨链兑换(L2 友好的桥)
 
@@ -761,7 +792,83 @@ Layer 3 (应用专用链)
 - 目标：16 MB/区块数据容量
 - Layer 2 TPS可达100,000+
 
+
+
+### EIP-4844 Blob 数学:Pectra 之后的 L2 成本模型
+
+Cancun(2024-03)引入的 EIP-4844 是 L2 经济的转折点。理解它需要看三层结构:
+
+**Blob 的物理性质**:
+- 每个交易最多挂 6 个 blob(目标 3 个,最大 6 个)
+- 每个 blob 约 125 KB(实际 125.5 KB)
+- Blob 数据 18 天后过期(4096 epoch ≈ 18.2 天)
+- L1 合约只能通过 `BLOBHASH` / `BLOBBASEFEE` 读取 blob 元数据,不能直接读 blob 内容
+- blob 内容由 EIP-7594(PeerDAS,Fusaka 2026-Q2)后通过数据可用性采样验证
+
+**Blob gas 价格动态**:
+- blob gas 不跟随 EIP-1559 的 base fee 调整,而是独立调整
+- 当 blob 使用率 > 50% 时,blob base fee 上升(类似 EIP-1559)
+- 当 blob 使用率 < 50% 时,blob base fee 下降
+- 调整系数 1.125,即使用率每超 50% 一次,价格涨 12.5%
+
+**L2 实际成本对比**:
+
+| 场景 | Pre-Cancun (calldata) | Post-Cancun (blob) | Post-Pectra (blob×2) |
+|---|---|---|---|
+| 单笔 swap on Arbitrum | $0.10 | $0.001 | $0.0005 |
+| 100 笔 swap 批量 | $10 | $0.1 | $0.05 |
+| NFT 铸造 | $1.50 | $0.015 | $0.008 |
+| 大额转账(>1M USDC) | $5 | $0.05 | $0.025 |
+
+**Pectra 升级(2025-05-07)对 L2 的影响**:
+- **EIP-7691**:blob 目标 3→6,最大 6→9,L2 容量直接翻倍
+- **EIP-7251**:验证者 max effective balance 32→2048 ETH,让 restaking 协议(EigenLayer、Symbiotic)成为 L2 的潜在安全服务提供者
+- **EIP-7702**:让 EOA 临时升级为合约账户,L2 用户可以在 L1 直接 batch 操作
+
+**Fusaka 升级(2026-Q2 计划)对 L2 的影响**:
+- **EIP-7594 (PeerDAS)**:节点只需下载部分 blob 数据 + 校验其他节点的 commitment,L2 blob 容量再扩 4-8 倍
+- **EIP-7883 (Modular exponentiation precompile)**:让 L2 链上 ZKP 验证更便宜
+- **2027 预测**:L2 单笔交易成本降至 $0.0001 以内,接近 Web2 服务器成本
+
 <div class="chapter-footer">
+
+
+
+### EIP-4844 Blob 数学:Pectra 之后的 L2 成本模型
+
+Cancun(2024-03)引入的 EIP-4844 是 L2 经济的转折点。理解它需要看三层结构:
+
+**Blob 的物理性质**:
+- 每个交易最多挂 6 个 blob(目标 3 个,最大 6 个)
+- 每个 blob 约 125 KB(实际 125.5 KB)
+- Blob 数据 18 天后过期(4096 epoch ≈ 18.2 天)
+- L1 合约只能通过 `BLOBHASH` / `BLOBBASEFEE` 读取 blob 元数据,不能直接读 blob 内容
+- blob 内容由 EIP-7594(PeerDAS,Fusaka 2026-Q2)后通过数据可用性采样验证
+
+**Blob gas 价格动态**:
+- blob gas 不跟随 EIP-1559 的 base fee 调整,而是独立调整
+- 当 blob 使用率 > 50% 时,blob base fee 上升(类似 EIP-1559)
+- 当 blob 使用率 < 50% 时,blob base fee 下降
+- 调整系数 1.125,即使用率每超 50% 一次,价格涨 12.5%
+
+**L2 实际成本对比**:
+
+| 场景 | Pre-Cancun (calldata) | Post-Cancun (blob) | Post-Pectra (blob×2) |
+|---|---|---|---|
+| 单笔 swap on Arbitrum | $0.10 | $0.001 | $0.0005 |
+| 100 笔 swap 批量 | $10 | $0.1 | $0.05 |
+| NFT 铸造 | $1.50 | $0.015 | $0.008 |
+| 大额转账(>1M USDC) | $5 | $0.05 | $0.025 |
+
+**Pectra 升级(2025-05-07)对 L2 的影响**:
+- **EIP-7691**:blob 目标 3→6,最大 6→9,L2 容量直接翻倍
+- **EIP-7251**:验证者 max effective balance 32→2048 ETH,让 restaking 协议(EigenLayer、Symbiotic)成为 L2 的潜在安全服务提供者
+- **EIP-7702**:让 EOA 临时升级为合约账户,L2 用户可以在 L1 直接 batch 操作
+
+**Fusaka 升级(2026-Q2 计划)对 L2 的影响**:
+- **EIP-7594 (PeerDAS)**:节点只需下载部分 blob 数据 + 校验其他节点的 commitment,L2 blob 容量再扩 4-8 倍
+- **EIP-7883 (Modular exponentiation precompile)**:让 L2 链上 ZKP 验证更便宜
+- **2027 预测**:L2 单笔交易成本降至 $0.0001 以内,接近 Web2 服务器成本
 
 ## 本章总结
 

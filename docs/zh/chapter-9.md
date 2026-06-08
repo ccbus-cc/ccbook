@@ -20,17 +20,45 @@ title: "第九章：高级密码学"
 
 ## 9.0 2025-2026 视角:为什么这一章要重新读
 
-前沿密码学在 2025-2026 年实现了三件大事:**ZK 性能突破(证明时间从分钟级降到亚秒级)、FHE 全同态加密实用化(Zama fhEVM)、MPC 钱包大规模落地(fireblocks、Safe、Lit Protocol)**。本章既讲解这些技术的数学原理,也给出真实的产品形态。
+前沿密码学在 2025-2026 年实现了三件大事:ZK 性能突破、FHE 实用化、MPC 钱包大规模落地。
+
+1. **ZK 性能突破(2024-2025 工业级落地)**:
+   - **Plonky2**(2022):~100ms 证明
+   - **Plonky3**(2024-09):亚秒级证明,递归 O(1) 验证
+   - **SP1(2024)**:用 Rust 写 zkVM,VM 友好,开发者门槛大幅降低
+   - **RISC Zero zkVM**:通用 zkVM,可证明任意 Rust/C++ 程序
+   - **2026 现实**:ZKP 证明时间已逼近 L1 区块时间(12s 以内),用户感知不到
+
+2. **FHE 全同态加密实用化**:
+   - **Zama fhEVM**(2024):Solidity 合约可以直接对加密数据做运算
+   - **Fhenix**:基于 Zama fhEVM 的隐私公链
+   - **Inco Network**:EVM 兼容的 FHE 链
+   - **2026 应用**:链上投票(选票始终加密)、链上拍卖(竞标价不公开)、隐私 DeFi(余额/交易不可见)
+
+3. **MPC 钱包大规模落地**:
+   - **Fireblocks**(机构):服务 1800+ 机构,10 万亿资产
+   - **Safe(零售/团队)**:ERC-4337 + MPC,2-of-3 多签 EOA
+   - **Lit Protocol**:PKP (Programmable Key Pairs),把密钥切分到分布式节点
+   - **Privy**(consumer):免密钥 onboarding,Web2 用户可以一键创建钱包
+   - **Turnkey**:开发者友好的 MPC 基础设施
+
+4. **后量子(PQC)进入区块链**:
+   - NIST FIPS 203/204/205 (2024-08 发布)
+   - 主流 L1 评估集成(以太坊 EIP 路线图、EOS 早期迁移、Litecoin 测试)
+   - 主要算法:**ML-KEM**(密钥封装,**ML-DSA**(Dilithium,签名)、**SLH-DSA**(SPHINCS+,哈希签名)
+
+5. **BLS 聚合与 zk-SNARK 混合**:
+   - 验证者签名聚合(BLS12-381),以太坊信标链每 epoch 一个聚合签名
+   - **Zcash Halo2**:递归 SNARK,无需 trusted setup
+   - **Aleo**:用 zkPass 保护链上身份
 
 ### 🖥️ 真实案例:CCBus 批量钱包背后的密码学
 
-CCBus 的批量钱包生成功能,本质上是客户端 MPC 友好的密钥派生——每个钱包的助记词通过BIP-32/BIP-39/BIP-44 标准从单个熵源派生,但派生过程的熵分离(separation of entropy)做到了密码学级别独立。下图展示了批量生成 100 个 EVM 钱包的界面。
+CCBus 的批量钱包生成功能,本质上是客户端 MPC 友好的密钥派生——每个钱包的助记词通过 BIP-32/BIP-39/BIP-44 标准从单个熵源派生,但派生过程的熵分离(separation of entropy)做到了密码学级别独立。下图展示了批量生成 100 个 EVM 钱包的界面。
 
 ![CCBus 批量钱包生成](../public/images/chapters/zh/batch-generate-wallet.png)
 
 *图 9-1:CCBus 批量钱包生成。背后使用了 BIP-39 助记词标准(2048 词表)与 BIP-32 HD 钱包派生树,这种**分层确定性钱包**(Hierarchical Deterministic Wallet)是 2026 年加密钱包的事实标准。*
-
----
 
 ## 9.1 零知识证明 (Zero-Knowledge Proof)
 

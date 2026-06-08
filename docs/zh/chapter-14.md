@@ -22,19 +22,40 @@ title: "第十四章：企业区块链"
 
 ## 14.0 2025-2026 视角:为什么这一章要重新读
 
-企业区块链(Enterprise Blockchain)在 2026 年进入了"许可链联盟化 + RWA 链上化"阶段。Hyperledger Fabric 3.x、Quorum、R3 Corda 仍然占据传统金融场景;但真正爆发的是**RWA(Real World Assets)**——BlackRock BUIDL、Ondo Finance、Maple Finance、Securitize 把数万亿美元的国债、信贷、房产代币化到公链。本章讲清 RWA 的法律框架、托管模型、链上合规。
+企业区块链在 2026 年进入了"**许可链联盟化 + RWA 链上化 + 监管沙盒**"阶段。
 
-### 🖥️ 真实案例:CCBus 的合约合规工具
+1. **许可链(联盟链)新进展**:
+   - **Hyperledger Fabric 3.x(2024-12)**:全面模块化,支持 BFT 共识切换
+   - **Hyperledger Besu(2024-Q4)**:EVM 兼容许可链,链上隐私
+   - **Quorum(Consensys 维护)**:银行场景的隐私 L1
+   - **R3 Corda Enterprise 5.x**:金融机构专用
+   - **2026 真实部署**:SWIFT 试点 CBDC 用 Besu;JPMorgan Onyx 基于 Quorum
 
-CCBus 的合约模板(Multi-Function、HOLD_REFLECTION 等)内置了**白名单交易、链上 KYC 接口、监管黑名单同步**等合规能力,这正是 2026 年企业级代币化的关键需求。
+2. **RWA 真实世界资产代币化**:
+   - **货币市场**:Ondo OUSG($5B), Maple Finance($3B),Mountain Protocol
+   - **私募基金**:Securitize 把 KKR、Apollo、BCG 私募基金代币化
+   - **不动产**:RealT、Propy、Blocksquare、Tangible(虽然规模仍小)
+   - **信贷**:Centrifuge、Tinlake 把供应链金融代币化
+   - **2026 数据**:RWA 链上总规模 $30B+(2024 年仅 $15B)
 
-下图展示 CCBus 的合约审计工具——这是企业级合约上线前必须通过的检查。
+3. **CBDC(央行数字货币)**:
+   - **数字人民币(eCNY)**:流通中 $5B+,跨境试点 mBridge
+   - **数字欧元(2027 计划)**:ECB 准备阶段
+   - **FedNow(2023 启动)**:美国 CBDC 替代方案
+   - **mBridge(2024)**:多边央行数字货币桥,连接阿联酋、泰国、香港、中国
+   - **2026 趋势**:CBDC 不会取代稳定币,但会**共存**
 
-![CCBus 合约检查器](../public/images/chapters/zh/contract-inspector.png)
+4. **链上合规(RegTech)**:
+   - **Tornado Cash 制裁后**:链上合规成为必选项
+   - **TRM Labs、Chainalysis、Elliptic**:链上 KYT(Know Your Transaction)
+   - **Solidity 合规库**:OpenZeppelin Defender + Chainalysis Oracle + TRM API
+   - **可组合的合规代币**:USDC 的"黑名单"功能, Tether 的冻结功能
 
-*图 14-1:CCBus 合约检查器。展示企业级合约的合规检查流程——**合约源代码 → 编译 → 字节码验证 → 漏洞扫描 → 合规审计**五步流程,这是 RWA 上链的最小可行标准。*
-
----
+5. **企业级 RWA 合规模板**:
+   - **KYC-on-chain**:银机构客户 KYC 数据通过 ZKP 上链
+   - **Accredited Investor NFT**:用 SBT 验证合格投资者身份
+   - **链上审计**:Chainlink CRE 集成审计数据
+   - **2026 真实项目**:KKR、Apollo、BlackRock 都已落地
 
 ## 14.1 企业区块链 vs 公链
 

@@ -18,23 +18,44 @@ title: "Chapter 12: Governance and DAO"
 </div>
 
 
-## 12.0 2025-2026 视角:为什么这一章要重新读
+## 12.0 2025-2026 Perspective: Why Reread This Chapter
 
-Governance and DAO in 2026 have moved past the simple 'vote + multisig' model into **off-chain delegation (Snapshot v2), on-chain executable proposals (Safe Module), Optimistic governance (Optimism's Citizens' House), SubDAO nesting, and AI governance agents (ai16z DAO, Virtuals Protocol)**. This chapter covers the infrastructure and real-world patterns of modern DAOs.
+Governance and DAO in 2026 have moved past the simple 'vote + multisig' model into **off-chain delegation, on-chain executable proposals, Optimistic governance, SubDAO nesting, and AI governance agents**.
+
+1. **Snapshot v2 + on-chain execution**:
+   - **Snapshot X (2024-Q4)**: from pure off-chain voting to zk-validated off-chain + on-chain execution
+   - **Tally**: on-chain governance frontend, supports Compound, Uniswap, Aave etc.
+   - **Boardroom**: DAO governance aggregation platform
+   - **2026 real use**: 90%+ mainstream DAOs use Snapshot + on-chain executor
+
+2. **Safe Module system**:
+   - **Safe{Core}**: modular smart contract account
+   - **Safe Modules**: Zodiac Modules, Sign Protocol, UMA Optimistic Oracle can all be mounted as governance executors
+   - **2026 real projects**: Aavegotchi DAO, Decentraland DAO, ENS DAO
+
+3. **Optimistic Governance (Optimism Citizens' House model)**:
+   - Citizenship proof → delegate to representative → decide public goods funding
+   - **2026 real projects**: Optimism RetroPGF, Coinbase Verified Pools
+   - Advantage: doesn't require token holdings, reduces governance centralization
+
+4. **SubDAO nesting**:
+   - **MakerDAO / Sky**: Spark SubDAO, Allocation Core Unit
+   - **Aave**: Aave Grants DAO, Aave Companies
+   - **Uniswap**: Uniswap Foundation, Uniswap Grants
+   - **2026 trend**: DAO governance is being layered and specialized
+
+5. **AI governance agents**:
+   - **ai16z DAO (2024-Q4)**: MetaDAO + AI agents, Eliza framework
+   - **Virtuals Protocol (2024-Q4)**: AI agents can initiate DAO proposals
+   - **Aethernet (2025-Q1)**: AI agents become DAO voters
+   - **2026 controversy**: should AI agents have voting rights? Frontier question
+
+6. **Protocol-level governance (CCBus example)**:
+   - **Protocol 314**: composite protocol merging hold-reflections, referral rewards, on-chain buybacks, with auto-adjusting on-chain parameters — no manual voting required
+   - **Blackhole**: project tokens sent to blackhole address to reduce circulating supply
+   - **Multi-Function**: tax rates, whitelists, referrals all configured in one contract, with upgradable governance parameters
 
 ### 🖥️ Real-world Example: CCBus Protocol-Level Governance (314 + Blackhole)
-
-Two unique CCBus contract templates embody modern protocol governance:
-
-- **Protocol 314**: a composite protocol merging hold-reflections, referral rewards, and on-chain buybacks, with auto-adjusting on-chain parameters — no manual voting required.
-- **Blackhole**: project tokens sent to a blackhole address to reduce circulating supply and create deflation.
-- **Multi-Function**: tax rates, whitelists, referrals all configured in one contract, with upgradable governance parameters.
-
-![CCBus Protocol 314](../public/images/chapters/zh/protocol-314.png)
-
-![CCBus Blackhole](../public/images/chapters/zh/blackhole.png)
-
-*Figures 12-1/2: CCBus Protocol 314 and Blackhole. These templates show **protocol-level autonomy** — modern DAO practice of 'code is governance' via smart-contract preset parameters.*
 
 ## 12.1 On-Chain Governance Mechanisms
 

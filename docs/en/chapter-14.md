@@ -18,19 +18,42 @@ title: "Chapter 14: Enterprise Blockchain"
 </div>
 
 
-## 14.0 2025-2026 视角:为什么这一章要重新读
+## 14.0 2025-2026 Perspective: Why Reread This Chapter
 
-Enterprise blockchain in 2026 has entered the 'permissioned consortium + RWA on-chain' phase. Hyperledger Fabric 3.x, Quorum, R3 Corda still serve traditional finance; but the real explosion is **RWA (Real World Assets)** — BlackRock BUIDL, Ondo Finance, Maple Finance, and Securitize have tokenized trillions of dollars in treasuries, credit, and real estate onto public chains. This chapter covers RWA's legal framework, custody models, and on-chain compliance.
+Enterprise blockchain in 2026 has entered the '**permissioned consortium + RWA on-chain + regulatory sandbox**' phase.
 
-### 🖥️ Real-world Example: CCBus's Contract Compliance Tools
+1. **Permissioned (consortium) chain progress**:
+   - **Hyperledger Fabric 3.x (2024-12)**: fully modular, supports BFT consensus switching
+   - **Hyperledger Besu (2024-Q4)**: EVM-compatible permissioned chain, on-chain privacy
+   - **Quorum (maintained by Consensys)**: privacy L1 for banking scenarios
+   - **R3 Corda Enterprise 5.x**: dedicated for financial institutions
+   - **2026 real deployments**: SWIFT pilots CBDC with Besu; JPMorgan Onyx based on Quorum
 
-CCBus's contract templates (Multi-Function, HOLD_REFLECTION, etc.) have **whitelisted trading, on-chain KYC interfaces, regulatory blacklist sync** built in — these are exactly the key 2026 enterprise-tokenization needs.
+2. **RWA (Real World Asset) tokenization**:
+   - **Money market**: Ondo OUSG ($5B), Maple Finance ($3B), Mountain Protocol
+   - **Private funds**: Securitize tokenized KKR, Apollo, BCG private funds
+   - **Real estate**: RealT, Propy, Blocksquare, Tangible (still small scale)
+   - **Credit**: Centrifuge, Tinlake tokenize supply chain finance
+   - **2026 stats**: $30B+ RWA on-chain (vs $15B in 2024)
 
-Below: CCBus's contract audit tool — a must-pass check for enterprise contracts before going live.
+3. **CBDC (Central Bank Digital Currencies)**:
+   - **Digital RMB (eCNY)**: $5B+ in circulation, cross-border pilot mBridge
+   - **Digital Euro (planned 2027)**: ECB preparation phase
+   - **FedNow (launched 2023)**: US CBDC alternative
+   - **mBridge (2024)**: multi-lateral central bank digital currency bridge, connects UAE, Thailand, HK, China
+   - **2026 trend**: CBDCs won't replace stablecoins, but will **coexist**
 
-![CCBus contract inspector](../public/images/chapters/zh/contract-inspector.png)
+4. **On-chain compliance (RegTech)**:
+   - **Post Tornado Cash sanctions**: on-chain compliance is mandatory
+   - **TRM Labs, Chainalysis, Elliptic**: on-chain KYT (Know Your Transaction)
+   - **Solidity compliance libraries**: OpenZeppelin Defender + Chainalysis Oracle + TRM API
+   - **Composable compliance tokens**: USDC's "blacklist" function, Tether's freeze function
 
-*Figure 14-1: CCBus contract inspector. Shows the enterprise contract compliance flow: **source code → compile → bytecode verify → vulnerability scan → compliance audit** — five steps, the minimum viable standard for RWA going on-chain.*
+5. **Enterprise-grade RWA compliance templates**:
+   - **KYC-on-chain**: institutional client KYC data via ZKP on-chain
+   - **Accredited Investor NFT**: SBT verifies accredited investor status
+   - **On-chain audit**: Chainlink CRE integrates audit data
+   - **2026 real projects**: KKR, Apollo, BlackRock all in production
 
 ## 14.1 Enterprise vs Public Blockchain
 

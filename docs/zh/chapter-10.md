@@ -20,7 +20,44 @@ title: "第十章：DeFi - 去中心化金融"
 
 ## 10.0 2025-2026 视角:为什么这一章要重新读
 
-DeFi 在 2026 年进入了"机构化 + 真实收益(real yield)"双轮驱动。Uniswap v4 的 hooks 体系重塑了 AMV,Curve 的 crvUSD 与 Angle agEUR 推动了稳定币 DEX 专业化,Pendle 把 YT/PT 拆解带进了利率衍生品时代,EigenLayer 的再质押催生了 AVS 经济。本章重新梳理 DeFi 的核心原语与新趋势。
+DeFi 在 2026 年进入了**机构化 + 真实收益(real yield) + 意图化(intent-centric)**三轮驱动。
+
+1. **AMM 的代际演化**:
+   - **Uniswap v4(2025-Q1 主网)**:**Hooks 体系**重塑了 AMV 边界。Hook 是在 swap 生命周期(afterSwap、beforeSwap、afterAddLiquidity 等)上插入的回调,可以实现动态费率、自定义预言机、自定义曲线(如 Curve StableSwap)
+   - **PancakeSwap Infinity(2024-Q4)**:在 v4 基础上提供 Infusion Hooks
+   - **Curve(2025-Q2 v3)**:StableSwap 算法升级,集成 crvUSD
+   - **Velodrome v2(Optimism)**:ve(3,3) 模型继续主导 L2 DEX
+
+2. **借贷协议的模块化**:
+   - **Morpho Blue(2024-Q1)**:模块化借贷层,任何人都可以创建借贷市场
+   - **Aave v4(2025-Q3 计划)**:模块化 + 跨链 + GHO 稳定币
+   - **Euler v2(2024)**:模块化借贷,支持任意抵押因子
+   - **Spark Protocol**:MakerDAO 旗下的 Sky 生态借贷协议
+
+3. **稳定币 DEX 的专业化**:
+   - **Curve**:仍是稳定币 DEX 之王
+   - **Fluid**:Compound + Aave 风格的借贷 + DEX 组合
+   - **Pendle(2024-Q4 v3)**:YT/PT 拆解,利率衍生品代币化
+   - **Ethena USDe**:Delta-neutral 合成美元,TVL 50 亿
+
+4. **意图式 DEX(占 2026 DEX 流量 40%+)**:
+   - **UniswapX**:荷兰拍,MEV 保护
+   - **1inch Fusion**:求解器网络
+   - **CoW Swap**:批量结算 + Coincidence of Wants
+   - **0x Protocol v2**:从聚合器升级为意图引擎
+   - **Across**:意图 + 跨链的混合方案
+
+5. **真实收益的来源**:
+   - **基础收益**:链上资产的供需利率(如 Aave USDC 存款 5%)
+   - **RWA 收益**:代币化美债(Ondo OUSG 5%+)
+   - **LRT 收益**:EigenLayer restaking 收益(基础 + AVS 奖励)
+   - **MEV 收益**:求解器抓到的 MEV
+   - **2026 趋势**:协议收入正在流向真实用户,而非纯通胀奖励
+
+6. **LRT 与 DeFi 的耦合**:
+   - 用户在 Aave 存 stETH,被自动复利 restaking 收益
+   - 抵押 LRT(如 eETH、ezETH)借出稳定币,做空 ETH 风险
+   - **EigenLayer 衍生 DeFi 协议**:Pendle + EigenLayer 创造 PT-stETH 等固定收益产品
 
 ### 🖥️ 真实案例:CCBus 的 DeFi 工具矩阵
 
@@ -40,8 +77,6 @@ CCBus 的 DeFi 工具集几乎是本章内容的可视化目录:
 ![CCBus 流动性控制台](../public/images/chapters/zh/liquidity-control.png)
 
 *图 10-1/2/3:CCBus 的 LP 工具集——分红、燃烧、加池控制——完整地体现了 **Uniswap V2/V3 的 LP 经济学**。这三种工具覆盖了 DeFi 流动性管理的 90% 真实场景。*
-
----
 
 ## 10.1 什么是 DeFi？
 
@@ -538,7 +573,165 @@ Yearn 自动分配到多个协议：
 
 ---
 
+
+
+### Uniswap v4 Hooks:把 AMM 变成"可编程流动性格子"
+
+Uniswap v4(2025-Q1 主网)最大的创新不是 gas 节省(虽然确实省了 99%——从 180k gas 降到 5k gas),而是 **Hooks 体系**。
+
+**Hooks 是什么?**
+
+Hooks 是在 swap / 添加流动性 / 移除流动性的生命周期**关键时点**上执行的回调函数,允许开发者:
+- 动态调整费率(根据市场波动率)
+- 插入自定义预言机(TWAP、Chainlink、内部 oracle)
+- 集成限价单、TWAMM(时间加权平均做市)、自定义曲线
+- 添加 MEV 捕获与返还机制
+- 实现链上订单簿(部分)
+
+**8 个 Hook 触发点**:
+
+| Hook 名 | 触发时机 | 典型用法 |
+|---|---|---|
+| `beforeInitialize` / `afterInitialize` | 池子创建前后 | 初始化参数、注册 |
+| `beforeModifyPosition` / `afterModifyPosition` | 添加/移除流动性前后 | 限制 LP 范围、费用分发 |
+| `beforeSwap` / `afterSwap` | swap 前后 | 动态费率、限价、TWAMM |
+| `beforeDonate` / `afterDonate` | 捐赠前后 | 协议费再投资 |
+
+**生产级 Hook 项目(2025-2026)**:
+
+| 项目 | Hook 类型 | 描述 |
+|---|---|---|
+| **Arrakis Finance** | 管理 Hook | 集中管理流动性,优化 LP 收益 |
+| **Swaap Finance** | Oracle Hook | 自适应预言机,减少套利损失 |
+| **Ambient Finance** | 全能 Hook | 把 AMM + 借贷 + TWAMM 合三为一 |
+| **Panoptic** | 期权 Hook | 把 LP 头寸转为期权 |
+| **Maverick** | 集中流动性 + Boosted Position | 动态流动性集中 |
+| **Kromatika** | TWAMM + 限价单 | 集成到 Uniswap v4 |
+| **Wildcat Protocol** | 借贷 Hook | LP 头寸自动借贷 |
+
+**Hooks 写代码示例(Solidity 0.8.25+,transient storage 优化)**:
+
+```solidity
+// 一个简单的动态费率 hook
+contract DynamicFeeHook is BaseHook {
+    using SafeERC20 for IERC20;
+
+    // 用 transient storage 避免重入和跨交易状态泄漏
+    uint256 private transient _lastSwapTimestamp;
+    uint256 private transient _swapCount;
+
+    function getHookPermissions() public pure override returns (Hooks.Permissions memory) {
+        return Hooks.Permissions({
+            beforeInitialize: false,
+            afterInitialize: false,
+            beforeModifyPosition: false,
+            afterModifyPosition: true,  // 收取协议费
+            beforeSwap: true,            // 动态费率
+            afterSwap: false,
+            beforeDonate: false,
+            afterDonate: false
+        });
+    }
+
+    function beforeSwap(address, PoolKey calldata, SwapParams calldata params, bytes calldata)
+        external override returns (bytes4, BeforeSwapDelta, uint24)
+    {
+        _swapCount++;
+        _lastSwapTimestamp = block.timestamp;
+
+        // 根据 swap 频次动态调整费率
+        uint24 baseFee = 3000; // 0.3%
+        if (_swapCount > 100) {
+            baseFee = 10000; // 1% — 高频时段提高费率
+        }
+
+        return (this.beforeSwap.selector, BeforeSwapDeltaLibrary.ZERO_DELTA, baseFee);
+    }
+}
+```
+
+**Hooks 的经济意义**:v4 让 Uniswap 从"通用 AMM"变成"流动性格子",任何团队可以基于 v4 构建自己的 DEX 而无需部署新合约。这是 2025-2026 年 DeFi 协议层创新的核心模式。
+
 <div class="chapter-footer">
+
+
+
+### Uniswap v4 Hooks:把 AMM 变成"可编程流动性格子"
+
+Uniswap v4(2025-Q1 主网)最大的创新不是 gas 节省(虽然确实省了 99%——从 180k gas 降到 5k gas),而是 **Hooks 体系**。
+
+**Hooks 是什么?**
+
+Hooks 是在 swap / 添加流动性 / 移除流动性的生命周期**关键时点**上执行的回调函数,允许开发者:
+- 动态调整费率(根据市场波动率)
+- 插入自定义预言机(TWAP、Chainlink、内部 oracle)
+- 集成限价单、TWAMM(时间加权平均做市)、自定义曲线
+- 添加 MEV 捕获与返还机制
+- 实现链上订单簿(部分)
+
+**8 个 Hook 触发点**:
+
+| Hook 名 | 触发时机 | 典型用法 |
+|---|---|---|
+| `beforeInitialize` / `afterInitialize` | 池子创建前后 | 初始化参数、注册 |
+| `beforeModifyPosition` / `afterModifyPosition` | 添加/移除流动性前后 | 限制 LP 范围、费用分发 |
+| `beforeSwap` / `afterSwap` | swap 前后 | 动态费率、限价、TWAMM |
+| `beforeDonate` / `afterDonate` | 捐赠前后 | 协议费再投资 |
+
+**生产级 Hook 项目(2025-2026)**:
+
+| 项目 | Hook 类型 | 描述 |
+|---|---|---|
+| **Arrakis Finance** | 管理 Hook | 集中管理流动性,优化 LP 收益 |
+| **Swaap Finance** | Oracle Hook | 自适应预言机,减少套利损失 |
+| **Ambient Finance** | 全能 Hook | 把 AMM + 借贷 + TWAMM 合三为一 |
+| **Panoptic** | 期权 Hook | 把 LP 头寸转为期权 |
+| **Maverick** | 集中流动性 + Boosted Position | 动态流动性集中 |
+| **Kromatika** | TWAMM + 限价单 | 集成到 Uniswap v4 |
+| **Wildcat Protocol** | 借贷 Hook | LP 头寸自动借贷 |
+
+**Hooks 写代码示例(Solidity 0.8.25+,transient storage 优化)**:
+
+```solidity
+// 一个简单的动态费率 hook
+contract DynamicFeeHook is BaseHook {
+    using SafeERC20 for IERC20;
+
+    // 用 transient storage 避免重入和跨交易状态泄漏
+    uint256 private transient _lastSwapTimestamp;
+    uint256 private transient _swapCount;
+
+    function getHookPermissions() public pure override returns (Hooks.Permissions memory) {
+        return Hooks.Permissions({
+            beforeInitialize: false,
+            afterInitialize: false,
+            beforeModifyPosition: false,
+            afterModifyPosition: true,  // 收取协议费
+            beforeSwap: true,            // 动态费率
+            afterSwap: false,
+            beforeDonate: false,
+            afterDonate: false
+        });
+    }
+
+    function beforeSwap(address, PoolKey calldata, SwapParams calldata params, bytes calldata)
+        external override returns (bytes4, BeforeSwapDelta, uint24)
+    {
+        _swapCount++;
+        _lastSwapTimestamp = block.timestamp;
+
+        // 根据 swap 频次动态调整费率
+        uint24 baseFee = 3000; // 0.3%
+        if (_swapCount > 100) {
+            baseFee = 10000; // 1% — 高频时段提高费率
+        }
+
+        return (this.beforeSwap.selector, BeforeSwapDeltaLibrary.ZERO_DELTA, baseFee);
+    }
+}
+```
+
+**Hooks 的经济意义**:v4 让 Uniswap 从"通用 AMM"变成"流动性格子",任何团队可以基于 v4 构建自己的 DEX 而无需部署新合约。这是 2025-2026 年 DeFi 协议层创新的核心模式。
 
 ## 本章总结
 

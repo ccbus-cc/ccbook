@@ -4,9 +4,21 @@ title: "Chapter 1: Blockchain Fundamentals"
 
 # Chapter 1: Blockchain Fundamentals
 
-## 1.0 2025-2026 视角:为什么这一章要重新读
+## 1.0 2025-2026 Perspective: Why Reread This Chapter
 
-As of 2026, blockchain has evolved from cryptocurrency's underlying technology into the foundational infrastructure of the global digital economy. This chapter explores blockchain through a current lens: from Bitcoin's genesis to today's multi-chain universe, from pure value transfer to RWA tokenization, AI agent economies (intent-centric), and the full operationalization of modular blockchains.
+By 2026, blockchain is no longer "a novel digital-currency technology". It has evolved into the **underlying infrastructure of the global digital economy**, serving three distinct roles:
+
+1. **Value settlement layer** — Bitcoin (BTC), stablecoins (USDT, USDC, USDe, PYUSD, FDUSD) form a $3.4 trillion on-chain asset class
+2. **Programmable finance layer** — Ethereum + L2s combined carry a smart contract ecosystem with daily transaction volume 3x that of Visa
+3. **Identity & data layer** — ENS, Lens, Farcaster, SBT, Worldcoin are redefining "account"
+
+**Key 2025-2026 changes that warrant a reread**:
+
+- **Multi-chain universe has crystallized**: 2025 was the watershed where L1 + L2 went from "experiment" to "production". Ethereum (+ L2s) holds 60%+ TVL; Solana is the single-chain throughput king; BNB Chain dominates memes and retail; Ton is the gateway to Telegram's 1.4B users; Sui/Aptos are Move-family rising stars; Monad/Berachain/Story are 2025-2026 launches
+- **"Blockchain" is no longer just "a chain"**: Celestia, EigenDA, Avail provide modular data availability (DA) layers; Espresso, Astria provide shared sequencers — "blockchain" has split into four independent modules: execution, settlement, consensus, DA
+- **AI agent economy takes off**: ai16z DAO, Virtuals Protocol, Aethernet, Zerebro make AI agents native on-chain actors; 2025-Q4 saw $8B+ in assets managed by on-chain AI agents
+- **RWA mainstreaming accelerates**: BlackRock BUIDL, Ondo Finance, Maple Finance, Securitize have tokenized $30B+ in real-world assets to public chains (T-bills, credit, real estate, private funds)
+- **Quantum-resistance preparation**: NIST formally released FIPS 203/204/205 (ML-KEM, ML-DSA, SLH-DSA) in 2024-08; post-quantum cryptography (PQC) is entering the migration period for blockchain stacks
 
 ### 🖥️ Real-world Example: CCBus All-in-One DeFi Toolkit
 
@@ -15,7 +27,6 @@ As of 2026, blockchain has evolved from cryptocurrency's underlying technology i
 ![CCBus All-in-One DeFi Toolkit homepage](../public/images/chapters/en/home-overview-en.png)
 
 *Figure 1-1: CCBus homepage. Notice how mainstream public-chain features — **dividend tokens, liquidity-pool tokens, cross-chain bridges, DeFi tools, market analytics** — are surfaced to end users through visual tooling.*
-
 
 ## 1.1 What is Blockchain?
 

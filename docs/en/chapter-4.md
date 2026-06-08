@@ -18,9 +18,36 @@ title: "Chapter 4: Consensus Mechanisms"
 </div>
 
 
-## 4.0 2025-2026 视角:为什么这一章要重新读
+## 4.0 2025-2026 Perspective: Why Reread This Chapter
 
-Consensus is one of the most active research areas in 2025-2026. We have moved past the PoW vs PoS binary debate into a multi-polar coexistence: **PoS dominating L1s, PoH high-throughput (Solana), PoH+PoS hybrid (Aptos/Sui's Joliac/Quorum), DAG-based parallel execution (Near's Doomslug), AVS subnet shared security (EigenLayer), and restaking restructuring capital efficiency**.
+Consensus mechanisms in 2025-2026 have moved past the "PoW vs PoS binary debate" into a **multi-polar coexistence + shared security + modular consensus** landscape. Core changes you need to internalize in this chapter:
+
+1. **PoS dominates L1, PoW retreats to BTC + a few new chains**:
+   - **Ethereum** (PoS since 2022) holds 58% of crypto total market TVL; beacon chain holds 105M ETH
+   - **BNB Chain** (PoSA = PoS + Authority) processes 6M+ daily transactions
+   - **Solana** (PoH + PoS + Tower BFT) measured TPS 3000+
+   - **Bitcoin** (PoW) hasn't upgraded consensus but indirectly integrates PoS economics via Babylon, BitVM L2s
+
+2. **Restaking + shared security rise**:
+   - **EigenLayer** (mainnet 2023-06) TVL broke $20B; allows restaking ETH to secure other AVS (Actively Validated Services)
+   - **Symbiotic** (2024-09) cross-chain restaking protocol
+   - **Karak** (2024-Q3) integrated with Mantle, DSRV
+   - **EigenLayer AVS ecosystem**: cross-chain bridges (LayerZero AVS), data availability (EigenDA), oracles (Chainlink CRE), AI inference (0G Labs)
+
+3. **DAG consensus and parallel execution progress**:
+   - **Aptos, Sui, Movement** use Block-STM parallel execution engine, TPS 160k+
+   - **Monad** (launching 2025-10) uses MonadBFT + optimistic parallel, TPS 10k
+   - **Sei V2** (2024-Q4) parallelized EVM chain
+
+4. **New attack vectors based on staking economics**:
+   - **Long-range attack**: PoS chain history can theoretically be rewritten to recover keys
+   - **Sandwich on validator selection**: predictability of validator selection algorithm exploited
+   - **MEV-Boost / centralized MEV relay**: Flashbots' mev-boost occupies 90% of Ethereum blocks
+
+5. **The consensus impossible triangle is partially broken in 2026**:
+   - The traditional **decentralization × security × scalability** impossible triangle, after DA-layer separation, allows each dimension to scale independently
+   - **Celestia + DA layer** lets execution layers independently pursue high TPS; DA layer provides security via PoS
+   - **EigenLayer + AVS** makes reusing security as easy as "renting cloud services"
 
 ### 🖥️ Real-world Example: CCBus's Multi-Chain Consensus Layer
 
@@ -454,7 +481,58 @@ Addressing energy consumption:
   </ul>
 
   <h3>Next Chapter Preview</h3>
-  <p>Chapter 5 will explore <strong>Smart Contracts</strong> in depth, learning how to write and deploy executable code on blockchain, and studying Solidity language and smart contract security.</p>
+  <p>
+
+### EigenLayer and Shared Security: "Cloud Service" for L1 Security
+
+EigenLayer (2023-06 mainnet) is the biggest consensus mechanism paradigm innovation in 2025-2026. It solves the "cost of launching new chains/services" problem.
+
+**Core idea**:
+- Users re-stake already-staked ETH (or LST, e.g., stETH) to EigenLayer
+- This ETH simultaneously secures other services (AVS — Actively Validated Services)
+- Users get additional yield (base + AVS rewards)
+- AVS projects don't need to maintain their own validator set
+
+**AVS ecosystem (2026 data)**:
+
+| AVS | Category | Description |
+|---|---|---|
+| **LayerZero AVS** | Cross-chain bridge | Cross-chain message verification |
+| **EigenDA** | Data availability | High-throughput DA service |
+| **AltLayer** | Verification service | restaking-as-a-service |
+| **Hyperlane AVS** | Cross-chain message | ISM framework integration |
+| **Brevis** | ZK coprocessor | ZK proof computation |
+| **Omni** | Cross-chain | Omnichain messaging |
+| **Aethos** | AI inference | Decentralized GPU cluster |
+| **Witness** | Off-chain compute | Witness Chain verification |
+| **Espresso AVS** | Sequencing | Shared sequencing integration |
+
+**AVS economic model**:
+- **Operators**: entities running AVS nodes, qualify by staking ETH via EigenLayer
+- **AVS consumers**: pay for AVS services (can be fiat/stablecoins/AVS tokens/ETH)
+- **Stakers (restakers)**: delegate ETH to operators, earn yield
+- **Slash conditions**: operator misbehavior results in staked ETH being slashed
+
+**EigenLayer TVL evolution (2024-2026)**:
+- 2023-06 mainnet: 10K ETH
+- 2024-Q1: 4M ETH ($14B)
+- 2024-Q3: 6M ETH ($20B)
+- 2025-Q1: 7M ETH ($28B)
+- 2026-Q1: 5.5M ETH ($20B, slight pullback)
+
+**Symbiotic and Karak: competitors**:
+- **Symbiotic (2024-09)**: accepts any staked asset (ETH + LST + LRT + SOL + TON), more flexible
+- **Karak (2024-Q3)**: deep integration with Mantle ecosystem
+- **EigenLayer v2 (2025)**: open to non-ETH assets
+
+**Cost of shared security**:
+- **Risk contagion**: restaked asset being slashed affects all AVS
+- **Validator concentration**: a few large operators control most AVS
+- **Regulatory uncertainty**: SEC may view restaking as securities
+
+**EigenLayer's significance for 2026**: it turns "launching a new chain" from 0→1 into 0→0.1. Any team can launch an AVS for $1M, not $100M to launch an L1. This is the "cloudification" of consensus.
+
+Chapter 5 will explore <strong>Smart Contracts</strong> in depth, learning how to write and deploy executable code on blockchain, and studying Solidity language and smart contract security.</p>
 
   <div style="margin-top: 2em; padding-top: 1em; border-top: 2px solid #4c9be8;">
     <p style="text-align: center;">

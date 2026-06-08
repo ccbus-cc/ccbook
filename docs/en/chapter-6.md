@@ -18,13 +18,39 @@ title: "Chapter 6: Blockchain Architecture"
 </div>
 
 
-## 6.0 2025-2026 视角:为什么这一章要重新读
+## 6.0 2025-2026 Perspective: Why Reread This Chapter
 
-Blockchain architecture is undergoing a paradigm shift from monolithic to modular. Celestia, EigenDA, and Avail decouple data availability from execution; Espresso and Astria provide shared sequencers; Ethereum embraces the DA layer via EIP-4844 (blob) and the danksharding roadmap. This chapter systematically explains the four-layer architecture: **Execution, Settlement, Consensus, Data Availability (DA)**.
+Blockchain architecture is undergoing a paradigm shift from **monolithic** to **modular**. The new layering you need to understand in 2025-2026:
+
+**Execution + Settlement + Consensus + Data Availability (DA) = Modern blockchain architecture**
+
+1. **Data Availability (DA) layer boom**:
+   - **Celestia** (mainnet 2023-10): first dedicated DA layer, uses data availability sampling (DAS) for high throughput
+   - **EigenDA** (2024-Q2): EigenLayer-restaked DA layer, economic model differs from traditional L1
+   - **Avail**: Polygon team's general-purpose DA layer
+   - **EIP-4844 Blob** (2024-03): Ethereum's native DA, blob data expires in 18 days, L2 cost down 100x
+   - **PeerDAS (Fusaka 2026-Q2 planned)**: further expands blob capacity 4-8x
+
+2. **Shared Sequencer**:
+   - **Espresso**: first production-grade shared sequencer, serving OP Stack chains
+   - **Astria**: Celestia ecosystem shared sequencer
+   - **Radius**: emerging shared sequencer focused on cross-chain atomicity
+   - **Advantages**: cross-chain atomicity (one user tx affects multiple L2s), MEV democratization, censorship resistance
+
+3. **Based Rollup (L1-sequenced) and Native Rollup**:
+   - **Based Rollup** (proposed by Justin Drake): directly sequenced by L1 validators, no independent sequencer, inherits L1 censorship resistance
+   - **Native Rollup**: executed inside L1 nodes, achieving ultra-low latency
+   - **Representative projects**: Taiko (earliest based rollup), Fuel (SVM-based), MegaETH (optimistic)
+
+4. **Appchain ecosystem**:
+   - **Cosmos SDK + IBC**: 100+ appchains, e.g., dYdX (perpetuals), Berachain (Proof of Liquidity)
+   - **OP Stack Superchain**: Base, OP Mainnet, Zora, Mode, Worldcoin share sequencing and bridging
+   - **Polygon CDK**: Polygon zkEVM, Immutable, Astar share zkEVM proof
+   - **Arbitrum Stylus**: Rust + C++ can write L2 contracts, WASM execution
 
 ### 🖥️ Real-world Example: CCBus's Multi-Chain Architecture Adaptation
 
-CCBus runs simultaneously on EVM-family (BSC, ETH, Base, Arbitrum, zkSync), Solana-family, Bitcoin-family (via Inscription), and Tron-family (TRC-20) — all heterogeneous architectures. Its contract logic must be abstracted to be 'execution-layer-agnostic'. The screenshot below shows CCBus's standard token creation form; the platform auto-adapts to the target chain.
+CCBus runs simultaneously on EVM-family (BSC, ETH, Base, Arbitrum, zkSync), Solana-family, Bitcoin-family (via Inscription), and Tron-family (TRC-20) — all heterogeneous architectures. Its contract logic must be abstracted to be "execution-layer-agnostic". The screenshot below shows CCBus's standard token creation form; the platform auto-adapts to the target chain.
 
 ![CCBus multi-chain architecture adaptation](../public/images/chapters/zh/standard-token-create.png)
 

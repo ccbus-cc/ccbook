@@ -19,15 +19,36 @@ title: "第十一章：NFT 与数字资产"
 
 ## 11.0 2025-2026 视角:为什么这一章要重新读
 
-NFT 在 2025-2026 已经从 JPEG 收藏品演化到 **RWA(链上国债凭证、房地产份额)、SBT(灵魂绑定代币)、Tickets(链上票务)、Music NFT(Audius、Songs Republic)、GameFi 资产(Big Time、Illuvium)**。ERC-721 与 ERC-1155 仍然占主流,但ERC-4907(可租赁 NFT)与 ERC-7656(链下指纹)正在标准化。
+NFT 在 2025-2026 已经从 JPEG 收藏品演化到 **RWA、SBT、链上票务、Music NFT、GameFi 资产**。2026 年的关键变化:
 
-### 🖥️ 真实案例:CCBus 的代币标准与 NFT 兼容性
+1. **ERC-721/1155 主导但新标准快速崛起**:
+   - **ERC-4907**(rentable NFT):游戏、票务场景标配
+   - **ERC-6551**(Token Bound Accounts):每个 NFT 拥有自己的智能合约账户
+   - **ERC-7656**(链下指纹):把传统 IP 保护与 NFT 桥接
+   - **ERC-5114**(Soulbound Badge):灵魂绑定凭证
 
-CCBus 提供的多种代币模板(HOLD_REFLECTION、LQUIDITY_PROVIDER_REFLECTION、BLACKHOLE 等)实际上都遵循 ERC-20 标准,但它们的可组合性已经接近 ERC-1155——**一个代币里既包含转账功能,又包含 NFT 风格的持币证明**。下图是标准代币的创建界面。
+2. **RWA-NFT 主流化**:
+   - **Ondo OUSG**:用 NFT 表示美债份额
+   - **Centrifuge**:把私募信贷代币化为 NFT
+   - **Polytrade**:把应收帐款代币化
+   - **2026 数据**:RWA-NFT 链上总规模 $8B+(2024 年仅 $1B)
 
-![CCBus 标准代币创建界面](../public/images/chapters/zh/standard-token-create.png)
+3. **SBT(灵魂绑定代币)**:
+   - **应用**:教育证书(哥伦比亚大学、HKUST)、身份(Worldcoin)、信誉(去中心化信用评分)
+   - **不可转让性**:实现"非金融资产"的链上化
+   - **2026 真实项目**:Galxe Passport、Linea Voyager、Lens Profile
 
-*图 11-1:CCBus 标准代币。展示 2026 年代币化资产的多样性——同一个 UI 可以配置从 普通 ERC-20 到 NFT-backed 持币证明的各种衍生形态。*
+4. **Music NFT 复兴**:
+   - **Audius**(2024 主网)集成 Spotify-style 流媒体
+   - **Royal**(2024-Q3 被迪卡唱片收购)
+   - **Sound.xyz**(2024-Q4)与环球音乐合作
+   - **2026 数据**:独立音乐人通过 NFT 收入超 5 亿美元
+
+5. **GameFi 资产**:
+   - **Big Time**(2024 主网)与 Guild of Guardians、Sandbox
+   - **Illuvium**(2024-Q4 主网)3A 级链游
+   - **Parallel**(2024 AI 集成)链上 TCG
+   - **2026 真实数据**:GameFi 玩家日活突破 300 万
 
 ## 11.1 什么是 NFT？
 

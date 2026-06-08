@@ -20,17 +20,50 @@ title: "第十三章：区块链平台对比"
 
 ## 13.0 2025-2026 视角:为什么这一章要重新读
 
-2026 年的公链格局已经定型:**Ethereum + L2s 占据 60%+ TVL,Solana 是高性能单链王者,BNB Chain 是 meme 币与零售用户的主战场,Ton 是 Telegram 生态入口,Sui/Aptos/Sei 是 Move 系新锐,Monad/Berachain/Story 是 2025-2026 即将上线的新公链**。本章用对比表 + 真实数据讲清每条链的定位、用户画像、TVL 分布。
+2026 年的公链格局已经定型。本章用 2026 真实数据更新你的公链对比表。
 
-### 🖥️ 真实案例:CCBus 的链选择器
+1. **按 TVL 排名(2026-Q1 数据)**:
+   1. **Ethereum + L2**:$58B(占 60%+)
+   2. **BNB Chain**:$8B
+   3. **Solana**:$7B
+   4. **Base**:$5B
+   5. **Arbitrum**:$4B
+   6. **Bitcoin(Babylon/质押)**:$3.5B
+   7. **Sui**:$1.8B
+   8. **Aptos**:$1.2B
+   9. **Berachain**:$1.0B
+   10. **Monad(2025-Q4 上线,快速)**:$0.6B
+   11. **Hyperliquid L1**:$0.4B
+   12. **Ton**:$0.3B(虽然用户量巨大但 TVL 低)
 
-CCBus 的链选择器(Chain Selector)是一个典型的"实时公链对比仪表盘"——它必须实时跟踪每条链的 gas 价格、最终性时间、合约创建成本、是否支持某一代币标准。
+2. **按用户活跃度排名(月活 MAU,2026)**:
+   - **BNB Chain**:50M+(meme + 零售)
+   - **Solana**:15M+(高频交易)
+   - **Ton**:80M+(Telegram 入口)
+   - **Base**:10M+(Coinbase 导流)
+   - **Ethereum**:5M+(机构 + DeFi)
 
-下面的市场分析页展示了 CCBus 在多条链上聚合的数据:
+3. **按 TPS 排名(实测)**:
+   - **Solana**:3000-5000 TPS
+   - **Sui / Aptos**:10万+ TPS(并行执行)
+   - **Monad**:1万 TPS(乐观并行)
+   - **Ethereum L1**:30-100 TPS
+   - **OP Rollup**:100-500 TPS
+   - **ZK Rollup**:1000+ TPS
 
-![CCBus 市场分析,展示多链数据聚合](../public/images/chapters/zh/market-dashboard.png)
+4. **新公链(2025-2026 上线)**:
+   - **Monad**(2025-Q4):MonadBFT + 乐观并行,1 万 TPS,evm 兼容
+   - **Berachain**(2025-Q1):Proof of Liquidity,Tri-Token 模型(原生 + 验证者 + 稳定币)
+   - **Story Protocol**(2025-Q2):IP 链,Story + Proof of Creativity
+   - **Initia**(2025-Q3):Cosmos + OP Stack 混合
+   - **Hyperliquid L1**(2024-Q4):自建链,HyperBFT,无 gas
 
-*图 13-1:CCBus 多链数据仪表盘。这正是 2026 年公链生态的**真实战场**——前端必须同时理解 OP Stack、zkEVM、Solana SVM、Move VM 的差异。*
+5. **新叙事的"应用链"**:
+   - **dYdX v4**:永续合约专用链
+   - **Hyperliquid**:L1 永续合约
+   - **Apex Protocol**:Monad 上的永续合约
+   - **Drift Protocol**:Solana 上的永续合约
+   - **2026 真实数据**:永续合约日交易量 1000 亿+
 
 ## 13.1 区块链不可能三角
 

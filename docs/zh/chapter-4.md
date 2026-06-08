@@ -20,7 +20,34 @@ title: "第四章：共识机制"
 
 ## 4.0 2025-2026 视角:为什么这一章要重新读
 
-共识机制是 2025-2026 年最活跃的研究领域之一。我们已经走出了 PoW vs PoS 的二元辩论,进入多极共存:**PoS 主导(L1)、PoH 高性能(Solana)、PoH+PoS 混合(Aptos/Sui 的 Joliac/Quorum)、基于 DAG 的并行执行(Near 的 Doomslug)、AVS 子网共享安全(EigenLayer)、Restaking 重组资本效率**。
+共识机制在 2025-2026 年已经从"PoW vs PoS 二元辩论"演化为**多极共存 + 共享安全 + 模块化共识**的复杂格局。本章你需要重读的核心变化:
+
+1. **PoS 主导 L1,PoW 退守 BTC + 部分新链**:
+   - **以太坊**(PoS 2022 至今)TVL 占加密总市场 58%;信标链持有 1.05 亿 ETH
+   - **BNB Chain**(PoSA = PoS + Authority)日交易量 600 万+
+   - **Solana**(PoH + PoS + Tower BFT)TPS 实测 3000+
+   - **比特币**(PoW)虽未升级共识,但通过 Babylon、BitVM 等 L2 间接融入 PoS 经济
+
+2. **Restaking + 共享安全的崛起**:
+   - **EigenLayer**(2023-06 主网)TVL 突破 200 亿美元;通过 restaking ETH 保护其他 AVS(Actively Validated Services)
+   - **Symbiotic**(2024-09) 跨链 restaking 协议
+   - **Karak**(2024-Q3) 与 Mantle、DSRV 集成
+   - **EigenLayer AVS 生态**:跨链桥(LayerZero AVS)、数据可用性(EigenDA)、预言机(Chainlink CRE)、AI 推理(0G Labs)
+
+3. **DAG 共识与并行执行的新进展**:
+   - **Aptos、Sui、Movement** 用 Block-STM 实现的并行执行引擎,TPS 16 万+
+   - **Monad**(2025-10 即将上线)用 MonadBFT + 乐观并行,TPS 1 万
+   - **Sei V2**(2024-Q4)并行化 EVM 链
+
+4. **基于质押经济的新攻击向量**:
+   - **Long-range attack**(长程攻击):PoS 链历史上可通过重写历史来恢复密钥
+   - **Sandwich on validator selection**:验证者选择算法的可预测性被利用
+   - **MEV-Boost / 中心化 MEV 中继**:Flashbots 的 mev-boost 占据以太坊 90% 区块
+
+5. **共识机制的不可能三角在 2026 年部分被打破**:
+   - **去中心化 × 安全性 × 可扩展性** 的传统不可能三角,在 DA 层分离后,每个维度可以独立扩展
+   - **Celestia + DA 层** 让执行层可以独立追求高 TPS,DA 层用 PoS 提供安全性
+   - **EigenLayer + AVS** 让复用安全性变得像"租赁云服务"一样简单
 
 ### 🖥️ 真实案例:CCBus 多链支持背后的共识
 
@@ -803,7 +830,58 @@ $$
   <h3>本章总结</h3>
   <p>共识机制是区块链的核心,不同的共识算法在去中心化、性能和安全性之间有不同的权衡。PoW 提供了最高的安全性但能耗巨大,PoS 在保持去中心化的同时大幅提升了效率,DPoS 牺牲部分去中心化换取极高性能,而 PBFT 适合许可链场景下的高性能需求。未来的共识机制将朝着更高效、更环保、更安全的方向发展。</p>
   
-  <h3>延伸阅读</h3>
+  
+
+### EigenLayer 与共享安全:L1 安全的"云服务"
+
+EigenLayer(2023-06 主网)是共识机制在 2025-2026 年最大的范式创新。它解决了"启动新链/新服务的成本"问题。
+
+**核心思想**:
+- 用户把已经质押的 ETH(或 LST,如 stETH)再次质押到 EigenLayer
+- 这些 ETH 同时保护其他服务(AVS — Actively Validated Services)
+- 用户获得额外收益(基础 + AVS 奖励)
+- AVS 项目方不用自己维护验证者集合
+
+**AVS 生态(2026 数据)**:
+
+| AVS | 类别 | 描述 |
+|---|---|---|
+| **LayerZero AVS** | 跨链桥 | 跨链消息验证 |
+| **EigenDA** | 数据可用性 | 高吞吐 DA 服务 |
+| **AltLayer** | 验证服务 | 提供 restaking-as-a-service |
+| **Hyperlane AVS** | 跨链消息 | ISM 框架集成 |
+| **Brevis** | ZK 协处理 | ZK 证明计算 |
+| **Omni** | 跨链 | 全链消息传递 |
+| **Aethos** | AI 推理 | 去中心化 GPU 集群 |
+| **Witness** | 链下计算 | Witness Chain 验证 |
+| **Espresso AVS** | 排序 | 与 Espresso 共享排序集成 |
+
+**AVS 的经济模型**:
+- **运营者(Operator)**:运行 AVS 节点的实体,通过 EigenLayer 质押 ETH 获得资格
+- **AVS 消费者**:为 AVS 服务付费(可以是真金白银、AVS 代币、ETH)
+- **Stakers(restakers)**:把 ETH 委托给 Operator 获得收益
+- **Slash 条件**:Operator 作恶时,质押的 ETH 会被 slash
+
+**EigenLayer 的 TVL 演化(2024-2026)**:
+- 2023-06 主网:10K ETH
+- 2024-Q1:4M ETH($14B)
+- 2024-Q3:6M ETH($20B)
+- 2025-Q1:7M ETH($28B)
+- 2026-Q1:5.5M ETH($20B,有所回落)
+
+**Symbiotic 与 Karak:竞品**:
+- **Symbiotic(2024-09)**:接受任何质押资产(ETH + LST + LRT + SOL + TON),更灵活
+- **Karak(2024-Q3)**:与 Mantle 生态深度集成
+- **EigenLayer v2 (2025)**:开放给非 ETH 资产
+
+**共享安全的代价**:
+- **风险传染**:restaking 资产被 slash 会影响所有 AVS
+- **验证者集中度**:少数大型 Operator 控制大部分 AVS
+- **监管不确定性**:SEC 视 restaking 为证券?
+
+**EigenLayer 之于 2026 年的意义**:它让"启动新链"从 0 → 1 变成 0 → 0.1。任何团队可以用 100 万美元启动一个 AVS,而不是 1 亿美元启动一条 L1。这是共识机制的"云化"。
+
+<h3>延伸阅读</h3>
   <ul>
     <li>Satoshi Nakamoto - Bitcoin: A Peer-to-Peer Electronic Cash System</li>
     <li>Vitalik Buterin - A Proof of Stake Design Philosophy</li>

@@ -4,6 +4,40 @@ title: "第十六章：区块链的未来"
 
 # 第十六章：区块链的未来
 
+## 16.0 2025-2026 视角:为什么这一章要重新读
+
+区块链的下一个十年将由四个力量塑造:**AI 代理经济、意图与求解器、RWA 主流化、量子抗性**。本章用具体项目 + 真实数据展望 2026-2030。
+
+1. **AI 代理经济(2024-2026 起,2026 主流化)**:
+   - **ai16z DAO(2024-Q4)**:Eliza 框架,16 亿美元规模
+   - **Virtuals Protocol(2024-Q4)**:AI 代理可以发起 DAO 提案
+   - **Aethernet(2025-Q1)**:AI 代理成为链上选民
+   - **Zerebro(2024-Q4)**:AI 自主发行代币
+   - **Truth Terminal(2024-Q4)**:AI 操纵 meme 币 GOAT 市值破 13 亿
+   - **2026 数据**:链上 AI 代理管理的资产 80 亿美元+
+   - **2030 预测**:AI 代理管理资产将占 链上 10%+,代币由 AI 发行
+
+2. **意图 + 求解器(2024-2026 主流化)**:
+   - **UniswapX、CoW Swap、1inch Fusion**:占 DEX 流量 40%+
+   - **Across、deBridge DLN、Squid**:占跨链桥流量 60%+
+   - **KIP Protocol**:AI 驱动的意图
+   - **2030 预测**:意图式交易占链上 80%+
+
+3. **RWA 主流化(2024-2026 起)**:
+   - **BlackRock BUIDL**:5 亿美元
+   - **Ondo Finance**:10 亿美元
+   - **Maple Finance**:30 亿美元
+   - **2030 预测**:RWA 链上总规模 $30T(国际清算银行预测)
+
+4. **量子抗性(2024-2026 标准化)**:
+   - **NIST FIPS 203/204/205**(2024-08 发布)
+   - **2030 预测**:L1 集成 PQC 签名(ML-DSA 或 SLH-DSA),BTC 升级方案仍在讨论
+
+5. **CCBus 的 T800/T1000 交易机器人**:
+   - **AI 代理驱动的做市/套利 SaaS**
+   - 任何人都可以订阅,无需编程
+   - 把"AI + 区块链"从 PPT 概念变成 SaaS
+
 ## 16.1 技术演进路线图
 
 区块链技术正处于快速演进阶段。从比特币的诞生（2009年）到以太坊的智能合约革命（2015年），再到当前的模块化区块链时代（2024-2025年），每个阶段都带来了质的飞跃。
@@ -530,129 +564,6 @@ Subnet 18: 数据清洗
 
 ```python
 # 1. 训练模型（传统方式）
-
-## 16.0 2025-2026 视角:为什么这一章要重新读
-
-区块链的下一个十年将由四个力量塑造:**AI 代理经济(ai16z、Virtuals Protocol、Aethernet)、意图与求解器生态(UniswapX、CoW Swap、1inch Fusion、Across)、RWA 主流化(预计 2030 年前 30 万亿美元链上化)、量子抗性(后量子签名 NIST FIPS 204/205)**。本章用具体项目 + 真实数据展望 2026-2030 的趋势。
-
-### 🖥️ 真实案例:CCBus 的 T800/T1000 交易机器人
-
-CCBus 的 **T800 / T1000 交易机器人**正是 AI 代理经济(AI agent economy)在 DeFi 的真实落地——它们不是简单的网格交易,而是**用 LLM + 链上数据 + 实时价格预言机的 AI 代理**,自动完成做市、套利、流动性管理等复杂操作。
-
-![CCBus 交易机器人 T800,展示 AI 代理驱动的做市/套利策略](../public/images/chapters/zh/swap-bot-t800.png)
-
-*图 16-1:CCBus 交易机器人 T800。这是 **AI 代理在链上的真实形态**——它把 "AI + 区块链" 从 PPT 上的概念,变成任何人都可以订阅的 SaaS 服务。*
-
-import torch
-import torch.nn as nn
-
-model = nn.Sequential(
-    nn.Linear(10, 20),
-    nn.ReLU(),
-    nn.Linear(20, 1)
-)
-# ... 训练模型 ...
-
-# 2. 导出为 ONNX
-torch.onnx.export(model, example_input, "model.onnx")
-
-# 3. 使用 EZKL 生成 ZK 证明
-import ezkl
-
-# 生成电路
-ezkl.gen_settings("model.onnx", "settings.json")
-ezkl.calibrate_settings("settings.json", "data.json")
-
-# 编译为 ZK 电路
-ezkl.compile_circuit("model.onnx", "network.compiled")
-
-# 生成证明
-ezkl.prove("witness.json", "network.compiled", "proof.json")
-
-# 4. 链上验证
-ezkl.verify("proof.json", "settings.json", "vk.key")
-```
-
-**应用场景**：
-
-1. **链上 AI 游戏**：
-   - 证明 AI NPC 决策合法
-   - 防止作弊
-
-2. **信用评分**：
-   - 证明信用模型计算正确
-   - 不泄露用户隐私数据
-
-3. **DeFi 风控**：
-   - AI 模型检测异常交易
-   - 链上可验证
-
-**性能（2025年）**：
-- **小型模型**（10万参数）：证明时间 ~10 秒
-- **中型模型**（100万参数）：证明时间 ~5 分钟
-- **证明大小**：~200 KB
-
-### 16.3.4 AI Agent 自主交易
-
-**Fetch.ai Autonomous Economic Agents (AEA)**：
-
-```python
-from aea.skills.base import Handler
-from aea.protocols.default.message import DefaultMessage
-
-class TradeHandler(Handler):
-    """AI Agent 交易逻辑"""
-
-    def handle(self, message: DefaultMessage):
-        # 1. 从预言机获取价格
-        price = self.context.oracle.get_price("ETH/USDT")
-
-        # 2. AI 模型预测
-        prediction = self.ml_model.predict(price_history)
-
-        # 3. 如果预测上涨 > 60% 概率，执行买入
-        if prediction.buy_probability > 0.6:
-            self.context.ledger_api.send_transaction(
-                to=DEX_CONTRACT,
-                data=encode_swap(amount=100),
-                gas=200000
-            )
-
-        # 4. 记录决策到链上
-        self.context.storage.log_decision(prediction, action="BUY")
-```
-
-**实际案例**：
-
-**Morpheus** (2024年上线)：
-- AI Agent 可自主管理加密资产
-- 用户设定策略："当 BTC 跌破 $40K 买入 0.1 BTC"
-- Agent 7x24 监控，自动执行
-
-**收益数据**（回测）：
-- 传统手动交易年化：12%
-- AI Agent 自动交易年化：28%
-- 减少情绪化决策
-
-### 16.3.5 未来：AI + 区块链深度融合
-
-**2025-2030 年趋势**：
-
-1. **AI Agent 经济**：
-   - 10 亿+ AI Agent 在链上自主交互
-   - Agent-to-Agent 交易占比 >50%
-
-2. **个性化 AI 助手**：
-   - 每人拥有专属 AI，管理链上身份
-   - 隐私保护：模型本地运行，结果上链
-
-3. **AI 驱动的 DAO**：
-   - AI 辅助治理决策
-   - 自动化提案评估
-
-4. **去中心化 AGI**：
-   - 通用人工智能（AGI）训练去中心化
-   - 避免单一实体控制超级 AI
 
 ## 16.4 RWA（真实世界资产）代币化
 

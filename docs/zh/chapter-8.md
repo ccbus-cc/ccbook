@@ -20,7 +20,43 @@ title: "第八章：互操作性与跨链"
 
 ## 8.0 2025-2026 视角:为什么这一章要重新读
 
-跨链已经从"桥"走向"意图(intent)"。2026 年的主流方案:**LayerZero V2(WireLib 通用消息)、Wormhole NTT(Native Token Transfer)、Chainlink CCIP、Across(意图式桥)、Stargate(统一流动性)、deBridge DLN**(DeBridge Liquidity Network)、**Axelar GMP**。本章讲清这些方案的安全模型、最终性时延、对原生 vs 包装资产的处理差异。
+跨链已经从"桥"演化为"意图(intent)"。2025-2026 年的主流方案:
+
+1. **LayerZero V2 (2024-Q3) + WireLib 通用消息**:
+   - 全链桥接,OFT (Omnichain Fungible Token) 标准
+   - 支持 BSC、ETH、Solana、Base、Arbitrum、zkSync、Linea、Scroll 等 50+ 链
+   - **2026 真实项目**:Stargate(OFT 桥)、Tether(USDT 全链)、PancakeSwap(全链 DEX)、Radiant(全链借贷)
+
+2. **Wormhole NTT (Native Token Transfer, 2024-Q4)**:
+   - 与 OFT 不同的实现路径,基于 Wormhole 守护者签名
+   - 支持更多链(70+)
+   - **2026 真实项目**:Sky(原 MakerDAO)、Karura、Acala(Polkadot 系)
+
+3. **Chainlink CCIP (Cross-Chain Interoperability Protocol)**:
+   - 链下 OCR + 链上验证
+   - 风险分级管理(双向、多签)
+   - **2026 真实项目**:Aave 跨链版(GHO 跨链)、Synthetix v3
+
+4. **Across Protocol**:意图式桥的代表
+   - 2 秒到达(无需等待目的链最终性)
+   - Optimistic verification(类似 Optimism)
+   - **2026 数据**:日交易量 5 亿+,桥接 TVL 5 亿美元
+
+5. **deBridge DLN (DeBridge Liquidity Network)**:
+   - 跨链意图的另一个流派
+   - 求解器竞标 + 链上结算
+   - **2026 真实项目**:1inch Fusion+、Matcha、ParaSwap 集成
+
+6. **基于 ZK 的跨链(ZK Light Client)**:
+   - **zkBridge**(2023-08,2024 升级):用 ZK 证明验证源链共识
+   - **Electron Labs**:用 ZK 证明比特币到 EVM
+   - **Lagrange**:跨链 ZK 证明计算
+   - **2026 优势**:无信任,无中间人,完全去中心化验证
+
+7. **Axelar GMP (General Message Passing)**:
+   - 通过 PoS 验证者集合的安全模型
+   - 集成 Squid、Satellite 等跨链 dApp
+   - 2026 持续主导应用链间的桥接
 
 ### 🖥️ 真实案例:CCBus 的三层跨链架构
 
@@ -35,8 +71,6 @@ CCBus 提供了三种跨链入口:
 ![CCBus 跨链桥 Z(zkBridge)](../public/images/chapters/zh/bridge-z.png)
 
 *图 8-1 & 8-2:CCBus 跨链桥的两种实现路径。**LayerZero 的 optimistic 模型**与**zkBridge 的有效性证明模型**是当前跨链安全权衡的两条主线。*
-
----
 
 ## 8.1 为什么需要互操作性？
 

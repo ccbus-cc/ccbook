@@ -18,9 +18,45 @@ title: "Chapter 8: Interoperability and Cross-Chain"
 </div>
 
 
-## 8.0 2025-2026 视角:为什么这一章要重新读
+## 8.0 2025-2026 Perspective: Why Reread This Chapter
 
-Cross-chain has moved from 'bridges' to 'intents'. The 2026 mainstream solutions: **LayerZero V2 (WireLib), Wormhole NTT (Native Token Transfer), Chainlink CCIP, Across (intent-based), Stargate (unified liquidity), deBridge DLN (DeBridge Liquidity Network), Axelar GMP**. This chapter covers the security models, finality latency, and native vs wrapped asset handling of each.
+Cross-chain has evolved from "bridges" to "intents". 2025-2026 mainstream solutions:
+
+1. **LayerZero V2 (2024-Q3) + WireLib General Message**:
+   - Omnichain bridge, OFT (Omnichain Fungible Token) standard
+   - Supports 50+ chains: BSC, ETH, Solana, Base, Arbitrum, zkSync, Linea, Scroll
+   - **2026 real projects**: Stargate (OFT bridge), Tether (USDT omnichain), PancakeSwap (omnichain DEX), Radiant (omnichain lending)
+
+2. **Wormhole NTT (Native Token Transfer, 2024-Q4)**:
+   - Different implementation path from OFT, based on Wormhole guardian signatures
+   - Supports more chains (70+)
+   - **2026 real projects**: Sky (formerly MakerDAO), Karura, Acala (Polkadot family)
+
+3. **Chainlink CCIP (Cross-Chain Interoperability Protocol)**:
+   - Off-chain OCR + on-chain verification
+   - Risk-graded management (bidirectional, multi-sig)
+   - **2026 real projects**: Aave cross-chain version (GHO cross-chain), Synthetix v3
+
+4. **Across Protocol**: representative intent-based bridge
+   - 2-second arrival (no need to wait for destination chain finality)
+   - Optimistic verification (similar to Optimism)
+   - **2026 stats**: $500M+ daily volume, $500M bridge TVL
+
+5. **deBridge DLN (DeBridge Liquidity Network)**:
+   - Another school of cross-chain intent
+   - Solver bidding + on-chain settlement
+   - **2026 real projects**: 1inch Fusion+, Matcha, ParaSwap integration
+
+6. **ZK-based cross-chain (ZK Light Client)**:
+   - **zkBridge** (2023-08, 2024 upgrade): uses ZK proofs to verify source chain consensus
+   - **Electron Labs**: ZK proofs from Bitcoin to EVM
+   - **Lagrange**: cross-chain ZK proof computation
+   - **2026 advantage**: trustless, no intermediary, fully decentralized verification
+
+7. **Axelar GMP (General Message Passing)**:
+   - Security model via PoS validator set
+   - Integrates Squid, Satellite and other cross-chain dApps
+   - Continues to dominate appchain-to-appchain bridging in 2026
 
 ### 🖥️ Real-world Example: CCBus's Three-Layer Cross-Chain Architecture
 

@@ -20,7 +20,33 @@ title: "第六章：区块链架构"
 
 ## 6.0 2025-2026 视角:为什么这一章要重新读
 
-区块链架构正经历从 monolithic(单体)到 modular(模块化)的范式转变。Celestia、EigenDA、Avail 把数据可用性(DA)从执行层剥离;Espresso、Astria 提供了共享排序器(shared sequencer);以太坊通过 EIP-4844(blob)与 danksharding 路线图拥抱 DA 层。本章将系统讲清三层架构:**执行层(Execution)、结算层(Settlement)、共识层(Consensus)、数据可用性层(DA)**。
+区块链架构正经历从 **monolithic(单体)** 到 **modular(模块化)** 的范式转变。2025-2026 年你需要理解的新分层:
+
+**执行层 (Execution) + 结算层 (Settlement) + 共识层 (Consensus) + 数据可用性层 (DA) = 现代区块链架构**
+
+1. **数据可用性(DA)层的爆发**:
+   - **Celestia**(2023-10 主网):首个专用 DA 层,用数据可用性采样(DAS)实现高吞吐量
+   - **EigenDA**(2024-Q2):基于 EigenLayer restaking 的 DA 层,经济模型与传统 L1 不同
+   - **Avail**:Polygon 团队推出的通用 DA 层
+   - **EIP-4844 Blob**(2024-03):以太坊原生 DA,blob 数据 18 天后过期,L2 成本降 100 倍
+   - **PeerDAS (Fusaka 2026-Q2 计划)**:进一步扩展 blob 容量 4-8 倍
+
+2. **共享排序器(Shared Sequencer)**:
+   - **Espresso**:第一个生产级共享排序器,服务于 OP Stack 链
+   - **Astria**:Celestia 生态的共享排序器
+   - **Radius**:新兴共享排序器,聚焦跨链原子性
+   - **优势**:跨链原子性(用户一笔交易可以同时影响多条 L2)、MEV 民主化、抗审查
+
+3. **Based Rollup(由 L1 排序的 Rollup)** 与 **Native Rollup**:
+   - **Based Rollup**(Justin Drake 提出):直接由 L1 验证者排序,无需独立 sequencer,继承 L1 抗审查性
+   - **Native Rollup**:在 L1 节点内执行 rollup,实现极低延迟
+   - **代表性项目**:Taiko(最早的 based rollup),Fuel(SVM-based),MegaETH(optimistic)
+
+4. **应用链(Appchain)生态**:
+   - **Cosmos SDK + IBC**:100+ 应用链,例如 dYdX(Perpetuals)、Berachain(Proof of Liquidity)
+   - **OP Stack Superchain**:Base、OP Mainnet、Zora、Mode、Worldcoin 等共享排序和桥
+   - **Polygon CDK**:Polygon zkEVM、Immutable、Astar 等共享 zkEVM 证明
+   - **Arbitrum Stylus**:Rust + C++ 可以写 L2 合约,WASM 执行
 
 ### 🖥️ 真实案例:CCBus 的多链架构适配
 

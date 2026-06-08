@@ -18,22 +18,30 @@ title: "Chapter 15: Security and Best Practices"
 </div>
 
 
-## 15.0 2025-2026 视角:为什么这一章要重新读
+## 15.0 2025-2026 Perspective: Why Reread This Chapter
 
-Blockchain security in 2026 faces three new attack waves: **private-key phishing (Approval Phishing), upgrade-trap hijack (Upgradeable Proxy Hijack), AI-driven contract vulnerability mining**. This chapter covers classic attacks (reentrancy, integer overflow, front-running, flash loans) and new threats (EIP-7702 delegation phishing, **Permit2 signature abuse**), plus the full toolchain: **Slither, Mythril, Echidna, Certora, Tenderly, Forta, Chainalysis**.
+Blockchain security in 2026 faces three new attack waves: **private-key phishing, contract upgrade traps, AI-driven contract vulnerability mining**. This chapter updates your security defense checklist.
 
-### 🖥️ Real-world Example: CCBus's Contract Audit and Verification Tools
+1. **Three new attack surfaces in 2025-2026**:
+   - **EIP-7702 phishing**: user signs `AUTH` message temporarily binding EOA to attacker's contract
+   - **Permit2 abuse**: Uniswap's universal approve protocol exploited by phishing
+   - **ERC-4337 signature replay**: UserOperation's signature doesn't include sender, can be replayed
 
-CCBus ships two complementary contract-security tools:
+2. **Evolution of traditional attacks**:
+   - **Reentrancy**: rare after OZ 5.1+ popularization
+   - **Front-running + MEV**: now industrialized (Across, UniswapX, CoW all have MEV protection)
+   - **Flash loan attacks**: still main attack vector, but with Forta real-time monitoring
 
-- **Contract Verifier**: decompile + source-match deployed bytecode to ensure   the contract a user interacts with is the one the team published — the   first line of defense against phishing.
-- **Contract Inspector**: static analysis + vulnerability pattern matching   (Slither-like detectors: reentrancy-eth, uninitialized-state, tx-origin,   unchecked-lowlevel, timestamp, etc.).
+3. **Required 2026 toolchain**:
+   - **Foundry** + **Slither** + **Echidna** + **Certora**: CI-enforced four-piece
+   - **Forta** + **Tenderly**: post-launch real-time monitoring
+   - **OpenZeppelin Defender** + **Safe{Wallet}**: operations management
+   - **Code Arena (Cantina)**: 2025 newcomer, crowdsourced audit at 3x speed
 
-![CCBus contract verifier](../public/images/chapters/zh/contract-verifier.png)
-
-![CCBus contract inspector (full)](../public/images/chapters/zh/contract-inspector.png)
-
-*Figures 15-1/2: CCBus's contract security toolchain. **Verifier answers "am I interacting with the code you claim?"**; **Inspector answers "is this code itself vulnerable?"**. Together they are the 2026 DeFi security standard workflow.*
+4. **CCBus's contract security toolchain**:
+   - **Contract Verifier**: decompile + source match
+   - **Contract Inspector**: Slither-style static analysis
+   - **Combining the two is the 2026 DeFi security standard workflow**
 
 ## 15.1 Wallet Security
 

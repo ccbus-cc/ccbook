@@ -18,9 +18,31 @@ Cryptography is the cornerstone of blockchain technology. This chapter delves de
 </div>
 
 
-## 2.0 2025-2026 视角:为什么这一章要重新读
+## 2.0 2025-2026 Perspective: Why Reread This Chapter
 
-Cryptography is the bedrock of blockchain security. From ECDSA signatures to BLS aggregate signatures, from SHA-2 to PLONK-based zk-SNARKs, the blockchain crypto stack in 2026 is far more sophisticated than it was in the early 2020s. This chapter covers both classics (hashing, symmetric/asymmetric encryption) and the frontier (ZK, threshold signatures, AA signature aggregation).
+The cryptography stack is one of the **most rapidly evolving areas** of blockchain technology in 2026. Classical crypto (SHA-2, ECDSA, Keccak256) remains the de facto L1 standard, but **frontier crypto has evolved from "theoretically viable" to "production-ready"**:
+
+1. **Industrial-grade maturity of zero-knowledge proofs (ZK)**:
+   - **Proof time**: Plonky2 (2022) first pushed STARK proofs to ~100ms; **Plonky3 (2024-09) + SP1 (2024)** pushed general-purpose zkVM proofs to sub-second
+   - **Recursive proofs**: Plonky3 proofs can be verified by Plonky3 itself (recursion), enabling O(1) on-chain verification
+   - **Post-quantum signatures**: NIST FIPS 204 (ML-DSA / Dilithium) and FIPS 205 (SLH-DSA / SPHINCS+) formally released 2024-08; major L1s began integrating PQC signatures in 2026
+   - **Dedicated zkEVM**: Polygon zkEVM, zkSync Era, Linea, Scroll, Starknet zkEVM bytecode can now carry complex dApps like Uniswap, Aave, Compound
+
+2. **BLS signature aggregation's killer use case**:
+   - Ethereum Beacon Chain uses BLS12-381 to aggregate 1M validator signatures; one aggregated signature verifies an entire epoch (~6.4 minutes)
+   - EigenLayer's AVS (Actively Validated Services) similarly relies on BLS aggregation; 2026 EigenLayer TVL broke $20B
+   - New trend: **BLS + ZK hybrid** — solvers generate ZK proofs, signers use BLS aggregation, dramatically reducing cross-chain bridge cost
+
+3. **MPC wallets from "institutional-only" to "retail-ready"**:
+   - **Fireblocks** serves 1800+ institutions, custody $10T+ in assets
+   - **Safe** via ERC-4337 + MPC gives EOAs 2-of-3 multi-sig capability
+   - **Lit Protocol** combines MPC with cross-chain via PKP (Programmable Key Pairs)
+   - **Privy** via Turnkey + ZeroDev enabled 200+ major dApps to integrate keyless onboarding
+
+4. **Post-quantum (PQC) migration roadmap**:
+   - 2024-2025: NIST standardization phase
+   - 2025-2026: major L1s (Litecoin already testing Quantum-Resistant Sig) begin PQC integration
+   - 2027-2028: Ethereum EIP roadmap may include SPHINCS+/Dilithium integration (awaiting community decision)
 
 ### 🖥️ Real-world Example: CCBus Toolset
 

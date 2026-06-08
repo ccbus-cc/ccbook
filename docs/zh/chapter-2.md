@@ -20,7 +20,29 @@ title: "第二章：密码学基础"
 
 ## 2.0 2025-2026 视角:为什么这一章要重新读
 
-密码学是区块链安全的根基。从 ECDSA 签名到 BLS 聚合签名、从 SHA-2 到 zk-SNARKs 的 PLONK 体系,2026 年的区块链密码学栈已经远比 2020 年代初复杂。本章我们既会回顾经典(哈希、对称/非对称加密),也会介绍前沿(ZK、门限签名、账户抽象签名聚合)。
+密码学栈是 2026 年区块链技术栈里**变化最剧烈**的领域之一。古典密码学(SHA-2、ECDSA、Keccak256)仍是 L1 的事实标准,但**前沿密码学已经从"理论可行"演变为"生产就绪"**:
+
+1. **零知识证明(ZK)的工业级成熟**:
+   - **证明时间**:Plonky2(2022)首次把 STARK 证明压到 100 毫秒级;**Plonky3(2024-09) + SP1(2024)** 把通用 zkVM 证明压到亚秒级
+   - **递归证明**:Plonky3 证明可以再被 Plonky3 验证(递归),实现 O(1) 复杂度的链上验证
+   - **后量子签名**:NIST FIPS 204 (ML-DSA / Dilithium) 与 FIPS 205 (SLH-DSA / SPHINCS+) 已于 2024-08 正式发布,2026 年起各大 L1 开始集成 PQC 签名
+   - **专用 zkEVM**:Polygon zkEVM、zkSync Era、Linea、Scroll、Starknet 的 zkEVM 字节码已可承载 Uniswap、Aave、Compound 等复杂 dApp
+
+2. **BLS 签名聚合的杀手级应用**:
+   - 以太坊 Beacon Chain 用 BLS12-381 聚合 100 万验证者签名,每 epoch (~6.4 分钟) 只需验证一个聚合签名
+   - EigenLayer 的 AVS(Actively Validated Services) 同样依赖 BLS 聚合,2026 年 EigenLayer TVL 突破 200 亿美元
+   - 新趋势:**BLS + ZK 混合** —— 求解器生成 ZK 证明,签名者用 BLS 聚合,大幅降低跨链桥成本
+
+3. **MPC 钱包从"机构专属"到"零售可用"**:
+   - **Fireblocks** 服务 1800+ 机构,托管资产超 10 万亿
+   - **Safe** 通过 ERC-4337 + MPC 让 EOA 享有 2-of-3 多签能力
+   - **Lit Protocol** 把 MPC 与跨链结合,提供 PKP(Programmable Key Pairs)
+   - **Privy** 通过 Turnkey + ZeroDev 让 200+ 主流 dApp 集成免密钥 onboarding
+
+4. **后量子(PQC)迁移路线图**:
+   - 2024-2025:NIST 标准化阶段
+   - 2025-2026:主流 L1(Litecoin 已经在测试 Quantum-Resistant Sig)开始集成 PQC
+   - 2027-2028:以太坊 EIP 路线图可能包含 SPHINCS+/Dilithium 集成(等待社区决策)
 
 ### 🖥️ 真实案例:CCBus 工具集
 

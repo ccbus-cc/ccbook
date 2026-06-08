@@ -18,9 +18,39 @@ title: "Chapter 9: Advanced Cryptography"
 </div>
 
 
-## 9.0 2025-2026 视角:为什么这一章要重新读
+## 9.0 2025-2026 Perspective: Why Reread This Chapter
 
-Frontier cryptography in 2025-2026 achieved three big things: **ZK performance breakthroughs (proof times from minutes to sub-second), FHE practical use (Zama fhEVM), MPC wallets at scale (Fireblocks, Safe, Lit Protocol)**. This chapter covers both the math and the real product forms.
+Frontier cryptography in 2025-2026 achieved three big things: ZK performance breakthroughs, FHE practical use, and MPC wallets at scale.
+
+1. **ZK performance breakthrough (2024-2025 industrial landing)**:
+   - **Plonky2** (2022): ~100ms proofs
+   - **Plonky3** (2024-09): sub-second proofs, O(1) recursive verification
+   - **SP1 (2024)**: zkVM with Rust, VM-friendly, dramatically lower developer bar
+   - **RISC Zero zkVM**: general-purpose zkVM, can prove arbitrary Rust/C++ programs
+   - **2026 reality**: ZKP proof time approaches L1 block time (within 12s), user doesn't perceive it
+
+2. **FHE (Fully Homomorphic Encryption) practical use**:
+   - **Zama fhEVM** (2024): Solidity contracts can operate directly on encrypted data
+   - **Fhenix**: Zama fhEVM-based privacy public chain
+   - **Inco Network**: EVM-compatible FHE chain
+   - **2026 applications**: on-chain voting (ballots always encrypted), on-chain auction (bids hidden), private DeFi (balance/tx invisible)
+
+3. **MPC wallet large-scale landing**:
+   - **Fireblocks** (institutional): serves 1800+ institutions, $10T+ assets
+   - **Safe** (retail/team): ERC-4337 + MPC, 2-of-3 multi-sig EOA
+   - **Lit Protocol**: PKP (Programmable Key Pairs), key split to distributed nodes
+   - **Privy** (consumer): keyless onboarding, Web2 users create wallet in one click
+   - **Turnkey**: developer-friendly MPC infrastructure
+
+4. **Post-Quantum (PQC) enters blockchain**:
+   - NIST FIPS 203/204/205 (released 2024-08)
+   - Major L1s evaluating integration (Ethereum EIP roadmap, EOS early migration, Litecoin testing)
+   - Main algorithms: **ML-KEM** (key encapsulation), **ML-DSA** (Dilithium, signature), **SLH-DSA** (SPHINCS+, hash signature)
+
+5. **BLS aggregation meets zk-SNARK hybrid**:
+   - Validator signature aggregation (BLS12-381), Ethereum beacon chain one aggregated signature per epoch
+   - **Zcash Halo2**: recursive SNARK, no trusted setup
+   - **Aleo**: zkPass for on-chain identity protection
 
 ### 🖥️ Real-world Example: CCBus Batch Wallet Cryptography
 

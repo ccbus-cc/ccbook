@@ -18,13 +18,39 @@ title: "Chapter 3: Cryptocurrency Fundamentals"
 </div>
 
 
-## 3.0 2025-2026 视角:为什么这一章要重新读
+## 3.0 2025-2026 Perspective: Why Reread This Chapter
 
-By 2026, cryptocurrency has expanded well beyond 'coins' — stablecoins (USDe, PYUSD, FDUSD), LSTs/LRTs (Liquid Staking and Restaking Tokens), and RWAs (tokenized treasuries, real estate) make up a multi-trillion-dollar new asset class. This chapter re-examines cryptocurrency tokenomics and issuance mechanisms in that light.
+Cryptocurrency in 2025-2026 has moved well past the "coin" concept, evolving into a **multi-asset-class programmable finance primitive system**:
+
+1. **Stablecoins are reshaping payments and cross-border settlement**:
+   - **Traditional fiat stablecoins**: USDT ($135B), USDC ($60B), FDUSD ($3B), PYUSD ($1B+, PayPal-issued)
+   - **Crypto-native stablecoins**: Ethena's USDe (Delta-neutral strategy, $5B+); MakerDAO's USDS; Curve's crvUSD
+   - **2026 macro trend**: Stablecoin legislation (US GENIUS Act, EU MiCA) opens compliance pathway; Stripe, PayPal, Visa, Mastercard all integrated; stablecoin monthly settlement exceeds Mastercard card network volume
+
+2. **LST / LRT has changed the staking economy**:
+   - **LST (Liquid Staking Token)**: Lido's stETH holds 30% of L1 staking; Rocket Pool's rETH provides decentralized 8-ETH-minimum staking
+   - **LRT (Liquid Restaking Token)**: EigenLayer-derived stETH + restake yield certificate; Puffer, Renzo, Kelp, EtherFi all provide LRT liquidity
+   - **2026 stats**: EigenLayer TVL $20B+, total LRT locked $15B+
+
+3. **BTC is no longer the static "digital gold" narrative**:
+   - **Bitcoin L2 ecosystem**: Stacks (POX), Babylon (Bitcoin staking), BitVM (arbitrary contract verification), Lightning Network (payments), Liquid (sidechain)
+   - **BTCFi**: Babylon allows staking BTC to Cosmos chains for PoS yield; Solv Protocol issues BTC+ yield certificates
+   - **2026 projection**: 30% of BTC on-chain will be used for non-payment purposes (staking, liquidity, bridging)
+
+4. **Meme coin economics ("memeconomics") is a new discipline**:
+   - Pump.fun (2024-01) launched 5M+ tokens on a single platform
+   - In 2025, meme coin trading accounted for 35%+ of DEX total volume
+   - **Meta-Meme protocols** emerged — combining Pump + Burn + Lock + Reward to create sustainable meme economies
+
+5. **RWA (Real World Asset) tokenization**:
+   - **Money market funds**: Ondo Finance's OUSG (US Treasuries), Maple Finance's syrupUSDC (credit)
+   - **Private funds**: Securitize tokenized KKR, Apollo and other private funds
+   - **Real estate**: RealT, Propy, Blocksquare tokenize real estate shares (still small scale)
+   - **2026 projection**: $30B+ in RWA on-chain (vs $15B in 2024)
 
 ### 🖥️ Real-world Example: CCBus Token Square
 
-CCBus turns 'issuing a token' — a task that used to require a Solidity engineer — into a few clicks for any ordinary user. The screenshot below shows the **CCBus Standard Token creation form**. Fill in five fields (name, symbol, total supply, decimals, recipient address) and the platform auto-deploys an ERC-20 contract.
+CCBus turns "issuing a token" — a task that used to require a Solidity engineer — into a few clicks for any ordinary user. The screenshot below shows the **CCBus Standard Token creation form**. Fill in five fields (name, symbol, total supply, decimals, recipient address) and the platform auto-deploys an ERC-20 contract.
 
 ![CCBus Standard Token creation form](../public/images/chapters/zh/standard-token-create.png)
 

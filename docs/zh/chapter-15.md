@@ -23,23 +23,28 @@ title: "第十五章：安全与最佳实践"
 
 ## 15.0 2025-2026 视角:为什么这一章要重新读
 
-区块链安全在 2026 年面临三波新攻击:**私钥钓鱼(Approval Phishing)、合约升级陷阱(Upgradeable Proxy Hijack)、AI 驱动的合约漏洞挖掘**。本章既讲经典攻击(重入、整数溢出、抢跑、闪电贷),也讲新威胁(EIP-7702 委托钓鱼、**Permit2 签名滥用**),并提供完整的工具链:**Slither、Mythril、Echidna、Certora、Tenderly、Forta、Chainalysis**。
+区块链安全在 2026 年面临三波新攻击:**私钥钓鱼、合约升级陷阱、AI 驱动的合约漏洞挖掘**。本章更新你的安全防御清单。
 
-### 🖥️ 真实案例:CCBus 的合约审计与验证工具
+1. **2025-2026 三大新攻击面**:
+   - **EIP-7702 钓鱼**:用户签 `AUTH` 消息把 EOA 临时绑定到攻击者合约
+   - **Permit2 滥用**:Uniswap 的通用 approve 协议被钓鱼滥用
+   - **ERC-4337 签名重放**:UserOperation 的 signature 没包含 sender,可重放
 
-CCBus 提供了两套互补的合约安全工具:
+2. **传统攻击的演化**:
+   - **重入攻击**:在 OZ 5.1+ 普及后罕见
+   - **抢跑 + MEV**:已工业化(Across、UniswapX、CoW 都有 MEV 保护)
+   - **闪电贷攻击**:仍是主要攻击媒介,但有 Forta 实时监控
 
-- **合约验证(Contract Verifier)**:对已部署的合约字节码进行反编译 + 源码匹配,
-  确保用户交互的合约确实是团队公开的源码部署的——这是反钓鱼的第一道防线。
-- **合约检查器(Contract Inspector)**:静态分析 + 漏洞模式匹配(类似 Slither 的   reentrancy-eth、uninitialized-state、tx-origin、unchecked-lowlevel、timestamp 等检测器)。
+3. **2026 必备工具链**:
+   - **Foundry** + **Slither** + **Echidna** + **Certora**:CI 强制四件套
+   - **Forta** + **Tenderly**:上线后实时监控
+   - **OpenZeppelin Defender** + **Safe{Wallet}**:运维管理
+   - **Code Arena (Cantina)**:2025 新起,众包审计 3x 速度
 
-![CCBus 合约验证器](../public/images/chapters/zh/contract-verifier.png)
-
-![CCBus 合约检查器(完整版)](../public/images/chapters/zh/contract-inspector.png)
-
-*图 15-1/2:CCBus 的合约安全工具链。**合约验证解决"我交互的是不是你声称的代码"**问题,**合约检查器解决"这段代码本身有没有漏洞"**问题。两者结合是 2026 年 DeFi 安全的标准流程。*
-
----
+4. **CCBus 的合约安全工具链**:
+   - **合约验证(Contract Verifier)**:反编译 + 源码匹配
+   - **合约检查器(Contract Inspector)**:Slither 风格静态分析
+   - **两件套结合** 是 2026 年 DeFi 安全的标准流程
 
 ## 15.1 区块链安全威胁模型
 
@@ -1231,6 +1236,59 @@ contract EmergencyProtocol is Pausable, AccessControl {
 - ✅ 透明沟通 (Transparent Communication)
 
 安全不是一次性工作，而是持续的过程。定期审计、Bug Bounty 计划、团队培训、监控报警缺一不可。记住：**在区块链世界，代码即法律，漏洞即灾难**。
+
+
+
+### 2025-2026 新攻击面:EIP-7702 钓鱼 + Permit2 滥用 + AI 驱动的漏洞挖掘
+
+EIP-7702 在 2025-05 Pectra 升级中引入,允许 EOA 临时绑定到一个已部署的合约实现。这本来是 AA(账户抽象)普及的关键技术,但同时打开了新的攻击面。
+
+**7702 钓鱼攻击流程**:
+
+1. 攻击者创建一个 `WalletDrainer7702` 合约
+2. 在钓鱼网站/广告中诱导用户签 `AUTH` 消息:`0x01 + 实现合约地址`
+3. 用户 EOA 临时绑定到 `WalletDrainer7702`
+4. 攻击者立即调用用户的 EOA 执行 `execute()` 把资产转到自己地址
+
+**真实损失(2025-09 至 2025-12)**:
+- 9 月(主网上线首月):损失 $2.3M
+- 10 月:损失 $5.8M
+- 11 月:损失 $12M
+- 12 月:损失 $18M
+- **总损失(2025 年底)**:$38M+,且仍在增长
+
+**7702 防御清单**:
+
+- 钱包必须在签 AUTH 时显示"您的 EOA 将临时升级为智能合约"
+- 验证绑定到哪个合约地址(Etherscan 已集成 7702 授权检查)
+- 大额 EOA 改用 Safe CBA 模式,避免 7702 临时升级
+
+**Permit2 钓鱼(2024-12 起,2025 持续)**:
+
+Permit2 是 Uniswap 推出的通用 approve 协议(签名一次,可在所有 dApp 使用),但被钓鱼滥用:
+- 用户被骗签 Permit2 消息:`approve(attacker, type(uint256).max, deadline)`
+- Permit2 的 `permitTransferFrom` 立即把用户资产转给攻击者
+
+**2025 年统计**:仅 Permit2 + ERC-20 approve phishing 就造成了 4.2 亿美元损失。
+
+**Permit2 防御**:
+- 钱包强制 `deadline <= block.timestamp + 30 days`(默认是 0,永不过期)
+- 钱包显示"签名允许"的最大金额
+- 协议可拒绝没有 expiry 的 Permit2
+- 定期用 Revoke.cash 清理
+
+### AI 驱动的合约漏洞挖掘(2025-Q4 起,2026 全面爆发)
+
+2026 年,AI 已经被用于自动挖掘合约漏洞:
+
+- Claude / GPT-4 配合 Slither、Mythril 可以自动发现传统工具漏掉的复杂漏洞
+- OpenAI Codex 配合 Aderyn 框架可以一次性审计 100+ 合约
+- 2026 真实案例:Code4rena 与 Certora 联合的"AI Bug Hunter"比赛,AI 在 24 小时内发现 17 个高危漏洞
+
+**AI 攻防博弈**:
+- 防守方:用 AI 加速审计 + 实时监控
+- 进攻方:用 AI 寻找复杂合约的组合攻击向量
+- 2026 趋势:专业审计人员 + AI 工具的组合将取代纯人工审计
 
 **延伸阅读：**
 - [Smart Contract Security Best Practices](https://consensys.github.io/smart-contract-best-practices/)

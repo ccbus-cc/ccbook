@@ -21,7 +21,19 @@ title: "第一章：区块链基础"
 
 ## 1.0 2025-2026 视角:为什么这一章要重新读
 
-在 2026 年,区块链已从加密货币的底层技术演变为支撑全球数字经济的基础设施。本章我们将用最新的视角理解区块链:从比特币的诞生到如今的多链宇宙(multi-chain universe),从单纯的价值转移到 RWA(Real World Assets)代币化、AI 代理经济(intent-centric)、和模块化区块链(modular blockchain)的全面落地。
+2026 年的区块链已经不是"一种新奇的数字货币技术"。它已经演变为**支撑全球数字经济的底层基础设施**,同时承担着三种截然不同的角色:
+
+1. **价值结算层** — 比特币(BTC)、稳定币(USDT、USDC、USDe、PYUSD、FDUSD)构成的 3.4 万亿美元链上资产
+2. **可编程金融层** — 以太坊 + L2 共同承载的智能合约生态,日交易量超过 Visa 的 3 倍
+3. **身份与数据层** — ENS、Lens、Farcaster、SBT、Worldcoin 等正在重新定义"账户"
+
+**2025-2026 年这一章要重读的关键变化**:
+
+- **多链宇宙已定型**:2025 年是 L1 + L2 格局从"试验"变成"生产"的分水岭。以太坊(+$L2)占据 TVL 60%+,Solana 是单链吞吐量王者,BNB Chain 主导 meme 与零售用户,Ton 是 Telegram 14 亿用户的入口,Sui/Aptos 是 Move 系新锐,Monad/Berachain/Story 是 2025-2026 上线的新公链
+- **"区块链"不再只是"链"**:Celestia、EigenDA、Avail 提供的模块化数据可用性(DA)层,Espresso、Astria 提供的共享排序器(shared sequencer),把"区块链"拆成了执行层、结算层、共识层、DA 层四个独立模块
+- **AI 代理经济起飞**:ai16z DAO、Virtuals Protocol、Aethernet、Zerebro 让 AI 代理成为链上原生行为者,2025-Q4 链上 AI 代理管理的资产规模突破 80 亿美元
+- **RWA 主流化加速**:BlackRock BUIDL、Ondo Finance、Maple Finance、Securitize 已把超 300 亿美元的真实世界资产代币化到公链(国债、信贷、房产、私募基金)
+- **量子抗性准备**:NIST 在 2024-08 正式发布 FIPS 203/204/205(ML-KEM、ML-DSA、SLH-DSA),后量子密码学(PQC)进入区块链密码学栈的迁移期
 
 ### 🖥️ 真实案例:CCBus 一站式 DeFi 工具平台
 

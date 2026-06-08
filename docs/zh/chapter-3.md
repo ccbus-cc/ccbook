@@ -20,7 +20,33 @@ title: "第三章：加密货币基础"
 
 ## 3.0 2025-2026 视角:为什么这一章要重新读
 
-2026 年的加密货币已经远远超越"币"的范畴——稳定币(USDe、PYUSD、FDUSD)、LST/LRT(流动性质押代币与再质押代币)、RWA(国债、房地产代币化)构成了一个数万亿美元的新资产类别。本章重新梳理加密货币的代币经济学(tokenomics)与发行机制。
+加密货币在 2025-2026 年已经远远超越了"币"的概念,演化为一个**多资产类别的可编程金融原语体系**:
+
+1. **稳定币正在重塑支付与跨境结算**:
+   - **传统法币稳定币**:USDT($135B)、USDC($60B)、FDUSD($3B)、PYUSD($1B+ PayPal 发行)
+   - **加密原生稳定币**:Ethena 的 USDe(Delta-neutral 策略, $5B+);MakerDAO 的 USDS;Curve 的 crvUSD
+   - **2026 大趋势**:稳定币立法(美国 GENIUS Act、欧盟 MiCA)为合规化打开通路;Stripe、PayPal、Visa、Mastercard 全面接入;稳定币月结算量超过 Mastercard 卡组织
+
+2. **LST / LRT 改变了 staking 经济**:
+   - **LST(Liquid Staking Token)**:Lido 的 stETH 占 L1 staking 的 30%;Rocket Pool 的 rETH 提供 8 ETH 起步的去中心化方案
+   - **LRT(Liquid Restaking Token)**:EigenLayer 衍生的 stETH + restake 收益凭证;Puffer、Renzo、Kelp、EtherFi 都提供 LRT 流动性
+   - **2026 数据**:EigenLayer TVL $20B+,LRT 锁仓总规模 $15B+
+
+3. **BTC 不再是"数字黄金"的静态叙事**:
+   - **Bitcoin L2 生态**:Stacks(POX)、Babylon(比特币质押)、BitVM(任意合约验证)、Lightning Network(支付)、Liquid(侧链)
+   - **BTCFi**:Babylon 允许把 BTC 质押到 Cosmos 链,获取 PoS 收益;Solv Protocol 推出 BTC+ 收益凭证
+   - **2026 预测**:BTC 链上 30% 的 BTC 将被用于非支付用途(质押、流动性、桥接)
+
+4. **Meme 币经济学(memeconomics)成为新学科**:
+   - Pump.fun(2024-01)单平台首发代币超 500 万个
+   - 2025 年 meme 币交易量占 DEX 总量的 35%+
+   - 出现了 **Meta-Meme 协议** —— 通过 Pump + Burn + Lock + Reward 创造可持续 meme 经济
+
+5. **RWA 真实世界资产代币化**:
+   - **货币市场基金**:Ondo Finance 的 OUSG(美债)、Maple Finance 的 syrupUSDC(信贷)
+   - **私募基金**:Securitize 把 KKR、Apollo 等私募基金代币化
+   - **不动产**:RealT、Propy、Blocksquare 把房地产份额代币化(虽然规模仍小)
+   - **2026 预测**:RWA 链上总规模 $30B+(2024 年仅 $15B)
 
 ### 🖥️ 真实案例:CCBus 发币广场
 

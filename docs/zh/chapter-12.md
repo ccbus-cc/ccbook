@@ -20,21 +20,42 @@ title: "第十二章：治理与 DAO"
 
 ## 12.0 2025-2026 视角:为什么这一章要重新读
 
-治理(governance)与 DAO 在 2026 年走出了"投票 + 多签"的简单模型,进入了**链下委托(off-chain delegation via Snapshot v2)、链上可执行提案(Safe Module)、Optimistic governance(类似 Optimism 的 Citizens' House)、SubDAO 嵌套、AI 治理代理(ai16z DAO、Virtuals Protocol)**的新阶段。本章讲清现代 DAO 的基础设施和实战模式。
+治理(governance)与 DAO 在 2026 年走出了"投票 + 多签"的简单模型,进入了**链下委托、链上可执行、Optimistic 治理、SubDAO 嵌套、AI 治理代理**的新阶段。
+
+1. **Snapshot v2 + 链上执行**:
+   - **Snapshot X(2024-Q4)**:从纯链下投票升级为 zk-validated 链下 + 链上执行
+   - **Tally**:链上治理前端,支持 Compound、Uniswap、Aave 等主流 DAO
+   - **Boardroom**:DAO 治理聚合平台
+   - **2026 真实使用**:90%+ 主流 DAO 使用 Snapshot + 链上执行器
+
+2. **Safe Module 体系**:
+   - **Safe{Core}**:模块化智能合约账户
+   - **Safe Modules**:Zodiac Modules、Sign Protocol、UMA Optimistic Oracle 都可以挂载为治理执行器
+   - **2026 真实项目**:Aavegotchi DAO、Decentraland DAO、ENS DAO
+
+3. **Optimistic Governance(Optimism Citizens' House 模式)**:
+   - 公民身份证明 → 委托代表 → 决定公共物品资助
+   - **2026 真实项目**:Optimism RetroPGF、Coinbase Verified Pools
+   - 优势:不需要代币持有量,降低治理中心化
+
+4. **SubDAO 嵌套**:
+   - **MakerDAO / Sky**:Spark SubDAO、Allocation Core Unit
+   - **Aave**:Aave Grants DAO、Aave Companies
+   - **Uniswap**:Uniswap Foundation、Uniswap Grants
+   - **2026 趋势**:DAO 治理正在分层化、专业化
+
+5. **AI 治理代理**:
+   - **ai16z DAO(2024-Q4)**:MetaDAO + AI 代理,Eliza 框架
+   - **Virtuals Protocol(2024-Q4)**:AI 代理可以发起 DAO 提案
+   - **Aethernet(2025-Q1)**:AI 代理成为 DAO 投票人
+   - **2026 争议**:AI 代理是否应该有投票权?这是 DAO 治理的前沿问题
+
+6. **协议级治理(CCBus 实例)**:
+   - **314 协议(Protocol 314)**:把持币分红、推荐奖励、链上回购三者合一的复合协议,通过链上参数自动调整,无需人工投票
+   - **黑洞分红(Blackhole)**:把项目方的代币转入黑洞地址,通过减少流通量实现通缩
+   - **多功能代币(Multi-Function)**:在一个合约内同时配置税率、白名单、推荐人,并支持治理参数的可升级
 
 ### 🖥️ 真实案例:CCBus 的协议级治理(314 协议 + Blackhole)
-
-CCBus 的两个独特合约模板完美体现了现代协议治理思想:
-
-- **314 协议(Protocol 314)**:把持币分红、推荐奖励、链上回购三者合一的复合协议,通过链上参数自动调整,无需人工投票。
-- **黑洞分红(Blackhole)**:把项目方的代币转入黑洞地址,通过减少流通量实现通缩。
-- **多功能代币(Multi-Function)**:在一个合约内同时配置税率、白名单、推荐人,并支持治理参数的可升级。
-
-![CCBus 314 协议](../public/images/chapters/zh/protocol-314.png)
-
-![CCBus 黑洞分红](../public/images/chapters/zh/blackhole.png)
-
-*图 12-1/2:CCBus 314 协议与黑洞分红。这两个模板展示了 **协议级自治**——通过智能合约的预置参数,实现"代码即治理"(code-is-law)的现代 DAO 实践。*
 
 ## 12.1 什么是 DAO？
 

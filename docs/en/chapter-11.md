@@ -18,17 +18,38 @@ title: "Chapter 11: NFTs and Digital Assets"
 </div>
 
 
-## 11.0 2025-2026 视角:为什么这一章要重新读
+## 11.0 2025-2026 Perspective: Why Reread This Chapter
 
-NFT in 2025-2026 has evolved from JPEG collectibles to **RWA (on-chain treasury certificates, real-estate shares), SBT (Soulbound Tokens), Tickets (on-chain ticketing), Music NFTs (Audius, Songs Republic), GameFi assets (Big Time, Illuvium)**. ERC-721 and ERC-1155 still dominate, but ERC-4907 (rentable NFTs) and ERC-7656 (off-chain fingerprints) are becoming standard.
+NFT in 2025-2026 has evolved from JPEG collectibles to **RWA, SBT, on-chain ticketing, Music NFT, GameFi assets**. Key 2026 changes:
 
-### 🖥️ Real-world Example: CCBus Token Standards & NFT Compatibility
+1. **ERC-721/1155 still dominant, but new standards rising fast**:
+   - **ERC-4907** (rentable NFT): standard for gaming, ticketing
+   - **ERC-6551** (Token Bound Accounts): each NFT has its own smart contract account
+   - **ERC-7656** (off-chain fingerprints): bridges traditional IP protection with NFT
+   - **ERC-5114** (Soulbound Badge): soulbound credentials
 
-CCBus's token templates (HOLD_REFLECTION, LIQUIDITY_PROVIDER_REFLECTION, BLACKHOLE, etc.) all follow the ERC-20 standard, but their composability is already close to ERC-1155 — **a single token contains both transfer functionality and NFT-style holding proofs**.
+2. **RWA-NFT mainstreaming**:
+   - **Ondo OUSG**: NFT for US Treasury share
+   - **Centrifuge**: tokenize private credit as NFT
+   - **Polytrade**: tokenize accounts receivable
+   - **2026 stats**: $8B+ RWA-NFT on-chain (vs $1B in 2024)
 
-![CCBus standard token creation form](../public/images/chapters/zh/standard-token-create.png)
+3. **SBT (Soulbound Token)**:
+   - **Applications**: education certificates (Columbia, HKUST), identity (Worldcoin), reputation (decentralized credit scoring)
+   - **Non-transferability**: enables "non-financial assets" on-chain
+   - **2026 real projects**: Galxe Passport, Linea Voyager, Lens Profile
 
-*Figure 11-1: CCBus standard token. Demonstrates the diversity of 2026 tokenized assets — the same UI can configure everything from plain ERC-20 to NFT-backed holding certificates.*
+4. **Music NFT renaissance**:
+   - **Audius** (2024 mainnet) integrates Spotify-style streaming
+   - **Royal** (acquired by Decca Records 2024-Q3)
+   - **Sound.xyz** (2024-Q4) partnership with Universal Music
+   - **2026 stats**: independent musicians earn $500M+ via NFT
+
+5. **GameFi assets**:
+   - **Big Time** (2024 mainnet), Guild of Guardians, Sandbox
+   - **Illuvium** (2024-Q4 mainnet) 3A-grade chain game
+   - **Parallel** (2024 AI integration) on-chain TCG
+   - **2026 real data**: GameFi daily active players broke 3M
 
 ## 11.1 Non-Fungible Tokens (NFTs)
 

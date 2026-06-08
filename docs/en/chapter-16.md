@@ -18,17 +18,39 @@ title: "Chapter 16: The Future of Blockchain"
 </div>
 
 
-## 16.0 2025-2026 视角:为什么这一章要重新读
+## 16.0 2025-2026 Perspective: Why Reread This Chapter
 
-The next decade of blockchain will be shaped by four forces: **AI agent economies (ai16z, Virtuals Protocol, Aethernet), intents and solver ecosystems (UniswapX, CoW Swap, 1inch Fusion, Across), RWA mainstreaming (projected $30T on-chain by 2030), and quantum resistance (post-quantum signatures NIST FIPS 204/205)**. This chapter uses real projects and live data to forecast 2026-2030 trends.
+The next decade of blockchain will be shaped by four forces: **AI agent economies, intents and solvers, RWA mainstreaming, and quantum resistance**. This chapter uses specific projects and real data to forecast 2026-2030.
 
-### 🖥️ Real-world Example: CCBus's T800/T1000 Trading Bots
+1. **AI agent economy (2024-2026 start, 2026 mainstreaming)**:
+   - **ai16z DAO (2024-Q4)**: Eliza framework, $1.6B scale
+   - **Virtuals Protocol (2024-Q4)**: AI agents can initiate DAO proposals
+   - **Aethernet (2025-Q1)**: AI agents become on-chain voters
+   - **Zerebro (2024-Q4)**: AI autonomously issues tokens
+   - **Truth Terminal (2024-Q4)**: AI-manipulated meme coin GOAT broke $1.3B market cap
+   - **2026 stats**: assets managed by on-chain AI agents $8B+
+   - **2030 prediction**: AI agents will manage 10%+ of on-chain assets, tokens issued by AI
 
-CCBus's **T800 / T1000 trading bots** are exactly the AI agent economy in DeFi — not simple grid trading, but **AI agents powered by LLMs + on-chain data + real-time price oracles** that automatically perform market making, arbitrage, and liquidity management.
+2. **Intents + solvers (2024-2026 mainstreaming)**:
+   - **UniswapX, CoW Swap, 1inch Fusion**: 40%+ of DEX flow
+   - **Across, deBridge DLN, Squid**: 60%+ of cross-chain bridge flow
+   - **KIP Protocol**: AI-driven intent
+   - **2030 prediction**: intent-based transactions will be 80%+ of on-chain
 
-![CCBus trading bot T800, showing AI-agent-driven market-making/arbitrage strategies](../public/images/chapters/zh/swap-bot-t800.png)
+3. **RWA mainstreaming (2024-2026 start)**:
+   - **BlackRock BUIDL**: $500M
+   - **Ondo Finance**: $1B
+   - **Maple Finance**: $3B
+   - **2030 prediction**: $30T RWA on-chain (BIS forecast)
 
-*Figure 16-1: CCBus trading bot T800. This is the **real shape of AI agents on-chain** — it turns 'AI + blockchain' from PowerPoint concept into a SaaS service anyone can subscribe to.*
+4. **Quantum resistance (2024-2026 standardization)**:
+   - **NIST FIPS 203/204/205** (released 2024-08)
+   - **2030 prediction**: L1s integrate PQC signatures (ML-DSA or SLH-DSA), BTC upgrade plan still under discussion
+
+5. **CCBus's T800/T1000 trading bots**:
+   - **AI agent-driven market-making/arbitrage SaaS**
+   - Anyone can subscribe, no programming needed
+   - Turn 'AI + blockchain' from PowerPoint concept to SaaS
 
 ## 16.1 Current Limitations and Challenges
 
