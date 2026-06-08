@@ -90,6 +90,68 @@ Perform computations on encrypted data without decrypting.
 
 Generate provably random and verifiable outputs.
 
+
+
+### 9.7 Fully Homomorphic Encryption (FHE): From Theory to Production
+
+**What is FHE?**
+Fully Homomorphic Encryption (FHE) allows computation directly on ciphertext without decryption.
+
+**Difficulties of FHE**:
+- **Low efficiency**: traditional FHE is 100-1000x slower than plaintext computation
+- **Ciphertext expansion**: 1KB plaintext may become 100KB after encryption
+- **Noise accumulation**: each computation increases noise, requiring expensive "bootstrapping"
+
+**2024-2026 breakthroughs**:
+
+- **Zama fhEVM (2024)**: uses TFHE scheme, enables Solidity contracts to operate on encrypted data
+- **Fhenix (2024)**: Zama fhEVM-based privacy public chain
+- **Inco Network (2024)**: EVM-compatible FHE chain
+- **Sunscreen (2024)**: FHE library, Rust implementation
+- **Privasea (2025)**: FHE + machine learning
+
+**FHE killer applications in blockchain**:
+
+1. **On-chain private voting**
+   - Votes always encrypted, anyone can verify tally but can't see individual votes
+   - Use ZKP to prove tally correctness
+   - **2026 real projects**: Snapshot v3 (private voting), Aragon (private DAO voting)
+
+2. **On-chain private auction**
+   - Bid prices always encrypted, avoid sniping
+   - Settlement uses FHE + ZK to jointly verify winner
+   - **2026 real projects**: Paradigm, Fhenix
+
+3. **Private DeFi**
+   - User balances, transaction amounts always encrypted
+   - AMM computes on encrypted data, output decrypted for user
+   - **2026 real projects**: Fhenix Helix, Penumbra
+
+4. **On-chain identity verification**
+   - User submits "age > 18" encrypted proof
+   - Contract verifies with FHE, no need to know exact age
+   - **2026 real projects**: Worldcoin (based on ZK + FHE hybrid)
+
+**FHE + ZK hybrid architecture**:
+
+Most common design:
+- User encrypts data with FHE
+- On-chain contract verifies with FHE
+- Use ZKP to prove "I did the right operation on encrypted data"
+- User locally decrypts result with private key
+
+**FHE engineering challenges**:
+- **Computation overhead**: an ERC-20 transfer under FHE needs 1000x gas
+- **Precompile contracts**: need hardware acceleration (FHE ASIC)
+- **State management**: FHE state cannot be indexed by existing EVM
+- **Developer barrier**: Solidity contracts need to redesign data structures
+
+**FHE future (2026-2030 prediction)**:
+- 2026: FHE mainly on privacy L1 (Fhenix, Inco), regular EVM chains can't bear
+- 2027-2028: FHE-dedicated hardware (FHE ASIC) matures, 10-100x efficiency improvement
+- 2028-2030: FHE precompile contracts enter mainstream EVM chains
+- 2030+: FHE becomes "default option for private DeFi"
+
 ## 9.6 Post-Quantum Cryptography
 
 Cryptography resistant to quantum computer attacks.

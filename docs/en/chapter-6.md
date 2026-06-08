@@ -79,6 +79,66 @@ The memory pool holds pending transactions before they're included in blocks.
 - **Soft Forks** - Backward-compatible protocol changes
 - **Hard Forks** - Non-backward-compatible changes
 
+
+
+### 6.7 Modular Data Availability (DA) Layer: From EigenDA to PeerDAS
+
+**What is data availability (DA)?**
+
+Data availability refers to "whether anyone can download and verify all the transaction data of a block". If data is unavailable, although there is a "state root" on-chain, the full state cannot be reconstructed. This is the **data availability problem**.
+
+**Why need a dedicated DA layer?**
+
+- **Traditional L1 (ETH, Solana)**: DA + execution + consensus on the same chain, all nodes must store full data
+- **Modular L1**: DA provided by dedicated layer (Celestia, EigenDA, Avail), execution chain only needs to download from DA layer
+- **Advantage**: execution chain nodes have less storage pressure, can independently scale throughput
+
+**Celestia (2023-10 mainnet): first dedicated DA layer**
+
+- **Core technology**: Data Availability Sampling (DAS)
+- Nodes only need to download partial data + verify other nodes' commitments, high-probability data availability
+- Namespaced Merkle Tree (NMT) allows multi-Rollup to share Celestia space
+- **2026 real projects**: Manta, Movement, Berachain (EVM-L1, Celestia syncing as settlement)
+
+**EigenDA (2024-Q2 mainnet): EigenLayer-based DA**
+
+- **Economic model**: Operators stake ETH on EigenLayer, qualify to provide DA service
+- **Throughput**: up to 10 MB/s
+- **2026 real projects**: Mantle, Cyber, Caldera etc. rollups choose EigenDA
+
+**Avail (Polygon team, 2024-Q3 mainnet)**
+
+- Similar to Celestia, but supports KZG commitments
+- **2026 real projects**: Lens, Centrifuge, Space ID
+
+**EIP-4844 Blob (2024-03, Cancun upgrade)**
+
+- Ethereum's native "short-term DA"
+- blob data expires after 18 days
+- Compared to calldata, blob is cheaper (target 3, max 6, each 125KB)
+- **2026 real data**: Blob gas fee 0.001 gwei, daily blob usage 1.2M
+
+**PeerDAS (planned 2026-Q2, Fusaka upgrade)**
+
+- DAS introduced into Ethereum itself
+- Nodes only need to sample partial blob
+- blob capacity expanded 4-8x more
+
+**Comparison table**:
+
+| DA scheme | Throughput | Cost | Trust model | Ecosystem |
+|---|---|---|---|---|
+| **Ethereum L1 calldata** | Low | High | PoS | All L2 |
+| **EIP-4844 Blob** | Med | Very low | PoS | All L2 |
+| **Celestia** | High | Low | PoS (independent) | Manta, Movement |
+| **EigenDA** | Very high | Med | Restaking | Mantle, Cyber |
+| **Avail** | High | Low | PoS (independent) | Centrifuge |
+
+**Developer recommendations**:
+- Mainnet EVM chain → choose EIP-4844 blob (cheap and secure)
+- High-throughput apps (SocialFi, GameFi) → choose Celestia or EigenDA
+- Hybrid strategy: use Celestia for long-term storage, blob for short-term cost optimization
+
 ## 6.6 Blockchain Trilemma
 
 The fundamental challenge: balancing **Scalability**, **Security**, and **Decentralization**.

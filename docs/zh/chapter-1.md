@@ -1132,6 +1132,123 @@ print(f"新的哈希: {hash_result2}")
    - 不能有任何泄露风险
    - 例如：军事机密、个人隐私（除非使用隐私链）
 
+
+
+### 1.9 重新理解"区块链"——从单体链到模块化栈
+
+**传统观念(2018-2022)**:一条区块链 = 共识 + 执行 + 数据可用性 + 结算(全部打包在一条链上)
+- 例子:BTC、ETH(合并前)、Solana
+
+**2025-2026 新观念**:一条"区块链" = 4 个独立可替换的模块
+- **执行层(Execution)**:EVM、SVM、MoveVM、WASM 负责运行合约
+- **结算层(Settlement)**:验证执行层的结果,并提供 finality
+- **共识层(Consensus)**:对交易排序达成一致
+- **数据可用性层(DA)**:确保数据可被任何人下载、验证
+
+**实际分层(2025-2026 真实项目)**:
+
+| 模块 | 代表项目 | 技术 |
+|---|---|---|
+| 执行层 | Arbitrum Stylus、EVM、Solana SVM、Sui Move | EVM / WASM / MoveVM |
+| 结算层 | Ethereum L1、Celestia、Berachain | 任意可做 finality 的链 |
+| 共识层 | Ethereum Beacon Chain、Celestia、Solana Tower BFT | PoS / PoH / BFT |
+| DA 层 | Celestia、EigenDA、EIP-4844 Blob、Avail | DAS / Blob |
+
+**举例:Rollup + Blob**:
+- **执行**:Arbitrum One(Optimistic)、zkSync Era(ZK)
+- **结算 + 共识 + DA**:Ethereum L1(rollup 把状态根提交到 L1)
+- **DA**:blob 数据存在 L1 节点,18 天后过期
+
+**举例:基于 Celestia 的 Sovereign Rollup**:
+- **执行 + 结算**:Manta、Movement(各自 Rollup)
+- **DA**:Celestia(共享)
+- **共识**:Celestia(共享)
+
+**对开发者的意义**:
+- 不再需要"选择一条 L1",而是要"选择一组模块"
+- 启动应用的边际成本从 1 亿美元(L1)降到 1000 美元(Rollup)
+- 单点失败风险被分散到多个模块
+
+### 1.10 AI 代理账户(2025-2026 新范式)
+
+2026 年,链上账户的"用户"不再只是人类。一个**AI 代理账户**就是一个由 AI 模型控制的、拥有私钥的链上账户。
+
+**AI 代理账户的特征**:
+- 拥有自己的钱包(如 Safe 智能账户)
+- 可以自主发起交易
+- 可以持有资产(ETH、USDC、代币)
+- 可以加入 DAO 投票
+- 可以与其他 AI 代理交互
+
+**生产级项目(2025-2026)**:
+
+| 项目 | 描述 |
+|---|---|
+| **ai16z(Eliza 框架)** | 16 亿美元规模的开源 AI 代理框架,DAO 治理 |
+| **Virtuals Protocol** | 用户可一键创建 AI 代理代币,代理可发起治理提案 |
+| **Aethernet** | AI 代理可以成为 DAO 投票人 |
+| **Zerebro** | 完全自主的 AI 代理,自主发行代币 |
+| **Truth Terminal** | AI 操纵 meme 币 GOAT 市值破 13 亿美元 |
+| **Aethernet DAO** | AI 代理在 DAO 治理中拥有正式投票权 |
+
+**AI 代理账户的技术栈**:
+- **钱包**:Safe 智能账户(支持 Session Keys、限额)
+- **私钥**:MPC 多签(避免单点失控)
+- **身份**:SBT(灵魂绑定凭证)证明代理身份
+- **审计**:所有 AI 代理决策上链,可被传统审计工具审计
+- **限速**:单日最大支出限额,防止失控
+
+**AI 代理账户的争议(2026-Q1)**:
+- **争议 1**:AI 代理是否应该有投票权?法律上投票权是"人的权利"
+- **争议 2**:AI 代理的"行为"是代理人责任还是 AI 自己责任?
+- **争议 3**:如果 AI 代理亏了用户钱,谁来担责?
+- **2026 监管态度**:美国 SEC 不承认 AI 代理为"合规投资者",欧盟 MiCA 要求代理背后有自然人
+- **2027 预测**:AI 代理会获得有限的"链上人格"——可以做某些特定行为(如自动化做市),但不能有完整投票权
+
+**AI 代理账户的 Chain 示例(简化版)**:
+
+```solidity
+// 一个最简的 AI 代理智能账户
+contract AIAgentAccount {
+    address public owner;       // 人类创建者
+    address public operator;    // AI 代理的 session key
+    uint256 public dailyLimit;  // 单日限额
+    mapping(bytes32 => bool) public usedHashes; // 防止重放
+
+    modifier onlyOperator() {
+        require(msg.sender == operator, "not operator");
+        _;
+    }
+
+    modifier withinLimit(uint256 amount) {
+        require(amount <= dailyLimit, "over daily limit");
+        _;
+    }
+
+    function execute(address to, uint256 value, bytes calldata data, uint256 nonce)
+        external onlyOperator withinLimit(value)
+        returns (bytes memory)
+    {
+        // 重放保护
+        bytes32 txHash = keccak256(abi.encodePacked(to, value, data, nonce));
+        require(!usedHashes[txHash], "replay");
+        usedHashes[txHash] = true;
+
+        // 执行
+        (bool success, bytes memory result) = to.call{value: value}(data);
+        require(success, "exec failed");
+        return result;
+    }
+
+    function rotateOperator(address newOperator) external {
+        require(msg.sender == owner, "only owner");
+        operator = newOperator;
+    }
+}
+```
+
+**总结**:AI 代理账户是 2026 年最重要的新账户范式。它模糊了"用户"和"工具"的边界,需要新的监管、技术、伦理框架。
+
 ## 1.7 真实世界的类比与应用场景
 
 为了更好地理解区块链，让我们看一些生活中的类比和实际应用。

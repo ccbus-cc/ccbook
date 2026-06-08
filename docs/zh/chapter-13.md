@@ -541,6 +541,81 @@ Transaction {
 </svg>
 </div>
 
+
+
+### 13.7 2026 公链格局速览
+
+**TPS 实测排名(2026-Q1)**:
+
+| 链 | TPS(实测) | 最终性 | 共识 |
+|---|---|---|---|
+| Solana | 3000-5000 | 12.8s | PoH + Tower BFT |
+| Sui | 100,000+ | 2-3s | Mysticeti + Narwhal |
+| Aptos | 160,000+ | 0.9s | Block-STM + AptosBFT |
+| Monad | 10,000 | 1s | MonadBFT + 乐观并行 |
+| Berachain | 5,000 | 2-4s | PoL(Proof of Liquidity) |
+| Sei V2 | 12,500 | 1s | Twin-turbo + 并行 EVM |
+| Polygon zkEVM | 2000 | 1-2h(最终) / 2s(soft) | zkEVM + PolygonZkEVMConsensus |
+| Linea | 3000 | 1-2h | LineaConsensus + zk |
+| Hyperliquid L1 | 200,000 | 0.2s | HyperBFT + Hyperliquid consensus |
+
+**TVL 排名(2026-Q1)**:
+
+| 链 | TVL | 占比 |
+|---|---|---|
+| Ethereum + L2 | $58B | 60% |
+| BNB Chain | $8B | 8.3% |
+| Solana | $7B | 7.3% |
+| Base | $5B | 5.2% |
+| Arbitrum | $4B | 4.2% |
+| Bitcoin L2(Babylon) | $3.5B | 3.6% |
+| Sui | $1.8B | 1.9% |
+| Aptos | $1.2B | 1.2% |
+| Berachain | $1.0B | 1.0% |
+| Hyperliquid L1 | $0.4B | 0.4% |
+
+**MAU(月活用户)排名(2026)**:
+
+| 链 | MAU | 主要用户来源 |
+|---|---|---|
+| Ton | 80M+ | Telegram 14 亿用户的入口 |
+| BNB Chain | 50M+ | meme + 零售 + BSC DEX |
+| Solana | 15M+ | 高频交易 + meme + 支付 |
+| Base | 10M+ | Coinbase 导流 + Farcaster 集成 |
+| Bitcoin | 8M+ | 持币 + Ordinals |
+| Ethereum | 5M+ | 机构 + DeFi |
+
+**2026 格局判断**:
+- **Ethereum + L2**:仍是最大生态,但增长趋缓
+- **Solana**:单链性能王者,高频交易首选
+- **BNB Chain**:零售 + meme 流量入口
+- **Base**:Coinbase + Farcaster 的法币 + 社交入口
+- **Ton**:Telegram 入口,2026 增长最快
+- **新公链(Monad, Berachain, Sui, Aptos)**:各自切入细分场景
+
+**2026 链间桥接**:
+
+- **L1 <-> L1**:LayerZero、Wormhole、Chainlink CCIP
+- **L1 <-> L2**:官方桥 + Across
+- **L2 <-> L2**:Across(deBridge DLN, Squid)
+- **EVM <-> 非 EVM**:LayerZero V2 OFT, Wormhole NTT
+
+**2026 工具链排名**:
+
+| 工具 | 用户量 | 评分 |
+|---|---|---|
+| MetaMask | 30M+ | ⭐⭐⭐⭐ |
+| Rabby | 5M+ | ⭐⭐⭐⭐⭐ |
+| OKX Wallet | 10M+ | ⭐⭐⭐⭐ |
+| Phantom | 5M+ (Solana) | ⭐⭐⭐⭐ |
+| Backpack | 1M+ (multi-chain) | ⭐⭐⭐⭐ |
+| Safe (Gnosis Safe) | 5M+ | ⭐⭐⭐⭐⭐ |
+
+
+![CCBus 多链市场对比(2026 实时数据)](../public/images/chapters/zh/market-dashboard.png)
+
+*图: CCBus 多链市场对比(2026 实时数据)*
+
 ## 13.6 如何选择区块链平台？
 
 ### 决策树

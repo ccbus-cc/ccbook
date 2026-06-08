@@ -678,6 +678,68 @@ contract DiceGame is VRFConsumerBase {
 
 ---
 
+
+
+### 9.7 全同态加密(FHE):从理论到生产
+
+**什么是 FHE?**
+全同态加密(Fully Homomorphic Encryption)允许在密文上直接做计算,无需解密。
+
+**FHE 的难点**:
+- **效率低**:传统 FHE 比明文计算慢 100-1000 倍
+- **密文膨胀**:一个 1KB 明文加密后可能 100KB
+- **噪声累积**:每次计算后噪声增大,需要昂贵的"自举(bootstrapping)"
+
+**2024-2026 的突破**:
+
+- **Zama fhEVM(2024)**:用 TFHE 方案,实现 Solidity 合约对加密数据做运算
+- **Fhenix(2024)**:基于 Zama fhEVM 的隐私公链
+- **Inco Network(2024)**:EVM 兼容的 FHE 链
+- **Sunscreen(2024)**:FHE 库,Rust 实现
+- **Privasea(2025)**:FHE + 机器学习
+
+**FHE 在区块链的杀手级应用**:
+
+1. **链上隐私投票**
+   - 投票始终加密,任何人都可以验证计票,但看不到单票
+   - 用 ZKP 证明计票正确
+   - **2026 真实项目**:Snapshot v3(隐私投票)、Aragon(私有 DAO 投票)
+
+2. **链上隐私拍卖**
+   - 竞标价格始终加密,避免抢标
+   - 结算时由 FHE + ZK 共同验证胜出
+   - **2026 真实项目**:Paradigm、Fhenix
+
+3. **隐私 DeFi**
+   - 用户余额、交易金额始终加密
+   - AMM 在加密数据上计算,输出解密后给用户
+   - **2026 真实项目**:Fhenix Helix、Penumbra
+
+4. **链上身份验证**
+   - 用户提交"年龄 > 18"加密证明
+   - 合约用 FHE 验证,不需要知道具体年龄
+   - **2026 真实项目**:Worldcoin(基于 ZK + FHE 混合)
+
+**FHE + ZK 混合架构**:
+
+最常见的设计:
+- 用户用 FHE 加密数据
+- 链上合约用 FHE 验证
+- 用 ZKP 证明"我在加密数据上做了正确的运算"
+- 用户用私钥本地解密结果
+
+**FHE 的工程挑战**:
+- **计算开销**:一个 ERC-20 转账在 FHE 下需要 1000 倍 gas
+- **预编译合约**:需要硬件加速(FHE ASIC)
+- **状态管理**:FHE 状态无法被现有 EVM 索引
+- **开发者门槛**:Solidity 合约需要重新设计数据结构
+
+**FHE 的未来(2026-2030 预测)**:
+- 2026:FHE 主要在隐私 L1(Fhenix、Inco),普通 EVM 链难以承载
+- 2027-2028:FHE 专用硬件(FHE ASIC)成熟,效率提升 10-100 倍
+- 2028-2030:FHE 预编译合约进入主流 EVM 链
+- 2030+:FHE 成为"隐私 DeFi 默认选项"
+
 ## 9.6 隐私保护技术对比
 
 <div style="background: rgba(32, 55, 76, 0.5); padding: 1.5em; border-radius: 8px; margin: 2em 0;">

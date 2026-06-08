@@ -1094,6 +1094,50 @@ console.log('验证结果:', isValid);  // true
 </svg>
 </div>
 
+
+
+### 2.7 后量子密码学(PQC):区块链必须在 2030 前迁移
+
+量子计算机在 2030 年代将具备破解现有公钥密码学的能力。NIST 在 2024-08 正式发布了三个 PQC 标准:
+
+**NIST FIPS 203/204/205(2024-08 发布)**:
+
+| 标准 | 算法名 | 类型 | 用途 | 公钥大小 | 签名大小 |
+|---|---|---|---|---|---|
+| **FIPS 203** | ML-KEM (Kyber) | 密钥封装 | 加密 | 800B | — |
+| **FIPS 204** | ML-DSA (Dilithium) | 格密码签名 | 通用签名 | 1.3KB | 2.4KB |
+| **FIPS 205** | SLH-DSA (SPHINCS+) | 哈希签名 | 长期签名 | 32B | 8KB |
+
+**为什么区块链需要 PQC?**
+- 当前 ECDSA(secp256k1,比特币/以太坊)的 256 位私钥在量子计算机面前约等于 8 位密码
+- Shor 算法可在多项式时间内破解 ECDSA
+- 一旦量子计算机达到 4000+ qubit,所有现有钱包私钥面临风险
+- **Grover 算法**让 SHA-256 安全性从 128 位降到 85 位
+
+**区块链 PQC 迁移路线图**:
+- **2024-08**:NIST 标准化发布
+- **2025-2026**:Litecoin 启用 Quantum-Resistant Sig 试点、Algorand 测试 state proof
+- **2026-2028**:以太坊 EIP 路线图(待定),可能包括 PQC 集成
+- **2028-2030**:BTC 升级讨论(2025-Q1 Bitcoin Core 0.21 已加入 PQC 讨论)
+- **2030+**:全行业 PQC 化(预测)
+
+**PQC 对区块链的挑战**:
+- **签名大小激增**:ECDSA 签名 64 字节,ML-DSA 签名 2.4KB(38 倍)
+- **验证成本上升**:PQC 签名验证比 ECDSA 慢 10-100 倍
+- **存储膨胀**:每笔交易占 2.4KB,链上 1 亿笔交易 = 240GB
+- **向后兼容**:现有地址如何迁移?(可能需要 PQC + 现有双签过渡期)
+
+**PQC 与 ZK 结合**:
+- 一些 L1 正在探索"ZK 友好" + "PQC 友好"的双重签名方案
+- 例如 **Falcon** 签名(基于 NTRU 格)比 Dilithium 更小
+- **2026 真实项目**:Zcash Halo2 计划集成 PQC,QRL 链已完全 PQC
+
+**对开发者的建议**:
+- 新合约优先考虑使用 ML-DSA(Dilithium)签名
+- 升级路径:`ECDSA.verify → MLDSA.verify` 双签过渡
+- 监控 NIST 后续标准(NIST 已开始第二轮 PQC 标准化,2026 会有更多算法)
+- 关注 **NIST 候选:FAEST、MAYO、SLH-DSA-SHAKE** 等
+
 ## 2.6 高级密码学概念
 
 ### 零知识证明（Zero-Knowledge Proof）

@@ -215,6 +215,123 @@ Consortium blockchains are between public and private blockchains, managed by a 
 - **Quorum**: Enterprise-grade Ethereum developed by JPMorgan
 - **VeChain**: Supply chain management consortium blockchain
 
+
+
+### 1.9 Rethinking "Blockchain" — From Monolithic Chain to Modular Stack
+
+**Traditional view (2018-2022)**: A blockchain = consensus + execution + data availability + settlement (all bundled into one chain)
+- Examples: BTC, ETH (pre-merge), Solana
+
+**2025-2026 new view**: A "blockchain" = 4 independently replaceable modules
+- **Execution layer**: EVM, SVM, MoveVM, WASM run contracts
+- **Settlement layer**: validates execution results, provides finality
+- **Consensus layer**: orders transactions
+- **Data Availability layer (DA)**: ensures data is downloadable by anyone
+
+**Real 2025-2026 layered projects**:
+
+| Module | Representative | Tech |
+|---|---|---|
+| Execution | Arbitrum Stylus, EVM, Solana SVM, Sui Move | EVM / WASM / MoveVM |
+| Settlement | Ethereum L1, Celestia, Berachain | Any chain providing finality |
+| Consensus | Ethereum Beacon Chain, Celestia, Solana Tower BFT | PoS / PoH / BFT |
+| DA | Celestia, EigenDA, EIP-4844 Blob, Avail | DAS / Blob |
+
+**Example: Rollup + Blob**:
+- **Execution**: Arbitrum One (Optimistic), zkSync Era (ZK)
+- **Settlement + Consensus + DA**: Ethereum L1 (rollup posts state root to L1)
+- **DA**: blob data lives on L1 nodes, expires after 18 days
+
+**Example: Sovereign Rollup on Celestia**:
+- **Execution + Settlement**: Manta, Movement (each rollup)
+- **DA**: Celestia (shared)
+- **Consensus**: Celestia (shared)
+
+**What this means for developers**:
+- Stop "choosing an L1"; start "choosing a set of modules"
+- Marginal cost of launching an app drops from $100M (L1) to $1K (Rollup)
+- Single-point-of-failure risk spread across multiple modules
+
+### 1.10 AI Agent Accounts (2025-2026 New Paradigm)
+
+By 2026, the "user" of on-chain accounts is no longer just humans. An **AI agent account** is an on-chain account controlled by an AI model, holding its own private keys.
+
+**Characteristics of AI agent accounts**:
+- Own its own wallet (e.g., Safe smart account)
+- Can initiate transactions autonomously
+- Can hold assets (ETH, USDC, tokens)
+- Can join DAO voting
+- Can interact with other AI agents
+
+**Production projects (2025-2026)**:
+
+| Project | Description |
+|---|---|
+| **ai16z (Eliza framework)** | $1.6B-scale open-source AI agent framework, DAO-governed |
+| **Virtuals Protocol** | One-click create AI agent token, agent can initiate governance proposals |
+| **Aethernet** | AI agents can become DAO voters |
+| **Zerebro** | Fully autonomous AI agent, issues its own tokens |
+| **Truth Terminal** | AI-manipulated meme coin GOAT broke $1.3B market cap |
+| **Aethernet DAO** | AI agents have formal voting rights in DAO governance |
+
+**Tech stack for AI agent accounts**:
+- **Wallet**: Safe smart account (supports Session Keys, spending limits)
+- **Private key**: MPC multi-sig (avoid single-point-of-failure)
+- **Identity**: SBT (soulbound credential) proves agent identity
+- **Audit**: all AI agent decisions on-chain, auditable by traditional tools
+- **Rate-limiting**: max daily spending limit, prevent runaways
+
+**Controversies (2026-Q1)**:
+- **Issue 1**: Should AI agents have voting rights? Legally voting is a "human right"
+- **Issue 2**: If AI agent loses user money, who bears responsibility?
+- **Issue 3**: If AI agent is malicious, is it the developer's or model's fault?
+- **2026 regulatory stance**: US SEC does not recognize AI agents as "accredited investors"; EU MiCA requires a natural person behind the agent
+- **2027 prediction**: AI agents will get limited "on-chain personhood" — they can do specific behaviors (e.g., automated market making) but not full voting rights
+
+**AI agent account smart contract example (simplified)**:
+
+```solidity
+// A minimal AI agent smart account
+contract AIAgentAccount {
+    address public owner;       // human creator
+    address public operator;    // AI agent's session key
+    uint256 public dailyLimit;  // daily spending limit
+    mapping(bytes32 => bool) public usedHashes; // replay protection
+
+    modifier onlyOperator() {
+        require(msg.sender == operator, "not operator");
+        _;
+    }
+
+    modifier withinLimit(uint256 amount) {
+        require(amount <= dailyLimit, "over daily limit");
+        _;
+    }
+
+    function execute(address to, uint256 value, bytes calldata data, uint256 nonce)
+        external onlyOperator withinLimit(value)
+        returns (bytes memory)
+    {
+        // Replay protection
+        bytes32 txHash = keccak256(abi.encodePacked(to, value, data, nonce));
+        require(!usedHashes[txHash], "replay");
+        usedHashes[txHash] = true;
+
+        // Execute
+        (bool success, bytes memory result) = to.call{value: value}(data);
+        require(success, "exec failed");
+        return result;
+    }
+
+    function rotateOperator(address newOperator) external {
+        require(msg.sender == owner, "only owner");
+        operator = newOperator;
+    }
+}
+```
+
+**Summary**: AI agent accounts are the most important new account paradigm of 2026. They blur the line between "user" and "tool", requiring new regulatory, technical, and ethical frameworks.
+
 ## 1.5 Blockchain Applications
 
 ### Financial Services

@@ -98,6 +98,67 @@ Trustless cross-chain asset exchanges using hash time-locked contracts (HTLCs).
 
 Standardized messaging between blockchains.
 
+
+
+### 8.7 Intent-based Cross-Chain: 2024-2026 Mainstreaming
+
+**Problems with traditional cross-chain**:
+- User must choose bridge, source chain, target chain
+- User must accept "optimal path" determined by router, may not be optimal
+- User must wait for L1/L2 finality (minutes to days)
+
+**Core of intent-based cross-chain**:
+- User **only expresses "what I want"** (intent)
+- Solver/relayer bids to execute
+- User doesn't need to understand technical details
+
+**Intent-based cross-chain flow**:
+1. User signs intent: `Swap 100 USDC on BSC to ETH on Base, minimum 0.03 ETH`
+2. Solvers monitor intent pool on-chain, bid
+3. Winning solver executes cross-chain (may use Stargate, Across, own liquidity)
+4. User receives ETH on target chain within 2-10 seconds
+
+**Production intent-based projects (2025-2026)**:
+
+| Project | Type | Description |
+|---|---|---|
+| **UniswapX** | DEX intent | Dutch auction, MEV protection |
+| **Across Protocol** | Cross-chain intent | 2-second arrival, Optimistic verification |
+| **deBridge DLN** | Cross-chain intent | Solver bidding + on-chain settlement |
+| **1inch Fusion** | DEX intent | Solver network |
+| **CoW Swap** | DEX intent | Batch settlement + CoW |
+| **Squid Router** | Cross-chain intent | Integrates Across + Stargate |
+| **KIP Protocol** | AI-driven intent | AI solver |
+
+**Intent-based vs traditional cross-chain comparison**:
+
+| Dimension | Traditional bridge (Stargate) | Intent-based (Across DLN) |
+|---|---|---|
+| User experience | Choose source/bridge/target | Only express intent |
+| Speed | 5-30 minutes | 2-10 seconds |
+| Optimal path | Determined by router | Determined by solver bidding |
+| MEV risk | High | Low (solver absorbs) |
+| Cost | Medium | Low (competitive pressure) |
+| Failure rollback | Slow | Fast (solver fronted) |
+
+**Intent standardization (2024-2025)**:
+- **ERC-7683** (jointly proposed by Across + Uniswap): intent standard, any wallet/dApp can use same intent to call any solver
+- **ERC-7715**: intent authorization standard, off-chain identity can delegate
+- **1inch intent standard**: customized for Fusion+
+- **CoW Swap Coincidence-of-Wants**: batch settlement algorithm
+
+**2026 real data on intent-based cross-chain**:
+- **UniswapX volume**: 30%+ of DEX total
+- **Across daily volume**: $500M+
+- **deBridge DLN daily volume**: $100M+
+- **Intent-based total share of 2026 cross-chain bridge flow**: 60%+
+
+**Challenges**:
+- **Solver centralization**: a few large solvers dominate most orders
+- **Solver cartel risk**: solvers may form cartel
+- **Trust assumption**: Optimistic verification needs fraud proof
+- **Regulatory risk**: solvers are "intermediaries", may be classified as money transmitters
+
 ## 8.6 Cosmos and IBC
 
 **Inter-Blockchain Communication** protocol enables seamless cross-chain transfers.

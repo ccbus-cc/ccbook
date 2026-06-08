@@ -85,6 +85,81 @@ NFT in 2025-2026 has evolved from JPEG collectibles to **RWA, SBT, on-chain tick
 - Virtual land and real estate
 - In-game items and characters
 
+
+
+### 11.7 RWA-NFT and Soulbound Tokens (SBT): 2024-2026 Mainstreaming
+
+**1. RWA-NFT (2024-2026 boom)**
+
+Tokenize traditional financial assets as NFTs:
+
+- **Ondo OUSG** (2023-Q1): NFT for US Treasury share, TVL $1B
+- **Centrifuge** (2018-present): tokenize private credit as NFT, TVL $500M
+- **Polytrade**: tokenize accounts receivable
+- **RealT**: single-family home tokenization, 2018-present
+- **Propy**: real estate transaction tokenization
+- **Blocksquare**: European real estate tokenization
+- **Securitize**: tokenized KKR, Apollo, BCG private funds
+
+**RWA-NFT standards**:
+- **ERC-3643** (T-REX Protocol): compliant token standard, supports identity verification, transfer rules
+- **ERC-1404**: signed security token standard
+- **ERC-4626**: tokenized vault (for RWA)
+- **ERC-7540**: async-deposit tokenized vault
+
+**2026 real data**:
+- **RWA total on-chain**: $30B+
+- **NFT form**: $8B+
+- **Largest single RWA**: BlackRock BUIDL ($500M)
+
+**2. SBT (Soulbound Token)**
+
+Non-transferable NFT representing "non-financial assets".
+
+**SBT protocol standards**:
+- **ERC-5114**: basic SBT standard
+- **ERC-721S**: Soulbound variant
+- **Sismo**: ZK-proof-driven SBT
+- **Galxe Passport**: SBT credential system
+- **Gitcoin Passport**: sybil-resistant SBT
+
+**SBT killer applications**:
+
+| Application | Description | 2026 real project |
+|---|---|---|
+| Education certificate | University degree, course certificate | Columbia, HKUST |
+| Identity credential | KYC, credit scoring | Worldcoin, Civic |
+| On-chain reputation | Forum, DAO contribution proof | Lens, Mirror |
+| On-chain governance | Voting rights proof | 1hive, DAOHaus |
+| Sybil resistance | Prove "I'm real" | Gitcoin Passport |
+
+**3. On-chain identity (Lens / Farcaster / ENS)**
+
+- **Lens Protocol**: ERC-721-based on-chain social graph
+- **Farcaster**: Warpcast-based decentralized social
+- **ENS**: decentralized domain + on-chain identity
+- **2026 stats**: ENS domains 2M+, Lens Profile 1M+, Farcaster 500K+
+
+**4. Music NFT renaissance (2024-2026)**
+
+- **Audius** (2024 mainnet): integrated Spotify-style streaming
+- **Royal** (acquired by Decca Records 2024-Q3)
+- **Sound.xyz** (2024-Q4 Universal Music partnership)
+- **Catalog** (2024)
+- **Mint Songs** (2024)
+- **2026 stats**: independent musicians earn $500M+ via NFT
+
+**Music NFT innovations**:
+- Automatic royalty distribution
+- Fans become "investors"
+- Streaming revenue sharing
+- Secondary market auto-royalty
+
+
+![CCBus Multi-Function token (NFT standard and extension)](../public/images/chapters/zh/multi-function.png)
+
+*图: CCBus Multi-Function token (NFT standard and extension)*
+
 ## 11.6 Real World Asset Tokenization (RWAs)
 
 Tokenizing physical assets:

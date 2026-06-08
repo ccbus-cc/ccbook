@@ -93,6 +93,84 @@ Private Ethereum networks with enhanced features.
 - Logistics optimization
 - Examples: VeChain, IBM Food Trust
 
+
+
+### 14.7 2025-2026 Financial Institution RWA Landing Cases
+
+**1. BlackRock BUIDL (2024-03 onwards)**
+
+- **Scale**: $500M+ (2026-Q1)
+- **Underlying assets**: short-term US Treasuries + cash equivalents
+- **Tech**: with Securitize, ERC-20 on EVM chain
+- **Investors**: institutional accredited investors (KYC required)
+- **2026 data**: monthly dividend $3M+, stable 4.8% APY
+
+**BlackRock BUIDL innovations**:
+- Tokenize traditional "institutional-only" US Treasury fund
+- 24/7 on-chain transfer
+- Can be used as DeFi collateral
+
+**2. Ondo Finance (2023-onwards)**
+
+- **OUSG** (2023): US Treasury tokenization, TVL $1B
+- **USDY** (2023): stablecoin + US Treasury yield, TVL $500M
+- **OMMF** (2024): money market fund
+- **2026 data**: total TVL $1.5B, 20% RWA share
+
+**3. Maple Finance (2021-onwards)**
+
+- **syrupUSDC** (2023): stablecoin yield, TVL $3B
+- **Cash Management** (2024): institutional cash management
+- **BTC Yield** (2024): BTC lending
+- **2026 data**: total TVL $3B
+
+**4. Securitize (2017-onwards)**
+
+- Only SEC-approved "tokenization" institution
+- Tokenized KKR, Apollo, BCG private funds
+- **2026 real data**: tokenized 50+ traditional funds
+
+**5. Centrifuge (2018-onwards)**
+
+- **Tinlake** (2018-): tokenize supply chain finance
+- **Centrifuge Prime** (2024): compliant RWA platform
+- **2026 real data**: TVL $500M
+
+**6. Real estate tokenization (2024-2026 growth)**
+
+- **RealT** (2018-): single-family home tokenization, 2026 covers 1000+ properties
+- **Propy**: real estate transaction tokenization
+- **Blocksquare**: European real estate tokenization
+- **Tangible**: physical gold/wine/art tokenization
+- **2026 data**: real estate RWA total scale $2B+
+
+**RWA regulatory framework**:
+
+| Region | Regulatory stance | 2026 real status |
+|---|---|---|
+| US | Strict (SEC) | BUIDL, Ondo have compliance paths |
+| EU | MiCA implemented | Full compliance |
+| Switzerland | Friendly | Many RWA projects based |
+| Singapore | Friendly | Project Guardian (JPMorgan) |
+| Hong Kong | Friendly | Virtual asset ETF + RWA pilot |
+| UAE | Friendly | VARA regulatory framework |
+
+**RWA real yield comparison (2026-Q1)**:
+
+| Project | APY | Underlying |
+|---|---|---|
+| BlackRock BUIDL | 4.8% | Short-term US Treasury |
+| Ondo OUSG | 5.1% | Short-term US Treasury |
+| Maple syrupUSDC | 7.2% | Institutional credit |
+| Centrifuge Tinlake | 9.5% | Supply chain finance |
+| Aave USDC lending | 4.3% | DeFi lending |
+| Aave stETH lending | 3.5% | ETH staking |
+
+
+![CCBus standardized token issuance (enterprise RWA template)](../public/images/chapters/zh/standard-token-create.png)
+
+*图: CCBus standardized token issuance (enterprise RWA template)*
+
 ## 14.6 Healthcare Applications
 
 - Medical records management

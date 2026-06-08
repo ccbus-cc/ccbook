@@ -92,6 +92,80 @@ Tokens that grant voting rights and protocol ownership.
 
 Managing DAO funds transparently and efficiently.
 
+
+
+### 12.7 Protocol-Level Governance: CCBus Instance
+
+CCBus provides several **protocol-level governance token** implementations, building governance parameters and tokenomics directly into the contract, without manual voting.
+
+**1. Protocol 314 — Fully automated composite protocol**
+
+Combines three most common tokenomics functions into one contract:
+- **Hold-to-earn**: holders auto-receive rewards (USDT, BNB, native) by holding
+- **Referral reward**: invite friends, earn % of their transaction fees
+- **On-chain buyback**: use project fees to auto-buy on DEX, then burn
+
+**Protocol 314 economic model**:
+- 5% fee on every transfer
+- 2% to dividend pool
+- 1% to referrer
+- 1% auto-buyback and burn
+- 1% to LP providers
+- Holders auto-earn by holding
+- **2026 real projects**: PancakeSwap BabyCake, SafeMoon v2 (similar model)
+
+**2. Blackhole (blackhole dividend)**
+
+Transfer project tokens to 0x000...dead blackhole address, permanently reduce circulating supply.
+
+**Blackhole applications**:
+- Auto-burn some tokens on each transaction
+- Holders gain "scarcity premium" by holding
+- **2026 real projects**: HEX, PancakeSwap, SHIB (similar burn mechanism)
+
+**Blackhole implementation steps**:
+1. Project mints 100% tokens
+2. Project transfers 50% to blackhole
+3. At launch, 50% goes to liquidity pool
+4. Burn 1% on each transaction
+5. **Long-term**: after 1 year, circulating supply drops from 50% to 35%
+
+**3. Multi-Function (multi-functional token)**
+
+A single contract configures simultaneously:
+- Tax rate (tiered, buy/sell different)
+- Whitelist (exempt specific addresses from tax)
+- Referrer (auto-reward)
+- Governance parameters (upgradable)
+- Dividend mode (USDT/native/BNB/ETH)
+
+**Multi-Function advantages**:
+- One contract replaces 5-10 separate contracts
+- High gas efficiency
+- Parameters adjustable on-chain
+- **2026 real projects**: most 2025-2026 new meme coins use Multi-Function pattern
+
+**4. Protocol-level vs on-chain DAO governance**
+
+| Dimension | Protocol-level (Protocol 314) | DAO governance (Snapshot + Safe) |
+|---|---|---|
+| Governance speed | Real-time (auto-execute) | Slow (days of voting) |
+| Governance flexibility | Low (preset params) | High (any proposal) |
+| Governance cost | 0 (no gas) | High (voting gas) |
+| Transparency | 100% (public code) | 100% |
+| User-friendly | High (no voting) | Medium (need to participate) |
+| Use case | Meme coins, commercial dApps | Protocol governance, DeFi protocols |
+
+**2026 trend**: **Protocol-level governance + DAO supervision** hybrid model
+- Protocol parameters auto-adjust (protocol-level)
+- But key decisions (whitelist / large adjustments) need DAO vote
+- AI agents continuously audit protocol parameters
+
+
+![CCBus Protocol 314 (protocol-level governance example)](../public/images/chapters/zh/protocol-314.png)
+
+*图: CCBus Protocol 314 (protocol-level governance example)*
+
 ## 12.6 DAO Tools and Frameworks
 
 - **Snapshot** - Off-chain voting

@@ -784,6 +784,81 @@ contract FractionalNFT is ERC20 {
 }
 ```
 
+
+
+### 11.7 RWA-NFT 与灵魂绑定代币(SBT):2024-2026 主流化
+
+**1. RWA-NFT(2024-2026 爆发)**
+
+把传统金融资产用 NFT 表示:
+
+- **Ondo OUSG**(2023-Q1):用 NFT 表示美债份额,TVL 10 亿美元
+- **Centrifuge**(2018-至今):把私募信贷代币化为 NFT,TVL 5 亿美元
+- **Polytrade**:把应收帐款代币化
+- **RealT**:单户房产代币化,2018 至今
+- **Propy**:房产交易代币化
+- **Blocksquare**:欧洲房产代币化
+- **Securitize**:把 KKR、Apollo、BCG 私募基金代币化
+
+**RWA-NFT 的标准**:
+- **ERC-3643**(T-REX Protocol):合规代币标准,支持身份验证、转移规则
+- **ERC-1404**:带签名的证券代币标准
+- **ERC-4626**:代币化金库(用于 RWA)
+- **ERC-7540**:异步存款的代币化金库
+
+**2026 真实数据**:
+- **RWA 链上总规模**:$30B+
+- **其中 NFT 形式**:$8B+
+- **最大单笔 RWA**:BlackRock BUIDL($5 亿)
+
+**2. SBT(灵魂绑定代币,Soulbound Token)**
+
+不可转让的 NFT,代表"非金融资产"。
+
+**SBT 协议标准**:
+- **ERC-5114**:基础 SBT 标准
+- **ERC-721S**:Soulbound variant
+- **Sismo**:ZK 证明驱动的 SBT
+- **Galxe Passport**:SBT 凭证系统
+- **Gitcoin Passport**:抗女巫攻击的 SBT
+
+**SBT 杀手级应用**:
+
+| 应用 | 描述 | 2026 真实项目 |
+|---|---|---|
+| 教育证书 | 大学学位、课程证书 | 哥伦比亚大学、HKUST |
+| 身份凭证 | KYC、信用评分 | Worldcoin、Civic |
+| 链上声誉 | 论坛、DAO 贡献证明 | Lens、Mirror |
+| 链上治理 | 投票权证明 | 1hive、DAOHaus |
+| 抗女巫 | 证明"我是真人" | Gitcoin Passport |
+
+**3. 链上身份(Lens / Farcaster / ENS)**
+
+- **Lens Protocol**:基于 ERC-721 的链上社交图谱
+- **Farcaster**:基于 Warpcast 的去中心化社交
+- **ENS**:去中心化域名 + 链上身份
+- **2026 数据**:ENS 域名 200 万+,Lens Profile 100 万+,Farcaster 50 万+
+
+**4. Music NFT 复兴(2024-2026)**
+
+- **Audius**(2024 主网):集成 Spotify-style 流媒体
+- **Royal**(被 Decca 唱片 2024-Q3 收购)
+- **Sound.xyz**(2024-Q4 环球音乐合作)
+- **Catalog**(2024)
+- **Mint Songs**(2024)
+- **2026 数据**:独立音乐人通过 NFT 收入超 5 亿美元
+
+**Music NFT 的创新**:
+- 版税自动分配
+- 粉丝成为"投资人"
+- 流媒体收益分成
+- 二级市场版税自动分账
+
+
+![CCBus 多功能代币(NFT 标准与扩展)](../public/images/chapters/zh/multi-function.png)
+
+*图: CCBus 多功能代币(NFT 标准与扩展)*
+
 ## 11.6 NFT 的未来趋势
 
 ### 1. 动态 NFT (dNFT)

@@ -722,6 +722,67 @@ _(SVG diagram omitted for brevity - maintains same structure as Chinese version 
    - Revoke unnecessary authorizations
    - Use tools like Revoke.cash
 
+
+
+### 3.8 BTCFi and Bitcoin L2 Ecosystem (2024-2026 boom)
+
+Bitcoin underwent a paradigm shift in 2024-2026: from "static store of value" to "programmable finance primitive". **BTCFi** (Bitcoin Finance) refers to all DeFi activity using Bitcoin or Bitcoin-chain assets.
+
+**1. Babylon (2024 mainnet): Bitcoin staking**
+
+- Users lock BTC on Babylon contracts on the Bitcoin chain
+- Babylon mints `Babylon BTC` certificate on Cosmos chain
+- Users use this certificate to stake on other PoS chains (BSC, ATOM, SOL)
+- **2026 stats**: Babylon locked 50K BTC ($35B+), supports 30+ chains
+
+**2. BitVM (2023 paper, 2024 mainnet candidate): arbitrary computation on Bitcoin**
+
+- Core idea: use limited Bitcoin Script operations to simulate arbitrary computation
+- Ensures correctness via "challenge-response" (similar to Optimistic Rollup)
+- ZK verification possible on Bitcoin chain (but currently very expensive)
+- **2026 real projects**: BitVM2 (Bitlayer), Citrea, Alpen Labs
+
+**3. Stacks (2021 mainnet, 2024 Nakamoto Release): Bitcoin L2**
+
+- Smart contracts in Clarity language
+- Anchored to Bitcoin via Proof of Transfer (PoX)
+- **2026 real projects**: Stacks chain TVL $300M
+
+**4. Lightning Network: payment layer**
+
+- State channels enable off-chain payment
+- **2026 stats**: Lightning capacity 5000 BTC, monthly tx volume 1M+
+- **2026 new feature**: Taproot Assets (transfer tokens on Lightning, e.g., USDT)
+
+**5. Liquid Network (sidechain)**
+
+- Blockstream-operated, federated sidechain
+- Used for inter-exchange fast settlement
+- Issues L-BTC, L-USDT etc.
+
+**6. Ordinals (2023-01) + BRC-20 (2023-03) + Runes (2024-04)**
+
+- Write arbitrary data (images, text) to Bitcoin satoshis
+- **2026 real data**: Ordinals cumulative 100M+ mints, BRC-20 peak market cap $3B
+- Runes is Casey Rodarmor's (Ordinals author) more efficient token standard
+
+**7. RGB (scalable Bitcoin smart contracts)**
+
+- Client-side validation + off-chain storage
+- Closer to "smart contracts" than Ordinals
+- **2026 status**: mainnet live, ecosystem still small
+
+**Economic significance of BTCFi**:
+- Bitcoin is no longer "gold bars locked in a glass case"
+- 1 BTC can DeFi on Stacks, stake on Babylon, pay on Lightning
+- This is "Bitcoin utilization"
+- **2026 data**: BTCFi total on-chain value $50B+ (vs $5B in 2024)
+
+**BTCFi risks**:
+- **Bridge risk**: bridging from BTC mainnet to L2 always has attack surface
+- **Finality risk**: Bitcoin L1 finality is ~1 hour, L2s are faster but have rollback risk
+- **Regulatory risk**: US SEC may treat BTCFi as securities
+
 ## 3.7 Cryptocurrency Risks and Challenges
 
 ### Main Risks

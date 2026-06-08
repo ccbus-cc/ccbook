@@ -905,6 +905,67 @@ contract Escrow {
    - 撤销不必要的授权
    - 使用工具如 Revoke.cash
 
+
+
+### 3.8 BTCFi 与比特币第二层生态(2024-2026 爆发)
+
+比特币在 2024-2026 年发生了范式转变:从"静态的价值存储"演变为"可编程的金融原语"。**BTCFi**(Bitcoin Finance)指利用比特币或比特币链上资产做的所有 DeFi 活动。
+
+**1. Babylon(2024 主网):比特币质押**
+
+- 用户把 BTC 锁定在比特币链上的 Babylon 合约
+- Babylon 在 Cosmos 链上铸造 `Babylon BTC` 凭证
+- 用户用这个凭证在其他 PoS 链(BSC、ATOM、SOL)做 staking
+- **2026 数据**:Babylon 锁仓 5 万 BTC($35B+),已支持 30+ 链
+
+**2. BitVM(2023 论文,2024 主网候选):比特币上的任意计算**
+
+- 核心思想:用 Bitcoin Script 的限制性操作模拟任意计算
+- 通过"挑战-响应"机制保证正确性(类似 Optimistic Rollup)
+- 可以在比特币链上做 ZK 验证(但当前成本极高)
+- **2026 真实项目**:BitVM2(Bitlayer)、Citrea、Alpen Labs
+
+**3. Stacks(2021 主网,2024 Nakamoto Release):比特币 L2**
+
+- 用 Clarity 语言写合约
+- 通过 Proof of Transfer(PoX)锚定到比特币
+- **2026 真实项目**:Stacks 链 TVL 3 亿美元
+
+**4. Lightning Network:支付层**
+
+- 状态通道实现链下支付
+- **2026 数据**:Lightning 容量 5000 BTC,月交易量 100 万+ 笔
+- **2026 新功能**:Taproot Assets(在 Lightning 上转移代币,如 USDT)
+
+**5. Liquid Network(侧链)**
+
+- Blockstream 运营,联邦式侧链
+- 用于交易所间的快速结算
+- 发行 L-BTC、L-USDT 等资产
+
+**6. Ordinals(2023-01 上线)+ BRC-20(2023-03 上线)+ Runes(2024-04 上线)**
+
+- 把任意数据(图片、文字)写入比特币 satoshi
+- **2026 真实数据**:Ordinals 累计铸造 1 亿+,BRC-20 市值峰值 30 亿美元
+- Runes 是 Casey Rodarmor(Ordinals 作者)推出的更高效的代币标准
+
+**7. RGB(可扩展的比特币智能合约)**
+
+- 客户端验证 + 链下存储
+- 比 Ordinals 更接近"智能合约"
+- **2026 状态**:主网已上线,生态仍小
+
+**BTCFi 的经济意义**:
+- 比特币不再是被"锁在玻璃柜里的金条"
+- 1 BTC 可以在 Stacks 上做 DeFi,在 Babylon 上做 staking,在 Lightning 上做支付
+- 这就是"比特币效用化"(Bitcoin utilitization)
+- **2026 数据**:BTCFi 链上总价值 $50B+(2024 年仅 $5B)
+
+**BTCFi 风险**:
+- **桥风险**:从 BTC 主网桥到 L2 总是有被攻击的可能
+- **最终性风险**:比特币主网 L1 最终性是 ~1 小时,L2 更快但有回滚风险
+- **监管风险**:美国 SEC 把 BTCFi 视为证券的可能性
+
 ## 3.7 加密货币的风险与挑战
 
 ### 主要风险

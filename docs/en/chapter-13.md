@@ -98,6 +98,81 @@ The 2026 L1 landscape has crystallized. This chapter uses real 2026 data to upda
 - **Consensus**: Avalanche consensus
 - **Key Features**: Sub-second finality, customizable subnets
 
+
+
+### 13.7 2026 Blockchain Landscape Quick Reference
+
+**TPS ranking (measured, 2026-Q1)**:
+
+| Chain | TPS (measured) | Finality | Consensus |
+|---|---|---|---|
+| Solana | 3000-5000 | 12.8s | PoH + Tower BFT |
+| Sui | 100,000+ | 2-3s | Mysticeti + Narwhal |
+| Aptos | 160,000+ | 0.9s | Block-STM + AptosBFT |
+| Monad | 10,000 | 1s | MonadBFT + optimistic parallel |
+| Berachain | 5,000 | 2-4s | PoL (Proof of Liquidity) |
+| Sei V2 | 12,500 | 1s | Twin-turbo + parallel EVM |
+| Polygon zkEVM | 2000 | 1-2h (final) / 2s (soft) | zkEVM + PolygonZkEVMConsensus |
+| Linea | 3000 | 1-2h | LineaConsensus + zk |
+| Hyperliquid L1 | 200,000 | 0.2s | HyperBFT + Hyperliquid consensus |
+
+**TVL ranking (2026-Q1)**:
+
+| Chain | TVL | Share |
+|---|---|---|
+| Ethereum + L2 | $58B | 60% |
+| BNB Chain | $8B | 8.3% |
+| Solana | $7B | 7.3% |
+| Base | $5B | 5.2% |
+| Arbitrum | $4B | 4.2% |
+| Bitcoin L2 (Babylon) | $3.5B | 3.6% |
+| Sui | $1.8B | 1.9% |
+| Aptos | $1.2B | 1.2% |
+| Berachain | $1.0B | 1.0% |
+| Hyperliquid L1 | $0.4B | 0.4% |
+
+**MAU ranking (2026)**:
+
+| Chain | MAU | User source |
+|---|---|---|
+| Ton | 80M+ | Telegram 1.4B user gateway |
+| BNB Chain | 50M+ | meme + retail + BSC DEX |
+| Solana | 15M+ | High-freq trading + meme + payment |
+| Base | 10M+ | Coinbase funnel + Farcaster integration |
+| Bitcoin | 8M+ | Hold + Ordinals |
+| Ethereum | 5M+ | Institutional + DeFi |
+
+**2026 landscape judgment**:
+- **Ethereum + L2**: still largest ecosystem, but growth slowing
+- **Solana**: single-chain performance king, go-to for high-freq trading
+- **BNB Chain**: retail + meme flow gateway
+- **Base**: Coinbase + Farcaster fiat + social gateway
+- **Ton**: Telegram gateway, fastest growth in 2026
+- **New L1 (Monad, Berachain, Sui, Aptos)**: each carves out niche scenarios
+
+**2026 inter-chain bridging**:
+
+- **L1 <-> L1**: LayerZero, Wormhole, Chainlink CCIP
+- **L1 <-> L2**: official bridge + Across
+- **L2 <-> L2**: Across (deBridge DLN, Squid)
+- **EVM <-> non-EVM**: LayerZero V2 OFT, Wormhole NTT
+
+**2026 tooling ranking**:
+
+| Tool | User count | Rating |
+|---|---|---|
+| MetaMask | 30M+ | ⭐⭐⭐⭐ |
+| Rabby | 5M+ | ⭐⭐⭐⭐⭐ |
+| OKX Wallet | 10M+ | ⭐⭐⭐⭐ |
+| Phantom | 5M+ (Solana) | ⭐⭐⭐⭐ |
+| Backpack | 1M+ (multi-chain) | ⭐⭐⭐⭐ |
+| Safe (Gnosis Safe) | 5M+ | ⭐⭐⭐⭐⭐ |
+
+
+![CCBus multi-chain market comparison (2026 live data)](../public/images/chapters/zh/market-dashboard.png)
+
+*图: CCBus multi-chain market comparison (2026 live data)*
+
 ## 13.6 Polkadot: Interoperability Hub
 
 - **Launched**: 2020

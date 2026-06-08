@@ -728,6 +728,66 @@ def verify_account_balance(address, balance, proof, state_root):
 | **Avalanche** | 多子网 | Avalanche共识 | ~4,500 | 1-2秒 | <2秒 |
 | **NEAR** | 分片 | Nightshade (DPoS) | ~100,000 | 1秒 | 2-3秒 |
 
+
+
+### 6.7 模块化数据可用性(DA)层:从 EigenDA 到 PeerDAS
+
+**什么是数据可用性(DA)?**
+
+数据可用性指"任何人能否下载并验证某个区块的所有交易数据"。如果数据不可用,链上虽然有"状态根",但无法重建完整状态。这就是**数据可用性问题**。
+
+**为什么需要独立的 DA 层?**
+
+- **传统 L1(ETH、Solana)**:DA + 执行 + 共识在同一链上,所有节点都要存储全量数据
+- **模块化 L1**:DA 由专用层(Celestia、EigenDA、Avail)提供,执行链只需要从 DA 层下载数据
+- **优势**:执行链节点存储压力小,可以独立扩展吞吐量
+
+**Celestia(2023-10 主网):第一个专用 DA 层**
+
+- **核心技术**:数据可用性采样(DAS,Data Availability Sampling)
+- 节点只需下载部分数据 + 校验其他节点的承诺,即可高概率确认数据可用
+- 命名空间 Merkle 树(NMT)允许多 Rollup 共享 Celestia 空间
+- **2026 真实项目**:Manta、Movement、Berachain(EVM-L1,Celestia 同步但作为结算层)
+
+**EigenDA(2024-Q2 主网):基于 EigenLayer 的 DA**
+
+- **经济模型**:Operator 在 EigenLayer 质押 ETH,获得提供 DA 服务的资格
+- **吞吐量**:高达 10 MB/s
+- **2026 真实项目**:Mantle、Cyber、Caldera 等 rollup 选择 EigenDA
+
+**Avail(Polygon 团队,2024-Q3 主网)**
+
+- 与 Celestia 类似,但支持 KZG 承诺
+- **2026 真实项目**:Lens、Centrifuge、Space ID
+
+**EIP-4844 Blob(2024-03, Cancun 升级)**
+
+- 以太坊原生的"短期 DA"
+- blob 数据 18 天后过期
+- 相比 calldata,blob 更便宜(目标 3 个,最大 6 个,每个 125KB)
+- **2026 真实数据**:Blob gas 收费 0.001 gwei,blob 日使用量 1.2M
+
+**PeerDAS(2026-Q2 计划,Fusaka 升级)**
+
+- DAS 引入以太坊自身
+- 节点只需采样部分 blob 即可
+- blob 容量再扩 4-8 倍
+
+**对比表**:
+
+| DA 方案 | 吞吐量 | 成本 | 信任模型 | 生态 |
+|---|---|---|---|---|
+| **Ethereum L1 calldata** | 低 | 高 | PoS | 所有 L2 |
+| **EIP-4844 Blob** | 中 | 极低 | PoS | 所有 L2 |
+| **Celestia** | 高 | 低 | PoS(独立) | Manta、Movement |
+| **EigenDA** | 极高 | 中 | Restaking | Mantle、Cyber |
+| **Avail** | 高 | 低 | PoS(独立) | Centrifuge |
+
+**对开发者的建议**:
+- 主网 EVM 链 → 选 EIP-4844 blob(便宜且安全)
+- 高吞吐应用(SocialFi、GameFi)→ 选 Celestia 或 EigenDA
+- 混合策略:用 Celestia 做长期存储,blob 做短期成本优化
+
 ## 6.6 高性能区块链设计
 
 ### 性能优化策略

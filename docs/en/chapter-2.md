@@ -1094,6 +1094,50 @@ Ethereum uses **Merkle Patricia Trie** to store account state.
 </svg>
 </div>
 
+
+
+### 2.7 Post-Quantum Cryptography (PQC): Blockchain Must Migrate by 2030
+
+Quantum computers in the 2030s will have the capability to break existing public-key cryptography. NIST formally released three PQC standards in 2024-08:
+
+**NIST FIPS 203/204/205 (released 2024-08)**:
+
+| Standard | Algorithm | Type | Use | Public key | Signature |
+|---|---|---|---|---|---|
+| **FIPS 203** | ML-KEM (Kyber) | Key encapsulation | Encryption | 800B | — |
+| **FIPS 204** | ML-DSA (Dilithium) | Lattice signature | General signatures | 1.3KB | 2.4KB |
+| **FIPS 205** | SLH-DSA (SPHINCS+) | Hash-based signature | Long-term signatures | 32B | 8KB |
+
+**Why does blockchain need PQC?**
+- Current ECDSA (secp256k1, Bitcoin/Ethereum) 256-bit private key is ~8-bit password against quantum computer
+- Shor's algorithm can break ECDSA in polynomial time
+- Once quantum computers reach 4000+ qubits, all existing wallet private keys are at risk
+- **Grover's algorithm** reduces SHA-256 security from 128 bits to 85 bits
+
+**Blockchain PQC migration roadmap**:
+- **2024-08**: NIST standardization published
+- **2025-2026**: Litecoin enables Quantum-Resistant Sig pilot, Algorand tests state proof
+- **2026-2028**: Ethereum EIP roadmap (TBD), may include PQC integration
+- **2028-2030**: BTC upgrade discussion (Bitcoin Core 0.21 Q1-2025 has PQC discussions)
+- **2030+**: Full industry PQC migration (predicted)
+
+**PQC challenges for blockchain**:
+- **Signature size explosion**: ECDSA signature 64 bytes, ML-DSA 2.4KB (38x)
+- **Verification cost increase**: PQC signature verification 10-100x slower than ECDSA
+- **Storage bloat**: 100M transactions × 2.4KB = 240GB
+- **Backward compatibility**: how to migrate existing addresses? (may need PQC + existing dual-sig transition period)
+
+**PQC + ZK combination**:
+- Some L1s are exploring "ZK-friendly" + "PQC-friendly" dual signature schemes
+- e.g. **Falcon** signature (NTRU lattice-based) is smaller than Dilithium
+- **2026 real projects**: Zcash Halo2 plans to integrate PQC, QRL chain is fully PQC
+
+**Developer recommendations**:
+- New contracts prefer ML-DSA (Dilithium) signature
+- Migration path: `ECDSA.verify → MLDSA.verify` dual-sig transition
+- Monitor NIST follow-up standards (second-round PQC standardization ongoing, 2026 will see more algorithms)
+- Watch **NIST candidates: FAEST, MAYO, SLH-DSA-SHAKE**
+
 ## 2.6 Advanced Cryptographic Concepts
 
 ### Zero-Knowledge Proof (ZKP)

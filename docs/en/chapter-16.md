@@ -123,6 +123,87 @@ Governments exploring digital currencies:
 - DeFi-specific regulations
 - Stablecoin oversight
 
+
+
+### 16.8 Blockchain 2030 Predictions: Four Forces + One Theme
+
+**The four predicted forces**:
+
+**1. AI Agent Economy (2024 start → 2030 mainstream)**
+
+- 2024: proof of concept
+- 2025: first $100M-scale projects
+- 2026-Q1: on-chain AI agents manage $8B+ assets
+- 2027-2028: on-chain AI agents manage $500B+ assets
+- 2030: AI agents manage 10%+ of on-chain assets, $5T+ AUM
+- **Key milestone**: AI agents get "limited on-chain personhood" (specific behaviors, not full voting rights)
+
+**2. Intents and Solvers (2024 mainstreaming → 2030 dominant)**
+
+- 2024: 5% of DEX flow
+- 2025: 20% of DEX flow
+- 2026: 40%+ of DEX flow, 60%+ of cross-chain bridge flow
+- 2028: 70%+ of total on-chain flow
+- 2030: 90%+ of total on-chain flow
+- **Key milestone**: ERC-7683 unifies all intent standards, solver networks fully decentralized
+
+**3. RWA Mainstreaming (2024 start → 2030 trillion-scale)**
+
+- 2024: $15B
+- 2025: $25B
+- 2026: $30B+
+- 2027-2028: $1T
+- 2030: $30T (BIS forecast)
+- **Key milestone**: RWA yields fully outperform DeFi, institutional money flows in
+
+**4. Quantum Resistance (2024 standardization → 2030 deployment)**
+
+- 2024: NIST FIPS 203/204/205 released
+- 2025-2026: small chains like Litecoin pilot
+- 2027-2028: Ethereum EIP roadmap decides
+- 2030: L1s integrate PQC signatures (ML-DSA / SLH-DSA)
+- **Key milestone**: BTC completes PQC upgrade (community discussion, possibly 2029-2031)
+
+**One theme**: **On-chain abstraction + off-chain settlement + AI decision-making**
+
+By 2030, blockchain's final form may be:
+- **On-chain**: users express intents + AI agents execute + key results recorded
+- **Off-chain**: most computation (trade matching, market making, pricing) by AI agents off-chain
+- **Settlement**: on-chain only for final settlement + key state changes
+
+**Analogy**: this is like today's "user layer + data layer + network layer" of the internet. Blockchain will evolve into similar layers:
+- **User layer**: wallets, dApps, social UI
+- **Intent layer**: AI agents + solvers
+- **Execution layer**: parallel EVM, SVM, MoveVM
+- **Settlement layer**: L1 consensus + ZK proofs
+- **DA layer**: Celestia, EigenDA, Blob
+
+**Two most likely paths beyond 2030**:
+
+**Path A: Web3 Mass Adoption (Optimistic)**
+- On-chain abstraction to extreme: user doesn't perceive "blockchain", only "AI assistant"
+- AI agents tokenize themselves, DAO themselves, comply themselves
+- Off-chain KYC auto, on-chain identity auto
+- $50T on-chain economy (including RWA, crypto, stablecoin)
+
+**Path B: Web3 Regulation Tightening (Pessimistic)**
+- Major economies fully regulate, on-chain activity needs KYC
+- On-chain privacy projects restricted
+- Off-chain computation (AI decisions) needs compliance
+- On-chain scale still grows, but innovation suppressed
+- $20T on-chain economy
+
+**Biggest uncertainties**:
+- Regulation (US SEC vs EU MiCA vs Singapore/Switzerland/HK/UAE friendly stance)
+- Quantum computing progress (whether ECDSA broken by 2030)
+- User experience (whether on-chain abstraction can match Web2 simplicity)
+- AI agent legal status (whether AI agents recognized as "compliant participants")
+
+
+![CCBus T800 trading bot (AI agent + blockchain future)](../public/images/chapters/zh/swap-bot-t800.png)
+
+*图: CCBus T800 trading bot (AI agent + blockchain future)*
+
 ## 16.7 Environmental Sustainability
 
 ### Green Blockchain Initiatives

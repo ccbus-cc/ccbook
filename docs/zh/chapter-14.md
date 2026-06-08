@@ -1090,6 +1090,84 @@ spec:
 
 ---
 
+
+
+### 14.7 2025-2026 金融机构的 RWA 落地案例
+
+**1. BlackRock BUIDL(2024-03 至今)**
+
+- **规模**:$5 亿+(2026-Q1)
+- **底层资产**:短期美债 + 现金等价物
+- **技术**:与 Securitize 合作,EVM 链上的 ERC-20
+- **投资人**:机构合格投资者(通过 KYC)
+- **2026 数据**:月分红 $3M+,稳定年化 4.8%
+
+**BlackRock BUIDL 的创新**:
+- 把传统"机构专属"的美债基金代币化
+- 提供 24/7 链上转账
+- 可作为 DeFi 抵押品
+
+**2. Ondo Finance(2023-至今)**
+
+- **OUSG**(2023):美债代币化,TVL $1B
+- **USDY**(2023):稳定币 + 美债收益,TVL $500M
+- **OMMF**(2024):货币市场基金
+- **2026 数据**:总 TVL $1.5B,占据 RWA 20%
+
+**3. Maple Finance(2021-至今)**
+
+- **syrupUSDC**(2023):稳定币收益,TVL $3B
+- **Cash Management**(2024):机构现金管理
+- **BTC Yield**(2024):BTC 借贷
+- **2026 数据**:总 TVL $3B
+
+**4. Securitize(2017-至今)**
+
+- 唯一被 SEC 批准的"代币化"机构
+- 把 KKR、Apollo、BCG 等私募基金代币化
+- **2026 真实数据**:已代币化 50+ 传统基金
+
+**5. Centrifuge(2018-至今)**
+
+- **Tinlake**(2018-):把供应链金融代币化
+- **Centrifuge Prime**(2024):合规 RWA 平台
+- **2026 真实数据**:TVL $500M
+
+**6. 房地产代币化(2024-2026 增长)**
+
+- **RealT**(2018-):单户房产代币化,2026 覆盖 1000+ 房产
+- **Propy**:房产交易代币化
+- **Blocksquare**:欧洲房产代币化
+- **Tangible**:实物黄金/红酒/艺术品代币化
+- **2026 数据**:房地产 RWA 总规模 $2B+
+
+**RWA 的监管框架**:
+
+| 地区 | 监管态度 | 2026 真实状态 |
+|---|---|---|
+| 美国 | 严格(SEC 监管) | BUIDL、Ondo 已有合规路径 |
+| 欧盟 | MiCA 已实施 | 全面合规 |
+| 瑞士 | 友好 | 大量 RWA 项目落户 |
+| 新加坡 | 友好 | Project Guardian(摩根大通) |
+| 香港 | 友好 | 虚拟资产 ETF + RWA 试点 |
+| 阿联酋 | 友好 | VARA 监管框架 |
+
+**RWA 真实收益对比(2026-Q1)**:
+
+| 项目 | APY | 底层资产 |
+|---|---|---|
+| BlackRock BUIDL | 4.8% | 短期美债 |
+| Ondo OUSG | 5.1% | 短期美债 |
+| Maple syrupUSDC | 7.2% | 机构信贷 |
+| Centrifuge Tinlake | 9.5% | 供应链金融 |
+| Aave USDC lending | 4.3% | DeFi 借贷 |
+| Aave stETH lending | 3.5% | ETH staking |
+
+
+![CCBus 标准化代币发行(企业 RWA 范本)](../public/images/chapters/zh/standard-token-create.png)
+
+*图: CCBus 标准化代币发行(企业 RWA 范本)*
+
 ## 14.6 企业区块链挑战与未来
 
 ### 14.6.1 当前挑战
