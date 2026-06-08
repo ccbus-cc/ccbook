@@ -36,6 +36,37 @@
 }
 
 /* ============================================================
+   SVG diagrams in chapter content
+   Inline styles in markdown use light-theme colors. In dark mode
+   we need to invert them. The wrappers use rgba(52, 81, 178, 0.06)
+   and the SVG text fills use #1f2937.
+   ============================================================ */
+
+/* Light mode: ensure SVG container has a subtle border for definition */
+.vp-doc div[style*="background:rgba(52, 81, 178"] {
+  border: 1px solid rgba(52, 81, 178, 0.12);
+}
+
+/* Dark mode: invert the SVG colors for readability */
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] {
+  background: rgba(76, 156, 232, 0.08) !important;
+  border: 1px solid rgba(76, 156, 232, 0.15);
+}
+
+/* Dark mode: text fills — the inline style block defines fill: #1f2937
+   but in dark mode that text is invisible on dark bg. We override via
+   CSS using a higher-specificity selector that targets text inside
+   the SVG containers. */
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg text[fill="#1f2937"],
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg text[fill="#1f2937"] {
+  fill: #e6e8eb !important;
+}
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg text[fill="#3451b2"],
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg text[fill="#3451b2"] {
+  fill: #8da4ff !important;
+}
+
+/* ============================================================
    Sidebar – GitBook style
    ============================================================ */
 
