@@ -2,7 +2,15 @@
 title: "第五章：智能合约"
 ---
 
-# 第五章：智能合约
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/ether-engineer.png" alt="Ether Engineer" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第五章：智能合约</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Ether Engineer</strong> · 智能合约的"工头" — 代码即工艺</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 <strong>本章导读</strong>
@@ -1121,6 +1129,16 @@ contract MyNFT is ERC721, Ownable {
 - **游戏资产**：链游道具、土地
 - **保险**：自动理赔
 - **版权保护**：NFT音乐、艺术品
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/ether-engineer.png" alt="Ether Engineer" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>Ether Engineer</strong> — 智能合约的"工头" — 代码即工艺<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第六章：区块链架构] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

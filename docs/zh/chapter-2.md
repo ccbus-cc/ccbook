@@ -2,7 +2,15 @@
 title: "第二章：密码学基础"
 ---
 
-# 第二章：密码学基础
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第二章：密码学基础</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Satoshi Driver</strong> · 密码学的"老司机" — 路线熟,你安全</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -1314,6 +1322,16 @@ console.log('验证结果:', isValid);  // true
 </div>
 
 ## 本章小结
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>Satoshi Driver</strong> — 密码学的"老司机" — 路线熟,你安全<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第三章：加密货币基础] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

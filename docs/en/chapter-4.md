@@ -2,7 +2,15 @@
 title: "Chapter 4: Consensus Mechanisms"
 ---
 
-# Chapter 4: Consensus Mechanisms
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 4: Consensus Mechanisms</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Captain CCBus</strong> · The "dispatching supervisor" of consensus</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
   <p><strong>Chapter Introduction</strong></p>
@@ -466,6 +474,16 @@ Addressing energy consumption:
 - **PoS Mainstreaming**: Ethereum post-Merge reduced energy consumption by 99.95%
 - **Carbon Neutral**: Algorand, Cardano declare carbon neutrality
 - **Sustainability**: Consensus design considers environmental impact
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Captain CCBus</strong> — The "dispatching supervisor" of consensus<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 5: Smart Contracts] will be taught by another CCBus guide.</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
   <h3>Chapter Summary</h3>

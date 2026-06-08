@@ -23,6 +23,62 @@ layout: doc
 这本书都将为您提供所需的知识和实践指导。
 </div>
 
+## 🎓 认识你的讲师团 (Meet Your Teachers)
+
+本书不是一本冷冰冰的教科书,而是一门**由 CCBus 全明星讲师团亲自授课的课程**。每章都有一位 CCBus 角色作为你的专属讲师,他们的设计原型、性格和专长都对应着该章节的核心主题。
+
+<div class="ccbus-cast-grid">
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" /></div>
+    <p class="ccbus-cast-card-name">🚌 Captain CCBus</p>
+    <p class="ccbus-cast-card-role">主吉祥物<br/>第 1、4、16 章</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" /></div>
+    <p class="ccbus-cast-card-name">🚂 Satoshi Driver</p>
+    <p class="ccbus-cast-card-role">比特币向导<br/>第 2、3 章</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/ether-engineer.png" alt="Ether Engineer" /></div>
+    <p class="ccbus-cast-card-name">⚙️ Ether Engineer</p>
+    <p class="ccbus-cast-card-role">EVM/智能合约专家<br/>第 5、9 章</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" /></div>
+    <p class="ccbus-cast-card-name">🌉 Chain Hopper</p>
+    <p class="ccbus-cast-card-role">多链穿梭者<br/>第 6、7、8 章</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/defi-navigator.png" alt="DeFi Navigator" /></div>
+    <p class="ccbus-cast-card-name">🧭 DeFi Navigator</p>
+    <p class="ccbus-cast-card-role">DeFi 领航员<br/>第 10 章</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/token-builder.png" alt="Token Builder" /></div>
+    <p class="ccbus-cast-card-name">🏗️ Token Builder</p>
+    <p class="ccbus-cast-card-role">代币施工队长<br/>第 11 章</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/community-conductor.png" alt="Community Conductor" /></div>
+    <p class="ccbus-cast-card-name">📣 Community Conductor</p>
+    <p class="ccbus-cast-card-role">社区主席<br/>第 12 章</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/rookie-rider.png" alt="Rookie Rider" /></div>
+    <p class="ccbus-cast-card-name">🎒 Rookie Rider</p>
+    <p class="ccbus-cast-card-role">新人乘客<br/>第 13 章</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/guardian-node.png" alt="Guardian Node" /></div>
+    <p class="ccbus-cast-card-name">🛡️ Guardian Node</p>
+    <p class="ccbus-cast-card-role">安全官<br/>第 14、15 章</p>
+  </div>
+</div>
+
+每一章的开头都会有讲师的"英雄卡",正文里会有讲师的口语化讲解,章节末尾有"本课讲师"署名。把这些角色想象成你真实课堂上会遇到的老师 —— 他们的专业领域、说话风格、强调的重点,都和该章节的内容深度匹配。
+
+
+
 ## 📚 完整目录
 
 <div class="book-features">

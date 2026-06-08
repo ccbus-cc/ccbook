@@ -2,7 +2,15 @@
 title: "Chapter 6: Blockchain Architecture"
 ---
 
-# Chapter 6: Blockchain Architecture
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 6: Blockchain Architecture</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Chain Hopper</strong> · The architecture "tour guide" — shows you the L1/L2 modules</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -151,6 +159,16 @@ The fundamental challenge: balancing **Scalability**, **Security**, and **Decent
 ## 6.7 State Management and Storage
 
 How blockchain systems manage and store state data efficiently.
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Chain Hopper</strong> — The architecture "tour guide" — shows you the L1/L2 modules<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 7: Layer 2 Scaling Solutions] will be taught by another CCBus guide.</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

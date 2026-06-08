@@ -2,7 +2,15 @@
 title: "第十章：DeFi - 去中心化金融"
 ---
 
-# 第十章：DeFi - 去中心化金融
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/defi-navigator.png" alt="DeFi Navigator" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第十章：DeFi - 去中心化金融</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>DeFi Navigator</strong> · DeFi 的"导航员" — 主业,识路无数</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -651,6 +659,16 @@ contract DynamicFeeHook is BaseHook {
 ```
 
 **Hooks 的经济意义**:v4 让 Uniswap 从"通用 AMM"变成"流动性格子",任何团队可以基于 v4 构建自己的 DEX 而无需部署新合约。这是 2025-2026 年 DeFi 协议层创新的核心模式。
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/defi-navigator.png" alt="DeFi Navigator" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>DeFi Navigator</strong> — DeFi 的"导航员" — 主业,识路无数<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第十一章：NFT 与数字资产] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

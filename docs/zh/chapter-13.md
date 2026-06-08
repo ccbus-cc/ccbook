@@ -2,7 +2,15 @@
 title: "第十三章：区块链平台对比"
 ---
 
-# 第十三章：区块链平台对比
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/rookie-rider.png" alt="Rookie Rider" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第十三章：区块链平台对比</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Rookie Rider</strong> · 平台对比的"小乘客" — 用新人的视角问你该坐哪趟</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -767,6 +775,16 @@ Transaction {
 <text x="50" y="225" class="multi-label">流动性聚合</text>
 <text x="670" y="225" class="multi-label">用户体验统一</text>
 </svg>
+</div>
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/rookie-rider.png" alt="Rookie Rider" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>Rookie Rider</strong> — 平台对比的"小乘客" — 用新人的视角问你该坐哪趟<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第十四章：企业区块链] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
 </div>
 
 <div class="chapter-footer">

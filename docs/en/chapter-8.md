@@ -2,7 +2,15 @@
 title: "Chapter 8: Interoperability and Cross-Chain"
 ---
 
-# Chapter 8: Interoperability and Cross-Chain
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 8: Interoperability and Cross-Chain</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Chain Hopper</strong> · The cross-chain "bridge engineer" — primary domain</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -175,6 +183,16 @@ Shared security model with specialized parachains.
 ## 8.8 LayerZero and Omnichain
 
 Universal messaging layer for cross-chain applications.
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Chain Hopper</strong> — The cross-chain "bridge engineer" — primary domain<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 9: Advanced Cryptography] will be taught by another CCBus guide.</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

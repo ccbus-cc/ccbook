@@ -2,7 +2,15 @@
 title: "Chapter 16: The Future of Blockchain"
 ---
 
-# Chapter 16: The Future of Blockchain
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 16: The Future of Blockchain</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Captain CCBus</strong> · The "last-bus driver" guiding your future outlook</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -232,6 +240,16 @@ By 2030, blockchain's final form may be:
 - True financial inclusion globally
 - Decentralized governance at scale
 - Integration with emerging technologies (AI, IoT, AR/VR)
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Captain CCBus</strong> — The "last-bus driver" guiding your future outlook<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Course Summary] will be taught by another CCBus guide.</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

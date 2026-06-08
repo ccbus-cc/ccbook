@@ -2,7 +2,15 @@
 title: "Chapter 15: Security and Best Practices"
 ---
 
-# Chapter 15: Security and Best Practices
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/guardian-node.png" alt="Guardian Node" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 15: Security and Best Practices</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Guardian Node</strong> · The "chief instructor" of security and best practices</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -134,6 +142,16 @@ Common scams:
 - **MythX** - Security analysis platform
 - **Etherscan** - Contract verification
 - **Tenderly** - Transaction debugging
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/guardian-node.png" alt="Guardian Node" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Guardian Node</strong> — The "chief instructor" of security and best practices<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 16: The Future of Blockchain] will be taught by another CCBus guide.</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

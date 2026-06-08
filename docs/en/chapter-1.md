@@ -2,7 +2,15 @@
 title: "Chapter 1: Blockchain Fundamentals"
 ---
 
-# Chapter 1: Blockchain Fundamentals
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 1: Blockchain Fundamentals</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Captain CCBus</strong> · The "professor + tour guide + friendly bus" of blockchain</div>
+  </div>
+</div>
 
 ## 1.0 2025-2026 Perspective: Why Reread This Chapter
 

@@ -2,7 +2,15 @@
 title: "Chapter 14: Enterprise Blockchain"
 ---
 
-# Chapter 14: Enterprise Blockchain
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/guardian-node.png" alt="Guardian Node" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 14: Enterprise Blockchain</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Guardian Node</strong> · The "security consultant" of enterprise blockchain</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -198,6 +206,16 @@ Private Ethereum networks with enhanced features.
 3. **Proof of Concept** - Validate approach
 4. **Pilot Program** - Test in production
 5. **Scale Deployment** - Expand across organization
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/guardian-node.png" alt="Guardian Node" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Guardian Node</strong> — The "security consultant" of enterprise blockchain<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 15: Security and Best Practices] will be taught by another CCBus guide.</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

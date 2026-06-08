@@ -2,7 +2,15 @@
 title: "第三章：加密货币基础"
 ---
 
-# 第三章：加密货币基础
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第三章：加密货币基础</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Satoshi Driver</strong> · 比特币诞生的"见证人" — 领你走第一条链</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
   <p><strong>本章导读</strong></p>
@@ -1002,6 +1010,16 @@ contract Escrow {
 3. **分散投资,不要全仓单一币种**
 4. **长期持有,不要频繁交易**
 5. **学习基本的安全知识**
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>Satoshi Driver</strong> — 比特币诞生的"见证人" — 领你走第一条链<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第四章：共识机制] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
   <h3>本章小结</h3>

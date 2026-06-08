@@ -2,7 +2,15 @@
 title: "第四章：共识机制"
 ---
 
-# 第四章：共识机制
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第四章：共识机制</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Captain CCBus</strong> · 共识机制的"调度主管"</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
   <p><strong>本章导读</strong></p>
@@ -825,6 +833,16 @@ $$
 - **PoS 主流化**: Ethereum 合并后能耗降低 99.95%
 - **碳中和**: Algorand, Cardano 等宣布碳中和
 - **可持续发展**: 共识机制设计考虑环境影响
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>Captain CCBus</strong> — 共识机制的"调度主管"<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第五章：智能合约] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
   <h3>本章总结</h3>

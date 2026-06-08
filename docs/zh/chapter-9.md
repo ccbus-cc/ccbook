@@ -2,7 +2,15 @@
 title: "第九章：高级密码学"
 ---
 
-# 第九章：高级密码学
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/ether-engineer.png" alt="Ether Engineer" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第九章：高级密码学</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Ether Engineer</strong> · 高级密码学的"系统工程师"</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -878,6 +886,16 @@ contract DiceGame is VRFConsumerBase {
 </div>
 
 ---
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/ether-engineer.png" alt="Ether Engineer" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>Ether Engineer</strong> — 高级密码学的"系统工程师"<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第十章：DeFi - 去中心化金融] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

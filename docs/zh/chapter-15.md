@@ -2,7 +2,15 @@
 title: "第十五章：安全与最佳实践"
 ---
 
-# 第十五章：安全与最佳实践
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/guardian-node.png" alt="Guardian Node" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第十五章：安全与最佳实践</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Guardian Node</strong> · 安全与最佳实践的"主教官"</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -1215,6 +1223,16 @@ contract EmergencyProtocol is Pausable, AccessControl {
 ```
 
 ---
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/guardian-node.png" alt="Guardian Node" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>Guardian Node</strong> — 安全与最佳实践的"主教官"<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第十六章：区块链的未来] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

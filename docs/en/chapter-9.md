@@ -2,7 +2,15 @@
 title: "Chapter 9: Advanced Cryptography"
 ---
 
-# Chapter 9: Advanced Cryptography
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/ether-engineer.png" alt="Ether Engineer" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 9: Advanced Cryptography</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Ether Engineer</strong> · The "systems engineer" of advanced cryptography</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -160,6 +168,16 @@ Most common design:
 ## 9.6 Post-Quantum Cryptography
 
 Cryptography resistant to quantum computer attacks.
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/ether-engineer.png" alt="Ether Engineer" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Ether Engineer</strong> — The "systems engineer" of advanced cryptography<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 10: DeFi — Decentralized Finance] will be taught by another CCBus guide.</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

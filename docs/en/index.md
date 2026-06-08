@@ -23,6 +23,62 @@ Whether you are:
 This book will provide you with the knowledge and practical guidance you need.
 </div>
 
+
+## 🎓 Meet Your Teachers
+
+This book is not a cold textbook. It is a **course taught by the CCBus all-star teaching cast**. Each chapter has a dedicated CCBus character as your guide — their design, personality, and specialty match the chapter's core topic.
+
+<div class="ccbus-cast-grid">
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" /></div>
+    <p class="ccbus-cast-card-name">🚌 Captain CCBus</p>
+    <p class="ccbus-cast-card-role">Main mascot<br/>Ch 1, 4, 16</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" /></div>
+    <p class="ccbus-cast-card-name">🚂 Satoshi Driver</p>
+    <p class="ccbus-cast-card-role">Bitcoin guide<br/>Ch 2, 3</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/ether-engineer.png" alt="Ether Engineer" /></div>
+    <p class="ccbus-cast-card-name">⚙️ Ether Engineer</p>
+    <p class="ccbus-cast-card-role">EVM specialist<br/>Ch 5, 9</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" /></div>
+    <p class="ccbus-cast-card-name">🌉 Chain Hopper</p>
+    <p class="ccbus-cast-card-role">Multi-chain traveler<br/>Ch 6, 7, 8</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/defi-navigator.png" alt="DeFi Navigator" /></div>
+    <p class="ccbus-cast-card-name">🧭 DeFi Navigator</p>
+    <p class="ccbus-cast-card-role">DeFi expert<br/>Ch 10</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/token-builder.png" alt="Token Builder" /></div>
+    <p class="ccbus-cast-card-name">🏗️ Token Builder</p>
+    <p class="ccbus-cast-card-role">Token builder<br/>Ch 11</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/community-conductor.png" alt="Community Conductor" /></div>
+    <p class="ccbus-cast-card-name">📣 Community Conductor</p>
+    <p class="ccbus-cast-card-role">Community chair<br/>Ch 12</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/rookie-rider.png" alt="Rookie Rider" /></div>
+    <p class="ccbus-cast-card-name">🎒 Rookie Rider</p>
+    <p class="ccbus-cast-card-role">New passenger<br/>Ch 13</p>
+  </div>
+  <div class="ccbus-cast-card">
+    <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/guardian-node.png" alt="Guardian Node" /></div>
+    <p class="ccbus-cast-card-name">🛡️ Guardian Node</p>
+    <p class="ccbus-cast-card-role">Security officer<br/>Ch 14, 15</p>
+  </div>
+</div>
+
+Each chapter opens with the teacher's "hero card", includes conversational explanations from them in the body, and ends with a "Taught by" credit. Imagine these characters as real teachers you'd meet in class — their expertise, speaking style, and emphasis all align with the chapter content.
+
+
 ## 📚 Complete Table of Contents
 
 <div class="book-features">

@@ -2,7 +2,15 @@
 title: "Chapter 13: Blockchain Platform Comparison"
 ---
 
-# Chapter 13: Blockchain Platform Comparison
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/rookie-rider.png" alt="Rookie Rider" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 13: Blockchain Platform Comparison</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Rookie Rider</strong> · The "new passenger" of platform comparison — asks which bus to take</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -200,6 +208,16 @@ The 2026 L1 landscape has crystallized. This chapter uses real 2026 data to upda
 | Ethereum | 15-30 | ~15 sec | Largest | General DApps |
 | Solana | 2,000+ | <1 sec | Growing | High-performance apps |
 | Polkadot | 1,000+ | ~12 sec | Moderate | Cross-chain apps |
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/rookie-rider.png" alt="Rookie Rider" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Rookie Rider</strong> — The "new passenger" of platform comparison — asks which bus to take<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 14: Enterprise Blockchain] will be taught by another CCBus guide.</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

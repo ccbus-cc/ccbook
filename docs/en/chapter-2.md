@@ -2,7 +2,15 @@
 title: "Chapter 2: Cryptography Fundamentals"
 ---
 
-# Chapter 2: Cryptography Fundamentals
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 2: Cryptography Fundamentals</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Satoshi Driver</strong> · The "veteran driver" of cryptography — knows the route</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -1314,6 +1322,16 @@ Multiple parties jointly hold fragments of a private key, requiring t-of-n fragm
 </div>
 
 ## Chapter Summary
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Satoshi Driver</strong> — The "veteran driver" of cryptography — knows the route<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 3: Cryptocurrency Fundamentals] will be taught by another CCBus guide.</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

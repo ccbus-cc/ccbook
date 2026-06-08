@@ -2,7 +2,15 @@
 title: "第七章：Layer 2 扩展方案"
 ---
 
-# 第七章：Layer 2 扩展方案
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第七章：Layer 2 扩展方案</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Chain Hopper</strong> · L2 扩展的"试驾员" — 带你试遍各路 Rollup</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 <strong>本章导读</strong>
@@ -829,6 +837,16 @@ Cancun(2024-03)引入的 EIP-4844 是 L2 经济的转折点。理解它需要看
 - **EIP-7594 (PeerDAS)**:节点只需下载部分 blob 数据 + 校验其他节点的 commitment,L2 blob 容量再扩 4-8 倍
 - **EIP-7883 (Modular exponentiation precompile)**:让 L2 链上 ZKP 验证更便宜
 - **2027 预测**:L2 单笔交易成本降至 $0.0001 以内,接近 Web2 服务器成本
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>Chain Hopper</strong> — L2 扩展的"试驾员" — 带你试遍各路 Rollup<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第八章：互操作性与跨链] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

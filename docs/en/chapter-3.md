@@ -2,7 +2,15 @@
 title: "Chapter 3: Cryptocurrency Fundamentals"
 ---
 
-# Chapter 3: Cryptocurrency Fundamentals
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 3: Cryptocurrency Fundamentals</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Satoshi Driver</strong> · The "witness" to Bitcoin's birth — guides you on the first chain</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
   <p><strong>Chapter Introduction</strong></p>
@@ -819,6 +827,16 @@ Bitcoin underwent a paradigm shift in 2024-2026: from "static store of value" to
 3. **Diversify, don't go all-in on one coin**
 4. **Hold long-term, don't trade frequently**
 5. **Learn basic security knowledge**
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Satoshi Driver</strong> — The "witness" to Bitcoin's birth — guides you on the first chain<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 4: Consensus Mechanisms] will be taught by another CCBus guide.</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
   <h3>Chapter Summary</h3>

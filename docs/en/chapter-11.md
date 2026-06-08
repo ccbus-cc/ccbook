@@ -2,7 +2,15 @@
 title: "Chapter 11: NFTs and Digital Assets"
 ---
 
-# Chapter 11: NFTs and Digital Assets
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/token-builder.png" alt="Token Builder" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>Chapter 11: NFTs and Digital Assets</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Token Builder</strong> · The NFT/digital-assets "construction foreman" — builds with you</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -172,6 +180,16 @@ Tokenizing physical assets:
 - NFT lending and borrowing
 - NFT fractionalization
 - NFT derivatives
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/token-builder.png" alt="Token Builder" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    Taught by: <strong>Token Builder</strong> — The NFT/digital-assets "construction foreman" — builds with you<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 12: Governance and DAOs] will be taught by another CCBus guide.</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

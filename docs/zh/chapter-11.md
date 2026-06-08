@@ -2,7 +2,15 @@
 title: "第十一章：NFT 与数字资产"
 ---
 
-# 第十一章：NFT 与数字资产
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/token-builder.png" alt="Token Builder" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第十一章：NFT 与数字资产</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Token Builder</strong> · NFT/数字资产的"施工队长" — 帮你搭积木</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -967,6 +975,16 @@ contract SoulboundToken is ERC721 {
     }
 }
 ```
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/token-builder.png" alt="Token Builder" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>Token Builder</strong> — NFT/数字资产的"施工队长" — 帮你搭积木<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第十二章：治理与 DAO] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

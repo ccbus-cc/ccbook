@@ -2,7 +2,15 @@
 title: "第八章：互操作性与跨链"
 ---
 
-# 第八章：互操作性与跨链
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第八章：互操作性与跨链</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Chain Hopper</strong> · 跨链的"桥梁工程师" — 主业</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -890,6 +898,16 @@ router.ccipSend{value: fees}(destinationChainSelector, message);
    - 一个地址控制多链资产
 
 ---
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>Chain Hopper</strong> — 跨链的"桥梁工程师" — 主业<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第九章：高级密码学] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

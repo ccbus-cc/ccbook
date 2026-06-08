@@ -2,7 +2,15 @@
 title: "第六章：区块链架构"
 ---
 
-# 第六章：区块链架构
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第六章：区块链架构</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Chain Hopper</strong> · 架构的"导游" — 带你看清 L1/L2 模块</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 <strong>本章导读</strong>
@@ -901,6 +909,16 @@ def verify_account_balance(address, balance, proof, state_root):
 - 灵活组合
 - 降低成本
 - 提高可扩展性
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>Chain Hopper</strong> — 架构的"导游" — 带你看清 L1/L2 模块<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第七章：Layer 2 扩展方案] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

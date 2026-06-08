@@ -2,7 +2,15 @@
 title: "第十二章：治理与 DAO"
 ---
 
-# 第十二章：治理与 DAO
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/community-conductor.png" alt="Community Conductor" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第十二章：治理与 DAO</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Community Conductor</strong> · DAO 治理的"社区主席" — 喊你投票</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -990,6 +998,16 @@ CCBus 提供了几种**协议级治理代币**的实现,把治理参数和代币
 | Optimism | $2.8B | 800,000+ | 18-25% | Optimism Collective |
 | MakerDAO | $1.5B | 120,000+ | 25-35% | Governor + MKR |
 | Compound | $800M | 250,000+ | 10-15% | Governor Bravo |
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/community-conductor.png" alt="Community Conductor" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>Community Conductor</strong> — DAO 治理的"社区主席" — 喊你投票<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第十三章：区块链平台对比] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 

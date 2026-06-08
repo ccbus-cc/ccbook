@@ -2,7 +2,15 @@
 title: "第十六章：区块链的未来"
 ---
 
-# 第十六章：区块链的未来
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第十六章：区块链的未来</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Captain CCBus</strong> · 带你展望未来的"末班车司机"</div>
+  </div>
+</div>
 
 ## 16.0 2025-2026 视角:为什么这一章要重新读
 
@@ -1352,6 +1360,16 @@ Solver (求解器) 竞争执行:
 **这不是终点，而是新的起点。**
 
 ---
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>Captain CCBus</strong> — 带你展望未来的"末班车司机"<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [课程总结] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 <p style="text-align: center; font-size: 0.9em; color: #888;">

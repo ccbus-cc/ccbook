@@ -2,7 +2,15 @@
 title: "第一章：区块链基础"
 ---
 
-# 第一章：区块链基础
+<div class="ccbus-hero">
+  <div class="ccbus-hero-avatar">
+    <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
+  </div>
+  <div class="ccbus-hero-content">
+    <h1>第一章：区块链基础</h1>
+    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Captain CCBus</strong> · 区块链的"教授 + 导游 + 友好巴士"</div>
+  </div>
+</div>
 
 <div class="chapter-intro">
 
@@ -1662,6 +1670,16 @@ contract AIAgentAccount {
 这些密码学知识是理解区块链安全机制的关键基础。准备好了吗？让我们继续前进！
 
 ---
+
+<div class="ccbus-teacher-credits">
+  <div class="ccbus-teacher-credits-avatar">
+    <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
+  </div>
+  <div class="ccbus-teacher-credits-body">
+    本章讲师:<strong>Captain CCBus</strong> — 区块链的"教授 + 导游 + 友好巴士"<br />
+    <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第二章：密码学基础] 将由另一位 CCBus 讲师带你继续。</span>
+  </div>
+</div>
 
 <div class="chapter-footer">
 
