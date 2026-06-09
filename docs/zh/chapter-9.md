@@ -562,7 +562,7 @@ contract PrivateAuction {
 **t-of-n 门限签名**：n 个参与方共享私钥，任意 t 个参与方可生成有效签名。
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
-<svg class="svg-9-4" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
+<svg class="svg-9-4" viewBox="0 0 800 490" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;">
 <defs>
 <style>
 .svg-9-4 .tss-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }

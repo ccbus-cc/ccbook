@@ -1281,7 +1281,7 @@ console.log('验证结果:', isValid);  // true
 多方共同持有私钥的分片，需要 t-of-n 个分片才能生成有效签名。
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
-<svg class="svg-2-18" viewBox="0 0 380 160" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
+<svg class="svg-2-18" viewBox="0 0 380 185" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 450px; display: block; margin: 0 auto;">
 <defs>
 <style>
       .svg-2-18 .thresh-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }

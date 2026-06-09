@@ -518,7 +518,7 @@ transfer(
 跨链桥是 **DeFi 最大的攻击目标**，历史上发生多起重大安全事故。
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
-<svg class="svg-8-4" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
+<svg class="svg-8-4" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
 <defs>
 <style>
 .svg-8-4 .risk-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }
@@ -825,7 +825,7 @@ router.ccipSend{value: fees}(destinationChainSelector, message);
 ### 趋势与挑战
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
-<svg class="svg-8-5" viewBox="0 0 850 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
+<svg class="svg-8-5" viewBox="0 0 850 570" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
 <defs>
 <style>
 .svg-8-5 .future-title { font-family: arial, sans-serif; font-size: 16px; fill: #1f2937; font-weight: bold; }

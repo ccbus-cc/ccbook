@@ -108,7 +108,7 @@ CCBus 的"多功能代币"是当前 DeFi 领域合约复杂度的典型代表—
 ### 智能合约的工作流程
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
-<svg class="svg-5-1" viewBox="0 0 750 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<svg class="svg-5-1" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
 <defs>
 <style>
       .svg-5-1 .scw-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
