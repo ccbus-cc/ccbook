@@ -32,7 +32,7 @@ This book is not a cold textbook. It is a **course taught by the CCBus all-star 
   <div class="ccbus-cast-card">
     <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" /></div>
     <p class="ccbus-cast-card-name">🚌 Captain CCBus</p>
-    <p class="ccbus-cast-card-role">Main mascot<br/>Ch 1, 4, 16</p>
+    <p class="ccbus-cast-card-role">Course host<br/>Ch 1, 4, 16</p>
   </div>
   <div class="ccbus-cast-card">
     <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" /></div>

@@ -31,7 +31,7 @@ layout: doc
   <div class="ccbus-cast-card">
     <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" /></div>
     <p class="ccbus-cast-card-name">🚌 Captain CCBus</p>
-    <p class="ccbus-cast-card-role">主吉祥物<br/>第 1、4、16 章</p>
+    <p class="ccbus-cast-card-role">课程主理人<br/>第 1、4、16 章</p>
   </div>
   <div class="ccbus-cast-card">
     <div class="ccbus-cast-card-avatar"><img src="/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" /></div>
