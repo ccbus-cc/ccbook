@@ -67,6 +67,61 @@
   fill: #e6e8eb !important;
 }
 
+/* Dark mode: stroke colors for axes and infrastructure lines.
+   The inline <style> blocks in <defs> use #1f2937 (dark text color)
+   for stroke. In dark mode, this blends into the dark background.
+   Override with a light color, but ONLY for the specific classes
+   that use the dark text color (not brand colors like orange/blue/green).
+   Class list: comp-axis, amm-arrow, bridge-arrow, flow-arrow, he-arrow,
+   ibc-arrow, ir-arrow, lend-arrow, scf-arrow, snark-arrow,
+   btc-circle-orange, byz-circle-loyal, byz-circle-traitor,
+   cc-circle-center, cons-circle-center, vs-circle-blue, vs-circle-orange,
+   mpc-line, vs-line-divider. */
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .comp-axis,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .comp-axis,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .adopt-axis,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .adopt-axis,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .rwa-axis,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .rwa-axis,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .amm-arrow,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .amm-arrow,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .bridge-arrow,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .bridge-arrow,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .flow-arrow,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .flow-arrow,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .he-arrow,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .he-arrow,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .ibc-arrow,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .ibc-arrow,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .ir-arrow,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .ir-arrow,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .lend-arrow,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .lend-arrow,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .scf-arrow,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .scf-arrow,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .snark-arrow,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .snark-arrow,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .btc-circle-orange,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .btc-circle-orange,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .byz-circle-loyal,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .byz-circle-loyal,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .byz-circle-traitor,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .byz-circle-traitor,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .cc-circle-center,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .cc-circle-center,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .cons-circle-center,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .cons-circle-center,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .vs-circle-blue,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .vs-circle-blue,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .vs-circle-orange,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .vs-circle-orange,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .mpc-line,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .mpc-line,
+.dark .vp-doc div[style*="background:rgba(76, 156, 232"] svg .vs-line-divider,
+.dark .vp-doc div[style*="background:rgba(52, 81, 178"] svg .vs-line-divider {
+  stroke: #e6e8eb !important;
+}
+
 /* ============================================================
    Sidebar – GitBook style
    ============================================================ */
