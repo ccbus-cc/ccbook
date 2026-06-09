@@ -160,7 +160,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
       .svg-6-1 .p2p-node-full { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 1.5; }
       .svg-6-1 .p2p-node-light { fill: rgba(92, 184, 92, 0.25); stroke: #5cb85c; stroke-width: 1; }
       .svg-6-1 .p2p-node-archive { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1.5; }
-      .svg-6-1 .p2p-line-conn { stroke: #4c9be8; fill: none; stroke-width: 0.8; opacity: 0.5; }
+      .svg-6-1 .p2p-line-conn { stroke: #4c9be8; fill: none; stroke-width: 1; opacity: 0.5; }
       .svg-6-1 .p2p-line-sync { stroke: #5cb85c; fill: none; stroke-width: 1.2; stroke-dasharray: 4,2; }
     </style>
     <marker id="p2p-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
@@ -352,7 +352,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
       .svg-6-3 .blk-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .svg-6-3 .blk-box-header { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
       .svg-6-3 .blk-box-body { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
-      .svg-6-3 .blk-box-field { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 0.8; }
+      .svg-6-3 .blk-box-field { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 1; }
       .svg-6-3 .blk-line-link { stroke: #4c9be8; fill: none; stroke-width: 1.2; stroke-dasharray: 3,2; }
     </style>
     <marker id="blk-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
@@ -607,7 +607,7 @@ def verify_account_balance(address, balance, proof, state_root):
       .svg-6-5 .comp-box-single { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
       .svg-6-5 .comp-box-multi { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
       .svg-6-5 .comp-box-shard { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
-      .svg-6-5 .comp-block { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 0.8; }
+      .svg-6-5 .comp-block { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 1; }
     </style>
 </defs>
   <text class="comp-text-title" x="375" y="25" text-anchor="middle">区块链架构模式对比</text>

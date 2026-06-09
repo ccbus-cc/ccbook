@@ -577,7 +577,7 @@ $$
       .svg-4-5 .pbft-node-backup { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
       .svg-4-5 .pbft-box-phase { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 1; }
       .svg-4-5 .pbft-line-flow { stroke: #4c9be8; fill: none; stroke-width: 1.5; stroke-dasharray: 3,2; }
-      .svg-4-5 .pbft-line-broadcast { stroke: #df6919; fill: none; stroke-width: 0.8; opacity: 0.6; }
+      .svg-4-5 .pbft-line-broadcast { stroke: #df6919; fill: none; stroke-width: 1; opacity: 0.6; }
       .svg-4-5 .pbft-circle-step { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 1; }
     </style>
     <marker id="pbft-arrow-blue" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">

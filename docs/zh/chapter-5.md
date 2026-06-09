@@ -395,8 +395,8 @@ contract SimpleStorage {
       .svg-5-3 .sol-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
       .svg-5-3 .sol-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .svg-5-3 .sol-box-category { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
-      .svg-5-3 .sol-box-type { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 0.8; }
-      .svg-5-3 .sol-box-ref { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 0.8; }
+      .svg-5-3 .sol-box-type { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 1; }
+      .svg-5-3 .sol-box-ref { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 1; }
     </style>
 </defs>
   <text class="sol-text-title" x="375" y="25" text-anchor="middle">Solidity 数据类型体系</text>
