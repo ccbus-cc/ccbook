@@ -78,9 +78,9 @@ CCBus 同时支持 BNB Chain(PoSA)、Solana(PoH+PoS)、Base(Op-Stack/OP Stack)�
       .svg-4-0 .cons-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
       .svg-4-0 .cons-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
       .svg-4-0 .cons-text-small { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
-      .svg-4-0 .cons-circle-center { fill: #4c9be8; stroke: #1f2937; stroke-width: 0.5; }
-      .svg-4-0 .cons-circle-goal { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 0.5; }
-      .svg-4-0 .cons-line { stroke: #df6919; stroke-width: 0.5; fill: none; }
+      .svg-4-0 .cons-circle-center { fill: #4c9be8; stroke: #1f2937; stroke-width: 1; }
+      .svg-4-0 .cons-circle-goal { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
+      .svg-4-0 .cons-line { stroke: #df6919; stroke-width: 1; fill: none; }
     </style>
     <marker id="cons-arrow-1" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#df6919"/>
@@ -138,11 +138,11 @@ CCBus 同时支持 BNB Chain(PoSA)、Solana(PoH+PoS)、Base(Op-Stack/OP Stack)�
       .svg-4-1 .byz-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
       .svg-4-1 .byz-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-4-1 .byz-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-4-1 .byz-circle-loyal { fill: #5cb85c; stroke: #1f2937; stroke-width: 0.5; }
-      .svg-4-1 .byz-circle-traitor { fill: #d9534f; stroke: #1f2937; stroke-width: 0.5; }
+      .svg-4-1 .byz-circle-loyal { fill: #5cb85c; stroke: #1f2937; stroke-width: 1; }
+      .svg-4-1 .byz-circle-traitor { fill: #d9534f; stroke: #1f2937; stroke-width: 1; }
       .svg-4-1 .byz-line-true { stroke: #5cb85c; fill: none; stroke-width: 1; stroke-dasharray: 2,2; }
       .svg-4-1 .byz-line-false { stroke: #d9534f; fill: none; stroke-width: 1; stroke-dasharray: 2,2; }
-      .svg-4-1 .byz-rect-city { fill: rgba(78, 93, 108, 0.3); stroke: #4e5d6c; stroke-width: 0.5; }
+      .svg-4-1 .byz-rect-city { fill: rgba(78, 93, 108, 0.3); stroke: #4e5d6c; stroke-width: 1; }
     </style>
 </defs>
   <text class="byz-text-title" x="350" y="25" text-anchor="middle">拜占庭将军问题示意图</text>
@@ -219,10 +219,10 @@ CCBus 同时支持 BNB Chain(PoSA)、Solana(PoH+PoS)、Base(Op-Stack/OP Stack)�
       .svg-4-2 .pow-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
       .svg-4-2 .pow-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-4-2 .pow-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-4-2 .pow-rect-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-4-2 .pow-rect-success { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
-      .svg-4-2 .pow-rect-fail { fill: rgba(217, 83, 79, 0.2); stroke: #d9534f; stroke-width: 0.5; }
-      .svg-4-2 .pow-line { stroke: #4c9be8; stroke-width: 0.5; fill: none; }
+      .svg-4-2 .pow-rect-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .svg-4-2 .pow-rect-success { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
+      .svg-4-2 .pow-rect-fail { fill: rgba(217, 83, 79, 0.2); stroke: #d9534f; stroke-width: 1; }
+      .svg-4-2 .pow-line { stroke: #4c9be8; stroke-width: 1; fill: none; }
     </style>
     <marker id="pow-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#4c9be8"/>
@@ -354,10 +354,10 @@ $$
       .svg-4-3 .pos-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
       .svg-4-3 .pos-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-4-3 .pos-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-4-3 .pos-rect-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-4-3 .pos-rect-validator { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
-      .svg-4-3 .pos-line { stroke: #4c9be8; stroke-width: 0.5; fill: none; }
-      .svg-4-3 .pos-circle { fill: none; stroke: #df6919; stroke-width: 0.5; }
+      .svg-4-3 .pos-rect-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .svg-4-3 .pos-rect-validator { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
+      .svg-4-3 .pos-line { stroke: #4c9be8; stroke-width: 1; fill: none; }
+      .svg-4-3 .pos-circle { fill: none; stroke: #df6919; stroke-width: 1; }
     </style>
     <marker id="pos-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#4c9be8"/>
@@ -471,9 +471,9 @@ $$
       .svg-4-4 .dpos-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
       .svg-4-4 .dpos-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-4-4 .dpos-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-4-4 .dpos-circle-holder { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-4-4 .dpos-rect-witness { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 0.5; }
-      .svg-4-4 .dpos-line { stroke: #df6919; stroke-width: 0.5; fill: none; }
+      .svg-4-4 .dpos-circle-holder { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .svg-4-4 .dpos-rect-witness { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
+      .svg-4-4 .dpos-line { stroke: #df6919; stroke-width: 1; fill: none; }
     </style>
     <marker id="dpos-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#df6919"/>
@@ -574,7 +574,7 @@ $$
       .svg-4-5 .pbft-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .svg-4-5 .pbft-text-label { font-family: arial, sans-serif; font-size: 9px; fill: #4c9be8; font-weight: bold; }
       .svg-4-5 .pbft-node-primary { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1; }
-      .svg-4-5 .pbft-node-backup { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
+      .svg-4-5 .pbft-node-backup { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
       .svg-4-5 .pbft-box-phase { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 1; }
       .svg-4-5 .pbft-line-flow { stroke: #4c9be8; fill: none; stroke-width: 1.5; stroke-dasharray: 3,2; }
       .svg-4-5 .pbft-line-broadcast { stroke: #df6919; fill: none; stroke-width: 0.8; opacity: 0.6; }
@@ -747,11 +747,11 @@ $$
       .svg-4-6 .comp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
       .svg-4-6 .comp-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-4-6 .comp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-4-6 .comp-axis { stroke: #1f2937; stroke-width: 0.5; fill: none; }
-      .svg-4-6 .comp-circle-pow { fill: rgba(217, 83, 79, 0.4); stroke: #d9534f; stroke-width: 0.5; }
-      .svg-4-6 .comp-circle-pos { fill: rgba(76, 156, 232, 0.4); stroke: #4c9be8; stroke-width: 0.5; }
-      .svg-4-6 .comp-circle-dpos { fill: rgba(223, 105, 25, 0.4); stroke: #df6919; stroke-width: 0.5; }
-      .svg-4-6 .comp-circle-pbft { fill: rgba(92, 184, 92, 0.4); stroke: #5cb85c; stroke-width: 0.5; }
+      .svg-4-6 .comp-axis { stroke: #1f2937; stroke-width: 1; fill: none; }
+      .svg-4-6 .comp-circle-pow { fill: rgba(217, 83, 79, 0.4); stroke: #d9534f; stroke-width: 1; }
+      .svg-4-6 .comp-circle-pos { fill: rgba(76, 156, 232, 0.4); stroke: #4c9be8; stroke-width: 1; }
+      .svg-4-6 .comp-circle-dpos { fill: rgba(223, 105, 25, 0.4); stroke: #df6919; stroke-width: 1; }
+      .svg-4-6 .comp-circle-pbft { fill: rgba(92, 184, 92, 0.4); stroke: #5cb85c; stroke-width: 1; }
     </style>
 </defs>
   <text class="comp-text-title" x="350" y="25" text-anchor="middle">共识机制性能与去中心化权衡</text>
