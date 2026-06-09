@@ -67,6 +67,56 @@
   fill: #e6e8eb !important;
 }
 
+/* Dark mode: SVGs OUTSIDE the brand-background wrapper (ch14, ch15, etc.)
+   still need their text/strokes to be readable on dark backgrounds.
+   These SVGs are wrapped in plain <div style="text-align:center;margin:2em 0;">.
+   Override fill and stroke to light colors, but EXCLUDE brand colors
+   (orange #df6919, green #5cb85c, blue #4c9be8, red #d9534f, etc.) so
+   those stay distinguishable.
+
+   Strategy: target text and stroke elements that don't have a brand
+   color inline. We use :not() to skip elements that have an inline
+   fill/stroke attribute that looks like a brand color. */
+
+/* Dark mode: text fills for ALL SVGs (ch14/15 included) */
+.dark .vp-doc svg text:not([fill="#df6919"]):not([fill="#5cb85c"]):not([fill="#4c9be8"]):not([fill="#d9534f"]):not([fill="#3451b2"]) {
+  fill: #e6e8eb !important;
+}
+
+/* Dark mode: class-based text fills (e.g. fill: #1f2937 in CSS rules) */
+.dark .vp-doc svg text[class*="text"] {
+  fill: #e6e8eb !important;
+}
+
+/* Dark mode: class-based stroke fills (e.g. stroke: #1f2937 in CSS rules).
+   Same problem as text fills — class-based styles in <defs><style> use
+   #1f2937 (dark text color) for stroke, which is invisible in dark mode.
+   Override the same 22 classes that use dark text color, but apply
+   to ALL SVGs (not just those inside brand-background wrappers). */
+.dark .vp-doc svg .comp-axis,
+.dark .vp-doc svg .adopt-axis,
+.dark .vp-doc svg .rwa-axis,
+.dark .vp-doc svg .amm-arrow,
+.dark .vp-doc svg .bridge-arrow,
+.dark .vp-doc svg .flow-arrow,
+.dark .vp-doc svg .he-arrow,
+.dark .vp-doc svg .ibc-arrow,
+.dark .vp-doc svg .ir-arrow,
+.dark .vp-doc svg .lend-arrow,
+.dark .vp-doc svg .scf-arrow,
+.dark .vp-doc svg .snark-arrow,
+.dark .vp-doc svg .btc-circle-orange,
+.dark .vp-doc svg .byz-circle-loyal,
+.dark .vp-doc svg .byz-circle-traitor,
+.dark .vp-doc svg .cc-circle-center,
+.dark .vp-doc svg .cons-circle-center,
+.dark .vp-doc svg .vs-circle-blue,
+.dark .vp-doc svg .vs-circle-orange,
+.dark .vp-doc svg .mpc-line,
+.dark .vp-doc svg .vs-line-divider {
+  stroke: #e6e8eb !important;
+}
+
 /* Dark mode: stroke colors for axes and infrastructure lines.
    The inline <style> blocks in <defs> use #1f2937 (dark text color)
    for stroke. In dark mode, this blends into the dark background.
