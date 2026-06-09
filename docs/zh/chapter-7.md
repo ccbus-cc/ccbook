@@ -113,19 +113,19 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
   <text class="tri-text-small" x="350" y="250" text-anchor="middle" font-weight="bold">理想状态</text>
   <text class="tri-text-small" x="350" y="263" text-anchor="middle">三者兼顾</text>
   <text class="tri-text-small" x="350" y="276" text-anchor="middle">❌ 难以实现</text>
-  <rect x="30" y="50" width="200" height="80" rx="4" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="30" y="50" width="200" height="80" rx="4" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="1"/>
   <text class="tri-text" x="130" y="68" text-anchor="middle" font-weight="bold">比特币</text>
   <text class="tri-text-small" x="40" y="83">✓ 去中心化: 15,000+节点</text>
   <text class="tri-text-small" x="40" y="96">✓ 安全性: PoW高算力</text>
   <text class="tri-text-small" x="40" y="109">✗ 可扩展性: ~7 TPS</text>
   <text class="tri-text-small" x="40" y="122">  10分钟出块</text>
-  <rect x="470" y="50" width="200" height="80" rx="4" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="0.8"/>
+  <rect x="470" y="50" width="200" height="80" rx="4" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="1"/>
   <text class="tri-text" x="570" y="68" text-anchor="middle" font-weight="bold">Solana</text>
   <text class="tri-text-small" x="480" y="83">✗ 去中心化: ~1900节点</text>
   <text class="tri-text-small" x="480" y="96">? 安全性: 多次宕机</text>
   <text class="tri-text-small" x="480" y="109">✓ 可扩展性: ~3000 TPS</text>
   <text class="tri-text-small" x="480" y="122">  0.4秒出块</text>
-  <rect x="30" y="420" width="640" height="20" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="30" y="420" width="640" height="20" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="1"/>
   <text class="tri-text-small" x="350" y="434" text-anchor="middle" font-style="italic">Layer 2方案: 在保持Layer 1安全性和去中心化的同时，将可扩展性提升到Layer 2</text>
 </svg>
 </div>
@@ -175,35 +175,35 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
   <line class="l2-line" x1="375" y1="130" x2="375" y2="155" marker-end="url(#l2-arrow)"/>
   <rect class="l2-box-l2" x="50" y="155" width="650" height="205" rx="4"/>
   <text class="l2-text" x="375" y="175" text-anchor="middle" font-weight="bold">Layer 2 扩展方案</text>
-  <rect x="60" y="190" width="150" height="80" rx="3" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="60" y="190" width="150" height="80" rx="3" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="1"/>
   <text class="l2-text" x="135" y="205" text-anchor="middle" font-weight="bold">Rollups</text>
   <text class="l2-text-small" x="70" y="220">✓ 继承L1安全性</text>
   <text class="l2-text-small" x="70" y="233">• Optimistic Rollup</text>
   <text class="l2-text-small" x="75" y="245">  Arbitrum, Optimism</text>
   <text class="l2-text-small" x="70" y="257">• ZK Rollup</text>
   <text class="l2-text-small" x="75" y="268">  zkSync, StarkNet</text>
-  <rect x="220" y="190" width="150" height="80" rx="3" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="0.8"/>
+  <rect x="220" y="190" width="150" height="80" rx="3" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="1"/>
   <text class="l2-text" x="295" y="205" text-anchor="middle" font-weight="bold">状态通道</text>
   <text class="l2-text-small" x="230" y="220">✓ 即时最终性</text>
   <text class="l2-text-small" x="230" y="233">✓ 低成本</text>
   <text class="l2-text-small" x="230" y="245">• Lightning Network</text>
   <text class="l2-text-small" x="230" y="257">• Raiden Network</text>
   <text class="l2-text-small" x="230" y="268">✗ 需锁定资金</text>
-  <rect x="380" y="190" width="150" height="80" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="380" y="190" width="150" height="80" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="1"/>
   <text class="l2-text" x="455" y="205" text-anchor="middle" font-weight="bold">侧链</text>
   <text class="l2-text-small" x="390" y="220">✗ 独立安全性</text>
   <text class="l2-text-small" x="390" y="233">✓ 高性能</text>
   <text class="l2-text-small" x="390" y="245">• Polygon PoS</text>
   <text class="l2-text-small" x="390" y="257">• Gnosis Chain</text>
   <text class="l2-text-small" x="390" y="268">• Ronin (Axie Infinity)</text>
-  <rect x="540" y="190" width="150" height="80" rx="3" fill="rgba(156, 89, 182, 0.15)" stroke="#9c59b6" stroke-width="0.8"/>
+  <rect x="540" y="190" width="150" height="80" rx="3" fill="rgba(156, 89, 182, 0.15)" stroke="#9c59b6" stroke-width="1"/>
   <text class="l2-text" x="615" y="205" text-anchor="middle" font-weight="bold">混合方案</text>
   <text class="l2-text-small" x="550" y="220">• Validium</text>
   <text class="l2-text-small" x="555" y="232">  ZK证明 + 链下DA</text>
   <text class="l2-text-small" x="550" y="245">• Plasma</text>
   <text class="l2-text-small" x="555" y="257">  早期方案</text>
   <text class="l2-text-small" x="550" y="268">• Optimium</text>
-  <rect x="60" y="285" width="630" height="65" rx="3" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.8"/>
+  <rect x="60" y="285" width="630" height="65" rx="3" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="1"/>
   <text class="l2-text" x="375" y="303" text-anchor="middle" font-weight="bold">Layer 2 性能对比</text>
   <text class="l2-text-small" x="70" y="320">• TPS: 2,000 - 20,000+ (比L1提升100-1000倍)</text>
   <text class="l2-text-small" x="70" y="333">• Gas费: $0.01 - $0.5 (比L1降低100-1000倍)</text>
@@ -260,9 +260,9 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
   <text class="op-text-small" x="70" y="203">• 持续时间: 7天 (Arbitrum/Optimism)</text>
   <text class="op-text-small" x="70" y="216">• 任何人可以挑战无效状态根</text>
   <text class="op-text-small" x="70" y="229">• 挑战者需质押保证金</text>
-  <rect x="80" y="240" width="300" height="25" rx="3" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="80" y="240" width="300" height="25" rx="3" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="1"/>
   <text class="op-text-small" x="90" y="257" font-weight="bold">情况A: 无挑战 → 状态被接受 ✓</text>
-  <rect x="400" y="240" width="300" height="25" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="0.5"/>
+  <rect x="400" y="240" width="300" height="25" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="1"/>
   <text class="op-text-small" x="410" y="257" font-weight="bold">情况B: 有挑战 → 进入欺诈证明 ↓</text>
   <line class="op-line-flow" x1="195" y1="275" x2="195" y2="300" marker-end="url(#op-arrow)"/>
   <line class="op-line-flow" x1="555" y1="275" x2="555" y2="300" marker-end="url(#op-arrow)"/>
@@ -282,7 +282,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
   <text class="op-text-small" x="430" y="351">• 二分查找定位错误步骤</text>
   <text class="op-text-small" x="430" y="364">• 判定: 挑战者对 → 回滚状态</text>
   <text class="op-text-small" x="430" y="377">• 判定: Sequencer对 → 惩罚挑战者</text>
-  <rect x="30" y="410" width="690" height="90" rx="4" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.8"/>
+  <rect x="30" y="410" width="690" height="90" rx="4" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="1"/>
   <text class="op-text" x="375" y="428" text-anchor="middle" font-weight="bold">Optimistic Rollup 核心优势</text>
   <text class="op-text-small" x="40" y="448">✓ EVM兼容性好: 开发者可直接迁移以太坊合约</text>
   <text class="op-text-small" x="40" y="461">✓ 数据可用性: 所有交易数据发布到L1，任何人可验证</text>
@@ -395,7 +395,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
   <text class="zk-text-small" x="70" y="354">• 提款到L1: ~20分钟 (等待L1区块确认)</text>
   <text class="zk-text-small" x="400" y="328">• 数据可用性: 交易数据发布到L1</text>
   <text class="zk-text-small" x="400" y="341">• 完全透明: 任何人可重建状态</text>
-  <rect x="30" y="390" width="690" height="70" rx="4" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="30" y="390" width="690" height="70" rx="4" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="1"/>
   <text class="zk-text" x="375" y="408" text-anchor="middle" font-weight="bold">ZK Rollup vs Optimistic Rollup</text>
   <text class="zk-text-small" x="40" y="426">ZK: ✓ 即时提款 ✓ 更高安全性 ✗ 生成证明成本高 ✗ EVM兼容难</text>
   <text class="zk-text-small" x="40" y="439">OP: ✓ EVM兼容好 ✓ 开发简单 ✗ 7天提款期 ✗ 需活跃验证者</text>
@@ -732,12 +732,12 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
   <rect class="eco-cell" x="610" y="275" width="120" height="30"/>
   <text class="eco-text-small" x="670" y="285" text-anchor="middle">Polygon PoS</text>
   <text class="eco-text-small" x="670" y="297" text-anchor="middle">Gnosis, Ronin</text>
-  <rect x="30" y="320" width="700" height="70" rx="4" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="30" y="320" width="700" height="70" rx="4" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="1"/>
   <text class="eco-text" x="380" y="338" text-anchor="middle" font-weight="bold">选择建议</text>
   <text class="eco-text-small" x="40" y="353">• 通用DApp: Optimistic Rollup (成熟生态) 或 zkEVM (长期)</text>
   <text class="eco-text-small" x="40" y="366">• NFT/游戏: Validium (Immutable X) 或 侧链 (Polygon)</text>
   <text class="eco-text-small" x="40" y="379">• DeFi: ZK Rollup (安全性) 或 Optimistic (流动性)</text>
-  <rect x="30" y="405" width="700" height="75" rx="4" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="30" y="405" width="700" height="75" rx="4" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1"/>
   <text class="eco-text" x="380" y="423" text-anchor="middle" font-weight="bold">TVL 排名 (2025年初)</text>
   <text class="eco-text-small" x="40" y="440">1. Arbitrum One: ~$10B  |  2. Optimism: ~$7B  |  3. Polygon PoS: ~$5B</text>
   <text class="eco-text-small" x="40" y="453">4. Base: ~$3B  |  5. Blast: ~$2B  |  6. StarkNet: ~$1B  |  7. Linea: ~$800M</text>

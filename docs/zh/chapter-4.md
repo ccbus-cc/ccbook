@@ -588,7 +588,7 @@ $$
     </marker>
   </defs>
   <text class="pbft-text-title" x="325" y="25" text-anchor="middle">PBFT 三阶段共识流程 (4节点示例)</text>
-  <rect x="20" y="45" width="110" height="60" rx="4" fill="rgba(52, 81, 178, 0.04)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="20" y="45" width="110" height="60" rx="4" fill="rgba(52, 81, 178, 0.04)" stroke="#4c9be8" stroke-width="1"/>
   <text class="pbft-text" x="75" y="62" text-anchor="middle" font-weight="bold">节点配置</text>
   <text class="pbft-text-small" x="30" y="78">• 总节点: n = 4</text>
   <text class="pbft-text-small" x="30" y="90">• 容错数: f = 1</text>
@@ -621,7 +621,7 @@ $$
   <text class="pbft-text-small" x="70" y="261">• 备份节点验证PRE-PREPARE消息 (检查序号、摘要、签名)</text>
   <text class="pbft-text-small" x="70" y="274">• 验证通过后,各节点广播: &lt;PREPARE, v, n, d, i&gt;</text>
   <text class="pbft-text-small" x="70" y="287">• i=节点标识</text>
-  <rect x="70" y="295" width="535" height="18" rx="2" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="70" y="295" width="535" height="18" rx="2" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1"/>
   <text class="pbft-text-small" x="75" y="307" font-weight="bold">🔄 全网广播 → 每个节点收集PREPARE消息 → 达到2f+1=3个 → 进入prepared状态</text>
   <line class="pbft-line-flow" x1="280" y1="205" x2="280" y2="225" marker-end="url(#pbft-arrow-blue)"/>
   <line class="pbft-line-flow" x1="340" y1="205" x2="340" y2="225" marker-end="url(#pbft-arrow-blue)"/>
@@ -633,7 +633,7 @@ $$
   <text class="pbft-text-small" x="70" y="376">• 进入prepared状态的节点广播: &lt;COMMIT, v, n, d, i&gt;</text>
   <text class="pbft-text-small" x="70" y="389">• 收到2f+1=3个COMMIT消息后 → 执行请求</text>
   <text class="pbft-text-small" x="70" y="402">• 将回复发送给客户端</text>
-  <rect x="70" y="410" width="535" height="18" rx="2" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="0.5"/>
+  <rect x="70" y="410" width="535" height="18" rx="2" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="1"/>
   <text class="pbft-text-small" x="75" y="422" font-weight="bold">✓ 客户端收到f+1=2个相同回复 → 确认操作已被正确执行</text>
   <line class="pbft-line-flow" x1="200" y1="320" x2="200" y2="340" marker-end="url(#pbft-arrow-blue)"/>
   <line class="pbft-line-flow" x1="280" y1="320" x2="280" y2="340" marker-end="url(#pbft-arrow-blue)"/>

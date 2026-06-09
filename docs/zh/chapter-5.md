@@ -250,7 +250,7 @@ CCBus 的"多功能代币"是当前 DeFi 领域合约复杂度的典型代表—
   <text class="evm-text" x="505" y="358" text-anchor="middle" font-weight="bold">Gas 机制</text>
   <text class="evm-text-small" x="390" y="375">• 每个操作消耗固定Gas</text>
   <text class="evm-text-small" x="390" y="388">• 防止无限循环和DoS攻击</text>
-  <rect x="60" y="420" width="580" height="20" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="0.5"/>
+  <rect x="60" y="420" width="580" height="20" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="1"/>
   <text class="evm-text-small" x="350" y="434" text-anchor="middle" font-style="italic">EVM是图灵完备的确定性状态机 - 相同输入总是产生相同输出</text>
 </svg>
 </div>
@@ -453,17 +453,17 @@ contract SimpleStorage {
   <text class="sol-text-small" x="410" y="242">• 可包含任意数据类型（除自身）</text>
   <rect class="sol-box-category" x="30" y="280" width="690" height="110" rx="4"/>
   <text class="sol-text" x="375" y="298" text-anchor="middle" font-weight="bold">数据位置 (Data Location)</text>
-  <rect x="40" y="310" width="210" height="70" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="40" y="310" width="210" height="70" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1"/>
   <text class="sol-text" x="145" y="325" text-anchor="middle" font-weight="bold">storage</text>
   <text class="sol-text-small" x="50" y="340">• 永久存储在区块链上</text>
   <text class="sol-text-small" x="50" y="352">• 状态变量默认位置</text>
   <text class="sol-text-small" x="50" y="364">• Gas成本高</text>
-  <rect x="260" y="310" width="210" height="70" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.5"/>
+  <rect x="260" y="310" width="210" height="70" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="1"/>
   <text class="sol-text" x="365" y="325" text-anchor="middle" font-weight="bold">memory</text>
   <text class="sol-text-small" x="270" y="340">• 临时存储</text>
   <text class="sol-text-small" x="270" y="352">• 函数参数/局部变量</text>
   <text class="sol-text-small" x="270" y="364">• Gas成本中等</text>
-  <rect x="480" y="310" width="230" height="70" rx="3" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.5"/>
+  <rect x="480" y="310" width="230" height="70" rx="3" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="1"/>
   <text class="sol-text" x="595" y="325" text-anchor="middle" font-weight="bold">calldata</text>
   <text class="sol-text-small" x="490" y="340">• 不可修改的临时存储</text>
   <text class="sol-text-small" x="490" y="352">• 外部函数参数专用</text>

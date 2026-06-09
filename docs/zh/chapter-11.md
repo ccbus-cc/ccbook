@@ -224,17 +224,17 @@ ERC-1155 由 Enjin 团队提出，支持在单个合约中管理多种代币（F
 <circle cx="50" cy="213" r="3" class="std-check"/>
 <text x="60" y="216" class="std-label-sm">适合独特艺术品/收藏品</text>
 <text x="45" y="236" class="std-label" font-weight="bold">缺点：</text>
-<line x1="47" y1="248" x2="53" y2="254" class="std-cross" stroke-width="0.5"/>
-<line x1="53" y1="248" x2="47" y2="254" class="std-cross" stroke-width="0.5"/>
+<line x1="47" y1="248" x2="53" y2="254" class="std-cross" stroke-width="1"/>
+<line x1="53" y1="248" x2="47" y2="254" class="std-cross" stroke-width="1"/>
 <text x="60" y="253" class="std-label-sm">批量转账 Gas 费高 (需循环)</text>
-<line x1="47" y1="263" x2="53" y2="269" class="std-cross" stroke-width="0.5"/>
-<line x1="53" y1="263" x2="47" y2="269" class="std-cross" stroke-width="0.5"/>
+<line x1="47" y1="263" x2="53" y2="269" class="std-cross" stroke-width="1"/>
+<line x1="53" y1="263" x2="47" y2="269" class="std-cross" stroke-width="1"/>
 <text x="60" y="268" class="std-label-sm">不支持同时管理多种代币</text>
-<line x1="47" y1="278" x2="53" y2="284" class="std-cross" stroke-width="0.5"/>
-<line x1="53" y1="278" x2="47" y2="284" class="std-cross" stroke-width="0.5"/>
+<line x1="47" y1="278" x2="53" y2="284" class="std-cross" stroke-width="1"/>
+<line x1="53" y1="278" x2="47" y2="284" class="std-cross" stroke-width="1"/>
 <text x="60" y="283" class="std-label-sm">无原生批量转账函数</text>
-<line x1="47" y1="293" x2="53" y2="299" class="std-cross" stroke-width="0.5"/>
-<line x1="53" y1="293" x2="47" y2="299" class="std-cross" stroke-width="0.5"/>
+<line x1="47" y1="293" x2="53" y2="299" class="std-cross" stroke-width="1"/>
+<line x1="53" y1="293" x2="47" y2="299" class="std-cross" stroke-width="1"/>
 <text x="60" y="298" class="std-label-sm">游戏场景效率低 (多道具)</text>
 <text x="45" y="318" class="std-label" font-weight="bold">Gas 成本对比：</text>
 <text x="45" y="333" class="std-label-sm">• 单次铸造: ~80K gas</text>
@@ -260,14 +260,14 @@ ERC-1155 由 Enjin 团队提出，支持在单个合约中管理多种代币（F
 <circle cx="480" cy="228" r="3" class="std-check"/>
 <text x="490" y="231" class="std-label-sm">半同质化代币 (如演唱会门票)</text>
 <text x="475" y="251" class="std-label" font-weight="bold">缺点：</text>
-<line x1="477" y1="263" x2="483" y2="269" class="std-cross" stroke-width="0.5"/>
-<line x1="483" y1="263" x2="477" y2="269" class="std-cross" stroke-width="0.5"/>
+<line x1="477" y1="263" x2="483" y2="269" class="std-cross" stroke-width="1"/>
+<line x1="483" y1="263" x2="477" y2="269" class="std-cross" stroke-width="1"/>
 <text x="490" y="268" class="std-label-sm">较复杂，开发学习成本高</text>
-<line x1="477" y1="278" x2="483" y2="284" class="std-cross" stroke-width="0.5"/>
-<line x1="483" y1="278" x2="477" y2="284" class="std-cross" stroke-width="0.5"/>
+<line x1="477" y1="278" x2="483" y2="284" class="std-cross" stroke-width="1"/>
+<line x1="483" y1="278" x2="477" y2="284" class="std-cross" stroke-width="1"/>
 <text x="490" y="283" class="std-label-sm">部分钱包/市场支持度较低</text>
-<line x1="477" y1="293" x2="483" y2="299" class="std-cross" stroke-width="0.5"/>
-<line x1="483" y1="293" x2="477" y2="299" class="std-cross" stroke-width="0.5"/>
+<line x1="477" y1="293" x2="483" y2="299" class="std-cross" stroke-width="1"/>
+<line x1="483" y1="293" x2="477" y2="299" class="std-cross" stroke-width="1"/>
 <text x="490" y="298" class="std-label-sm">不适合纯艺术收藏品 (过于灵活)</text>
 <text x="475" y="318" class="std-label" font-weight="bold">Gas 成本对比：</text>
 <text x="475" y="333" class="std-label-sm">• 单次铸造: ~45K gas (节省 44%)</text>

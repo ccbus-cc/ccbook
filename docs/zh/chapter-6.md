@@ -281,7 +281,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <circle class="prop-circle-node" cx="100" cy="120" r="22"/>
   <text class="prop-text-small" x="100" y="118" text-anchor="middle" font-weight="bold">节点A</text>
   <text class="prop-text-small" x="100" y="130" text-anchor="middle">源节点</text>
-  <rect x="140" y="105" width="100" height="30" rx="3" fill="rgba(223, 105, 25, 0.08)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="140" y="105" width="100" height="30" rx="3" fill="rgba(223, 105, 25, 0.08)" stroke="#df6919" stroke-width="1"/>
   <text class="prop-text-small" x="190" y="124" text-anchor="middle">新交易/区块</text>
   <circle class="prop-circle-node" cx="280" cy="90" r="18"/>
   <text class="prop-text-small" x="280" y="93" text-anchor="middle">节点B</text>
@@ -312,7 +312,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <line class="prop-wave" x1="518" y1="90" x2="582" y2="120" marker-end="url(#prop-arrow)"/>
   <line class="prop-wave" x1="518" y1="150" x2="582" y2="120" marker-end="url(#prop-arrow)"/>
   <text class="prop-text-small" x="440" y="110" fill="#df6919">扩散</text>
-  <rect x="40" y="210" width="300" height="110" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="40" y="210" width="300" height="110" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1"/>
   <text class="prop-text" x="190" y="228" text-anchor="middle" font-weight="bold">Gossip协议特点</text>
   <text class="prop-text-small" x="50" y="245">✓ 去中心化: 无需中央协调节点</text>
   <text class="prop-text-small" x="50" y="258">✓ 容错性强: 节点失效不影响整体传播</text>
@@ -320,7 +320,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <text class="prop-text-small" x="50" y="284">✓ 冗余传播: 同一数据多次接收</text>
   <text class="prop-text-small" x="50" y="297">✗ 带宽消耗: 重复消息占用资源</text>
   <text class="prop-text-small" x="50" y="310">✗ 延迟不确定: 传播时间有波动</text>
-  <rect x="360" y="210" width="310" height="110" rx="3" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.8"/>
+  <rect x="360" y="210" width="310" height="110" rx="3" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="1"/>
   <text class="prop-text" x="515" y="228" text-anchor="middle" font-weight="bold">优化策略</text>
   <text class="prop-text-small" x="370" y="245">• 去重机制: 使用哈希缓存已见消息</text>
   <text class="prop-text-small" x="370" y="258">• 选择性转发: 仅转发给部分邻居</text>
@@ -328,7 +328,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <text class="prop-text-small" x="370" y="284">  - Bitcoin: inv → getdata → block</text>
   <text class="prop-text-small" x="370" y="297">• 压缩编码: 减少数据传输量</text>
   <text class="prop-text-small" x="370" y="310">• 优先级队列: 重要消息优先传播</text>
-  <rect x="30" y="340" width="640" height="60" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="30" y="340" width="640" height="60" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="1"/>
   <text class="prop-text" x="350" y="358" text-anchor="middle" font-weight="bold">传播性能指标</text>
   <text class="prop-text-small" x="40" y="375">• 传播时间: 从源节点到50%/90%节点的时间</text>
   <text class="prop-text-small" x="40" y="388">  - 以太坊: 平均2-5秒到达50%节点, 10-20秒到达90%节点</text>
@@ -402,24 +402,24 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <line class="blk-line-link" x1="375" y1="270" x2="375" y2="285" marker-end="url(#blk-arrow)"/>
   <rect class="blk-box-body" x="50" y="285" width="650" height="215" rx="4"/>
   <text class="blk-text" x="70" y="305" font-weight="bold">区块体 (Block Body) - 可变大小</text>
-  <rect x="70" y="315" width="610" height="80" rx="3" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="70" y="315" width="610" height="80" rx="3" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="1"/>
   <text class="blk-text" x="375" y="333" text-anchor="middle" font-weight="bold">交易列表 (Transactions)</text>
-  <rect x="80" y="345" width="180" height="40" rx="2" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.5"/>
+  <rect x="80" y="345" width="180" height="40" rx="2" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="1"/>
   <text class="blk-text-small" x="90" y="360">交易1: from → to</text>
   <text class="blk-text-small" x="90" y="373">value: 1.5 ETH, gas: 21000</text>
-  <rect x="270" y="345" width="180" height="40" rx="2" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.5"/>
+  <rect x="270" y="345" width="180" height="40" rx="2" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="1"/>
   <text class="blk-text-small" x="280" y="360">交易2: 合约调用</text>
   <text class="blk-text-small" x="280" y="373">data: 0x..., gas: 150000</text>
-  <rect x="460" y="345" width="210" height="40" rx="2" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.5"/>
+  <rect x="460" y="345" width="210" height="40" rx="2" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="1"/>
   <text class="blk-text-small" x="470" y="360">交易 N: ...</text>
   <text class="blk-text-small" x="470" y="373">平均每区块 150-200 笔交易</text>
-  <rect x="70" y="405" width="295" height="80" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="70" y="405" width="295" height="80" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="1"/>
   <text class="blk-text" x="217" y="423" text-anchor="middle" font-weight="bold">叔块 (Uncles/Ommers)</text>
   <text class="blk-text-small" x="80" y="440">• 近期被分叉的有效区块</text>
   <text class="blk-text-small" x="80" y="453">• 最多包含2个叔块</text>
   <text class="blk-text-small" x="80" y="466">• 叔块奖励: 降低孤块率</text>
   <text class="blk-text-small" x="80" y="479">• PoS后已移除</text>
-  <rect x="385" y="405" width="295" height="80" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="385" y="405" width="295" height="80" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1"/>
   <text class="blk-text" x="532" y="423" text-anchor="middle" font-weight="bold">区块大小限制</text>
   <text class="blk-text-small" x="395" y="440">• 比特币: 1-4 MB (SegWit)</text>
   <text class="blk-text-small" x="395" y="453">• 以太坊: 30M Gas (~2-5 MB)</text>
@@ -470,23 +470,23 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <rect class="acc-box-account" x="30" y="50" width="330" height="370" rx="4"/>
   <text class="acc-text" x="195" y="72" text-anchor="middle" font-weight="bold">账户模型 (Account Model)</text>
   <text class="acc-text-small" x="40" y="90" font-style="italic">代表: 以太坊、Polkadot、Solana</text>
-  <rect x="40" y="105" width="310" height="135" rx="3" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="40" y="105" width="310" height="135" rx="3" fill="rgba(52, 81, 178, 0.07)" stroke="#4c9be8" stroke-width="1"/>
   <text class="acc-text" x="195" y="123" text-anchor="middle" font-weight="bold">全局状态树</text>
-  <rect x="50" y="135" width="130" height="95" rx="2" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.5"/>
+  <rect x="50" y="135" width="130" height="95" rx="2" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="1"/>
   <text class="acc-text-small" x="60" y="150" font-weight="bold">账户A</text>
   <text class="acc-text-small" x="60" y="163">地址: 0xAbc...</text>
   <text class="acc-text-small" x="60" y="176">余额: 10.5 ETH</text>
   <text class="acc-text-small" x="60" y="189">nonce: 25</text>
   <text class="acc-text-small" x="60" y="202">codeHash: 0x0</text>
   <text class="acc-text-small" x="60" y="215">storageRoot: 0x...</text>
-  <rect x="190" y="135" width="150" height="95" rx="2" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.5"/>
+  <rect x="190" y="135" width="150" height="95" rx="2" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="1"/>
   <text class="acc-text-small" x="200" y="150" font-weight="bold">智能合约B</text>
   <text class="acc-text-small" x="200" y="163">地址: 0xDef...</text>
   <text class="acc-text-small" x="200" y="176">余额: 0 ETH</text>
   <text class="acc-text-small" x="200" y="189">nonce: 1</text>
   <text class="acc-text-small" x="200" y="202">codeHash: 0x9a7...</text>
   <text class="acc-text-small" x="200" y="215">storage: mapping数据</text>
-  <rect x="40" y="250" width="310" height="160" rx="3" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.8"/>
+  <rect x="40" y="250" width="310" height="160" rx="3" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="1"/>
   <text class="acc-text" x="195" y="268" text-anchor="middle" font-weight="bold">优点</text>
   <text class="acc-text-small" x="50" y="283">✓ 状态直观: 余额一目了然</text>
   <text class="acc-text-small" x="50" y="296">✓ 编程简单: 适合智能合约</text>
@@ -500,23 +500,23 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
   <rect class="acc-box-utxo" x="390" y="50" width="330" height="370" rx="4"/>
   <text class="acc-text" x="555" y="72" text-anchor="middle" font-weight="bold">UTXO模型 (Unspent TX Output)</text>
   <text class="acc-text-small" x="400" y="90" font-style="italic">代表: 比特币、Cardano、Nervos</text>
-  <rect x="400" y="105" width="310" height="135" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="400" y="105" width="310" height="135" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="1"/>
   <text class="acc-text" x="555" y="123" text-anchor="middle" font-weight="bold">未花费输出集合</text>
-  <rect x="410" y="135" width="140" height="85" rx="2" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="410" y="135" width="140" height="85" rx="2" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1"/>
   <text class="acc-text-small" x="420" y="150" font-weight="bold">UTXO 1</text>
   <text class="acc-text-small" x="420" y="163">TxID: 7a8b...</text>
   <text class="acc-text-small" x="420" y="176">Index: 0</text>
   <text class="acc-text-small" x="420" y="189">Amount: 2.5 BTC</text>
   <text class="acc-text-small" x="420" y="202">ScriptPubKey:</text>
   <text class="acc-text-small" x="425" y="212">OP_DUP OP_HASH160...</text>
-  <rect x="560" y="135" width="140" height="85" rx="2" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.5"/>
+  <rect x="560" y="135" width="140" height="85" rx="2" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="1"/>
   <text class="acc-text-small" x="570" y="150" font-weight="bold">UTXO 2</text>
   <text class="acc-text-small" x="570" y="163">TxID: 3c9d...</text>
   <text class="acc-text-small" x="570" y="176">Index: 1</text>
   <text class="acc-text-small" x="570" y="189">Amount: 0.8 BTC</text>
   <text class="acc-text-small" x="570" y="202">ScriptPubKey:</text>
   <text class="acc-text-small" x="575" y="212">OP_CHECKSIG</text>
-  <rect x="400" y="250" width="310" height="160" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.8"/>
+  <rect x="400" y="250" width="310" height="160" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="1"/>
   <text class="acc-text" x="555" y="268" text-anchor="middle" font-weight="bold">优点</text>
   <text class="acc-text-small" x="410" y="283">✓ 并发友好: UTXO独立，易并行</text>
   <text class="acc-text-small" x="410" y="296">✓ 隐私性强: 每次用新地址</text>
@@ -624,7 +624,7 @@ def verify_account_balance(address, balance, proof, state_root):
   <text class="comp-text-small" x="140" y="214" text-anchor="middle">Block N+2</text>
   <line x1="140" y1="225" x2="140" y2="240" stroke="#4c9be8" stroke-width="1.5" fill="none"/>
   <text class="comp-text-small" x="140" y="255" text-anchor="middle">...</text>
-  <rect x="40" y="270" width="200" height="170" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="40" y="270" width="200" height="170" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1"/>
   <text class="comp-text" x="140" y="288" text-anchor="middle" font-weight="bold">特点</text>
   <text class="comp-text-small" x="50" y="305">✓ 简单可靠</text>
   <text class="comp-text-small" x="50" y="318">✓ 安全性高</text>
@@ -644,31 +644,31 @@ def verify_account_balance(address, balance, proof, state_root):
   <line x1="325" y1="130" x2="290" y2="155" stroke="#5cb85c" stroke-width="1" fill="none"/>
   <line x1="325" y1="130" x2="325" y2="155" stroke="#5cb85c" stroke-width="1" fill="none"/>
   <line x1="325" y1="130" x2="360" y2="155" stroke="#5cb85c" stroke-width="1" fill="none"/>
-  <rect x="275" y="155" width="45" height="20" rx="2" fill="rgba(92, 184, 92, 0.25)" stroke="#5cb85c" stroke-width="0.8"/>
+  <rect x="275" y="155" width="45" height="20" rx="2" fill="rgba(92, 184, 92, 0.25)" stroke="#5cb85c" stroke-width="1"/>
   <text class="comp-text-small" x="297" y="169" text-anchor="middle">链A</text>
-  <rect x="328" y="155" width="45" height="20" rx="2" fill="rgba(92, 184, 92, 0.25)" stroke="#5cb85c" stroke-width="0.8"/>
+  <rect x="328" y="155" width="45" height="20" rx="2" fill="rgba(92, 184, 92, 0.25)" stroke="#5cb85c" stroke-width="1"/>
   <text class="comp-text-small" x="350" y="169" text-anchor="middle">链B</text>
-  <rect x="381" y="155" width="45" height="20" rx="2" fill="rgba(92, 184, 92, 0.25)" stroke="#5cb85c" stroke-width="0.8"/>
+  <rect x="381" y="155" width="45" height="20" rx="2" fill="rgba(92, 184, 92, 0.25)" stroke="#5cb85c" stroke-width="1"/>
   <text class="comp-text-small" x="403" y="169" text-anchor="middle">链C</text>
-  <line x1="297" y1="175" x2="297" y2="190" stroke="#5cb85c" stroke-width="0.8" fill="none"/>
-  <line x1="350" y1="175" x2="350" y2="190" stroke="#5cb85c" stroke-width="0.8" fill="none"/>
-  <line x1="403" y1="175" x2="403" y2="190" stroke="#5cb85c" stroke-width="0.8" fill="none"/>
-  <rect x="275" y="190" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
+  <line x1="297" y1="175" x2="297" y2="190" stroke="#5cb85c" stroke-width="1" fill="none"/>
+  <line x1="350" y1="175" x2="350" y2="190" stroke="#5cb85c" stroke-width="1" fill="none"/>
+  <line x1="403" y1="175" x2="403" y2="190" stroke="#5cb85c" stroke-width="1" fill="none"/>
+  <rect x="275" y="190" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="1"/>
   <text class="comp-text-small" x="297" y="201" text-anchor="middle" font-size="7">DeFi</text>
-  <rect x="328" y="190" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="328" y="190" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="1"/>
   <text class="comp-text-small" x="350" y="201" text-anchor="middle" font-size="7">NFT</text>
-  <rect x="381" y="190" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="381" y="190" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="1"/>
   <text class="comp-text-small" x="403" y="201" text-anchor="middle" font-size="7">Game</text>
-  <line x1="297" y1="205" x2="297" y2="220" stroke="#5cb85c" stroke-width="0.8" fill="none"/>
-  <line x1="350" y1="205" x2="350" y2="220" stroke="#5cb85c" stroke-width="0.8" fill="none"/>
-  <line x1="403" y1="205" x2="403" y2="220" stroke="#5cb85c" stroke-width="0.8" fill="none"/>
-  <rect x="275" y="220" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
+  <line x1="297" y1="205" x2="297" y2="220" stroke="#5cb85c" stroke-width="1" fill="none"/>
+  <line x1="350" y1="205" x2="350" y2="220" stroke="#5cb85c" stroke-width="1" fill="none"/>
+  <line x1="403" y1="205" x2="403" y2="220" stroke="#5cb85c" stroke-width="1" fill="none"/>
+  <rect x="275" y="220" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="1"/>
   <text class="comp-text-small" x="297" y="231" text-anchor="middle" font-size="7">Block</text>
-  <rect x="328" y="220" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="328" y="220" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="1"/>
   <text class="comp-text-small" x="350" y="231" text-anchor="middle" font-size="7">Block</text>
-  <rect x="381" y="220" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
+  <rect x="381" y="220" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="1"/>
   <text class="comp-text-small" x="403" y="231" text-anchor="middle" font-size="7">Block</text>
-  <rect x="280" y="270" width="200" height="170" rx="3" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="0.5"/>
+  <rect x="280" y="270" width="200" height="170" rx="3" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="1"/>
   <text class="comp-text" x="380" y="288" text-anchor="middle" font-weight="bold">特点</text>
   <text class="comp-text-small" x="290" y="305">✓ 专用链优化</text>
   <text class="comp-text-small" x="290" y="318">✓ 跨链通信</text>
@@ -688,28 +688,28 @@ def verify_account_balance(address, balance, proof, state_root):
   <line x1="560" y1="130" x2="540" y2="155" stroke="#df6919" stroke-width="1" fill="none"/>
   <line x1="620" y1="130" x2="620" y2="155" stroke="#df6919" stroke-width="1" fill="none"/>
   <line x1="680" y1="130" x2="700" y2="155" stroke="#df6919" stroke-width="1" fill="none"/>
-  <rect x="525" y="155" width="40" height="20" rx="2" fill="rgba(76, 156, 232, 0.25)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="525" y="155" width="40" height="20" rx="2" fill="rgba(76, 156, 232, 0.25)" stroke="#4c9be8" stroke-width="1"/>
   <text class="comp-text-small" x="545" y="169" text-anchor="middle">分片0</text>
-  <rect x="600" y="155" width="40" height="20" rx="2" fill="rgba(76, 156, 232, 0.25)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="600" y="155" width="40" height="20" rx="2" fill="rgba(76, 156, 232, 0.25)" stroke="#4c9be8" stroke-width="1"/>
   <text class="comp-text-small" x="620" y="169" text-anchor="middle">分片1</text>
-  <rect x="675" y="155" width="40" height="20" rx="2" fill="rgba(76, 156, 232, 0.25)" stroke="#4c9be8" stroke-width="0.8"/>
+  <rect x="675" y="155" width="40" height="20" rx="2" fill="rgba(76, 156, 232, 0.25)" stroke="#4c9be8" stroke-width="1"/>
   <text class="comp-text-small" x="695" y="169" text-anchor="middle">分片N</text>
-  <line x1="545" y1="175" x2="545" y2="190" stroke="#4c9be8" stroke-width="0.8" fill="none"/>
-  <line x1="620" y1="175" x2="620" y2="190" stroke="#4c9be8" stroke-width="0.8" fill="none"/>
-  <line x1="695" y1="175" x2="695" y2="190" stroke="#4c9be8" stroke-width="0.8" fill="none"/>
-  <rect x="530" y="190" width="30" height="40" rx="2" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="0.5"/>
+  <line x1="545" y1="175" x2="545" y2="190" stroke="#4c9be8" stroke-width="1" fill="none"/>
+  <line x1="620" y1="175" x2="620" y2="190" stroke="#4c9be8" stroke-width="1" fill="none"/>
+  <line x1="695" y1="175" x2="695" y2="190" stroke="#4c9be8" stroke-width="1" fill="none"/>
+  <rect x="530" y="190" width="30" height="40" rx="2" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="1"/>
   <text class="comp-text-small" x="545" y="203" text-anchor="middle" font-size="6">Blk 1</text>
   <text class="comp-text-small" x="545" y="213" text-anchor="middle" font-size="6">Blk 2</text>
   <text class="comp-text-small" x="545" y="223" text-anchor="middle" font-size="6">Blk 3</text>
-  <rect x="605" y="190" width="30" height="40" rx="2" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="0.5"/>
+  <rect x="605" y="190" width="30" height="40" rx="2" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="1"/>
   <text class="comp-text-small" x="620" y="203" text-anchor="middle" font-size="6">Blk 1</text>
   <text class="comp-text-small" x="620" y="213" text-anchor="middle" font-size="6">Blk 2</text>
   <text class="comp-text-small" x="620" y="223" text-anchor="middle" font-size="6">Blk 3</text>
-  <rect x="680" y="190" width="30" height="40" rx="2" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="0.5"/>
+  <rect x="680" y="190" width="30" height="40" rx="2" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="1"/>
   <text class="comp-text-small" x="695" y="203" text-anchor="middle" font-size="6">Blk 1</text>
   <text class="comp-text-small" x="695" y="213" text-anchor="middle" font-size="6">Blk 2</text>
   <text class="comp-text-small" x="695" y="223" text-anchor="middle" font-size="6">Blk 3</text>
-  <rect x="520" y="270" width="200" height="170" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="0.5"/>
+  <rect x="520" y="270" width="200" height="170" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="1"/>
   <text class="comp-text" x="620" y="288" text-anchor="middle" font-weight="bold">特点</text>
   <text class="comp-text-small" x="530" y="305">✓ 高吞吐量</text>
   <text class="comp-text-small" x="530" y="318">✓ 并行处理</text>
