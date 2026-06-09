@@ -884,7 +884,7 @@ console.log('Merkle Root:', tree.getRoot());
 轻量级验证，无需下载全部数据。
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
-<svg class="svg-2-11" viewBox="0 0 550 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
+<svg class="svg-2-11" viewBox="0 0 565 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
 <defs>
 <style>
       .svg-2-11 .merkle-proof-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
@@ -922,9 +922,9 @@ console.log('Merkle Root:', tree.getRoot());
   <path class="merkle-proof-arrow" d="M 435 47 L 435 30 L 460 30 L 470 30" marker-end="url(#merkle-proof-arrow)"/>
   <rect class="merkle-proof-box-valid" x="470" y="10" width="75" height="25" rx="2"/>
   <text class="merkle-proof-text-sm-dark" x="508" y="26" text-anchor="middle">✅ 存在</text>
-  <path class="merkle-proof-arrow" d="M 435 72 L 435 85 L 440 85" marker-end="url(#merkle-proof-arrow)"/>
-  <rect class="merkle-proof-box-invalid" x="440" y="72" width="95" height="25" rx="2"/>
-  <text class="merkle-proof-text-sm" x="487" y="88" text-anchor="middle">❌ 不存在</text>
+  <path class="merkle-proof-arrow" d="M 435 72 L 435 85 L 460 85" marker-end="url(#merkle-proof-arrow)"/>
+  <rect class="merkle-proof-box-invalid" x="465" y="72" width="95" height="25" rx="2"/>
+  <text class="merkle-proof-text-sm" x="512" y="88" text-anchor="middle">❌ 不存在</text>
 </svg>
 </div>
 
