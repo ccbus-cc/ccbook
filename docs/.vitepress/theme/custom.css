@@ -332,19 +332,68 @@
 
 .ccbook-index .chapter-group h3 a:hover {
   text-decoration: underline;
-}
-
 /* ============================================================
-   CCBook-specific: chapter footer
+   CCBook-specific: chapter footer (本章小结 / Chapter Summary)
+
+   Design intent:
+   - Visually distinguish from main content (this is a wrap-up)
+   - Stay readable (no dim/disabled text-3)
+   - Brand-aligned: subtle blue tint background, blue left border,
+     blue heading — echoes the chapter-intro design but lighter
+     so the two read as a pair (intro → summary).
+   - The top border remains as a clear visual separator.
+
+   Color scheme (light mode):
+     - background: rgba(52, 81, 178, 0.04)  — very faint blue wash
+     - left border: 4px solid #3451b2       — brand primary
+     - h3 color:    #3451b2                  — brand primary
+     - body text:   var(--vp-c-text-1)       — full opacity
+     - top border:  rgba(52, 81, 178, 0.18)  — softer brand divider
    ============================================================ */
 
 .vp-doc .chapter-footer {
   margin-top: 3rem;
-  padding: 1.5rem 0 0;
-  border-top: 1px solid var(--vp-c-divider);
-  color: var(--vp-c-text-3);
-  font-size: 0.9em;
+  padding: 1.5rem 1.5rem 0.5rem;
+  border-top: 1px solid rgba(52, 81, 178, 0.18);
+  border-left: 4px solid #3451b2;
+  background: rgba(52, 81, 178, 0.04);
+  border-radius: 4px;  /* xs */
+  color: var(--vp-c-text-1);
+  font-size: 0.95em;
   line-height: 1.7;
+}
+
+.vp-doc .chapter-footer h3 {
+  color: #3451b2;
+  font-size: 1.15em;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.01em;
+}
+
+.vp-doc .chapter-footer p {
+  color: var(--vp-c-text-1);
+  margin: 0.5rem 0;
+}
+
+.vp-doc .chapter-footer strong {
+  color: #3451b2;
+}
+
+.dark .vp-doc .chapter-footer {
+  background: rgba(76, 156, 232, 0.06);
+  border-top-color: rgba(76, 156, 232, 0.22);
+  border-left-color: #6b8aff;
+  color: var(--vp-c-text-1);
+}
+
+.dark .vp-doc .chapter-footer h3 {
+  color: #8da4ff;
+}
+
+.dark .vp-doc .chapter-footer strong {
+  color: #8da4ff;
 }
 
 /* ============================================================
