@@ -432,7 +432,7 @@ func main() {
 .svg-14-2 .corda-text-small { font-family: arial, sans-serif; font-size: 8.5px; fill: #1f2937; }
 .svg-14-2 .corda-box { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
 .svg-14-2 .corda-box-feature { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1.5; }
-.svg-14-2 .corda-vs-line { stroke: #df6919; stroke-width: 2; stroke-dasharray: 5,5; }
+.svg-14-2 .corda-vs-line { stroke: #df6919; fill: none; stroke-width: 2; stroke-dasharray: 5,5; }
 </style>
 </defs>
 <text class="corda-text-title" x="400" y="25" text-anchor="middle">R3 Corda 架构与核心特性</text>

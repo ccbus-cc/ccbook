@@ -88,7 +88,7 @@ title: "第十三章：区块链平台对比"
 .svg-13-0 .tri-desc { font: 13px sans-serif; fill: #1f2937; }
 .svg-13-0 .tri-triangle { fill: none; stroke: #4c9be8; stroke-width: 3; }
 .svg-13-0 .tri-circle { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
-.svg-13-0 .tri-line { stroke: #df6919; stroke-width: 2; stroke-dasharray: 5,5; }
+.svg-13-0 .tri-line { stroke: #df6919; fill: none; stroke-width: 2; stroke-dasharray: 5,5; }
 </style>
 </defs>
 <text x="400" y="35" class="tri-title" text-anchor="middle">区块链不可能三角 (Trilemma)</text>
@@ -747,7 +747,7 @@ Transaction {
 .svg-13-6 .multi-label { font: 13px sans-serif; fill: #1f2937; }
 .svg-13-6 .multi-chain { font: bold 14px sans-serif; fill: #1f2937; }
 .svg-13-6 .multi-circle { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 2; }
-.svg-13-6 .multi-line { stroke: #5cb85c; stroke-width: 2; stroke-dasharray: 3,3; }
+.svg-13-6 .multi-line { stroke: #5cb85c; fill: none; stroke-width: 2; stroke-dasharray: 3,3; }
 </style>
 </defs>
 <text x="400" y="35" class="multi-title" text-anchor="middle">多链互联生态 (2025)</text>

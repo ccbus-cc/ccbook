@@ -340,7 +340,7 @@ This was the headline from The Times that day, recording government bank bailout
       .svg-3-2 .vs-rect-blue { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-3-2 .vs-circle-orange { fill: #df6919; stroke: #1f2937; stroke-width: 0.5; }
       .svg-3-2 .vs-circle-blue { fill: #4c9be8; stroke: #1f2937; stroke-width: 0.5; }
-      .svg-3-2 .vs-line-divider { stroke: #1f2937; stroke-width: 0.5; stroke-dasharray: 5,5; }
+      .svg-3-2 .vs-line-divider { stroke: #1f2937; fill: none; stroke-width: 0.5; stroke-dasharray: 5,5; }
     </style>
 </defs>
   <!-- Title -->

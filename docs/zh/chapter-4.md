@@ -140,8 +140,8 @@ CCBus 同时支持 BNB Chain(PoSA)、Solana(PoH+PoS)、Base(Op-Stack/OP Stack)�
       .svg-4-1 .byz-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .svg-4-1 .byz-circle-loyal { fill: #5cb85c; stroke: #1f2937; stroke-width: 0.5; }
       .svg-4-1 .byz-circle-traitor { fill: #d9534f; stroke: #1f2937; stroke-width: 0.5; }
-      .svg-4-1 .byz-line-true { stroke: #5cb85c; stroke-width: 1; stroke-dasharray: 2,2; }
-      .svg-4-1 .byz-line-false { stroke: #d9534f; stroke-width: 1; stroke-dasharray: 2,2; }
+      .svg-4-1 .byz-line-true { stroke: #5cb85c; fill: none; stroke-width: 1; stroke-dasharray: 2,2; }
+      .svg-4-1 .byz-line-false { stroke: #d9534f; fill: none; stroke-width: 1; stroke-dasharray: 2,2; }
       .svg-4-1 .byz-rect-city { fill: rgba(78, 93, 108, 0.3); stroke: #4e5d6c; stroke-width: 0.5; }
     </style>
 </defs>
@@ -576,8 +576,8 @@ $$
       .svg-4-5 .pbft-node-primary { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1; }
       .svg-4-5 .pbft-node-backup { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 0.5; }
       .svg-4-5 .pbft-box-phase { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 1; }
-      .svg-4-5 .pbft-line-flow { stroke: #4c9be8; stroke-width: 1.5; stroke-dasharray: 3,2; }
-      .svg-4-5 .pbft-line-broadcast { stroke: #df6919; stroke-width: 0.8; opacity: 0.6; }
+      .svg-4-5 .pbft-line-flow { stroke: #4c9be8; fill: none; stroke-width: 1.5; stroke-dasharray: 3,2; }
+      .svg-4-5 .pbft-line-broadcast { stroke: #df6919; fill: none; stroke-width: 0.8; opacity: 0.6; }
       .svg-4-5 .pbft-circle-step { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 1; }
     </style>
     <marker id="pbft-arrow-blue" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">

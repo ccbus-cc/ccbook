@@ -82,7 +82,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
       .svg-7-0 .tri-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
       .svg-7-0 .tri-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
       .svg-7-0 .tri-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-7-0 .tri-line { stroke: #4c9be8; stroke-width: 2; fill: none; }
+      .svg-7-0 .tri-line { stroke: #4c9be8; fill: none; stroke-width: 2; fill: none; }
       .svg-7-0 .tri-circle { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 2; }
       .svg-7-0 .tri-center { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1.5; }
     </style>
@@ -158,7 +158,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
       .svg-7-1 .l2-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .svg-7-1 .l2-box-l1 { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
       .svg-7-1 .l2-box-l2 { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
-      .svg-7-1 .l2-line { stroke: #5cb85c; stroke-width: 1.2; stroke-dasharray: 4,2; }
+      .svg-7-1 .l2-line { stroke: #5cb85c; fill: none; stroke-width: 1.2; stroke-dasharray: 4,2; }
     </style>
     <marker id="l2-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#5cb85c"/>
@@ -227,7 +227,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
       .svg-7-2 .op-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .svg-7-2 .op-box-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
       .svg-7-2 .op-box-challenge { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
-      .svg-7-2 .op-line-flow { stroke: #4c9be8; stroke-width: 1.5; stroke-dasharray: 3,2; }
+      .svg-7-2 .op-line-flow { stroke: #4c9be8; fill: none; stroke-width: 1.5; stroke-dasharray: 3,2; }
       .svg-7-2 .op-circle-num { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 1; }
     </style>
     <marker id="op-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
@@ -347,7 +347,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
       .svg-7-3 .zk-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .svg-7-3 .zk-box-step { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
       .svg-7-3 .zk-box-proof { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
-      .svg-7-3 .zk-line-flow { stroke: #4c9be8; stroke-width: 1.5; stroke-dasharray: 3,2; }
+      .svg-7-3 .zk-line-flow { stroke: #4c9be8; fill: none; stroke-width: 1.5; stroke-dasharray: 3,2; }
       .svg-7-3 .zk-circle-num { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1; }
     </style>
     <marker id="zk-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">

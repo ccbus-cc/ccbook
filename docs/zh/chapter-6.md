@@ -83,7 +83,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
       .svg-6-0 .arch-layer-network { fill: rgba(156, 89, 182, 0.25); stroke: #9c59b6; stroke-width: 1.5; }
       .svg-6-0 .arch-layer-data { fill: rgba(241, 196, 15, 0.25); stroke: rgba(245, 194, 66, 0.20); stroke-width: 1.5; }
       .svg-6-0 .arch-layer-infra { fill: rgba(52, 73, 94, 0.35); stroke: #34495e; stroke-width: 1.5; }
-      .svg-6-0 .arch-arrow { stroke: #4c9be8; stroke-width: 1; stroke-dasharray: 3,2; }
+      .svg-6-0 .arch-arrow { stroke: #4c9be8; fill: none; stroke-width: 1; stroke-dasharray: 3,2; }
     </style>
     <marker id="arch-arrow-down" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>
@@ -160,8 +160,8 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
       .svg-6-1 .p2p-node-full { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 1.5; }
       .svg-6-1 .p2p-node-light { fill: rgba(92, 184, 92, 0.25); stroke: #5cb85c; stroke-width: 1; }
       .svg-6-1 .p2p-node-archive { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1.5; }
-      .svg-6-1 .p2p-line-conn { stroke: #4c9be8; stroke-width: 0.8; opacity: 0.5; }
-      .svg-6-1 .p2p-line-sync { stroke: #5cb85c; stroke-width: 1.2; stroke-dasharray: 4,2; }
+      .svg-6-1 .p2p-line-conn { stroke: #4c9be8; fill: none; stroke-width: 0.8; opacity: 0.5; }
+      .svg-6-1 .p2p-line-sync { stroke: #5cb85c; fill: none; stroke-width: 1.2; stroke-dasharray: 4,2; }
     </style>
     <marker id="p2p-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="#5cb85c"/>
@@ -353,7 +353,7 @@ CCBus 同时运行在 EVM 系(BSC、ETH、Base、Arbitrum、zkSync)、Solana 系
       .svg-6-3 .blk-box-header { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1.5; }
       .svg-6-3 .blk-box-body { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
       .svg-6-3 .blk-box-field { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 0.8; }
-      .svg-6-3 .blk-line-link { stroke: #4c9be8; stroke-width: 1.2; stroke-dasharray: 3,2; }
+      .svg-6-3 .blk-line-link { stroke: #4c9be8; fill: none; stroke-width: 1.2; stroke-dasharray: 3,2; }
     </style>
     <marker id="blk-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
       <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>

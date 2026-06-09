@@ -116,7 +116,7 @@ CCBus 的"多功能代币"是当前 DeFi 领域合约复杂度的典型代表—
       .svg-5-1 .scw-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
       .svg-5-1 .scw-box-step { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
       .svg-5-1 .scw-box-contract { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
-      .svg-5-1 .scw-line-flow { stroke: #4c9be8; stroke-width: 1.5; stroke-dasharray: 3,2; }
+      .svg-5-1 .scw-line-flow { stroke: #4c9be8; fill: none; stroke-width: 1.5; stroke-dasharray: 3,2; }
       .svg-5-1 .scw-circle-num { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1; }
     </style>
     <marker id="scw-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
