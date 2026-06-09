@@ -219,7 +219,7 @@ title: "第十五章：安全与最佳实践"
 <text class="reen-text-small" x="455" y="235">✓ Checks-Effects-Interactions 模式</text>
 <text class="reen-text-small" x="455" y="250">✓ ReentrancyGuard 修饰器</text>
 <text class="reen-text-small" x="455" y="265">✓ 拉取模式 (Pull over Push)</text>
-<line x1="30" y1="290" x2="820" y2="290" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5"/>
+<line x1="30" y1="290" x2="820" y2="290" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
 <text class="reen-text" x="425" y="310" text-anchor="middle" font-weight="bold">OpenZeppelin ReentrancyGuard 实现</text>
 <rect class="reen-box-safe" x="50" y="325" width="750" height="180" rx="4"/>
 <text class="reen-text-small" x="60" y="345" font-family="monospace">contract ReentrancyGuard {</text>
@@ -343,7 +343,7 @@ contract SecureBank is ReentrancyGuard {
 <text class="ac-text-small" x="580" y="220" font-weight="bold">缺点:</text>
 <text class="ac-text-small" x="585" y="235">✗ 操作复杂</text>
 <text class="ac-text-small" x="585" y="250">✗ 响应延迟</text>
-<line x1="30" y1="280" x2="820" y2="280" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5"/>
+<line x1="30" y1="280" x2="820" y2="280" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
 <text class="ac-text" x="425" y="300" text-anchor="middle" font-weight="bold">推荐实践: 分层权限管理</text>
 <rect class="ac-box-pattern" x="50" y="315" width="750" height="170" rx="4"/>
 <text class="ac-text-small" x="60" y="335">contract SecureProtocol is AccessControl {</text>
@@ -555,7 +555,7 @@ contract SafeMath {
 <text class="audit-text-small" x="705" y="240">🟢 Low (低危)</text>
 <text class="audit-text-small" x="700" y="265">时长: 3-5 天</text>
 <text class="audit-text-small" x="700" y="280">修复验证</text>
-<line x1="30" y1="320" x2="870" y2="320" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5"/>
+<line x1="30" y1="320" x2="870" y2="320" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
 <text class="audit-text" x="450" y="340" text-anchor="middle" font-weight="bold">主流审计公司对比 (2024)</text>
 <rect fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="1" x="50" y="355" width="190" height="150" rx="4"/>
 <text class="audit-text" x="145" y="375" text-anchor="middle" font-weight="bold">Trail of Bits</text>
@@ -724,7 +724,7 @@ echidna-test contracts/BankTest.sol --contract BankTest --config echidna.yaml
 <text class="key-text-small" x="585" y="195">✓ 物理隔离</text>
 <text class="key-text-small" x="585" y="210">✓ PIN 码保护</text>
 <text class="key-text-small" x="580" y="230" font-weight="bold">适用: 高价值资产</text>
-<line x1="30" y1="260" x2="820" y2="260" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5"/>
+<line x1="30" y1="260" x2="820" y2="260" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
 <text class="key-text" x="425" y="280" text-anchor="middle" font-weight="bold">推荐实践: 分层密钥管理</text>
 <rect class="key-box-best" x="50" y="295" width="380" height="170" rx="4"/>
 <text class="key-text" x="240" y="315" text-anchor="middle" font-weight="bold">热钱包 (Hot Wallet)</text>
@@ -930,7 +930,7 @@ contract SimpleMultiSig {
 <text class="fe-text-small" x="450" y="205" font-weight="bold">3. 交易模拟 (Simulation):</text>
 <text class="fe-text-small" x="455" y="220">✓ Tenderly / Blocknative</text>
 <text class="fe-text-small" x="455" y="235">✓ 预览交易结果</text>
-<line x1="30" y1="270" x2="820" y2="270" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5"/>
+<line x1="30" y1="270" x2="820" y2="270" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
 <text class="fe-text" x="425" y="290" text-anchor="middle" font-weight="bold">前端安全最佳实践</text>
 <rect class="fe-box-defense" x="50" y="305" width="360" height="180" rx="4"/>
 <text class="fe-text" x="230" y="325" text-anchor="middle" font-weight="bold">交易确认 UI</text>
@@ -1136,7 +1136,7 @@ async function checkAllowance(
 <text class="ir-text-small" x="520" y="310">• 监控异常</text>
 <text class="ir-text-small" x="520" y="330" font-weight="bold">后续:</text>
 <text class="ir-text-small" x="520" y="345">事后复盘</text>
-<line x1="30" y1="360" x2="820" y2="360" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5"/>
+<line x1="30" y1="360" x2="820" y2="360" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
 <text class="ir-text" x="425" y="380" text-anchor="middle" font-weight="bold">紧急暂停机制代码示例</text>
 <rect fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1" x="50" y="395" width="750" height="80" rx="4"/>
 <text class="ir-text-small" x="60" y="415" font-family="monospace">contract EmergencyPausable is Pausable, AccessControl {</text>

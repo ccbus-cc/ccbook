@@ -616,13 +616,13 @@ def verify_account_balance(address, balance, proof, state_root):
   <text class="comp-text-small" x="40" y="88" font-style="italic">Bitcoin, Ethereum (PoS前)</text>
   <rect class="comp-block" x="100" y="105" width="80" height="30" rx="2"/>
   <text class="comp-text-small" x="140" y="124" text-anchor="middle">Block N</text>
-  <line x1="140" y1="135" x2="140" y2="150" stroke="#4c9be8" stroke-width="1.5"/>
+  <line x1="140" y1="135" x2="140" y2="150" stroke="#4c9be8" stroke-width="1.5" fill="none"/>
   <rect class="comp-block" x="100" y="150" width="80" height="30" rx="2"/>
   <text class="comp-text-small" x="140" y="169" text-anchor="middle">Block N+1</text>
-  <line x1="140" y1="180" x2="140" y2="195" stroke="#4c9be8" stroke-width="1.5"/>
+  <line x1="140" y1="180" x2="140" y2="195" stroke="#4c9be8" stroke-width="1.5" fill="none"/>
   <rect class="comp-block" x="100" y="195" width="80" height="30" rx="2"/>
   <text class="comp-text-small" x="140" y="214" text-anchor="middle">Block N+2</text>
-  <line x1="140" y1="225" x2="140" y2="240" stroke="#4c9be8" stroke-width="1.5"/>
+  <line x1="140" y1="225" x2="140" y2="240" stroke="#4c9be8" stroke-width="1.5" fill="none"/>
   <text class="comp-text-small" x="140" y="255" text-anchor="middle">...</text>
   <rect x="40" y="270" width="200" height="170" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="comp-text" x="140" y="288" text-anchor="middle" font-weight="bold">特点</text>
@@ -641,27 +641,27 @@ def verify_account_balance(address, balance, proof, state_root):
   <text class="comp-text-small" x="280" y="88" font-style="italic">Polkadot, Cosmos</text>
   <rect x="290" y="105" width="70" height="25" rx="2" fill="rgba(223, 105, 25, 0.25)" stroke="#df6919" stroke-width="1"/>
   <text class="comp-text-small" x="325" y="121" text-anchor="middle" font-weight="bold">中继链</text>
-  <line x1="325" y1="130" x2="290" y2="155" stroke="#5cb85c" stroke-width="1"/>
-  <line x1="325" y1="130" x2="325" y2="155" stroke="#5cb85c" stroke-width="1"/>
-  <line x1="325" y1="130" x2="360" y2="155" stroke="#5cb85c" stroke-width="1"/>
+  <line x1="325" y1="130" x2="290" y2="155" stroke="#5cb85c" stroke-width="1" fill="none"/>
+  <line x1="325" y1="130" x2="325" y2="155" stroke="#5cb85c" stroke-width="1" fill="none"/>
+  <line x1="325" y1="130" x2="360" y2="155" stroke="#5cb85c" stroke-width="1" fill="none"/>
   <rect x="275" y="155" width="45" height="20" rx="2" fill="rgba(92, 184, 92, 0.25)" stroke="#5cb85c" stroke-width="0.8"/>
   <text class="comp-text-small" x="297" y="169" text-anchor="middle">链A</text>
   <rect x="328" y="155" width="45" height="20" rx="2" fill="rgba(92, 184, 92, 0.25)" stroke="#5cb85c" stroke-width="0.8"/>
   <text class="comp-text-small" x="350" y="169" text-anchor="middle">链B</text>
   <rect x="381" y="155" width="45" height="20" rx="2" fill="rgba(92, 184, 92, 0.25)" stroke="#5cb85c" stroke-width="0.8"/>
   <text class="comp-text-small" x="403" y="169" text-anchor="middle">链C</text>
-  <line x1="297" y1="175" x2="297" y2="190" stroke="#5cb85c" stroke-width="0.8"/>
-  <line x1="350" y1="175" x2="350" y2="190" stroke="#5cb85c" stroke-width="0.8"/>
-  <line x1="403" y1="175" x2="403" y2="190" stroke="#5cb85c" stroke-width="0.8"/>
+  <line x1="297" y1="175" x2="297" y2="190" stroke="#5cb85c" stroke-width="0.8" fill="none"/>
+  <line x1="350" y1="175" x2="350" y2="190" stroke="#5cb85c" stroke-width="0.8" fill="none"/>
+  <line x1="403" y1="175" x2="403" y2="190" stroke="#5cb85c" stroke-width="0.8" fill="none"/>
   <rect x="275" y="190" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="comp-text-small" x="297" y="201" text-anchor="middle" font-size="7">DeFi</text>
   <rect x="328" y="190" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="comp-text-small" x="350" y="201" text-anchor="middle" font-size="7">NFT</text>
   <rect x="381" y="190" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="comp-text-small" x="403" y="201" text-anchor="middle" font-size="7">Game</text>
-  <line x1="297" y1="205" x2="297" y2="220" stroke="#5cb85c" stroke-width="0.8"/>
-  <line x1="350" y1="205" x2="350" y2="220" stroke="#5cb85c" stroke-width="0.8"/>
-  <line x1="403" y1="205" x2="403" y2="220" stroke="#5cb85c" stroke-width="0.8"/>
+  <line x1="297" y1="205" x2="297" y2="220" stroke="#5cb85c" stroke-width="0.8" fill="none"/>
+  <line x1="350" y1="205" x2="350" y2="220" stroke="#5cb85c" stroke-width="0.8" fill="none"/>
+  <line x1="403" y1="205" x2="403" y2="220" stroke="#5cb85c" stroke-width="0.8" fill="none"/>
   <rect x="275" y="220" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
   <text class="comp-text-small" x="297" y="231" text-anchor="middle" font-size="7">Block</text>
   <rect x="328" y="220" width="45" height="15" rx="2" fill="rgba(52, 81, 178, 0.10)" stroke="#4c9be8" stroke-width="0.5"/>
@@ -685,18 +685,18 @@ def verify_account_balance(address, balance, proof, state_root):
   <text class="comp-text-small" x="520" y="88" font-style="italic">Ethereum 2.0, NEAR, Zilliqa</text>
   <rect x="560" y="105" width="120" height="25" rx="2" fill="rgba(223, 105, 25, 0.25)" stroke="#df6919" stroke-width="1"/>
   <text class="comp-text-small" x="620" y="121" text-anchor="middle" font-weight="bold">信标链/协调层</text>
-  <line x1="560" y1="130" x2="540" y2="155" stroke="#df6919" stroke-width="1"/>
-  <line x1="620" y1="130" x2="620" y2="155" stroke="#df6919" stroke-width="1"/>
-  <line x1="680" y1="130" x2="700" y2="155" stroke="#df6919" stroke-width="1"/>
+  <line x1="560" y1="130" x2="540" y2="155" stroke="#df6919" stroke-width="1" fill="none"/>
+  <line x1="620" y1="130" x2="620" y2="155" stroke="#df6919" stroke-width="1" fill="none"/>
+  <line x1="680" y1="130" x2="700" y2="155" stroke="#df6919" stroke-width="1" fill="none"/>
   <rect x="525" y="155" width="40" height="20" rx="2" fill="rgba(76, 156, 232, 0.25)" stroke="#4c9be8" stroke-width="0.8"/>
   <text class="comp-text-small" x="545" y="169" text-anchor="middle">分片0</text>
   <rect x="600" y="155" width="40" height="20" rx="2" fill="rgba(76, 156, 232, 0.25)" stroke="#4c9be8" stroke-width="0.8"/>
   <text class="comp-text-small" x="620" y="169" text-anchor="middle">分片1</text>
   <rect x="675" y="155" width="40" height="20" rx="2" fill="rgba(76, 156, 232, 0.25)" stroke="#4c9be8" stroke-width="0.8"/>
   <text class="comp-text-small" x="695" y="169" text-anchor="middle">分片N</text>
-  <line x1="545" y1="175" x2="545" y2="190" stroke="#4c9be8" stroke-width="0.8"/>
-  <line x1="620" y1="175" x2="620" y2="190" stroke="#4c9be8" stroke-width="0.8"/>
-  <line x1="695" y1="175" x2="695" y2="190" stroke="#4c9be8" stroke-width="0.8"/>
+  <line x1="545" y1="175" x2="545" y2="190" stroke="#4c9be8" stroke-width="0.8" fill="none"/>
+  <line x1="620" y1="175" x2="620" y2="190" stroke="#4c9be8" stroke-width="0.8" fill="none"/>
+  <line x1="695" y1="175" x2="695" y2="190" stroke="#4c9be8" stroke-width="0.8" fill="none"/>
   <rect x="530" y="190" width="30" height="40" rx="2" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="0.5"/>
   <text class="comp-text-small" x="545" y="203" text-anchor="middle" font-size="6">Blk 1</text>
   <text class="comp-text-small" x="545" y="213" text-anchor="middle" font-size="6">Blk 2</text>

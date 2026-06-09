@@ -401,7 +401,7 @@ $$
   <text class="pos-text" x="110" y="325" text-anchor="middle" font-weight="bold" fill="#d9534f">恶意行为</text>
   <text class="pos-text-small" x="110" y="340" text-anchor="middle">双重签名</text>
   <text class="pos-text-small" x="110" y="353" text-anchor="middle">离线不参与</text>
-  <line class="pos-line" x1="170" y1="335" x2="280" y2="335" marker-end="url(#pos-arrow)" stroke="#d9534f"/>
+  <line class="pos-line" x1="170" y1="335" x2="280" y2="335" marker-end="url(#pos-arrow)" stroke="#d9534f" fill="none"/>
   <rect class="pos-rect-step" x="280" y="310" width="120" height="50" rx="4"/>
   <text class="pos-text" x="340" y="330" text-anchor="middle" font-weight="bold" fill="#d9534f">Slashing 惩罚</text>
   <text class="pos-text-small" x="340" y="345" text-anchor="middle">扣除质押金</text>
@@ -784,7 +784,7 @@ $$
   <text class="comp-text" x="580" y="245" text-anchor="middle" font-weight="bold">PBFT</text>
   <text class="comp-text-small" x="580" y="258" text-anchor="middle">去中心化: 低</text>
   <text class="comp-text-small" x="580" y="270" text-anchor="middle">TPS: 10000+</text>
-  <line class="comp-axis" x1="120" y1="135" x2="550" y2="220" stroke="#df6919" stroke-width="1" stroke-dasharray="3,3"/>
+  <line class="comp-axis" x1="120" y1="135" x2="550" y2="220" stroke="#df6919" stroke-width="1" stroke-dasharray="3,3" fill="none"/>
   <text class="comp-text-small" x="350" y="165" fill="#df6919">性能-去中心化不可能三角</text>
   <text class="comp-text-small" x="350" y="342" text-anchor="middle" font-style="italic">通常需要在性能、去中心化和安全性之间权衡</text>
 </svg>

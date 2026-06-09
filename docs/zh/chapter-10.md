@@ -226,9 +226,9 @@ $$
 <line x1="225" y1="270" x2="625" y2="85" class="amm-arrow"/>
 <rect x="50" y="290" width="750" height="240" fill="rgba(92, 184, 92, 0.07)" stroke="#5cb85c" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
 <text x="425" y="315" text-anchor="middle" class="amm-text" font-weight="bold">恒定乘积曲线可视化</text>
-<line x1="70" y1="500" x2="770" y2="500" stroke="#4c9be8" stroke-width="2"/>
+<line x1="70" y1="500" x2="770" y2="500" stroke="#4c9be8" stroke-width="2" fill="none"/>
 <text x="770" y="520" text-anchor="end" class="amm-small">ETH (x)</text>
-<line x1="70" y1="500" x2="70" y2="330" stroke="#4c9be8" stroke-width="2"/>
+<line x1="70" y1="500" x2="70" y2="330" stroke="#4c9be8" stroke-width="2" fill="none"/>
 <text x="50" y="340" class="amm-small">USDC (y)</text>
 <path d="M 80,340 Q 200,360 350,400 Q 500,440 700,490" class="amm-curve"/>
 <circle cx="350" cy="400" r="6" class="amm-point"/>

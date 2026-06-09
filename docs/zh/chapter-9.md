@@ -615,9 +615,9 @@ contract PrivateAuction {
 <rect x="320" y="370" width="260" height="60" class="tss-sig" rx="8"/>
 <text x="450" y="395" text-anchor="middle" class="tss-text" font-weight="bold">🔏 最终签名</text>
 <text x="450" y="415" text-anchor="middle" class="tss-text">σ = Sign(msg, {sk₁, sk₃, sk₅})</text>
-<line x1="230" y1="310" x2="320" y2="390" stroke="#5cb85c" stroke-width="2"/>
-<line x1="480" y1="340" x2="450" y2="370" stroke="#5cb85c" stroke-width="2"/>
-<line x1="230" y1="390" x2="320" y2="400" stroke="#5cb85c" stroke-width="2"/>
+<line x1="230" y1="310" x2="320" y2="390" stroke="#5cb85c" stroke-width="2" fill="none"/>
+<line x1="480" y1="340" x2="450" y2="370" stroke="#5cb85c" stroke-width="2" fill="none"/>
+<line x1="230" y1="390" x2="320" y2="400" stroke="#5cb85c" stroke-width="2" fill="none"/>
 <rect x="50" y="445" width="700" height="35" fill="rgba(223, 105, 25, 0.08)" stroke="#df6919" stroke-width="1" rx="4"/>
 <text x="60" y="465" class="tss-text">💡 关键特性：无需重构完整私钥 sk，参与方协作生成签名份额，聚合后得到有效签名</text>
 </svg>

@@ -125,7 +125,7 @@ title: "第十六章：区块链的未来"
 <text x="800" y="400" text-anchor="middle" class="timeline-text" font-size="11px">AI + 区块链</text>
 <text x="800" y="415" text-anchor="middle" class="timeline-text" font-size="11px">10亿+ 用户</text>
 <text x="800" y="430" text-anchor="middle" class="timeline-text" font-size="11px">Web3 主流</text>
-<line x1="800" y1="306" x2="800" y2="330" class="timeline-arrow timeline-future" stroke-width="1" stroke="#df6919"/>
+<line x1="800" y1="306" x2="800" y2="330" class="timeline-arrow timeline-future" stroke-width="1" stroke="#df6919" fill="none"/>
 <text x="900" y="320" text-anchor="end" class="timeline-text" font-size="12px" fill="#888">2030 →</text>
 <rect x="50" y="480" width="200" height="80" rx="5" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1"/>
 <text x="150" y="505" text-anchor="middle" class="timeline-text" font-weight="bold">关键指标趋势</text>
@@ -1228,7 +1228,7 @@ Solver (求解器) 竞争执行:
 <rect x="770" y="35" width="120" height="35" rx="3" fill="rgba(217, 83, 79, 0.1)" stroke="#d9534f" stroke-width="1"/>
 <text x="830" y="53" text-anchor="middle" class="adopt-text" font-size="10px">主流采用 →</text>
 <text x="830" y="65" text-anchor="middle" class="adopt-text" font-size="10px">50% 互联网用户</text>
-<line x1="100" y1="220" x2="850" y2="220" stroke="#5cb85c" stroke-width="1" stroke-dasharray="5,5"/>
+<line x1="100" y1="220" x2="850" y2="220" stroke="#5cb85c" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
 <text x="860" y="225" class="adopt-text" fill="#5cb85c" font-size="10px">1B 用户里程碑</text>
 </svg>
 </div>

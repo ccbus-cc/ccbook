@@ -209,7 +209,7 @@ title: "第十四章：企业区块链"
 <text class="fabric-text-small" x="630" y="151">• 基于 X.509 证书</text>
 <text class="fabric-text-small" x="630" y="164">• 身份验证与授权</text>
 <text class="fabric-text-small" x="630" y="185" font-weight="bold">支持：LDAP, HSM 集成</text>
-<line x1="50" y1="230" x2="800" y2="230" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5"/>
+<line x1="50" y1="230" x2="800" y2="230" stroke="#4c9be8" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
 <text class="fabric-text" x="425" y="250" text-anchor="middle" font-weight="bold">Fabric 交易流程 (Execute-Order-Validate)</text>
 <ellipse cx="100" cy="290" rx="50" ry="30" fill="rgba(52, 81, 178, 0.15)" stroke="#4c9be8" stroke-width="1.5"/>
 <text class="fabric-flow-text" x="100" y="293" text-anchor="middle">1. 提案</text>
@@ -868,7 +868,7 @@ func (c *AssetContract) ReadPrivatePrice(ctx contractapi.TransactionContextInter
 <text class="scf-text-small" x="320" y="113" text-anchor="middle" fill="#df6919">供货</text>
 <path class="scf-arrow" d="M 500 120 L 560 120"/>
 <text class="scf-text-small" x="530" y="113" text-anchor="middle" fill="#df6919">融资</text>
-<line x1="30" y1="190" x2="820" y2="190" stroke="#4c9be8" stroke-width="2" stroke-dasharray="5,5"/>
+<line x1="30" y1="190" x2="820" y2="190" stroke="#4c9be8" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
 <text class="scf-text-title" x="425" y="215" text-anchor="middle" font-size="14px">蚂蚁链双链通方案</text>
 <rect class="scf-box-core" x="350" y="240" width="150" height="90" rx="4"/>
 <text class="scf-text" x="425" y="258" text-anchor="middle" font-weight="bold">核心企业</text>
