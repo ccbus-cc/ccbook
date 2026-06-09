@@ -747,7 +747,8 @@ $$
       .svg-4-6 .comp-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
       .svg-4-6 .comp-text { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
       .svg-4-6 .comp-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
-      .svg-4-6 .comp-axis { stroke: #1f2937; stroke-width: 1; fill: none; }
+      .svg-4-6 .comp-axis { stroke: #1f2937; stroke-width: 2; fill: none; }
+      .svg-4-6 .comp-trilemma { stroke: #df6919; stroke-width: 1.5; fill: none; stroke-dasharray: 4,3; }
       .svg-4-6 .comp-circle-pow { fill: rgba(217, 83, 79, 0.4); stroke: #d9534f; stroke-width: 1; }
       .svg-4-6 .comp-circle-pos { fill: rgba(76, 156, 232, 0.4); stroke: #4c9be8; stroke-width: 1; }
       .svg-4-6 .comp-circle-dpos { fill: rgba(223, 105, 25, 0.4); stroke: #df6919; stroke-width: 1; }
@@ -784,7 +785,7 @@ $$
   <text class="comp-text" x="580" y="245" text-anchor="middle" font-weight="bold">PBFT</text>
   <text class="comp-text-small" x="580" y="258" text-anchor="middle">去中心化: 低</text>
   <text class="comp-text-small" x="580" y="270" text-anchor="middle">TPS: 10000+</text>
-  <line class="comp-axis" x1="120" y1="135" x2="550" y2="220" stroke="#df6919" stroke-width="1" stroke-dasharray="3,3" fill="none"/>
+  <line class="comp-trilemma" x1="120" y1="135" x2="550" y2="220"/>
   <text class="comp-text-small" x="350" y="165" fill="#df6919">性能-去中心化不可能三角</text>
   <text class="comp-text-small" x="350" y="342" text-anchor="middle" font-style="italic">通常需要在性能、去中心化和安全性之间权衡</text>
 </svg>
