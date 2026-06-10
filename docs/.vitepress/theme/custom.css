@@ -244,7 +244,7 @@
   background-color: var(--vp-c-brand-soft);
   color: var(--vp-c-brand-1);
   padding: 2px 6px;
-  border-radius: 4px;
+  border-radius: 4px;  /* xs */
   font-size: 0.88em;
 }
 
@@ -821,4 +821,117 @@
 }
 .VPSidebarItem .item:hover .ccbus-sidebar-badge {
   transform: scale(1.2);
+}
+
+/* ============================================================
+   GLOBAL OVERRIDE: force every border-radius to xs (4px)
+   VitePress's default theme uses 2px/6px/8px/12px/16px radii on
+   many components (custom-block, VPBadge, VPMenu, DocSearch, etc.).
+   The CCBook design system standardises on xs (4px), so we override
+   every non-circular radius here. The 50% values used on avatars
+   (.ccbus-hero-avatar, .ccbus-teacher-note-avatar, .ccbus-ch-badge,
+   .ccbus-char-ref img, .ccbus-cast-card-avatar) are kept as-is.
+   ============================================================ */
+.custom-block,
+.vp-doc .custom-block,
+.vp-doc .custom-block div[class*="language-"],
+.vp-doc .custom-block .vp-code-group .tabs,
+.vp-sponsor,
+.vp-sponsor.aside,
+.VPBadge,
+.VPFeature,
+.VPMenu,
+.VPNavScreenAppearance,
+.VPSkipLink,
+.VPTeamMembersItem,
+.link[data-v-d6be1790],
+.pager-link,
+.items,
+.DocSearch-Modal,
+.DocSearch-Commands-Key,
+.vp-code-group .tabs label:after,
+.outline-marker,
+.indicator {
+  border-radius: 4px !important;  /* xs */
+}
+/* 2px micro radii (e.g. active-tab indicator, code-key shadow) — keep small
+   but standardise on the next-up step in the xs ladder. */
+.vp-code-group .tabs label:after,
+.outline-marker,
+.indicator,
+.DocSearch-Commands-Key {
+  border-radius: 4px !important;  /* xs */
+}
+/* The 2px / 8px radii on VPHero .shell and excerpt mark are intentional
+   micro-accents — collapse to xs for consistency. */
+.shell,
+.excerpt mark,
+.excerpt .vp-code-group div[class*="language-"],
+.icon {
+  border-radius: 4px !important;  /* xs */
+}
+
+/* ============================================================
+   THIN SCROLLBAR — as thin as the platform allows
+   WebKit (Chrome/Safari/Edge) + Firefox (scrollbar-width / color)
+   ============================================================ */
+:root {
+  --ccbus-scrollbar-width: 6px;
+  --ccbus-scrollbar-width-thin: 4px;
+  --ccbus-scrollbar-thumb: rgba(120, 120, 130, 0.35);
+  --ccbus-scrollbar-thumb-hover: rgba(120, 120, 130, 0.55);
+  --ccbus-scrollbar-track: transparent;
+}
+.dark {
+  --ccbus-scrollbar-thumb: rgba(200, 200, 210, 0.22);
+  --ccbus-scrollbar-thumb-hover: rgba(200, 200, 210, 0.40);
+}
+
+/* WebKit: thumb + track — no buttons, no corners, no growth reserve */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--ccbus-scrollbar-thumb) var(--ccbus-scrollbar-track);
+}
+*::-webkit-scrollbar {
+  width: var(--ccbus-scrollbar-width);
+  height: var(--ccbus-scrollbar-width);
+  background: var(--ccbus-scrollbar-track);
+}
+*::-webkit-scrollbar-track {
+  background: var(--ccbus-scrollbar-track);
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--ccbus-scrollbar-thumb);
+  border-radius: 3px;  /* xs-ish, smooth half-width */
+  border: none;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--ccbus-scrollbar-thumb-hover);
+}
+*::-webkit-scrollbar-thumb:active {
+  background: var(--ccbus-scrollbar-thumb-hover);
+}
+*::-webkit-scrollbar-button,
+*::-webkit-scrollbar-corner {
+  display: none;
+  width: 0;
+  height: 0;
+}
+*::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+/* Sidebar / content panels — keep the same ultra-thin treatment */
+.VPSidebar,
+.VPContent,
+.VPHero .VPHomeContent,
+.vp-doc,
+.VPNavBar,
+body {
+  scrollbar-width: thin;
+}
+/* Slim the sidebar scrollbar even further — its scroll area is long and
+   a 6px thumb eats visible content. */
+.VPSidebar::-webkit-scrollbar,
+.VPSidebar *::-webkit-scrollbar {
+  width: var(--ccbus-scrollbar-width-thin);
 }
