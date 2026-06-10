@@ -45,6 +45,132 @@ CCBus's "Multi-Function Token" is a representative case of current DeFi contract
 
 ## 5.1 What are Smart Contracts?
 
+
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
+<svg class="svg-5-0" viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-5-0 .sc-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-5-0 .sc-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-5-0 .sc-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-5-0 .sc-circle-main { fill: rgba(52, 81, 178, 0.15); stroke: #4c9be8; stroke-width: 1.5; }
+      .svg-5-0 .sc-circle-feature { fill: rgba(223, 105, 25, 0.25); stroke: #df6919; stroke-width: 1; }
+      .svg-5-0 .sc-line { stroke: #4c9be8; stroke-width: 1; fill: none; }
+    </style>
+    <marker id="sc-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
+      <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>
+    </marker>
+  </defs>
+  <text class="sc-text-title" x="350" y="25" text-anchor="middle">Smart Contractcorefeature</text>
+  <circle class="sc-circle-main" cx="350" cy="175" r="55"/>
+  <text class="sc-text" x="350" y="172" text-anchor="middle" font-weight="bold">Smart Contract</text>
+  <text class="sc-text-small" x="350" y="185" text-anchor="middle">Smart Contract</text>
+  <circle class="sc-circle-feature" cx="150" cy="80" r="45"/>
+  <text class="sc-text" x="150" y="75" text-anchor="middle" font-weight="bold">autoExecute</text>
+  <text class="sc-text-small" x="150" y="88" text-anchor="middle">Automatic</text>
+  <text class="sc-text-small" x="150" y="100" text-anchor="middle">Execution</text>
+  <line class="sc-line" x1="185" y1="105" x2="310" y2="150" marker-end="url(#sc-arrow)"/>
+  <text class="sc-text-small" x="220" y="120" fill="#4c9be8">conditiontrigger</text>
+  <circle class="sc-circle-feature" cx="550" cy="80" r="45"/>
+  <text class="sc-text" x="550" y="75" text-anchor="middle" font-weight="bold">immutable</text>
+  <text class="sc-text-small" x="550" y="88" text-anchor="middle">Immutable</text>
+  <line class="sc-line" x1="515" y1="105" x2="390" y2="150" marker-end="url(#sc-arrow)"/>
+  <text class="sc-text-small" x="480" y="120" fill="#4c9be8">Deploypostfixed</text>
+  <circle class="sc-circle-feature" cx="150" cy="270" r="45"/>
+  <text class="sc-text" x="150" y="265" text-anchor="middle" font-weight="bold">transparentPublic</text>
+  <text class="sc-text-small" x="150" y="278" text-anchor="middle">Transparent</text>
+  <line class="sc-line" x1="185" y1="245" x2="310" y2="200" marker-end="url(#sc-arrow)"/>
+  <text class="sc-text-small" x="220" y="230" fill="#4c9be8">codecansee</text>
+  <circle class="sc-circle-feature" cx="550" cy="270" r="45"/>
+  <text class="sc-text" x="550" y="265" text-anchor="middle" font-weight="bold">Decentralization</text>
+  <text class="sc-text-small" x="550" y="278" text-anchor="middle">Decentralized</text>
+  <line class="sc-line" x1="515" y1="245" x2="390" y2="200" marker-end="url(#sc-arrow)"/>
+  <text class="sc-text-small" x="480" y="230" fill="#4c9be8">NoneneedMediummediate</text>
+  <rect x="50" y="330" width="600" height="1" fill="#4c9be8" opacity="0.3"/>
+  <text class="sc-text-small" x="350" y="345" text-anchor="middle" font-style="italic">Smart Contract = code + Data + Blockchainenv</text>
+</svg>
+</div>
+
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
+<svg class="svg-5-1" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-5-1 .scw-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-5-1 .scw-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-5-1 .scw-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-5-1 .scw-box-step { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
+      .svg-5-1 .scw-box-contract { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .svg-5-1 .scw-line-flow { stroke: #4c9be8; fill: none; stroke-width: 1.5; stroke-dasharray: 3,2; }
+      .svg-5-1 .scw-circle-num { fill: rgba(223, 105, 25, 0.12); stroke: #df6919; stroke-width: 1; }
+    </style>
+    <marker id="scw-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
+      <polygon points="0 0, 8 4, 0 8" fill="#4c9be8"/>
+    </marker>
+  </defs>
+  <text class="scw-text-title" x="375" y="25" text-anchor="middle">Smart Contractworkflowjourney</text>
+  <rect class="scw-box-step" x="30" y="55" width="160" height="70" rx="4"/>
+  <circle class="scw-circle-num" cx="50" cy="75" r="12"/>
+  <text class="scw-text" x="50" y="80" text-anchor="middle" font-weight="bold">1</text>
+  <text class="scw-text" x="70" y="75" font-weight="bold">encodewriteContractcode</text>
+  <text class="scw-text-small" x="70" y="90">• useSolidityetc.language</text>
+  <text class="scw-text-small" x="70" y="102">• decidemeaningbusinesslogical</text>
+  <text class="scw-text-small" x="70" y="114">• settingstriggercondition</text>
+  <line class="scw-line-flow" x1="190" y1="90" x2="230" y2="90" marker-end="url(#scw-arrow)"/>
+  <rect class="scw-box-step" x="230" y="55" width="160" height="70" rx="4"/>
+  <circle class="scw-circle-num" cx="250" cy="75" r="12"/>
+  <text class="scw-text" x="250" y="80" text-anchor="middle" font-weight="bold">2</text>
+  <text class="scw-text" x="270" y="75" font-weight="bold">encodeinterpret&Testing</text>
+  <text class="scw-text-small" x="270" y="90">• encodeinterpretforBytecode</text>
+  <text class="scw-text-small" x="270" y="102">• Local Test</text>
+  <text class="scw-text-small" x="270" y="114">• Security Audit</text>
+  <line class="scw-line-flow" x1="390" y1="90" x2="430" y2="90" marker-end="url(#scw-arrow)"/>
+  <rect class="scw-box-step" x="430" y="55" width="160" height="70" rx="4"/>
+  <circle class="scw-circle-num" cx="450" cy="75" r="12"/>
+  <text class="scw-text" x="450" y="80" text-anchor="middle" font-weight="bold">3</text>
+  <text class="scw-text" x="470" y="75" font-weight="bold">DeploytoBlockchain</text>
+  <text class="scw-text-small" x="470" y="90">• paymentDeployGasfee</text>
+  <text class="scw-text-small" x="470" y="102">• generateContractAddress</text>
+  <text class="scw-text-small" x="470" y="114">• nocan逆convert</text>
+  <line class="scw-line-flow" x1="590" y1="90" x2="630" y2="90" marker-end="url(#scw-arrow)"/>
+  <rect class="scw-box-contract" x="630" y="55" width="90" height="70" rx="4"/>
+  <text class="scw-text" x="675" y="85" text-anchor="middle" font-weight="bold">Contract</text>
+  <text class="scw-text" x="675" y="98" text-anchor="middle" font-weight="bold">alreadyDeploy</text>
+  <text class="scw-text-small" x="675" y="112" text-anchor="middle">0x1234...</text>
+  <line class="scw-line-flow" x1="675" y1="125" x2="675" y2="165" marker-end="url(#scw-arrow)"/>
+  <rect class="scw-box-step" x="560" y="175" width="230" height="80" rx="4"/>
+  <circle class="scw-circle-num" cx="580" cy="195" r="12"/>
+  <text class="scw-text" x="580" y="200" text-anchor="middle" font-weight="bold">4</text>
+  <text class="scw-text" x="600" y="195" font-weight="bold">Userinteract</text>
+  <text class="scw-text-small" x="600" y="210">• UserSend TxCallFunction</text>
+  <text class="scw-text-small" x="600" y="222">• transmitdelivermustwantparam</text>
+  <text class="scw-text-small" x="600" y="234">• paymentGasfee</text>
+  <text class="scw-text-small" x="600" y="246">• etc.treatMiner/ValidatorConfirm</text>
+  <line class="scw-line-flow" x1="560" y1="215" x2="410" y2="215" marker-end="url(#scw-arrow)"/>
+  <rect class="scw-box-step" x="180" y="175" width="230" height="80" rx="4"/>
+  <circle class="scw-circle-num" cx="200" cy="195" r="12"/>
+  <text class="scw-text" x="200" y="200" text-anchor="middle" font-weight="bold">5</text>
+  <text class="scw-text" x="220" y="195" font-weight="bold">autoExecute</text>
+  <text class="scw-text-small" x="220" y="210">• Verifytriggercondition</text>
+  <text class="scw-text-small" x="220" y="222">• EVMExecuteBytecode</text>
+  <text class="scw-text-small" x="220" y="234">• moreNewState Vars</text>
+  <text class="scw-text-small" x="220" y="246">• triggerEventLog</text>
+  <line class="scw-line-flow" x1="295" y1="255" x2="295" y2="295" marker-end="url(#scw-arrow)"/>
+  <rect class="scw-box-step" x="180" y="295" width="230" height="80" rx="4"/>
+  <circle class="scw-circle-num" cx="200" cy="315" r="12"/>
+  <text class="scw-text" x="200" y="320" text-anchor="middle" font-weight="bold">6</text>
+  <text class="scw-text" x="220" y="315" font-weight="bold">resultConfirm</text>
+  <text class="scw-text-small" x="220" y="330">• TransactionblankethitpackinputBlock</text>
+  <text class="scw-text-small" x="220" y="342">• wholenetNodeVerify</text>
+  <text class="scw-text-small" x="220" y="354">• State Updatenocan逆</text>
+  <text class="scw-text-small" x="220" y="366">• returnresultgiveUser</text>
+  <line class="scw-line-flow" x1="410" y1="335" x2="560" y2="335" marker-end="url(#scw-arrow)"/>
+  <rect class="scw-box-step" x="560" y="295" width="230" height="80" rx="4"/>
+  <text class="scw-text" x="675" y="325" text-anchor="middle" font-weight="bold">✓ ExecuteComplete</text>
+  <text class="scw-text-small" x="675" y="345" text-anchor="middle">• StatealreadymoreNew</text>
+  <text class="scw-text-small" x="675" y="357" text-anchor="middle">• assetalreadytransfer</text>
+  <text class="scw-text-small" x="675" y="369" text-anchor="middle">• Eventalreadyrecord</text>
+</svg>
+</div>
 ### Definition
 
 A **smart contract** is a program deployed on a blockchain that automatically executes predefined logic when triggered. Unlike traditional contracts, smart contracts are self-enforcing: code is law, no intermediaries required.
@@ -166,6 +292,100 @@ contract MyToken is ERC20 {
 - **Reference types**: `string`, `bytes`, arrays, mappings, structs
 - **Function types**: internal/external, view/pure/payable
 
+
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
+<svg class="svg-5-3" viewBox="0 0 750 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-5-3 .sol-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-5-3 .sol-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-5-3 .sol-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-5-3 .sol-box-category { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .svg-5-3 .sol-box-type { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 1; }
+      .svg-5-3 .sol-box-ref { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 1; }
+    </style>
+</defs>
+  <text class="sol-text-title" x="375" y="25" text-anchor="middle">Solidity Typesbodytie</text>
+  <rect class="sol-box-category" x="30" y="50" width="330" height="210" rx="4"/>
+  <text class="sol-text" x="195" y="68" text-anchor="middle" font-weight="bold">Value (Value Types)</text>
+  <text class="sol-text-small" x="40" y="85" font-style="italic">replicatetransmitdeliver，Storageindependentreplica</text>
+  <rect class="sol-box-type" x="40" y="95" width="150" height="80" rx="3"/>
+  <text class="sol-text" x="115" y="110" text-anchor="middle" font-weight="bold">IntType</text>
+  <text class="sol-text-small" x="50" y="125">• uint8 ~ uint256 (unsigned)</text>
+  <text class="sol-text-small" x="50" y="137">• int8 ~ int256 (signed)</text>
+  <text class="sol-text-small" x="50" y="149">• Default: uint256, int256</text>
+  <text class="sol-text-small" x="50" y="161">• steplong: 8bitdeliverincrease</text>
+  <rect class="sol-box-type" x="200" y="95" width="150" height="80" rx="3"/>
+  <text class="sol-text" x="275" y="110" text-anchor="middle" font-weight="bold">Address Type</text>
+  <text class="sol-text-small" x="210" y="125">• address (20Bytes)</text>
+  <text class="sol-text-small" x="210" y="137">• address payable</text>
+  <text class="sol-text-small" x="210" y="149">  - canreceivereceiveETH</text>
+  <text class="sol-text-small" x="210" y="161">  - yestransfer/sendmethod</text>
+  <rect class="sol-box-type" x="40" y="185" width="100" height="65" rx="3"/>
+  <text class="sol-text" x="90" y="200" text-anchor="middle" font-weight="bold">BoolType</text>
+  <text class="sol-text-small" x="50" y="215">• bool</text>
+  <text class="sol-text-small" x="50" y="227">  - true</text>
+  <text class="sol-text-small" x="50" y="239">  - false</text>
+  <rect class="sol-box-type" x="150" y="185" width="100" height="65" rx="3"/>
+  <text class="sol-text" x="200" y="200" text-anchor="middle" font-weight="bold">BytesType</text>
+  <text class="sol-text-small" x="160" y="215">• bytes1 ~ bytes32</text>
+  <text class="sol-text-small" x="160" y="227">• fixedLargeSmall</text>
+  <text class="sol-text-small" x="160" y="239">• HigheffectStorage</text>
+  <rect class="sol-box-type" x="260" y="185" width="90" height="65" rx="3"/>
+  <text class="sol-text" x="305" y="200" text-anchor="middle" font-weight="bold">Enum</text>
+  <text class="sol-text-small" x="270" y="215">• enum</text>
+  <text class="sol-text-small" x="270" y="227">• Custom</text>
+  <text class="sol-text-small" x="270" y="239">• Inttabledemo</text>
+  <rect class="sol-box-category" x="390" y="50" width="330" height="210" rx="4"/>
+  <text class="sol-text" x="555" y="68" text-anchor="middle" font-weight="bold">Reference (Reference Types)</text>
+  <text class="sol-text-small" x="400" y="85" font-style="italic">guideusetransmitdeliver，needindicatedecideDatabitplace</text>
+  <rect class="sol-box-ref" x="400" y="95" width="150" height="95" rx="3"/>
+  <text class="sol-text" x="475" y="110" text-anchor="middle" font-weight="bold">Array (Array)</text>
+  <text class="sol-text-small" x="410" y="125">• fixedArray: uint[5]</text>
+  <text class="sol-text-small" x="410" y="137">• Dynamic Array: uint[]</text>
+  <text class="sol-text-small" x="410" y="149">• bytes (Dynamic Bytes)</text>
+  <text class="sol-text-small" x="410" y="161">• string (UTF-8)</text>
+  <text class="sol-text-small" x="410" y="173">• Supportpush/popop</text>
+  <rect class="sol-box-ref" x="560" y="95" width="150" height="95" rx="3"/>
+  <text class="sol-text" x="635" y="110" text-anchor="middle" font-weight="bold">Mapping (Mapping)</text>
+  <text class="sol-text-small" x="570" y="125">• mapping(K => V)</text>
+  <text class="sol-text-small" x="570" y="137">• keyvaluevsStorage</text>
+  <text class="sol-text-small" x="570" y="149">• onlystoragebitplace</text>
+  <text class="sol-text-small" x="570" y="161">• nocanIteration</text>
+  <text class="sol-text-small" x="570" y="173">• GasHigheffect</text>
+  <rect class="sol-box-ref" x="400" y="200" width="310" height="50" rx="3"/>
+  <text class="sol-text" x="555" y="215" text-anchor="middle" font-weight="bold">Struct (Struct)</text>
+  <text class="sol-text-small" x="410" y="230">• CustomreplyfitType</text>
+  <text class="sol-text-small" x="410" y="242">• cancontainsAnyData Type（removefrom身）</text>
+  <rect class="sol-box-category" x="30" y="280" width="690" height="110" rx="4"/>
+  <text class="sol-text" x="375" y="298" text-anchor="middle" font-weight="bold">Databitplace (Data Location)</text>
+  <rect x="40" y="310" width="210" height="70" rx="3" fill="rgba(52, 81, 178, 0.05)" stroke="#4c9be8" stroke-width="1"/>
+  <text class="sol-text" x="145" y="325" text-anchor="middle" font-weight="bold">storage</text>
+  <text class="sol-text-small" x="50" y="340">• permanentStorageatBlockchainUp</text>
+  <text class="sol-text-small" x="50" y="352">• State Varsdefaultbitplace</text>
+  <text class="sol-text-small" x="50" y="364">• GasCostHigh</text>
+  <rect x="260" y="310" width="210" height="70" rx="3" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="1"/>
+  <text class="sol-text" x="365" y="325" text-anchor="middle" font-weight="bold">memory</text>
+  <text class="sol-text-small" x="270" y="340">• 临hourStorage</text>
+  <text class="sol-text-small" x="270" y="352">• Functionparam/bureaupartchangemeasure</text>
+  <text class="sol-text-small" x="270" y="364">• GasCostMediumetc.</text>
+  <rect x="480" y="310" width="230" height="70" rx="3" fill="rgba(92, 184, 92, 0.1)" stroke="#5cb85c" stroke-width="1"/>
+  <text class="sol-text" x="595" y="325" text-anchor="middle" font-weight="bold">calldata</text>
+  <text class="sol-text-small" x="490" y="340">• nocanrevise临hourStorage</text>
+  <text class="sol-text-small" x="490" y="352">• outsideFunctionparamdedicated</text>
+  <text class="sol-text-small" x="490" y="364">• GasCostmostLow</text>
+  <rect x="30" y="400" width="690" height="80" rx="4" fill="rgba(223, 105, 25, 0.05)" stroke="#df6919" stroke-width="1"/>
+  <text class="sol-text" x="375" y="418" text-anchor="middle" font-weight="bold">特殊Type&wholebureauchangemeasure</text>
+  <text class="sol-text-small" x="40" y="435">• msg.sender: currentCallagentAddress</text>
+  <text class="sol-text-small" x="240" y="435">• msg.value: emitsendETHcount(wei)</text>
+  <text class="sol-text-small" x="440" y="435">• block.timestamp: currentBlock Timestamp</text>
+  <text class="sol-text-small" x="40" y="450">• block.number: currentPreviousno.</text>
+  <text class="sol-text-small" x="240" y="450">• tx.origin: Transactionemitriseagent</text>
+  <text class="sol-text-small" x="440" y="450">• tx.gasprice: TransactionGasPrice</text>
+  <text class="sol-text-small" x="40" y="465">• this: currentContractAddress</text>
+  <text class="sol-text-small" x="240" y="465">• now: etc.agreeinblock.timestamp (already弃use)</text>
+</svg>
+</div>
 ### Function Visibility & State Mutability
 
 ```solidity
@@ -284,6 +504,75 @@ Solidity 0.8.20+ enabled PUSH0: pushes `0` onto the stack for 2 gas (old `PUSH1 
 
 ## 5.5 Smart Contract Security
 
+
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
+<svg class="svg-5-5" viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-5-5 .sec-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-5-5 .sec-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-5-5 .sec-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-5-5 .sec-box-practice { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
+      .svg-5-5 .sec-box-tool { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .svg-5-5 .sec-circle-check { fill: rgba(92, 184, 92, 0.15); stroke: #5cb85c; stroke-width: 1; }
+    </style>
+</defs>
+  <text class="sec-text-title" x="350" y="25" text-anchor="middle">Smart ContractsafeBest Practice</text>
+  <rect class="sec-box-practice" x="30" y="50" width="640" height="180" rx="4"/>
+  <text class="sec-text" x="350" y="68" text-anchor="middle" font-weight="bold">devPhaseBest Practice</text>
+  <circle class="sec-circle-check" cx="50" cy="90" r="8"/>
+  <text class="sec-text-small" x="65" y="94">1. usemostNewstabledecideeditionSolidity (0.8.x+)</text>
+  <circle class="sec-circle-check" cx="50" cy="110" r="8"/>
+  <text class="sec-text-small" x="65" y="114">2. followfollowCEIpattern</text>
+  <circle class="sec-circle-check" cx="50" cy="130" r="8"/>
+  <text class="sec-text-small" x="65" y="134">3. useOpenZeppelinetc.viafaultauditlib</text>
+  <circle class="sec-circle-check" cx="50" cy="150" r="8"/>
+  <text class="sec-text-small" x="65" y="154">4. limitfollowringtimeseven，avoidexemptGas耗尽attack</text>
+  <circle class="sec-circle-check" cx="50" cy="170" r="8"/>
+  <text class="sec-text-small" x="65" y="174">5. useSafeMathprevent溢output（0.8.0pre）</text>
+  <circle class="sec-circle-check" cx="50" cy="190" r="8"/>
+  <text class="sec-text-small" x="65" y="194">6. 谨慎usedelegatecall，warningStorage Layout</text>
+  <circle class="sec-circle-check" cx="370" cy="90" r="8"/>
+  <text class="sec-text-small" x="385" y="94">7. implementurgentPausemechanism</text>
+  <circle class="sec-circle-check" cx="370" cy="110" r="8"/>
+  <text class="sec-text-small" x="385" y="114">8. useEventrecordimportantop</text>
+  <circle class="sec-circle-check" cx="370" cy="130" r="8"/>
+  <text class="sec-text-small" x="385" y="134">9. avoidexemptusetx.origininputrowauthorized</text>
+  <circle class="sec-circle-check" cx="370" cy="150" r="8"/>
+  <text class="sec-text-small" x="385" y="154">10. vsoutsideCallsettingsGaslimit</text>
+  <circle class="sec-circle-check" cx="370" cy="170" r="8"/>
+  <text class="sec-text-small" x="385" y="174">11. encodewritewholesurfaceUnit Test</text>
+  <circle class="sec-circle-check" cx="370" cy="190" r="8"/>
+  <text class="sec-text-small" x="385" y="194">12. useNatSpecfootnotedoc</text>
+  <text class="sec-text-small" x="40" y="215" font-style="italic">⚠️ rememberlive: ContractDeploypostnocanrevise，Securityyesprimarythinkconsidercauseelem</text>
+  <rect class="sec-box-tool" x="30" y="250" width="310" height="210" rx="4"/>
+  <text class="sec-text" x="185" y="268" text-anchor="middle" font-weight="bold">Security Tools&service</text>
+  <text class="sec-text" x="40" y="288" font-weight="bold">Static Analysistool:</text>
+  <text class="sec-text-small" x="40" y="303">• Slither - Trail of Bitsdev</text>
+  <text class="sec-text-small" x="40" y="316">• Mythril - ConsenSysdev</text>
+  <text class="sec-text-small" x="40" y="329">• Securify - ETH Zurichdev</text>
+  <text class="sec-text" x="40" y="348" font-weight="bold">Formal Verify:</text>
+  <text class="sec-text-small" x="40" y="363">• Certora Prover</text>
+  <text class="sec-text-small" x="40" y="376">• K Framework</text>
+  <text class="sec-text" x="40" y="395" font-weight="bold">Testingframework:</text>
+  <text class="sec-text-small" x="40" y="410">• Hardhat (JavaScript/TypeScript)</text>
+  <text class="sec-text-small" x="40" y="423">• Foundry (Soliditynative)</text>
+  <text class="sec-text-small" x="40" y="436">• Truffle (tradframework)</text>
+  <rect class="sec-box-tool" x="360" y="250" width="310" height="210" rx="4"/>
+  <text class="sec-text" x="515" y="268" text-anchor="middle" font-weight="bold">audit&Monitor</text>
+  <text class="sec-text" x="370" y="288" font-weight="bold">dedicatedjobAudit Firms:</text>
+  <text class="sec-text-small" x="370" y="303">• Trail of Bits</text>
+  <text class="sec-text-small" x="370" y="316">• OpenZeppelin Security</text>
+  <text class="sec-text-small" x="370" y="329">• ConsenSys Diligence</text>
+  <text class="sec-text-small" x="370" y="342">• Quantstamp</text>
+  <text class="sec-text-small" x="370" y="355">• CertiK</text>
+  <text class="sec-text" x="370" y="374" font-weight="bold">chainUpMonitor:</text>
+  <text class="sec-text-small" x="370" y="389">• Forta Network - real-timethreatcheckmeasure</text>
+  <text class="sec-text-small" x="370" y="402">• Tenderly - Transaction模拟&Monitor</text>
+  <text class="sec-text-small" x="370" y="415">• OZ Defender - Operationstool</text>
+  <text class="sec-text-small" x="370" y="428">• Etherscan - ContractVerify&Monitor</text>
+</svg>
+</div>
 ### Common Vulnerabilities
 
 1. **Reentrancy attack** — recursive call exploits unupdated state
@@ -613,4 +902,176 @@ Continue to [Chapter 6: Blockchain Architecture](/en/chapter-6) to learn about e
     Taught by: <strong>Ether Engineer</strong> — The "foreman" of smart contracts — code is craft<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 6: Blockchain Architecture] will be taught by another CCBus guide.</span>
   </div>
+</div>
+
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
+<svg class="svg-5-2" viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-5-2 .evm-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-5-2 .evm-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-5-2 .evm-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-5-2 .evm-box-main { fill: rgba(76, 156, 232, 0.25); stroke: #4c9be8; stroke-width: 1.5; }
+      .svg-5-2 .evm-box-component { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
+      .svg-5-2 .evm-box-storage { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
+      .svg-5-2 .evm-line { stroke: #4c9be8; stroke-width: 1; fill: none; }
+    </style>
+    <marker id="evm-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 6 3, 0 6" fill="#4c9be8"/>
+    </marker>
+  </defs>
+  <text class="evm-text-title" x="350" y="25" text-anchor="middle">EVM (EVM) architecture</text>
+  <rect class="evm-box-main" x="50" y="50" width="600" height="360" rx="6"/>
+  <text class="evm-text" x="350" y="72" text-anchor="middle" font-weight="bold">Ethereum Virtual Machine (EVM)</text>
+  <rect class="evm-box-component" x="70" y="90" width="250" height="100" rx="4"/>
+  <text class="evm-text" x="195" y="108" text-anchor="middle" font-weight="bold">Executeenv (Execution Context)</text>
+  <text class="evm-text-small" x="80" y="125">• Bytecodeinterpreter (Bytecode Interpreter)</text>
+  <text class="evm-text-small" x="80" y="138">• OpcodeExecuteer (Opcode Executor)</text>
+  <text class="evm-text-small" x="80" y="151">• Gasplanmeasureer (Gas Metering)</text>
+  <text class="evm-text-small" x="80" y="164">• stackmechanism (Stack-based)</text>
+  <text class="evm-text-small" x="80" y="177">  - mostLargedepth: 1024</text>
+  <rect class="evm-box-component" x="380" y="90" width="250" height="100" rx="4"/>
+  <text class="evm-text" x="505" y="108" text-anchor="middle" font-weight="bold">memmgmt (Memory)</text>
+  <text class="evm-text-small" x="390" y="125">• easylosenaturemem (Volatile Memory)</text>
+  <text class="evm-text-small" x="390" y="138">  - TransactionExecutionbetweenExists</text>
+  <text class="evm-text-small" x="390" y="151">  - linenaturesearchaddress</text>
+  <text class="evm-text-small" x="390" y="164">  - pressneedscale</text>
+  <text class="evm-text-small" x="390" y="177">• GasCostwithusemeasureincreaseadd</text>
+  <rect class="evm-box-storage" x="70" y="210" width="250" height="110" rx="4"/>
+  <text class="evm-text" x="195" y="228" text-anchor="middle" font-weight="bold">Storage (Storage)</text>
+  <text class="evm-text-small" x="80" y="245">• support久ifyStorage (Persistent Storage)</text>
+  <text class="evm-text-small" x="80" y="258">  - keyvaluevsMapping (Key-Value Mapping)</text>
+  <text class="evm-text-small" x="80" y="271">  - 256bitkey → 256bitvalue</text>
+  <text class="evm-text-small" x="80" y="284">• HighGasCost</text>
+  <text class="evm-text-small" x="80" y="297">  - SSTORE: ~20,000 Gas</text>
+  <text class="evm-text-small" x="80" y="310">  - SLOAD: ~2,100 Gas</text>
+  <rect class="evm-box-storage" x="380" y="210" width="250" height="110" rx="4"/>
+  <text class="evm-text" x="505" y="228" text-anchor="middle" font-weight="bold">CallData (Calldata)</text>
+  <text class="evm-text-small" x="390" y="245">• Functionparamtransmitdeliver (Function Arguments)</text>
+  <text class="evm-text-small" x="390" y="258">• nocanrevise (Immutable)</text>
+  <text class="evm-text-small" x="390" y="271">• LowGasCostreadtake</text>
+  <text class="evm-text-small" x="390" y="284">• containsFunctionChooseer (4Bytes)</text>
+  <text class="evm-text-small" x="390" y="297">  + encodecodeparam</text>
+  <rect class="evm-box-component" x="70" y="340" width="250" height="60" rx="4"/>
+  <text class="evm-text" x="195" y="358" text-anchor="middle" font-weight="bold">journeyserialplanevener (PC)</text>
+  <text class="evm-text-small" x="80" y="375">• indicatetowardcurrentExecuteBytecodebitplace</text>
+  <text class="evm-text-small" x="80" y="388">• Supportjumpconvertindicatelet (JUMP, JUMPI)</text>
+  <rect class="evm-box-component" x="380" y="340" width="250" height="60" rx="4"/>
+  <text class="evm-text" x="505" y="358" text-anchor="middle" font-weight="bold">Gas mechanism</text>
+  <text class="evm-text-small" x="390" y="375">• peropconsumefixedGas</text>
+  <text class="evm-text-small" x="390" y="388">• preventNonelimitfollowring&DoSattack</text>
+  <rect x="60" y="420" width="580" height="20" rx="3" fill="rgba(223, 105, 25, 0.06)" stroke="#df6919" stroke-width="1"/>
+  <text class="evm-text-small" x="350" y="434" text-anchor="middle" font-style="italic">EVMyesgraph灵doneprepareDeterministicStatemachine - sameInputtotalyesproducelifesameOutput</text>
+</svg>
+</div>
+
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
+<svg class="svg-5-4" viewBox="0 0 750 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-5-4 .pat-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-5-4 .pat-text { font-family: arial, sans-serif; font-size: 10px; fill: #1f2937; }
+      .svg-5-4 .pat-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-5-4 .pat-box-pattern { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+      .svg-5-4 .pat-box-security { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
+      .svg-5-4 .pat-box-gas { fill: rgba(92, 184, 92, 0.10); stroke: #5cb85c; stroke-width: 1; }
+    </style>
+</defs>
+  <text class="pat-text-title" x="375" y="25" text-anchor="middle">Smart Contractoftenusedesign pattern</text>
+  <rect class="pat-box-pattern" x="30" y="50" width="220" height="140" rx="4"/>
+  <text class="pat-text" x="140" y="68" text-anchor="middle" font-weight="bold">1. Access Controlpattern</text>
+  <text class="pat-text-small" x="40" y="85">purpose: limitFunction访askPermission</text>
+  <text class="pat-text-small" x="40" y="100" font-weight="bold">implementmethod:</text>
+  <text class="pat-text-small" x="40" y="113">• Ownable: singleallagent</text>
+  <text class="pat-text-small" x="40" y="126">• Role-Based: Role-based</text>
+  <text class="pat-text-small" x="40" y="139">• Whitelist/Blacklist</text>
+  <text class="pat-text-small" x="40" y="155" font-weight="bold">Example:</text>
+  <text class="pat-text-small" x="40" y="168" font-family="monospace">modifier onlyOwner() {</text>
+  <text class="pat-text-small" x="50" y="180" font-family="monospace">require(msg.sender==owner);</text>
+  <rect class="pat-box-pattern" x="270" y="50" width="220" height="140" rx="4"/>
+  <text class="pat-text" x="380" y="68" text-anchor="middle" font-weight="bold">2. proposetakepattern (Pull)</text>
+  <text class="pat-text-small" x="280" y="85">purpose: avoidexemptReentrancy</text>
+  <text class="pat-text-small" x="280" y="100" font-weight="bold">corethinkthought:</text>
+  <text class="pat-text-small" x="280" y="113">• UserActiveproposetakefunds</text>
+  <text class="pat-text-small" x="280" y="126">• butnoContractPush</text>
+  <text class="pat-text-small" x="280" y="139">• recordtreatproposetakeBalance</text>
+  <text class="pat-text-small" x="280" y="155" font-weight="bold">Example:</text>
+  <text class="pat-text-small" x="280" y="168" font-family="monospace">mapping(address => uint)</text>
+  <text class="pat-text-small" x="290" y="180" font-family="monospace">pendingWithdrawals;</text>
+  <rect class="pat-box-pattern" x="510" y="50" width="220" height="140" rx="4"/>
+  <text class="pat-text" x="620" y="68" text-anchor="middle" font-weight="bold">3. Statemachinepattern</text>
+  <text class="pat-text-small" x="520" y="85">purpose: mgmtContractlife命Epoch</text>
+  <text class="pat-text-small" x="520" y="100" font-weight="bold">Stateconvertswap:</text>
+  <text class="pat-text-small" x="520" y="113">• Created → Active</text>
+  <text class="pat-text-small" x="520" y="126">• Active → Paused</text>
+  <text class="pat-text-small" x="520" y="139">• Paused → Terminated</text>
+  <text class="pat-text-small" x="520" y="155" font-weight="bold">Example:</text>
+  <text class="pat-text-small" x="520" y="168" font-family="monospace">enum State { Created,</text>
+  <text class="pat-text-small" x="530" y="180" font-family="monospace">Active, Paused }</text>
+  <rect class="pat-box-security" x="30" y="210" width="220" height="150" rx="4"/>
+  <text class="pat-text" x="140" y="228" text-anchor="middle" font-weight="bold">4. CEI</text>
+  <text class="pat-text" x="140" y="243" text-anchor="middle">(CEI)</text>
+  <text class="pat-text-small" x="40" y="258">purpose: preventReentrancy</text>
+  <text class="pat-text-small" x="40" y="273" font-weight="bold">Executealongserial:</text>
+  <text class="pat-text-small" x="40" y="286">1. Checks: Verifycondition</text>
+  <text class="pat-text-small" x="40" y="299">   require, assert</text>
+  <text class="pat-text-small" x="40" y="312">2. Effects: moreNewState</text>
+  <text class="pat-text-small" x="40" y="325">   revisestoragechangemeasure</text>
+  <text class="pat-text-small" x="40" y="338">3. Interactions: outsideCall</text>
+  <text class="pat-text-small" x="40" y="351">   call, transfer, send</text>
+  <rect class="pat-box-security" x="270" y="210" width="220" height="150" rx="4"/>
+  <text class="pat-text" x="380" y="228" text-anchor="middle" font-weight="bold">5. Pausablepattern</text>
+  <text class="pat-text-small" x="280" y="245">purpose: responsevsurgentthingcondition</text>
+  <text class="pat-text-small" x="280" y="260" font-weight="bold">implementmethod:</text>
+  <text class="pat-text-small" x="280" y="273">• Pause/recovercompletecanbeginclose</text>
+  <text class="pat-text-small" x="280" y="286">• onlyadmincanop</text>
+  <text class="pat-text-small" x="280" y="299">• protectUserasset</text>
+  <text class="pat-text-small" x="280" y="315" font-weight="bold">Example:</text>
+  <text class="pat-text-small" x="280" y="328" font-family="monospace">bool public stopped;</text>
+  <text class="pat-text-small" x="280" y="340" font-family="monospace">modifier stopInEmergency {</text>
+  <text class="pat-text-small" x="290" y="352" font-family="monospace">require(!stopped);</text>
+  <rect class="pat-box-security" x="510" y="210" width="220" height="150" rx="4"/>
+  <text class="pat-text" x="620" y="228" text-anchor="middle" font-weight="bold">6. limitfastpattern</text>
+  <text class="pat-text-small" x="520" y="245">purpose: limitfundsflowmovespeed</text>
+  <text class="pat-text-small" x="520" y="260" font-weight="bold">Use Cases:</text>
+  <text class="pat-text-small" x="520" y="273">• proposetakelimitplaque</text>
+  <text class="pat-text-small" x="520" y="286">• Timelockdecide</text>
+  <text class="pat-text-small" x="520" y="299">• chasesteprelease</text>
+  <text class="pat-text-small" x="520" y="315" font-weight="bold">Example:</text>
+  <text class="pat-text-small" x="520" y="328" font-family="monospace">uint256 public</text>
+  <text class="pat-text-small" x="530" y="340" font-family="monospace">maxWithdrawPerDay;</text>
+  <text class="pat-text-small" x="530" y="352" font-family="monospace">lastWithdrawTime;</text>
+  <rect class="pat-box-gas" x="30" y="380" width="220" height="150" rx="4"/>
+  <text class="pat-text" x="140" y="398" text-anchor="middle" font-weight="bold">7. factorypattern</text>
+  <text class="pat-text-small" x="40" y="415">purpose: approvemeasurecreatesuggestContract</text>
+  <text class="pat-text-small" x="40" y="430" font-weight="bold">Pros:</text>
+  <text class="pat-text-small" x="40" y="443">• uniteunitemgmt</text>
+  <text class="pat-text-small" x="40" y="456">• dropLowDeployCost</text>
+  <text class="pat-text-small" x="40" y="469">• versioncontrol</text>
+  <text class="pat-text-small" x="40" y="485" font-weight="bold">Example:</text>
+  <text class="pat-text-small" x="40" y="498" font-family="monospace">function createToken()</text>
+  <text class="pat-text-small" x="50" y="510" font-family="monospace">returns (address) {</text>
+  <text class="pat-text-small" x="60" y="522" font-family="monospace">return new Token();</text>
+  <rect class="pat-box-gas" x="270" y="380" width="220" height="150" rx="4"/>
+  <text class="pat-text" x="380" y="398" text-anchor="middle" font-weight="bold">8. Proxy Pattern</text>
+  <text class="pat-text-small" x="280" y="415">purpose: ImplementationUpgrade</text>
+  <text class="pat-text-small" x="280" y="430" font-weight="bold">Type:</text>
+  <text class="pat-text-small" x="280" y="443">• Transparent Proxy</text>
+  <text class="pat-text-small" x="280" y="456">• UUPS (Universal Upgradeable)</text>
+  <text class="pat-text-small" x="280" y="469">• Beaconproxy</text>
+  <text class="pat-text-small" x="280" y="485" font-weight="bold">core:</text>
+  <text class="pat-text-small" x="280" y="498" font-family="monospace">delegatecall() delegateCall</text>
+  <text class="pat-text-small" x="280" y="510">protect留prairieContractStorage Layout</text>
+  <rect class="pat-box-gas" x="510" y="380" width="220" height="150" rx="4"/>
+  <text class="pat-text" x="620" y="398" text-anchor="middle" font-weight="bold">9. Dataminleavepattern</text>
+  <text class="pat-text-small" x="520" y="415">purpose: minleavelogical&Data</text>
+  <text class="pat-text-small" x="520" y="430" font-weight="bold">structure:</text>
+  <text class="pat-text-small" x="520" y="443">• DataContract: StorageState</text>
+  <text class="pat-text-small" x="520" y="456">• Logic: businesslogical</text>
+  <text class="pat-text-small" x="520" y="469">• controlContract: Permission</text>
+  <text class="pat-text-small" x="520" y="485" font-weight="bold">Pros:</text>
+  <text class="pat-text-small" x="520" y="498">• Upgradeflexible</text>
+  <text class="pat-text-small" x="520" y="510">• Datasupport久ify</text>
+  <text class="pat-text-small" x="520" y="522">• dropLowGasCost</text>
+</svg>
 </div>

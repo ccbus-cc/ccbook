@@ -68,6 +68,105 @@ CCBus turns "issuing a token" — a task that used to require a Solidity enginee
 
 **Cryptocurrency** is a digital or virtual currency that uses cryptographic techniques to secure transactions, control the creation of new units, and verify asset transfers. Unlike traditional fiat currencies, cryptocurrencies are typically decentralized and not issued or managed by any government or central authority.
 
+
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
+<svg class="svg-3-4" viewBox="0 0 750 550" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-3-4 .eco-text { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; }
+      .svg-3-4 .eco-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-3-4 .eco-text-italic { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; font-style: italic; }
+      .svg-3-4 .eco-text-bold { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; font-weight: bold; }
+      .svg-3-4 .eco-text-large { font-family: arial, sans-serif; font-size: 11px; fill: #1f2937; font-weight: bold; }
+      .svg-3-4 .eco-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-3-4 .eco-rect-orange { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 1; }
+      .svg-3-4 .eco-rect-blue { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 1; }
+      .svg-3-4 .eco-rect-green { fill: rgba(92, 184, 92, 0.07); stroke: #5cb85c; stroke-width: 1; }
+      .svg-3-4 .eco-rect-gray { fill: rgba(78, 93, 108, 0.15); stroke: #4e5d6c; stroke-width: 1; }
+      .svg-3-4 .eco-rect-purple { fill: rgba(156, 39, 176, 0.15); stroke: #9c27b0; stroke-width: 1; }
+      .svg-3-4 .eco-rect-yellow { fill: rgba(255, 193, 7, 0.15); stroke: rgba(245, 194, 66, 0.20); stroke-width: 1; }
+    </style>
+</defs>
+  <!-- Title -->
+  <text class="eco-text-title" x="375" y="25" text-anchor="middle">PrimaryflowEncryptcurrencyCoinecographsheet</text>
+  <!-- Category 1: Layer 1 Public Chains -->
+  <rect class="eco-rect-orange" x="20" y="50" width="220" height="220" rx="8"/>
+  <text class="eco-text-large" x="130" y="75" text-anchor="middle">Layer 1 Public</text>
+  <text class="eco-text-bold" x="40" y="100">• Ethereum (ETH)</text>
+  <text class="eco-text" x="55" y="115">Smart ContractPlatformleadguideagent</text>
+  <text class="eco-text-bold" x="40" y="135">• Binance Smart Chain (BNB)</text>
+  <text class="eco-text" x="55" y="150">High Perf. EVM Compatchain</text>
+  <text class="eco-text-bold" x="40" y="170">• Solana (SOL)</text>
+  <text class="eco-text" x="55" y="185">High ThroughputPublic (65k TPS)</text>
+  <text class="eco-text-bold" x="40" y="205">• Cardano (ADA)</text>
+  <text class="eco-text" x="55" y="220">school术研究drivemove,PoS</text>
+  <text class="eco-text-bold" x="40" y="238">• Polkadot (DOT)</text>
+  <text class="eco-text" x="55" y="253">Cross-chainInteropPlatform</text>
+  <!-- Category 2: Layer 2 Solutions -->
+  <rect class="eco-rect-blue" x="260" y="50" width="220" height="220" rx="8"/>
+  <text class="eco-text-large" x="370" y="75" text-anchor="middle">Layer 2 Scalingsolution</text>
+  <text class="eco-text-bold" x="280" y="100">• Polygon (MATIC)</text>
+  <text class="eco-text" x="295" y="115">EthereumSidechain,Lowfeeuse</text>
+  <text class="eco-text-bold" x="280" y="135">• Arbitrum (ARB)</text>
+  <text class="eco-text" x="295" y="150">Optimistic Rollup</text>
+  <text class="eco-text-bold" x="280" y="170">• Optimism (OP)</text>
+  <text class="eco-text" x="295" y="185">Optimistic Rollup</text>
+  <text class="eco-text-bold" x="280" y="205">• zkSync</text>
+  <text class="eco-text" x="295" y="220">Zero-Knowledge Rollup</text>
+  <text class="eco-text-bold" x="280" y="238">• StarkNet</text>
+  <text class="eco-text" x="295" y="253">ZK-STARK Rollup</text>
+  <!-- Category 3: DeFi Tokens -->
+  <rect class="eco-rect-green" x="500" y="50" width="230" height="220" rx="8"/>
+  <text class="eco-text-large" x="615" y="75" text-anchor="middle">DeFi ProtocolToken</text>
+  <text class="eco-text-bold" x="520" y="100">• Uniswap (UNI)</text>
+  <text class="eco-text" x="535" y="115">DEX DEX</text>
+  <text class="eco-text-bold" x="520" y="135">• Aave (AAVE)</text>
+  <text class="eco-text" x="535" y="150">Lending</text>
+  <text class="eco-text-bold" x="520" y="170">• Chainlink (LINK)</text>
+  <text class="eco-text" x="535" y="185">DecentralizationOracleNetwork</text>
+  <text class="eco-text-bold" x="520" y="205">• Maker (MKR)</text>
+  <text class="eco-text" x="535" y="220">DAI StablecoinProtocol</text>
+  <text class="eco-text-bold" x="520" y="238">• Curve (CRV)</text>
+  <text class="eco-text" x="535" y="253">StablecoinTransactionoptimizeDEX</text>
+  <!-- Category 4: Stablecoins -->
+  <rect class="eco-rect-gray" x="20" y="290" width="220" height="220" rx="8"/>
+  <text class="eco-text-large" x="130" y="315" text-anchor="middle">Stablecoin</text>
+  <text class="eco-text-bold" x="40" y="340">• USDT (Tether)</text>
+  <text class="eco-text" x="55" y="355">lawCoinCollateral,Market CapmostLarge</text>
+  <text class="eco-text-bold" x="40" y="375">• USDC (USD Coin)</text>
+  <text class="eco-text" x="55" y="390">Compliance,TransparencyHigh</text>
+  <text class="eco-text-bold" x="40" y="410">• DAI</text>
+  <text class="eco-text" x="55" y="425">Decentralization,EncryptassetCollateral</text>
+  <text class="eco-text-bold" x="40" y="445">• BUSD</text>
+  <text class="eco-text" x="55" y="460">Binance & Paxos emitrow</text>
+  <text class="eco-text-bold" x="40" y="478">• FRAX</text>
+  <text class="eco-text" x="55" y="493">partialAlgorithmic Stablecoin</text>
+  <!-- Category 5: Privacy Coins -->
+  <rect class="eco-rect-purple" x="260" y="290" width="220" height="220" rx="8"/>
+  <text class="eco-text-large" x="370" y="315" text-anchor="middle">privateCoin</text>
+  <text class="eco-text-bold" x="280" y="340">• Monero (XMR)</text>
+  <text class="eco-text" x="295" y="355">ringSign,strongPrivacy</text>
+  <text class="eco-text-bold" x="280" y="375">• Zcash (ZEC)</text>
+  <text class="eco-text" x="295" y="390">zk-SNARKs,optionalprivate</text>
+  <text class="eco-text-bold" x="280" y="410">• Dash (DASH)</text>
+  <text class="eco-text" x="295" y="425">PrivateSend 混Coincompletecan</text>
+  <text class="eco-text-bold" x="280" y="445">• Tornado Cash</text>
+  <text class="eco-text" x="295" y="460">Ethereumprivate混CoinProtocol</text>
+  <!-- Category 6: Meme & Community -->
+  <rect class="eco-rect-yellow" x="500" y="290" width="230" height="220" rx="8"/>
+  <text class="eco-text-large" x="615" y="315" text-anchor="middle">MemeCoin & communityCoin</text>
+  <text class="eco-text-bold" x="520" y="340">• Dogecoin (DOGE)</text>
+  <text class="eco-text" x="535" y="355">mostearlyMemeCoin</text>
+  <text class="eco-text-bold" x="520" y="375">• Shiba Inu (SHIB)</text>
+  <text class="eco-text" x="535" y="390">EthereumUpMemeCoin</text>
+  <text class="eco-text-bold" x="520" y="410">• Pepe (PEPE)</text>
+  <text class="eco-text" x="535" y="425">based onNetworktablethingpack</text>
+  <text class="eco-text-bold" x="520" y="445">• Floki (FLOKI)</text>
+  <text class="eco-text" x="535" y="460">communitydrivemoveproject</text>
+  <!-- Bottom note -->
+  <text class="eco-text-italic" x="375" y="535" text-anchor="middle">EncryptcurrencyCoinecoManytypeify,fullfootdifferentUserrequirement&Use Cases</text>
+</svg>
+</div>
 ### Core Characteristics of Cryptocurrency
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
@@ -701,6 +800,94 @@ No professional equipment needed, just hold and stake tokens:
 
 _(SVG diagram omitted for brevity - maintains same structure as Chinese version with translated labels)_
 
+
+<div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
+<svg class="svg-3-5" viewBox="0 0 700 370" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+<defs>
+<style>
+      .svg-3-5 .wallet-text { font-family: arial, sans-serif; font-size: 7px; fill: #1f2937; }
+      .svg-3-5 .wallet-text-small { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; }
+      .svg-3-5 .wallet-text-italic { font-family: arial, sans-serif; font-size: 8px; fill: #1f2937; font-style: italic; }
+      .svg-3-5 .wallet-text-bold { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; font-weight: bold; }
+      .svg-3-5 .wallet-text-subtitle { font-family: arial, sans-serif; font-size: 9px; fill: #1f2937; }
+      .svg-3-5 .wallet-text-large { font-family: arial, sans-serif; font-size: 12px; fill: #1f2937; font-weight: bold; }
+      .svg-3-5 .wallet-text-title { font-family: arial, sans-serif; font-size: 14px; fill: #1f2937; font-weight: bold; }
+      .svg-3-5 .wallet-text-green { font-family: arial, sans-serif; font-size: 8px; fill: #5cb85c; font-weight: bold; }
+      .svg-3-5 .wallet-text-orange { font-family: arial, sans-serif; font-size: 8px; fill: #df6919; font-weight: bold; }
+      .svg-3-5 .wallet-rect-orange-light { fill: rgba(223, 105, 25, 0.06); stroke: #df6919; stroke-width: 1; }
+      .svg-3-5 .wallet-rect-orange { fill: rgba(223, 105, 25, 0.08); stroke: #df6919; stroke-width: 1; }
+      .svg-3-5 .wallet-rect-blue-light { fill: rgba(52, 81, 178, 0.07); stroke: #4c9be8; stroke-width: 1; }
+      .svg-3-5 .wallet-rect-blue { fill: rgba(52, 81, 178, 0.10); stroke: #4c9be8; stroke-width: 1; }
+    </style>
+</defs>
+  <!-- Title -->
+  <text class="wallet-text-title" x="350" y="25" text-anchor="middle">EncryptcurrencyCoinwalletminclassandCompare</text>
+  <!-- Hot Wallets -->
+  <rect class="wallet-rect-orange-light" x="30" y="50" width="300" height="280" rx="8"/>
+  <text class="wallet-text-large" x="180" y="75" text-anchor="middle">Hot (Hot Wallet)</text>
+  <text class="wallet-text-subtitle" x="180" y="92" text-anchor="middle">linknetwallet,easyindayoftenuse</text>
+  <!-- Web Wallet -->
+  <rect class="wallet-rect-orange" x="50" y="110" width="120" height="65" rx="5"/>
+  <text class="wallet-text-bold" x="110" y="128" text-anchor="middle">netpagewallet</text>
+  <text class="wallet-text" x="110" y="142" text-anchor="middle">MetaMask</text>
+  <text class="wallet-text" x="110" y="154" text-anchor="middle">Phantom</text>
+  <text class="wallet-text" x="110" y="166" text-anchor="middle">Rabby</text>
+  <!-- Mobile Wallet -->
+  <rect class="wallet-rect-orange" x="190" y="110" width="120" height="65" rx="5"/>
+  <text class="wallet-text-bold" x="250" y="128" text-anchor="middle">movemovewallet</text>
+  <text class="wallet-text" x="250" y="142" text-anchor="middle">Trust</text>
+  <text class="wallet-text" x="250" y="154" text-anchor="middle">imToken</text>
+  <text class="wallet-text" x="250" y="166" text-anchor="middle">Coinbase Wallet</text>
+  <!-- Desktop Wallet -->
+  <rect class="wallet-rect-orange" x="50" y="185" width="120" height="65" rx="5"/>
+  <text class="wallet-text-bold" x="110" y="203" text-anchor="middle">tablesurfacewallet</text>
+  <text class="wallet-text" x="110" y="217" text-anchor="middle">Electrum</text>
+  <text class="wallet-text" x="110" y="229" text-anchor="middle">Exodus</text>
+  <text class="wallet-text" x="110" y="241" text-anchor="middle">Atomic Wallet</text>
+  <!-- Hot Wallet Pros/Cons -->
+  <text class="wallet-text-green" x="50" y="275">pros:</text>
+  <text class="wallet-text" x="65" y="288">✓ placeeasyFast捷</text>
+  <text class="wallet-text" x="65" y="300">✓ easyinuse</text>
+  <text class="wallet-text" x="65" y="312">✓ fitfitfreqdenseTransaction</text>
+  <text class="wallet-text-orange" x="190" y="275">Drawbacks:</text>
+  <text class="wallet-text" x="205" y="288">✗ SecuritymoreLow</text>
+  <text class="wallet-text" x="205" y="300">✗ easyfeelblackclientattack</text>
+  <text class="wallet-text" x="205" y="312">✗ dependNetworkconnect</text>
+  <!-- Cold Wallets -->
+  <rect class="wallet-rect-blue-light" x="370" y="50" width="300" height="280" rx="8"/>
+  <text class="wallet-text-large" x="520" y="75" text-anchor="middle">Cold (Cold Wallet)</text>
+  <text class="wallet-text-subtitle" x="520" y="92" text-anchor="middle">offlineStorage,mostHighSecurity</text>
+  <!-- Hardware Wallet -->
+  <rect class="wallet-rect-blue" x="390" y="110" width="120" height="65" rx="5"/>
+  <text class="wallet-text-bold" x="450" y="128" text-anchor="middle">Hardware</text>
+  <text class="wallet-text" x="450" y="142" text-anchor="middle">Ledger Nano X</text>
+  <text class="wallet-text" x="450" y="154" text-anchor="middle">Trezor Model T</text>
+  <text class="wallet-text" x="450" y="166" text-anchor="middle">SafePal S1</text>
+  <!-- Paper Wallet -->
+  <rect class="wallet-rect-blue" x="530" y="110" width="120" height="65" rx="5"/>
+  <text class="wallet-text-bold" x="590" y="128" text-anchor="middle">paperwallet</text>
+  <text class="wallet-text" x="590" y="142" text-anchor="middle">printPrivate Key</text>
+  <text class="wallet-text" x="590" y="154" text-anchor="middle">QR CodeStorage</text>
+  <text class="wallet-text" x="590" y="166" text-anchor="middle">fullyoffline</text>
+  <!-- Multi-sig Wallet -->
+  <rect class="wallet-rect-blue" x="390" y="185" width="260" height="65" rx="5"/>
+  <text class="wallet-text-bold" x="520" y="203" text-anchor="middle">MultiSigwallet</text>
+  <text class="wallet-text" x="520" y="217" text-anchor="middle">Gnosis Safe (Safe) - Ethereumecomostflowrow</text>
+  <text class="wallet-text" x="520" y="229" text-anchor="middle">MultiSig - NeedManySignonly thencantransfer</text>
+  <text class="wallet-text" x="520" y="241" text-anchor="middle">fitfitteamfundsmgmt&Largeplaqueasset</text>
+  <!-- Cold Wallet Pros/Cons -->
+  <text class="wallet-text-green" x="390" y="275">pros:</text>
+  <text class="wallet-text" x="405" y="288">✓ mostHighSecurity</text>
+  <text class="wallet-text" x="405" y="300">✓ offlineStoragePrivate Key</text>
+  <text class="wallet-text" x="405" y="312">✓ preventfarjourneyattack</text>
+  <text class="wallet-text-orange" x="530" y="275">Drawbacks:</text>
+  <text class="wallet-text" x="545" y="288">✗ noeasyinfreqdenseTransaction</text>
+  <text class="wallet-text" x="545" y="300">✗ NeedplaqueoutCost</text>
+  <text class="wallet-text" x="545" y="312">✗ cancanloselosesetprepare</text>
+  <!-- Recommendation -->
+  <text class="wallet-text-italic" x="350" y="350" text-anchor="middle">Recommendedstrategy: LargeplaqueassetuseCold,SmallplaquedayoftenTransactionuseHot</text>
+</svg>
+</div>
 ### Wallet Security Best Practices
 
 1. **Backup Recovery Phrase**
