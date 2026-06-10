@@ -849,17 +849,18 @@
 .items,
 .DocSearch-Modal,
 .DocSearch-Commands-Key,
-.vp-code-group .tabs label:after,
-.outline-marker,
-.indicator {
+.DocSearch-Button,
+.DocSearch-Button-Keys,
+.DocSearch-Button-Key,
+.VPSwitchAppearance,
+.VPLink.link {
   border-radius: 4px !important;  /* xs */
 }
 /* 2px micro radii (e.g. active-tab indicator, code-key shadow) — keep small
    but standardise on the next-up step in the xs ladder. */
 .vp-code-group .tabs label:after,
 .outline-marker,
-.indicator,
-.DocSearch-Commands-Key {
+.indicator {
   border-radius: 4px !important;  /* xs */
 }
 /* The 2px / 8px radii on VPHero .shell and excerpt mark are intentional
