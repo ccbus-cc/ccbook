@@ -1,7 +1,13 @@
 import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
 
 export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
-  title: 'CCBook 区块链：从入门到精通',
+  // Title for the navbar. VitePress applies white-space:nowrap to the title
+  // span, so a long title overflows its container (e.g. ZH full title
+  // 'CCBook 区块链：从入门到精通' is 226.7px vs 216px container). Keep
+  // the visible nav title compact; the full tagline still appears in <head>
+  // title (browser tab / SEO), the footer message, and per-chapter
+  // ccbus-hero blocks.
+  title: 'CCBook',
   description: '一本全面、深入的区块链技术学习手册，从基础概念到高级应用',
 
   themeConfig: {
