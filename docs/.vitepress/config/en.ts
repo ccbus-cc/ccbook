@@ -1,7 +1,11 @@
 import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
 
 export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
-  title: 'CCBook - Blockchain: From Zero to Hero',
+  // Title for the navbar. VitePress applies white-space:nowrap to the title
+  // span, so a long title overflows its container. The full tagline still
+  // appears in <head> title (used by browser tab / SEO) and in the footer.
+  // The visible nav title is kept compact.
+  title: 'CCBook',
   description: 'A comprehensive, in-depth blockchain technology handbook from fundamentals to advanced applications',
 
   themeConfig: {
