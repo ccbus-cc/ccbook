@@ -8,7 +8,7 @@ title: "Chapter 2: Cryptography Fundamentals"
   </div>
   <div class="ccbus-hero-content">
     <h1>Chapter 2: Cryptography Fundamentals</h1>
-    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Satoshi Driver</strong> · The "veteran driver" of cryptography — knows the route</div>
+    <div class="ccbus-teacher-label">🎙️ Taught by:<strong>Satoshi Driver</strong> · The "veteran driver" of cryptography — knows the route</div>
   </div>
 </div>
 
@@ -1108,7 +1108,7 @@ Ethereum uses **Merkle Patricia Trie** to store account state.
 
 ![CCBus wallet manager — encrypted private key storage (AES-256 + MPC compatible)](../public/images/chapters/zh/wallet-manager.png)
 
-*图: CCBus wallet manager — encrypted private key storage (AES-256 + MPC compatible)*
+*Figure: CCBus wallet manager — encrypted private key storage (AES-256 + MPC compatible)*
 
 
 Quantum computers in the 2030s will have the capability to break existing public-key cryptography. NIST formally released three PQC standards in 2024-08:

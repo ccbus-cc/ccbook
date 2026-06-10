@@ -8,7 +8,7 @@ title: "Chapter 4: Consensus Mechanisms"
   </div>
   <div class="ccbus-hero-content">
     <h1>Chapter 4: Consensus Mechanisms</h1>
-    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Captain CCBus</strong> · The "dispatching supervisor" of consensus</div>
+    <div class="ccbus-teacher-label">🎙️ Taught by:<strong>Captain CCBus</strong> · The "dispatching supervisor" of consensus</div>
   </div>
 </div>
 

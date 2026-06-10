@@ -233,7 +233,7 @@ A single contract configures simultaneously:
 
 ![CCBus Protocol 314 (protocol-level governance example)](../public/images/chapters/zh/protocol-314.png)
 
-*图: CCBus Protocol 314 (protocol-level governance example)*
+*Figure: CCBus Protocol 314 (protocol-level governance example)*
 
 ## 12.6 DAO Tools and Frameworks
 

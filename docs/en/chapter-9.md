@@ -8,7 +8,7 @@ title: "Chapter 9: Advanced Cryptography"
   </div>
   <div class="ccbus-hero-content">
     <h1>Chapter 9: Advanced Cryptography</h1>
-    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Ether Engineer</strong> · The "systems engineer" of advanced cryptography</div>
+    <div class="ccbus-teacher-label">🎙️ Taught by:<strong>Ether Engineer</strong> · The "systems engineer" of advanced cryptography</div>
   </div>
 </div>
 
@@ -357,7 +357,7 @@ Generate provably random and verifiable outputs.
 
 ![CCBus batch wallet — demonstrates MPC multi-party key derivation](../public/images/chapters/zh/batch-generate-wallet.png)
 
-*图: CCBus batch wallet — demonstrates MPC multi-party key derivation*
+*Figure: CCBus batch wallet — demonstrates MPC multi-party key derivation*
 
 
 **What is FHE?**

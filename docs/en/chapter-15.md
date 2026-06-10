@@ -8,7 +8,7 @@ title: "Chapter 15: Security and Best Practices"
   </div>
   <div class="ccbus-hero-content">
     <h1>Chapter 15: Security and Best Practices</h1>
-    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Guardian Node</strong> · The "chief instructor" of security and best practices</div>
+    <div class="ccbus-teacher-label">🎙️ Taught by:<strong>Guardian Node</strong> · The "chief instructor" of security and best practices</div>
   </div>
 </div>
 

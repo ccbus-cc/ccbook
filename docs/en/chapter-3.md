@@ -8,7 +8,7 @@ title: "Chapter 3: Cryptocurrency Fundamentals"
   </div>
   <div class="ccbus-hero-content">
     <h1>Chapter 3: Cryptocurrency Fundamentals</h1>
-    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Satoshi Driver</strong> · The "witness" to Bitcoin's birth — guides you on the first chain</div>
+    <div class="ccbus-teacher-label">🎙️ Taught by:<strong>Satoshi Driver</strong> · The "witness" to Bitcoin's birth — guides you on the first chain</div>
   </div>
 </div>
 
@@ -923,7 +923,7 @@ _(SVG diagram omitted for brevity - maintains same structure as Chinese version 
 
 ![CCBus standard token — BRC-20/SPL/ERC-20 one-click deployment for various token standards](../public/images/chapters/zh/standard-token-create.png)
 
-*图: CCBus standard token — BRC-20/SPL/ERC-20 one-click deployment for various token standards*
+*Figure: CCBus standard token — BRC-20/SPL/ERC-20 one-click deployment for various token standards*
 
 
 Bitcoin underwent a paradigm shift in 2024-2026: from "static store of value" to "programmable finance primitive". **BTCFi** (Bitcoin Finance) refers to all DeFi activity using Bitcoin or Bitcoin-chain assets.

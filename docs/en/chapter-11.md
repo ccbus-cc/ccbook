@@ -8,7 +8,7 @@ title: "Chapter 11: NFTs and Digital Assets"
   </div>
   <div class="ccbus-hero-content">
     <h1>Chapter 11: NFTs and Digital Assets</h1>
-    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Token Builder</strong> · The NFT/digital-assets "construction foreman" — builds with you</div>
+    <div class="ccbus-teacher-label">🎙️ Taught by:<strong>Token Builder</strong> · The NFT/digital-assets "construction foreman" — builds with you</div>
   </div>
 </div>
 
@@ -479,7 +479,7 @@ Non-transferable NFT representing "non-financial assets".
 
 ![CCBus Multi-Function token (NFT standard and extension)](../public/images/chapters/zh/multi-function.png)
 
-*图: CCBus Multi-Function token (NFT standard and extension)*
+*Figure: CCBus Multi-Function token (NFT standard and extension)*
 
 ## 11.6 Real World Asset Tokenization (RWAs)
 

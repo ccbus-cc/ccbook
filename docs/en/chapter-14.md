@@ -8,7 +8,7 @@ title: "Chapter 14: Enterprise Blockchain"
   </div>
   <div class="ccbus-hero-content">
     <h1>Chapter 14: Enterprise Blockchain</h1>
-    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Guardian Node</strong> · The "security consultant" of enterprise blockchain</div>
+    <div class="ccbus-teacher-label">🎙️ Taught by:<strong>Guardian Node</strong> · The "security consultant" of enterprise blockchain</div>
   </div>
 </div>
 
@@ -431,7 +431,7 @@ Private Ethereum networks with enhanced features.
 
 ![CCBus standardized token issuance (enterprise RWA template)](../public/images/chapters/zh/standard-token-create.png)
 
-*图: CCBus standardized token issuance (enterprise RWA template)*
+*Figure: CCBus standardized token issuance (enterprise RWA template)*
 
 ## 14.6 Healthcare Applications
 

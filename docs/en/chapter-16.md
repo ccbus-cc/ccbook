@@ -8,7 +8,7 @@ title: "Chapter 16: The Future of Blockchain"
   </div>
   <div class="ccbus-hero-content">
     <h1>Chapter 16: The Future of Blockchain</h1>
-    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Captain CCBus</strong> · The "last-bus driver" guiding your future outlook</div>
+    <div class="ccbus-teacher-label">🎙️ Taught by:<strong>Captain CCBus</strong> · The "last-bus driver" guiding your future outlook</div>
   </div>
 </div>
 
@@ -210,7 +210,7 @@ By 2030, blockchain's final form may be:
 
 ![CCBus T800 trading bot (AI agent + blockchain future)](../public/images/chapters/zh/swap-bot-t800.png)
 
-*图: CCBus T800 trading bot (AI agent + blockchain future)*
+*Figure: CCBus T800 trading bot (AI agent + blockchain future)*
 
 ## 16.7 Environmental Sustainability
 

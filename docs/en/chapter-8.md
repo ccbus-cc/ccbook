@@ -8,7 +8,7 @@ title: "Chapter 8: Interoperability and Cross-Chain"
   </div>
   <div class="ccbus-hero-content">
     <h1>Chapter 8: Interoperability and Cross-Chain</h1>
-    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Chain Hopper</strong> · The cross-chain "bridge engineer" — primary domain</div>
+    <div class="ccbus-teacher-label">🎙️ Taught by:<strong>Chain Hopper</strong> · The cross-chain "bridge engineer" — primary domain</div>
   </div>
 </div>
 
@@ -112,7 +112,7 @@ Standardized messaging between blockchains.
 
 ![CCBus cross-chain swap — UI template for intent-based cross-chain](../public/images/chapters/zh/cross-chain-swap.png)
 
-*图: CCBus cross-chain swap — UI template for intent-based cross-chain*
+*Figure: CCBus cross-chain swap — UI template for intent-based cross-chain*
 
 
 **Problems with traditional cross-chain**:

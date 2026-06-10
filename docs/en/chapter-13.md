@@ -8,7 +8,7 @@ title: "Chapter 13: Blockchain Platform Comparison"
   </div>
   <div class="ccbus-hero-content">
     <h1>Chapter 13: Blockchain Platform Comparison</h1>
-    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Rookie Rider</strong> · The "new passenger" of platform comparison — asks which bus to take</div>
+    <div class="ccbus-teacher-label">🎙️ Taught by:<strong>Rookie Rider</strong> · The "new passenger" of platform comparison — asks which bus to take</div>
   </div>
 </div>
 
@@ -179,7 +179,7 @@ The 2026 L1 landscape has crystallized. This chapter uses real 2026 data to upda
 
 ![CCBus multi-chain market comparison (2026 live data)](../public/images/chapters/zh/market-dashboard.png)
 
-*图: CCBus multi-chain market comparison (2026 live data)*
+*Figure: CCBus multi-chain market comparison (2026 live data)*
 
 ## 13.6 Polkadot: Interoperability Hub
 

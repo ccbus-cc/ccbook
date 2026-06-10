@@ -9,7 +9,7 @@ title: "Chapter 5: Smart Contracts"
   </div>
   <div class="ccbus-hero-content">
     <h1>Chapter 5: Smart Contracts</h1>
-    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Ether Engineer</strong> · The "foreman" of smart contracts — code is craft</div>
+    <div class="ccbus-teacher-label">🎙️ Taught by:<strong>Ether Engineer</strong> · The "foreman" of smart contracts — code is craft</div>
   </div>
 </div>
 

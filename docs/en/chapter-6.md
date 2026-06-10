@@ -8,7 +8,7 @@ title: "Chapter 6: Blockchain Architecture"
   </div>
   <div class="ccbus-hero-content">
     <h1>Chapter 6: Blockchain Architecture</h1>
-    <div class="ccbus-teacher-label">🎙️ 本章讲师:<strong>Chain Hopper</strong> · The architecture "tour guide" — shows you the L1/L2 modules</div>
+    <div class="ccbus-teacher-label">🎙️ Taught by:<strong>Chain Hopper</strong> · The architecture "tour guide" — shows you the L1/L2 modules</div>
   </div>
 </div>
 
@@ -93,7 +93,7 @@ The memory pool holds pending transactions before they're included in blocks.
 
 ![CCBus multi-chain market overview — unified data view across DA layers](../public/images/chapters/zh/market-overview.png)
 
-*图: CCBus multi-chain market overview — unified data view across DA layers*
+*Figure: CCBus multi-chain market overview — unified data view across DA layers*
 
 
 **What is data availability (DA)?**
