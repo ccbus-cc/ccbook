@@ -28,10 +28,10 @@ title: "第十章：DeFi - 去中心化金融"
 
 ## 10.0 2025-2026 视角:为什么这一章要重新读
 
-DeFi 在 2026 年进入了**机构化 + 真实收益(real yield) + 意图化(intent-centric)**三轮驱动。
+DeFi 在 2026 年进入了**机构化 + 真实收益(real yield) + 意图化(intent-centric)** 三轮驱动。
 
 1. **AMM 的代际演化**:
-   - **Uniswap v4(2025-Q1 主网)**:**Hooks 体系**重塑了 AMV 边界。Hook 是在 swap 生命周期(afterSwap、beforeSwap、afterAddLiquidity 等)上插入的回调,可以实现动态费率、自定义预言机、自定义曲线(如 Curve StableSwap)
+   - **Uniswap v4(2025-Q1 主网)**:**Hooks 体系** 重塑了 AMV 边界。Hook 是在 swap 生命周期(afterSwap、beforeSwap、afterAddLiquidity 等)上插入的回调,可以实现动态费率、自定义预言机、自定义曲线(如 Curve StableSwap)
    - **PancakeSwap Infinity(2024-Q4)**:在 v4 基础上提供 Infusion Hooks
    - **Curve(2025-Q2 v3)**:StableSwap 算法升级,集成 crvUSD
    - **Velodrome v2(Optimism)**:ve(3,3) 模型继续主导 L2 DEX
@@ -373,7 +373,7 @@ $$
 
 ### 利率模型
 
-**动态利率**根据资金利用率调整：
+**动态利率** 根据资金利用率调整：
 
 $$
 \begin{aligned}
@@ -589,7 +589,7 @@ Uniswap v4(2025-Q1 主网)最大的创新不是 gas 节省(虽然确实省了 99
 
 **Hooks 是什么?**
 
-Hooks 是在 swap / 添加流动性 / 移除流动性的生命周期**关键时点**上执行的回调函数,允许开发者:
+Hooks 是在 swap / 添加流动性 / 移除流动性的生命周期**关键时点** 上执行的回调函数,允许开发者:
 - 动态调整费率(根据市场波动率)
 - 插入自定义预言机(TWAP、Chainlink、内部 oracle)
 - 集成限价单、TWAMM(时间加权平均做市)、自定义曲线
@@ -665,6 +665,7 @@ contract DynamicFeeHook is BaseHook {
     <img src="../public/images/avatars/heroes/defi-navigator.png" alt="DeFi Navigator" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>DeFi Navigator</strong> — DeFi 的"导航员" — 主业,识路无数<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第十一章：NFT 与数字资产] 将由另一位 CCBus 讲师带你继续。</span>
   </div>

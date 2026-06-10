@@ -1134,7 +1134,7 @@ contract SponsorPaymaster {
 
 ### 16.6.4 意图为中心架构 (Intent-Centric)
 
-**传统**：用户需要指定**如何执行**交易
+**传统**：用户需要指定**如何执行** 交易
 **意图**：用户只需表达**想要什么结果**
 
 **案例：Uniswap X**
@@ -1366,6 +1366,7 @@ Solver (求解器) 竞争执行:
     <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Captain CCBus</strong> — 带你展望未来的"末班车司机"<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [课程总结] 将由另一位 CCBus 讲师带你继续。</span>
   </div>

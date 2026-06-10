@@ -915,6 +915,7 @@ def verify_account_balance(address, balance, proof, state_root):
     <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Chain Hopper</strong> — 架构的"导游" — 带你看清 L1/L2 模块<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第七章：Layer 2 扩展方案] 将由另一位 CCBus 讲师带你继续。</span>
   </div>
@@ -942,7 +943,7 @@ def verify_account_balance(address, balance, proof, state_root):
 - **模块化架构**：灵活组合，新兴趋势
 
 **设计权衡**：
-区块链架构设计本质上是在**去中心化、安全性、可扩展性**之间寻找平衡。不同应用场景需要不同的架构选择。
+区块链架构设计本质上是在**去中心化、安全性、可扩展性** 之间寻找平衡。不同应用场景需要不同的架构选择。
 
 **下一步学习**：
 - 深入Layer 2扩展方案（第7章）

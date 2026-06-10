@@ -376,6 +376,7 @@ NFT in 2025-2026 has evolved from JPEG collectibles to **RWA, SBT, on-chain tick
 <text x="450" y="382" class="nftfi-label-sm" text-anchor="middle">BendDAO (Dutch AuctionLiquidation) • Arcade (捆tieLending, SupportManyNFTCollateral)</text>
 </svg>
 </div>
+
 ## 11.2 Token Standards
 
 ### ERC-721
@@ -499,6 +500,7 @@ Tokenizing physical assets:
     <img src="../public/images/avatars/heroes/token-builder.png" alt="Token Builder" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Token Builder</strong> — The NFT/digital-assets "construction foreman" — builds with you<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 12: Governance and DAOs] will be taught by another CCBus guide.</span>
   </div>

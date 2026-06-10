@@ -782,6 +782,7 @@ Transaction {
     <img src="../public/images/avatars/heroes/rookie-rider.png" alt="Rookie Rider" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Rookie Rider</strong> — 平台对比的"小乘客" — 用新人的视角问你该坐哪趟<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第十四章：企业区块链] 将由另一位 CCBus 讲师带你继续。</span>
   </div>

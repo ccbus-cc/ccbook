@@ -173,7 +173,7 @@ title: "第十五章：安全与最佳实践"
 
 ### 15.2.1 重入攻击防御
 
-**重入攻击**是智能合约中最常见也是最危险的漏洞之一。
+**重入攻击** 是智能合约中最常见也是最危险的漏洞之一。
 
 <div style="text-align: center; margin: 2em 0;">
 <svg class="svg-15-1" viewBox="0 0 850 520" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
@@ -1229,6 +1229,7 @@ contract EmergencyProtocol is Pausable, AccessControl {
     <img src="../public/images/avatars/heroes/guardian-node.png" alt="Guardian Node" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Guardian Node</strong> — 安全与最佳实践的"主教官"<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第十六章：区块链的未来] 将由另一位 CCBus 讲师带你继续。</span>
   </div>

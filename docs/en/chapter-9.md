@@ -202,6 +202,7 @@ Prove knowledge of information without revealing the information itself.
 <text x="510" y="533" class="snark-text">📊 zk-STARK App：StarkNet, StarkEx (dYdX, Sorare)</text>
 </svg>
 </div>
+
 ### zk-SNARKs
 **Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge**
 - Used in Zcash for private transactions
@@ -282,6 +283,7 @@ Distribute signing power across multiple parties (m-of-n).
 <text x="60" y="465" class="tss-text">💡 criticalfeature：NoneneedrefactorfullPrivate Key sk，param&placecollabgenerateSignshare，aggregatepostgettovalidSign</text>
 </svg>
 </div>
+
 ## 9.4 Homomorphic Encryption
 
 Perform computations on encrypted data without decrypting.
@@ -347,6 +349,7 @@ Perform computations on encrypted data without decrypting.
 <text x="60" y="420" class="he-text">• <tspan font-weight="bold">私密竞价</tspan>：加密竞价，同态比较，找出最高价</text>
 </svg>
 </div>
+
 ## 9.5 Verifiable Random Functions (VRF)
 
 Generate provably random and verifiable outputs.
@@ -427,6 +430,7 @@ Cryptography resistant to quantum computer attacks.
     <img src="../public/images/avatars/heroes/ether-engineer.png" alt="Ether Engineer" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Ether Engineer</strong> — The "systems engineer" of advanced cryptography<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 10: DeFi — Decentralized Finance] will be taught by another CCBus guide.</span>
   </div>

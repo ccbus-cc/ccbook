@@ -981,6 +981,7 @@ contract SoulboundToken is ERC721 {
     <img src="../public/images/avatars/heroes/token-builder.png" alt="Token Builder" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Token Builder</strong> — NFT/数字资产的"施工队长" — 帮你搭积木<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第十二章：治理与 DAO] 将由另一位 CCBus 讲师带你继续。</span>
   </div>

@@ -553,7 +553,7 @@ CCBus 的跨链兑换(Cross-chain Swap)底层使用的是基于 LayerZero / Worm
 
 ### 特点与权衡
 
-**侧链**是独立的区块链，通过桥接与主链连接，拥有自己的共识机制和安全模型。
+**侧链** 是独立的区块链，通过桥接与主链连接，拥有自己的共识机制和安全模型。
 
 | 特性 | 侧链 | Rollup |
 |------|------|--------|
@@ -843,6 +843,7 @@ Cancun(2024-03)引入的 EIP-4844 是 L2 经济的转折点。理解它需要看
     <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Chain Hopper</strong> — L2 扩展的"试驾员" — 带你试遍各路 Rollup<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第八章：互操作性与跨链] 将由另一位 CCBus 讲师带你继续。</span>
   </div>

@@ -146,6 +146,7 @@ CCBus's DeFi toolset is almost a visual catalog of this chapter:
 <text x="490" y="450" class="defi-small">Bridgetransferfeeuse $1-5，need 10-30 min</text>
 </svg>
 </div>
+
 ## 10.1 DeFi Fundamental Principles
 
 **Decentralized Finance** recreates traditional financial services without intermediaries.
@@ -292,6 +293,7 @@ contract DynamicFeeHook is BaseHook {
     <img src="../public/images/avatars/heroes/defi-navigator.png" alt="DeFi Navigator" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>DeFi Navigator</strong> — The "navigator" of DeFi — primary domain, knows every route<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 11: NFTs and Digital Assets] will be taught by another CCBus guide.</span>
   </div>

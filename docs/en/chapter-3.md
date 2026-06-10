@@ -167,6 +167,7 @@ CCBus turns "issuing a token" — a task that used to require a Solidity enginee
   <text class="eco-text-italic" x="375" y="535" text-anchor="middle">EncryptcurrencyCoinecoManytypeify,fullfootdifferentUserrequirement&Use Cases</text>
 </svg>
 </div>
+
 ### Core Characteristics of Cryptocurrency
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
@@ -888,6 +889,7 @@ _(SVG diagram omitted for brevity - maintains same structure as Chinese version 
   <text class="wallet-text-italic" x="350" y="350" text-anchor="middle">Recommendedstrategy: LargeplaqueassetuseCold,SmallplaquedayoftenTransactionuseHot</text>
 </svg>
 </div>
+
 ### Wallet Security Best Practices
 
 1. **Backup Recovery Phrase**
@@ -1020,6 +1022,7 @@ Bitcoin underwent a paradigm shift in 2024-2026: from "static store of value" to
     <img src="../public/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Satoshi Driver</strong> — The "witness" to Bitcoin's birth — guides you on the first chain<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 4: Consensus Mechanisms] will be taught by another CCBus guide.</span>
   </div>

@@ -28,7 +28,7 @@ title: "第五章：智能合约"
 
 ## 5.0 2025-2026 视角:为什么这一章要重新读
 
-智能合约在 2026 年已经进入"专业化"阶段。除了 ERC-20 / ERC-721 / ERC-1155 这些老标准,**ERC-4337(账户抽象)、ERC-4626(代币化金库)、ERC-7683(跨链意图)、ERC-7715(委托授权)**正在重塑合约的写法。本章既讲 Solidity 基础,也会介绍新标准的范式变化。
+智能合约在 2026 年已经进入"专业化"阶段。除了 ERC-20 / ERC-721 / ERC-1155 这些老标准,**ERC-4337(账户抽象)、ERC-4626(代币化金库)、ERC-7683(跨链意图)、ERC-7715(委托授权)** 正在重塑合约的写法。本章既讲 Solidity 基础,也会介绍新标准的范式变化。
 
 ### 🖥️ 真实案例:CCBus 多功能代币合约
 
@@ -1135,6 +1135,7 @@ contract MyNFT is ERC721, Ownable {
     <img src="../public/images/avatars/heroes/ether-engineer.png" alt="Ether Engineer" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Ether Engineer</strong> — 智能合约的"工头" — 代码即工艺<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第六章：区块链架构] 将由另一位 CCBus 讲师带你继续。</span>
   </div>

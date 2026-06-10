@@ -225,6 +225,7 @@ The 2026 L1 landscape has crystallized. This chapter uses real 2026 data to upda
 <text x="670" y="225" class="multi-label">UXuniteunite</text>
 </svg>
 </div>
+
 ## 13.7 Cosmos: Internet of Blockchains
 
 - **Launched**: 2019
@@ -252,6 +253,7 @@ The 2026 L1 landscape has crystallized. This chapter uses real 2026 data to upda
     <img src="../public/images/avatars/heroes/rookie-rider.png" alt="Rookie Rider" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Rookie Rider</strong> — The "new passenger" of platform comparison — asks which bus to take<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 14: Enterprise Blockchain] will be taught by another CCBus guide.</span>
   </div>

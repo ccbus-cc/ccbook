@@ -80,6 +80,7 @@ By 2026, blockchain is no longer "a novel digital-currency technology". It has e
   <text class="df-text-18" x="137" y="207" text-anchor="middle">7. returnreturnCollateralitem</text>
 </svg>
 </div>
+
 ## 1.1 What is Blockchain?
 
 **Blockchain** is a distributed ledger technology (DLT) that allows data to be stored in blocks and linked together through cryptography, forming a chain. Each block contains a batch of transaction records, and once added to the chain, it is nearly impossible to modify.
@@ -164,6 +165,7 @@ Each block typically contains the following information:
   <text class="mm-text-3" x="47" y="143" text-anchor="middle">disttypearchitecture</text>
 </svg>
 </div>
+
 ### 1.2.1 Decentralization
 
 **Decentralization** is one of the most important characteristics of blockchain. Traditional systems usually rely on centralized servers or institutions, while blockchain distributes data and control to multiple nodes in the network.
@@ -250,6 +252,7 @@ Blockchain uses powerful cryptographic techniques to protect data:
   <text class="sl-text-dark-6" x="150" y="232" text-anchor="middle">Smart Contract、Access Control</text>
 </svg>
 </div>
+
 ## 1.3 How Blockchain Works
 
 ### Transaction Flow
@@ -368,6 +371,7 @@ As more blocks are added to the chain, this transaction receives more confirmati
   <text class="bt-text-11" x="600" y="144" text-anchor="middle">Dragonchain</text>
 </svg>
 </div>
+
 ### 1.4.1 Public Blockchain
 
 Public blockchains are completely open blockchain networks where anyone can:
@@ -1305,6 +1309,7 @@ contract AIAgentAccount {
   <text class="mm-text-19" x="107" y="27" text-anchor="middle">Digital ID</text>
 </svg>
 </div>
+
 ## Chapter Summary
 
 Blockchain technology provides us with a completely new way of storing and transacting data through core features such as decentralization, transparency, and immutability. Understanding the basic principles of blockchain is the crucial first step in learning about cryptocurrency and Web3 technologies.
@@ -1320,6 +1325,7 @@ In the next chapter, we will explore the world of cryptocurrency, understanding 
     <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Captain CCBus</strong> — The "professor + tour guide + friendly bus" of blockchain<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 2: Cryptography Fundamentals] will be taught by another CCBus guide.</span>
   </div>

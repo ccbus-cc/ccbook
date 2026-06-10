@@ -28,7 +28,7 @@ title: "第十二章：治理与 DAO"
 
 ## 12.0 2025-2026 视角:为什么这一章要重新读
 
-治理(governance)与 DAO 在 2026 年走出了"投票 + 多签"的简单模型,进入了**链下委托、链上可执行、Optimistic 治理、SubDAO 嵌套、AI 治理代理**的新阶段。
+治理(governance)与 DAO 在 2026 年走出了"投票 + 多签"的简单模型,进入了**链下委托、链上可执行、Optimistic 治理、SubDAO 嵌套、AI 治理代理** 的新阶段。
 
 1. **Snapshot v2 + 链上执行**:
    - **Snapshot X(2024-Q4)**:从纯链下投票升级为 zk-validated 链下 + 链上执行
@@ -832,7 +832,7 @@ contract MultiSigWallet {
 
 ### 12.7 协议级治理:CCBus 实例详解
 
-CCBus 提供了几种**协议级治理代币**的实现,把治理参数和代币经济学"内置"到合约里,无需人工投票。
+CCBus 提供了几种**协议级治理代币** 的实现,把治理参数和代币经济学"内置"到合约里,无需人工投票。
 
 **1. Protocol 314 — 全自动复合协议**
 
@@ -1004,6 +1004,7 @@ CCBus 提供了几种**协议级治理代币**的实现,把治理参数和代币
     <img src="../public/images/avatars/heroes/community-conductor.png" alt="Community Conductor" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Community Conductor</strong> — DAO 治理的"社区主席" — 喊你投票<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第十三章：区块链平台对比] 将由另一位 CCBus 讲师带你继续。</span>
   </div>

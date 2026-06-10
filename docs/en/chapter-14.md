@@ -151,6 +151,7 @@ Enterprise blockchain in 2026 has entered the '**permissioned consortium + RWA o
 <text class="privacy-text-small" x="420" y="480" font-weight="bold">Examples: Hyperledger Avalon, Oasis</text>
 </svg>
 </div>
+
 ## 14.2 Hyperledger Suite
 
 
@@ -261,6 +262,7 @@ Enterprise blockchain in 2026 has entered the '**permissioned consortium + RWA o
 <text class="fabric-text-small" x="560" y="500">• SmartBFT consensusSupportbow占庭Fault Tol.</text>
 </svg>
 </div>
+
 ### Hyperledger Fabric
 - Modular architecture
 - Private channels
@@ -344,6 +346,7 @@ Enterprise blockchain in 2026 has entered the '**permissioned consortium + RWA o
 <text class="corda-text-small" x="420" y="430">✓ typicalUser: 沃尔玛、IBM、Oracle</text>
 </svg>
 </div>
+
 ## 14.4 Enterprise Ethereum
 
 Private Ethereum networks with enhanced features.
@@ -466,6 +469,7 @@ Private Ethereum networks with enhanced features.
     <img src="../public/images/avatars/heroes/guardian-node.png" alt="Guardian Node" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Guardian Node</strong> — The "security consultant" of enterprise blockchain<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 15: Security and Best Practices] will be taught by another CCBus guide.</span>
   </div>

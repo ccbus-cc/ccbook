@@ -326,6 +326,7 @@ By 2030, blockchain's final form may be:
 <polygon points="620,350 627,358 617,356" fill="#4c9be8"/>
 </svg>
 </div>
+
 ## 16.9 Long-Term Vision
 
 ### 2025-2030 Predictions
@@ -345,6 +346,7 @@ By 2030, blockchain's final form may be:
     <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Captain CCBus</strong> — The "last-bus driver" guiding your future outlook<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Course Summary] will be taught by another CCBus guide.</span>
   </div>

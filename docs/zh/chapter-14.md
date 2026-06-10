@@ -1256,6 +1256,7 @@ spec:
     <img src="../public/images/avatars/heroes/guardian-node.png" alt="Guardian Node" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Guardian Node</strong> — 企业区块链的"安全顾问"<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第十五章：安全与最佳实践] 将由另一位 CCBus 讲师带你继续。</span>
   </div>
@@ -1274,7 +1275,7 @@ spec:
 5. **部署实践** - Kubernetes 云原生部署、参数调优、成本管理是关键
 6. **未来趋势** - 模块化、跨链、隐私计算融合、BaaS 成熟化将推动企业区块链普及
 
-企业区块链不是"去中心化"的极致追求，而是在**多方协作、数据一致性、流程自动化**场景下的最优解。随着技术成熟和监管明确，企业区块链将成为数字经济基础设施的重要组成部分。
+企业区块链不是"去中心化"的极致追求，而是在**多方协作、数据一致性、流程自动化** 场景下的最优解。随着技术成熟和监管明确，企业区块链将成为数字经济基础设施的重要组成部分。
 
 **延伸阅读：**
 - [Hyperledger Fabric 官方文档](https://hyperledger-fabric.readthedocs.io/)

@@ -165,6 +165,7 @@ How blockchain systems manage and store state data efficiently.
     <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Chain Hopper</strong> — The architecture "tour guide" — shows you the L1/L2 modules<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 7: Layer 2 Scaling Solutions] will be taught by another CCBus guide.</span>
   </div>

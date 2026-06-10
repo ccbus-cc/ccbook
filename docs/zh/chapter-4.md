@@ -28,7 +28,7 @@ title: "第四章：共识机制"
 
 ## 4.0 2025-2026 视角:为什么这一章要重新读
 
-共识机制在 2025-2026 年已经从"PoW vs PoS 二元辩论"演化为**多极共存 + 共享安全 + 模块化共识**的复杂格局。本章你需要重读的核心变化:
+共识机制在 2025-2026 年已经从"PoW vs PoS 二元辩论"演化为**多极共存 + 共享安全 + 模块化共识** 的复杂格局。本章你需要重读的核心变化:
 
 1. **PoS 主导 L1,PoW 退守 BTC + 部分新链**:
    - **以太坊**(PoS 2022 至今)TVL 占加密总市场 58%;信标链持有 1.05 亿 ETH
@@ -841,6 +841,7 @@ $$
     <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Captain CCBus</strong> — 共识机制的"调度主管"<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第五章：智能合约] 将由另一位 CCBus 讲师带你继续。</span>
   </div>

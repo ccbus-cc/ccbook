@@ -214,6 +214,7 @@ Blockchain security in 2026 faces three new attack waves: **private-key phishing
 <text class="fe-text-small" x="440" y="480" font-family="monospace">};</text>
 </svg>
 </div>
+
 ### Hardware Wallets
 - **Ledger** - Secure Element chip
 - **Trezor** - Open source
@@ -309,6 +310,7 @@ Common scams:
     <img src="../public/images/avatars/heroes/guardian-node.png" alt="Guardian Node" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Guardian Node</strong> — The "chief instructor" of security and best practices<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 16: The Future of Blockchain] will be taught by another CCBus guide.</span>
   </div>

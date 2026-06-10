@@ -443,7 +443,7 @@ contract PrivateAuction {
 
 ### 什么是同态加密？
 
-**同态加密**允许在加密数据上直接进行计算，解密后得到正确结果。
+**同态加密** 允许在加密数据上直接进行计算，解密后得到正确结果。
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-9-3" viewBox="0 0 850 450" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 950px; display: block; margin: 0 auto;">
@@ -892,6 +892,7 @@ contract DiceGame is VRFConsumerBase {
     <img src="../public/images/avatars/heroes/ether-engineer.png" alt="Ether Engineer" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Ether Engineer</strong> — 高级密码学的"系统工程师"<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第十章：DeFi - 去中心化金融] 将由另一位 CCBus 讲师带你继续。</span>
   </div>

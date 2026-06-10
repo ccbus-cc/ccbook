@@ -126,6 +126,7 @@ Governance and DAO in 2026 have moved past the simple 'vote + multisig' model in
 <text x="470" y="400" class="snap-label">• nocriticalnaturedecision (e.g.itemplaquedesign)</text>
 </svg>
 </div>
+
 ## 12.1 On-Chain Governance Mechanisms
 
 Decision-making encoded in smart contracts.
@@ -256,6 +257,7 @@ DAOs navigate complex legal landscapes.
     <img src="../public/images/avatars/heroes/community-conductor.png" alt="Community Conductor" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Community Conductor</strong> — The "community chair" of DAO governance — calls your vote<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 13: Blockchain Platform Comparison] will be taught by another CCBus guide.</span>
   </div>

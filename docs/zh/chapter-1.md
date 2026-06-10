@@ -49,7 +49,7 @@ CCBus(ccbus.cc)是一个建立在 BNB Chain、Solana 等多链之上的一站式
 
 ![CCBus 一站式 DeFi 工具平台首页](../public/images/chapters/zh/home-overview.png)
 
-*图 1-1:CCBus 首页。可以看到**分红代币、流动性池代币、跨链桥、DeFi 工具、市场分析**等区块链原生功能如何通过可视化工具呈现给普通用户。*
+*图 1-1:CCBus 首页。可以看到**分红代币、流动性池代币、跨链桥、DeFi 工具、市场分析** 等区块链原生功能如何通过可视化工具呈现给普通用户。*
 
 ## 1.1 什么是区块链？
 
@@ -1184,7 +1184,7 @@ print(f"新的哈希: {hash_result2}")
 *图: CCBus 钱包管理 — 智能账户与 AI 代理钱包的雏形*
 
 
-2026 年,链上账户的"用户"不再只是人类。一个**AI 代理账户**就是一个由 AI 模型控制的、拥有私钥的链上账户。
+2026 年,链上账户的"用户"不再只是人类。一个**AI 代理账户** 就是一个由 AI 模型控制的、拥有私钥的链上账户。
 
 **AI 代理账户的特征**:
 - 拥有自己的钱包(如 Safe 智能账户)
@@ -1659,7 +1659,7 @@ contract AIAgentAccount {
 
 ## 下一章预告
 
-在**第二章：密码学基础**中，我们将深入探讨：
+在**第二章：密码学基础** 中，我们将深入探讨：
 
 - 🔐 哈希函数的数学原理
 - 🔑 公钥密码学如何工作
@@ -1676,6 +1676,7 @@ contract AIAgentAccount {
     <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Captain CCBus</strong> — 区块链的"教授 + 导游 + 友好巴士"<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第二章：密码学基础] 将由另一位 CCBus 讲师带你继续。</span>
   </div>

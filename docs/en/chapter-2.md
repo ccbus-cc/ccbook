@@ -1328,6 +1328,7 @@ Multiple parties jointly hold fragments of a private key, requiring t-of-n fragm
     <img src="../public/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Satoshi Driver</strong> — The "veteran driver" of cryptography — knows the route<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 3: Cryptocurrency Fundamentals] will be taught by another CCBus guide.</span>
   </div>

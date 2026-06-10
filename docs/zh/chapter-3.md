@@ -1016,6 +1016,7 @@ contract Escrow {
     <img src="../public/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Satoshi Driver</strong> — 比特币诞生的"见证人" — 领你走第一条链<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第四章：共识机制] 将由另一位 CCBus 讲师带你继续。</span>
   </div>

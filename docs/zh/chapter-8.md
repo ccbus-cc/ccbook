@@ -78,13 +78,13 @@ CCBus 提供了三种跨链入口:
 
 ![CCBus 跨链桥 Z(zkBridge)](../public/images/chapters/zh/bridge-z.png)
 
-*图 8-1 & 8-2:CCBus 跨链桥的两种实现路径。**LayerZero 的 optimistic 模型**与**zkBridge 的有效性证明模型**是当前跨链安全权衡的两条主线。*
+*图 8-1 & 8-2:CCBus 跨链桥的两种实现路径。**LayerZero 的 optimistic 模型** 与**zkBridge 的有效性证明模型** 是当前跨链安全权衡的两条主线。*
 
 ## 8.1 为什么需要互操作性？
 
 ### 区块链孤岛问题
 
-目前区块链生态系统存在严重的**碎片化**问题：
+目前区块链生态系统存在严重的**碎片化** 问题：
 
 **现状统计** (2025年数据)：
 - 活跃的公链数量：**150+**
@@ -904,6 +904,7 @@ router.ccipSend{value: fees}(destinationChainSelector, message);
     <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Chain Hopper</strong> — 跨链的"桥梁工程师" — 主业<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第九章：高级密码学] 将由另一位 CCBus 讲师带你继续。</span>
   </div>

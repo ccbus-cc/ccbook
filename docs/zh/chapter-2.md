@@ -28,7 +28,7 @@ title: "第二章：密码学基础"
 
 ## 2.0 2025-2026 视角:为什么这一章要重新读
 
-密码学栈是 2026 年区块链技术栈里**变化最剧烈**的领域之一。古典密码学(SHA-2、ECDSA、Keccak256)仍是 L1 的事实标准,但**前沿密码学已经从"理论可行"演变为"生产就绪"**:
+密码学栈是 2026 年区块链技术栈里**变化最剧烈** 的领域之一。古典密码学(SHA-2、ECDSA、Keccak256)仍是 L1 的事实标准,但**前沿密码学已经从"理论可行"演变为"生产就绪"**:
 
 1. **零知识证明(ZK)的工业级成熟**:
    - **证明时间**:Plonky2(2022)首次把 STARK 证明压到 100 毫秒级;**Plonky3(2024-09) + SP1(2024)** 把通用 zkVM 证明压到亚秒级
@@ -324,7 +324,7 @@ console.log(`Found: ${result.hash} with nonce ${result.nonce}`);
 
 ### 对称加密（Symmetric Encryption）
 
-使用**相同密钥**进行加密和解密。
+使用**相同密钥** 进行加密和解密。
 
 #### 工作原理
 
@@ -573,7 +573,7 @@ console.log('地址: 0x' + address);
 
 ## 2.4 数字签名
 
-**数字签名**是使用私钥对数据进行签名，任何人都可以用对应的公钥验证签名的真实性。
+**数字签名** 是使用私钥对数据进行签名，任何人都可以用对应的公钥验证签名的真实性。
 
 ### 数字签名的作用
 
@@ -1125,7 +1125,7 @@ console.log('验证结果:', isValid);  // true
 - 当前 ECDSA(secp256k1,比特币/以太坊)的 256 位私钥在量子计算机面前约等于 8 位密码
 - Shor 算法可在多项式时间内破解 ECDSA
 - 一旦量子计算机达到 4000+ qubit,所有现有钱包私钥面临风险
-- **Grover 算法**让 SHA-256 安全性从 128 位降到 85 位
+- **Grover 算法** 让 SHA-256 安全性从 128 位降到 85 位
 
 **区块链 PQC 迁移路线图**:
 - **2024-08**:NIST 标准化发布
@@ -1155,7 +1155,7 @@ console.log('验证结果:', isValid);  // true
 
 ### 零知识证明（Zero-Knowledge Proof）
 
-**零知识证明**允许证明者向验证者证明某个陈述是真的，而不透露任何额外信息。
+**零知识证明** 允许证明者向验证者证明某个陈述是真的，而不透露任何额外信息。
 
 #### 经典例子：阿里巴巴洞穴
 
@@ -1244,7 +1244,7 @@ console.log('验证结果:', isValid);  // true
 
 ### 同态加密（Homomorphic Encryption）
 
-**同态加密**允许对密文直接进行计算，解密后得到对明文计算的结果。
+**同态加密** 允许对密文直接进行计算，解密后得到对明文计算的结果。
 
 <div style="background: rgba(52, 81, 178, 0.06); padding: 1.5em; border-radius: 4px; margin: 2em 0;">
 <svg class="svg-2-17" viewBox="0 0 420 80" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
@@ -1328,6 +1328,7 @@ console.log('验证结果:', isValid);  // true
     <img src="../public/images/avatars/heroes/satoshi-driver.png" alt="Satoshi Driver" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     本章讲师:<strong>Satoshi Driver</strong> — 密码学的"老司机" — 路线熟,你安全<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 下一章 [第三章：加密货币基础] 将由另一位 CCBus 讲师带你继续。</span>
   </div>

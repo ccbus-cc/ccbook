@@ -153,6 +153,7 @@ EIP-4844 introduced in Cancun (2024-03) is the turning point of L2 economics. Un
     <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Chain Hopper</strong> — The L2 "test driver" — tries every Rollup for you<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 8: Interoperability and Cross-Chain] will be taught by another CCBus guide.</span>
   </div>

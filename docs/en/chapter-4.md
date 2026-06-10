@@ -220,6 +220,7 @@ Consensus mechanisms can be classified by different dimensions:
   <text class="pow-text-small" x="350" y="442" text-anchor="middle" font-style="italic">avgper10minproducelifeuniteNewBlock (Bitcoin)</text>
 </svg>
 </div>
+
 ### How PoW Works
 
 _(PoW Mining Flow SVG diagram - translated version)_
@@ -430,6 +431,7 @@ $$
   <text class="dpos-text-small" x="350" y="373">Centralization (only21nodes)</text>
 </svg>
 </div>
+
 ### PoS Core Concepts
 
 In PoS systems:
@@ -602,6 +604,7 @@ _(DPoS Voting and Block Production SVG diagram - translated version)_
   <text class="pbft-text-small" x="325" y="484" text-anchor="middle" font-style="italic">Fault Tol.canstrength: mostMany容忍 f = ⌊(n-1)/3⌋ = 1 MaliciousorFaultyNode</text>
 </svg>
 </div>
+
 ### PBFT Three-Phase Protocol
 
 _(PBFT Three-Phase Consensus Flow SVG diagram - translated version)_
@@ -752,6 +755,7 @@ Addressing energy consumption:
     <img src="../public/images/avatars/heroes/captain-ccbus.png" alt="Captain CCBus" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Captain CCBus</strong> — The "dispatching supervisor" of consensus<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 5: Smart Contracts] will be taught by another CCBus guide.</span>
   </div>

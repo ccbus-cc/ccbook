@@ -189,6 +189,7 @@ Universal messaging layer for cross-chain applications.
     <img src="../public/images/avatars/heroes/chain-hopper.png" alt="Chain Hopper" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Chain Hopper</strong> — The cross-chain "bridge engineer" — primary domain<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 9: Advanced Cryptography] will be taught by another CCBus guide.</span>
   </div>

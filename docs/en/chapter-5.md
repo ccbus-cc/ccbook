@@ -171,6 +171,7 @@ CCBus's "Multi-Function Token" is a representative case of current DeFi contract
   <text class="scw-text-small" x="675" y="369" text-anchor="middle">• Eventalreadyrecord</text>
 </svg>
 </div>
+
 ### Definition
 
 A **smart contract** is a program deployed on a blockchain that automatically executes predefined logic when triggered. Unlike traditional contracts, smart contracts are self-enforcing: code is law, no intermediaries required.
@@ -386,6 +387,7 @@ contract MyToken is ERC20 {
   <text class="sol-text-small" x="240" y="465">• now: etc.agreeinblock.timestamp (already弃use)</text>
 </svg>
 </div>
+
 ### Function Visibility & State Mutability
 
 ```solidity
@@ -573,6 +575,7 @@ Solidity 0.8.20+ enabled PUSH0: pushes `0` onto the stack for 2 gas (old `PUSH1 
   <text class="sec-text-small" x="370" y="428">• Etherscan - ContractVerify&Monitor</text>
 </svg>
 </div>
+
 ### Common Vulnerabilities
 
 1. **Reentrancy attack** — recursive call exploits unupdated state
@@ -899,6 +902,7 @@ Continue to [Chapter 6: Blockchain Architecture](/en/chapter-6) to learn about e
     <img src="../public/images/avatars/heroes/ether-engineer.png" alt="Ether Engineer" />
   </div>
   <div class="ccbus-teacher-credits-body">
+
     Taught by: <strong>Ether Engineer</strong> — The "foreman" of smart contracts — code is craft<br />
     <span style="font-size: 0.85em; color: var(--vp-c-text-3);">📚 The next chapter [Chapter 6: Blockchain Architecture] will be taught by another CCBus guide.</span>
   </div>
